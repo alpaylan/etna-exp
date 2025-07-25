@@ -5,3 +5,7 @@ store = "/Users/akeles/Programming/projects/PbtBenchmark/etna2/exp/store.json"
 [[workloads]]
 name = "BST"
 language = "Haskell"
+
+[[workloads]]
+name = "BST"
+language = "OCaml"
