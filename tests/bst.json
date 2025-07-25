@@ -1,0 +1,282 @@
+[
+    {
+        "language": "Rocq",
+        "workload": "BST",
+        "mutations": ["insert_1"],
+        "trials": 10,
+        "timeout": 60,
+        "tasks": [
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_InsertPost"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_InsertModel"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_DeleteInsert"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_InsertInsert"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_InsertUnion"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_UnionDeleteInsert"
+            }
+        ]
+    },
+    {
+        "language": "Rocq",
+        "workload": "BST",
+        "mutations": ["insert_2"],
+        "trials": 10,
+        "timeout": 60,
+        "tasks": [
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_InsertPost"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_InsertModel"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_InsertDelete"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_DeleteInsert"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_InsertInsert"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_InsertUnion"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_UnionDeleteInsert"
+            }
+        ]
+    },
+    {
+        "language": "Rocq",
+        "workload": "BST",
+        "mutations": ["insert_3"],
+        "trials": 10,
+        "timeout": 60,
+        "tasks": [
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_InsertPost"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_InsertModel"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_InsertDelete"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_InsertInsert"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_InsertUnion"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_UnionDeleteInsert"
+            }
+        ]
+    },
+    {
+        "language": "Rocq",
+        "workload": "BST",
+        "mutations": ["delete_4"],
+        "trials": 10,
+        "timeout": 60,
+        "tasks": [
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_DeleteModel"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_DeletePost"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_DeleteDelete"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_DeleteInsert"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_DeleteUnion"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_InsertDelete"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_UnionDeleteInsert"
+            }
+        ]
+    },
+    {
+        "language": "Rocq",
+        "workload": "BST",
+        "mutations": ["delete_5"],
+        "trials": 10,
+        "timeout": 60,
+        "tasks": [
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_DeleteModel"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_DeletePost"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_DeleteDelete"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_DeleteInsert"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_DeleteUnion"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_UnionDeleteInsert"
+            }
+        ]
+    },
+    {
+        "language": "Rocq",
+        "workload": "BST",
+        "mutations": ["union_6"],
+        "trials": 10,
+        "timeout": 60,
+        "tasks": [
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_UnionValid"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_UnionPost"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_UnionModel"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_DeleteUnion"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_InsertUnion"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_UnionDeleteInsert"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_UnionUnionAssoc"
+            }
+        ]
+    },
+    {
+        "language": "Rocq",
+        "workload": "BST",
+        "mutations": ["union_7"],
+        "trials": 10,
+        "timeout": 60,
+        "tasks": [
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_UnionValid"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_UnionPost"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_UnionModel"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_DeleteUnion"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_InsertUnion"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_UnionDeleteInsert"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_UnionUnionAssoc"
+            }
+        ]
+    },
+    {
+        "language": "Rocq",
+        "workload": "BST",
+        "mutations": ["union_8"],
+        "trials": 10,
+        "timeout": 60,
+        "tasks": [
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_UnionPost"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_UnionModel"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_DeleteUnion"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_InsertUnion"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_UnionDeleteInsert"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_UnionUnionAssoc"
+            }
+        ]
+    }
+]

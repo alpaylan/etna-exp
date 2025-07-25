@@ -1,0 +1,297 @@
+[
+    {
+        "language": "Rocq",
+        "workload": "RBT",
+        "mutations": [
+            "delete_4"
+        ],
+        "trials": 10,
+        "timeout": 60,
+        "tasks": [
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_DeleteDelete"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_DeleteModel"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_DeletePost"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_DeleteInsert"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_InsertDelete"
+            }
+        ]
+    },
+    {
+        "language": "Rocq",
+        "workload": "RBT",
+        "mutations": [
+            "insert_1"
+        ],
+        "trials": 10,
+        "timeout": 60,
+        "tasks": [
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_InsertPost"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_InsertModel"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_DeleteInsert"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_InsertInsert"
+            }
+        ]
+    },
+    {
+        "language": "Rocq",
+        "workload": "RBT",
+        "mutations": [
+            "insert_2"
+        ],
+        "trials": 10,
+        "timeout": 60,
+        "tasks": [
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_InsertPost"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_InsertModel"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_InsertDelete"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_DeleteInsert"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_InsertInsert"
+            }
+        ]
+    },
+    {
+        "language": "Rocq",
+        "workload": "RBT",
+        "mutations": [
+            "insert_3"
+        ],
+        "trials": 10,
+        "timeout": 60,
+        "tasks": [
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_InsertPost"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_InsertModel"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_InsertDelete"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_InsertInsert"
+            }
+        ]
+    },
+    {
+        "language": "Rocq",
+        "workload": "RBT",
+        "mutations": [
+            "delete_5"
+        ],
+        "trials": 10,
+        "timeout": 60,
+        "tasks": [
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_DeleteModel"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_DeletePost"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_DeleteDelete"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_DeleteInsert"
+            }
+        ]
+    },
+    {
+        "language": "Rocq",
+        "workload": "RBT",
+        "mutations": [
+            "miscolor_insert"
+        ],
+        "trials": 10,
+        "timeout": 60,
+        "tasks": [
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_InsertValid"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_DeleteInsert"
+            }
+        ]
+    },
+    {
+        "language": "Rocq",
+        "workload": "RBT",
+        "mutations": [
+            "miscolor_delete"
+        ],
+        "trials": 10,
+        "timeout": 60,
+        "tasks": [
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_DeleteValid"
+            }
+        ]
+    },
+    {
+        "language": "Rocq",
+        "workload": "RBT",
+        "mutations": [
+            "miscolor_balLeft"
+        ],
+        "trials": 10,
+        "timeout": 60,
+        "tasks": [
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_DeleteValid"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_DeleteDelete"
+            }
+        ]
+    },
+    {
+        "language": "Rocq",
+        "workload": "RBT",
+        "mutations": [
+            "miscolor_balRight"
+        ],
+        "trials": 10,
+        "timeout": 60,
+        "tasks": [
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_DeleteValid"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_DeleteDelete"
+            }
+        ]
+    },
+    {
+        "language": "Rocq",
+        "workload": "RBT",
+        "mutations": [
+            "miscolor_join_1"
+        ],
+        "trials": 10,
+        "timeout": 60,
+        "tasks": [
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_DeleteValid"
+            }
+        ]
+    },
+    {
+        "language": "Rocq",
+        "workload": "RBT",
+        "mutations": [
+            "miscolor_join_2"
+        ],
+        "trials": 10,
+        "timeout": 60,
+        "tasks": [
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_DeleteValid"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_DeleteDelete"
+            }
+        ]
+    },
+    {
+        "language": "Rocq",
+        "workload": "RBT",
+        "mutations": [
+            "no_balance_insert_1"
+        ],
+        "trials": 10,
+        "timeout": 60,
+        "tasks": [
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_InsertValid"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_DeleteInsert"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_InsertDelete"
+            }
+        ]
+    },
+    {
+        "language": "Rocq",
+        "workload": "RBT",
+        "mutations": [
+            "no_balance_insert_2"
+        ],
+        "trials": 10,
+        "timeout": 60,
+        "tasks": [
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_InsertValid"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_DeleteInsert"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "test_prop_InsertDelete"
+            }
+        ]
+    }
+]

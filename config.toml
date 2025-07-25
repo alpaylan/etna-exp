@@ -1,0 +1,4 @@
+name = "exp"
+description = "A description of the experiment"
+workloads = []
+store = "/Users/akeles/Programming/projects/PbtBenchmark/etna2/exp/store.json"
