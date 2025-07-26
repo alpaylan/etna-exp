@@ -16,8 +16,4 @@ language = "Racket"
 
 [[workloads]]
 name = "BST"
-language = "Rocq"
-
-[[workloads]]
-name = "BST"
 language = "Rust"
