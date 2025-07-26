@@ -1,0 +1,883 @@
+DIGEST faebdd3bb523b1af666b353b6a318a7d
+FBST.Runners.BespokeGenerator_sampler
+R31:40 QuickChick.QuickChick <> <> lib
+R125:140 BST.Strategies.BespokeGenerator <> <> lib
+R167:170 BST.Src.Impl <> <> lib
+inst 224:238 <> showTimedResult
+binder 241:241 <> A:1
+R252:255 QuickChick.Show <> Show class
+R257:257 BST.Runners.BespokeGenerator_sampler <> A:1 var
+binder 252:257 <> H:2
+R262:265 QuickChick.Show <> Show class
+R269:279 QuickChick.Test <> TimedResult ind
+R281:281 BST.Runners.BespokeGenerator_sampler <> A:1 var
+R292:295 QuickChick.Show <> show meth
+R292:295 QuickChick.Show <> show meth
+R292:295 QuickChick.Show <> show meth
+binder 297:302 <> result:3
+R355:360 BST.Runners.BespokeGenerator_sampler <> result:3 var
+R318:324 QuickChick.Test <> TResult constr
+R386:389 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R399:402 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R390:393 QuickChick.Show <> show meth
+R422:425 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R437:440 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R426:429 QuickChick.Show <> show meth
+R431:436 BST.Runners.BespokeGenerator_sampler <> result:3 var
+def 464:482 <> showTimedResultList
+binder 485:485 <> A:5
+R496:499 QuickChick.Show <> Show class
+R501:501 BST.Runners.BespokeGenerator_sampler <> A:5 var
+binder 496:501 <> H:6
+R515:518 Coq.Init.Datatypes <> list ind
+R522:532 QuickChick.Test <> TimedResult ind
+R534:534 BST.Runners.BespokeGenerator_sampler <> A:5 var
+binder 505:511 <> results:7
+R540:545 Coq.Strings.String <> string ind
+R555:558 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R614:617 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R559:571 Coq.Strings.String <> concat def
+R579:586 Coq.Lists.List <> map def
+R606:612 BST.Runners.BespokeGenerator_sampler <> results:7 var
+binder 593:593 <> r:8
+R598:601 QuickChick.Show <> show meth
+R603:603 BST.Runners.BespokeGenerator_sampler <> r:8 var
+ind 635:639 <> Args1
+constr 666:672 <> Args1Mk
+binder 642:642 <> A:9
+R677:680 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R676:676 BST.Runners.BespokeGenerator_sampler <> A:9 var
+R681:685 BST.Runners.BespokeGenerator_sampler <> Args1:10 ind
+inst 707:715 <> ShowArgs1
+binder 718:718 <> A:12
+R723:726 QuickChick.Show <> Show class
+R728:728 BST.Runners.BespokeGenerator_sampler <> A:12 var
+binder 723:728 <> H:13
+R733:736 QuickChick.Show <> Show class
+R740:744 BST.Runners.BespokeGenerator_sampler <> Args1 ind
+R746:746 BST.Runners.BespokeGenerator_sampler <> A:12 var
+R756:759 QuickChick.Show <> show meth
+R770:776 BST.Runners.BespokeGenerator_sampler <> Args1Mk constr
+binder 778:778 <> a:14
+binder 770:778 <> pat:15
+R787:790 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R797:800 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R791:794 QuickChick.Show <> show meth
+R796:796 BST.Runners.BespokeGenerator_sampler <> a:14 var
+ind 820:824 <> Args2
+constr 853:859 <> Args2Mk
+binder 827:827 <> A:16
+binder 829:829 <> B:17
+R864:867 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R863:863 BST.Runners.BespokeGenerator_sampler <> A:16 var
+R869:872 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R868:868 BST.Runners.BespokeGenerator_sampler <> B:17 var
+R873:877 BST.Runners.BespokeGenerator_sampler <> Args2:18 ind
+inst 899:907 <> ShowArgs2
+binder 910:910 <> A:20
+binder 912:912 <> B:21
+R917:920 QuickChick.Show <> Show class
+R922:922 BST.Runners.BespokeGenerator_sampler <> A:20 var
+binder 917:922 <> H:22
+R927:930 QuickChick.Show <> Show class
+R932:932 BST.Runners.BespokeGenerator_sampler <> B:21 var
+binder 927:932 <> H0:23
+R937:940 QuickChick.Show <> Show class
+R944:948 BST.Runners.BespokeGenerator_sampler <> Args2 ind
+R950:950 BST.Runners.BespokeGenerator_sampler <> A:20 var
+R952:952 BST.Runners.BespokeGenerator_sampler <> B:21 var
+R962:965 QuickChick.Show <> show meth
+R976:982 BST.Runners.BespokeGenerator_sampler <> Args2Mk constr
+binder 986:986 <> b:24
+binder 984:984 <> a:25
+binder 976:986 <> pat:26
+R995:998 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R1005:1008 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R999:1002 QuickChick.Show <> show meth
+R1004:1004 BST.Runners.BespokeGenerator_sampler <> a:25 var
+R1012:1015 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R1022:1025 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R1016:1019 QuickChick.Show <> show meth
+R1021:1021 BST.Runners.BespokeGenerator_sampler <> b:24 var
+ind 1045:1049 <> Args3
+constr 1080:1086 <> Args3Mk
+binder 1052:1052 <> A:27
+binder 1054:1054 <> B:28
+binder 1056:1056 <> C:29
+R1091:1094 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1090:1090 BST.Runners.BespokeGenerator_sampler <> A:27 var
+R1096:1099 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1095:1095 BST.Runners.BespokeGenerator_sampler <> B:28 var
+R1101:1104 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1100:1100 BST.Runners.BespokeGenerator_sampler <> C:29 var
+R1105:1109 BST.Runners.BespokeGenerator_sampler <> Args3:30 ind
+inst 1131:1139 <> ShowArgs3
+binder 1142:1142 <> A:32
+binder 1144:1144 <> B:33
+binder 1146:1146 <> C:34
+R1151:1154 QuickChick.Show <> Show class
+R1156:1156 BST.Runners.BespokeGenerator_sampler <> A:32 var
+binder 1151:1156 <> H:35
+R1161:1164 QuickChick.Show <> Show class
+R1166:1166 BST.Runners.BespokeGenerator_sampler <> B:33 var
+binder 1161:1166 <> H0:36
+R1171:1174 QuickChick.Show <> Show class
+R1176:1176 BST.Runners.BespokeGenerator_sampler <> C:34 var
+binder 1171:1176 <> H1:37
+R1181:1184 QuickChick.Show <> Show class
+R1188:1192 BST.Runners.BespokeGenerator_sampler <> Args3 ind
+R1194:1194 BST.Runners.BespokeGenerator_sampler <> A:32 var
+R1196:1196 BST.Runners.BespokeGenerator_sampler <> B:33 var
+R1198:1198 BST.Runners.BespokeGenerator_sampler <> C:34 var
+R1208:1211 QuickChick.Show <> show meth
+R1222:1228 BST.Runners.BespokeGenerator_sampler <> Args3Mk constr
+binder 1234:1234 <> c:38
+binder 1232:1232 <> b:39
+binder 1230:1230 <> a:40
+binder 1222:1234 <> pat:41
+R1243:1246 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R1253:1256 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R1247:1250 QuickChick.Show <> show meth
+R1252:1252 BST.Runners.BespokeGenerator_sampler <> a:40 var
+R1260:1263 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R1270:1273 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R1264:1267 QuickChick.Show <> show meth
+R1269:1269 BST.Runners.BespokeGenerator_sampler <> b:39 var
+R1277:1280 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R1287:1290 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R1281:1284 QuickChick.Show <> show meth
+R1286:1286 BST.Runners.BespokeGenerator_sampler <> c:38 var
+ind 1310:1314 <> Args4
+constr 1347:1353 <> Args4Mk
+binder 1317:1317 <> A:42
+binder 1319:1319 <> B:43
+binder 1321:1321 <> C:44
+binder 1323:1323 <> D:45
+R1358:1361 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1357:1357 BST.Runners.BespokeGenerator_sampler <> A:42 var
+R1363:1366 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1362:1362 BST.Runners.BespokeGenerator_sampler <> B:43 var
+R1368:1371 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1367:1367 BST.Runners.BespokeGenerator_sampler <> C:44 var
+R1373:1376 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1372:1372 BST.Runners.BespokeGenerator_sampler <> D:45 var
+R1377:1381 BST.Runners.BespokeGenerator_sampler <> Args4:46 ind
+inst 1403:1411 <> ShowArgs4
+binder 1414:1414 <> A:48
+binder 1416:1416 <> B:49
+binder 1418:1418 <> C:50
+binder 1420:1420 <> D:51
+R1425:1428 QuickChick.Show <> Show class
+R1430:1430 BST.Runners.BespokeGenerator_sampler <> A:48 var
+binder 1425:1430 <> H:52
+R1435:1438 QuickChick.Show <> Show class
+R1440:1440 BST.Runners.BespokeGenerator_sampler <> B:49 var
+binder 1435:1440 <> H0:53
+R1445:1448 QuickChick.Show <> Show class
+R1450:1450 BST.Runners.BespokeGenerator_sampler <> C:50 var
+binder 1445:1450 <> H1:54
+R1455:1458 QuickChick.Show <> Show class
+R1460:1460 BST.Runners.BespokeGenerator_sampler <> D:51 var
+binder 1455:1460 <> H2:55
+R1465:1468 QuickChick.Show <> Show class
+R1472:1476 BST.Runners.BespokeGenerator_sampler <> Args4 ind
+R1478:1478 BST.Runners.BespokeGenerator_sampler <> A:48 var
+R1480:1480 BST.Runners.BespokeGenerator_sampler <> B:49 var
+R1482:1482 BST.Runners.BespokeGenerator_sampler <> C:50 var
+R1484:1484 BST.Runners.BespokeGenerator_sampler <> D:51 var
+R1494:1497 QuickChick.Show <> show meth
+R1508:1514 BST.Runners.BespokeGenerator_sampler <> Args4Mk constr
+binder 1522:1522 <> d:56
+binder 1520:1520 <> c:57
+binder 1518:1518 <> b:58
+binder 1516:1516 <> a:59
+binder 1508:1522 <> pat:60
+R1531:1534 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R1541:1544 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R1535:1538 QuickChick.Show <> show meth
+R1540:1540 BST.Runners.BespokeGenerator_sampler <> a:59 var
+R1548:1551 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R1558:1561 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R1552:1555 QuickChick.Show <> show meth
+R1557:1557 BST.Runners.BespokeGenerator_sampler <> b:58 var
+R1565:1568 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R1575:1578 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R1569:1572 QuickChick.Show <> show meth
+R1574:1574 BST.Runners.BespokeGenerator_sampler <> c:57 var
+R1582:1585 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R1592:1595 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R1586:1589 QuickChick.Show <> show meth
+R1591:1591 BST.Runners.BespokeGenerator_sampler <> d:56 var
+ind 1615:1619 <> Args5
+constr 1654:1660 <> Args5Mk
+binder 1622:1622 <> A:61
+binder 1624:1624 <> B:62
+binder 1626:1626 <> C:63
+binder 1628:1628 <> D:64
+binder 1630:1630 <> E:65
+R1665:1668 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1664:1664 BST.Runners.BespokeGenerator_sampler <> A:61 var
+R1670:1673 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1669:1669 BST.Runners.BespokeGenerator_sampler <> B:62 var
+R1675:1678 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1674:1674 BST.Runners.BespokeGenerator_sampler <> C:63 var
+R1680:1683 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1679:1679 BST.Runners.BespokeGenerator_sampler <> D:64 var
+R1685:1688 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1684:1684 BST.Runners.BespokeGenerator_sampler <> E:65 var
+R1689:1693 BST.Runners.BespokeGenerator_sampler <> Args5:66 ind
+inst 1715:1723 <> ShowArgs5
+binder 1726:1726 <> A:68
+binder 1728:1728 <> B:69
+binder 1730:1730 <> C:70
+binder 1732:1732 <> D:71
+binder 1734:1734 <> E:72
+R1739:1742 QuickChick.Show <> Show class
+R1744:1744 BST.Runners.BespokeGenerator_sampler <> A:68 var
+binder 1739:1744 <> H:73
+R1749:1752 QuickChick.Show <> Show class
+R1754:1754 BST.Runners.BespokeGenerator_sampler <> B:69 var
+binder 1749:1754 <> H0:74
+R1759:1762 QuickChick.Show <> Show class
+R1764:1764 BST.Runners.BespokeGenerator_sampler <> C:70 var
+binder 1759:1764 <> H1:75
+R1769:1772 QuickChick.Show <> Show class
+R1774:1774 BST.Runners.BespokeGenerator_sampler <> D:71 var
+binder 1769:1774 <> H2:76
+R1779:1782 QuickChick.Show <> Show class
+R1784:1784 BST.Runners.BespokeGenerator_sampler <> E:72 var
+binder 1779:1784 <> H3:77
+R1789:1792 QuickChick.Show <> Show class
+R1796:1800 BST.Runners.BespokeGenerator_sampler <> Args5 ind
+R1802:1802 BST.Runners.BespokeGenerator_sampler <> A:68 var
+R1804:1804 BST.Runners.BespokeGenerator_sampler <> B:69 var
+R1806:1806 BST.Runners.BespokeGenerator_sampler <> C:70 var
+R1808:1808 BST.Runners.BespokeGenerator_sampler <> D:71 var
+R1810:1810 BST.Runners.BespokeGenerator_sampler <> E:72 var
+R1820:1823 QuickChick.Show <> show meth
+R1834:1840 BST.Runners.BespokeGenerator_sampler <> Args5Mk constr
+binder 1850:1850 <> e:78
+binder 1848:1848 <> d:79
+binder 1846:1846 <> c:80
+binder 1844:1844 <> b:81
+binder 1842:1842 <> a:82
+binder 1834:1850 <> pat:83
+R1859:1862 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R1869:1872 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R1863:1866 QuickChick.Show <> show meth
+R1868:1868 BST.Runners.BespokeGenerator_sampler <> a:82 var
+R1876:1879 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R1886:1889 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R1880:1883 QuickChick.Show <> show meth
+R1885:1885 BST.Runners.BespokeGenerator_sampler <> b:81 var
+R1893:1896 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R1903:1906 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R1897:1900 QuickChick.Show <> show meth
+R1902:1902 BST.Runners.BespokeGenerator_sampler <> c:80 var
+R1910:1913 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R1920:1923 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R1914:1917 QuickChick.Show <> show meth
+R1919:1919 BST.Runners.BespokeGenerator_sampler <> d:79 var
+R1927:1930 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R1937:1940 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R1931:1934 QuickChick.Show <> show meth
+R1936:1936 BST.Runners.BespokeGenerator_sampler <> e:78 var
+def 1963:1980 <> sample_InsertValid
+R1984:1984 QuickChick.Generators <> G def
+R1986:1990 BST.Runners.BespokeGenerator_sampler <> Args3 ind
+R1998:2004 QuickChick.Generators <> bindGen def
+binder 2019:2019 <> t:84
+R2026:2032 QuickChick.Generators <> bindGen def
+binder 2049:2049 <> k:85
+R2056:2062 QuickChick.Generators <> bindGen def
+binder 2079:2079 <> v:86
+R2086:2088 ExtLib.Structures.Monad <> ret meth
+R2091:2097 BST.Runners.BespokeGenerator_sampler <> Args3Mk constr
+R2103:2103 BST.Runners.BespokeGenerator_sampler <> v:86 var
+R2101:2101 BST.Runners.BespokeGenerator_sampler <> k:85 var
+R2099:2099 BST.Runners.BespokeGenerator_sampler <> t:84 var
+R2064:2072 QuickChick.Classes <> arbitrary meth
+R2034:2042 QuickChick.Classes <> arbitrary meth
+R2006:2012 BST.Strategies.BespokeGenerator <> bespoke def
+def 2122:2146 <> qctest_sample_InsertValid
+R2167:2169 Coq.Init.Datatypes <> nat ind
+binder 2156:2164 <> num_tests:87
+R2174:2199 QuickChick.ExtractionQC <> print_extracted_coq_string prfax
+R2202:2220 BST.Runners.BespokeGenerator_sampler <> showTimedResultList def
+R2223:2233 QuickChick.Test <> quickSample def
+R2314:2331 BST.Runners.BespokeGenerator_sampler <> sample_InsertValid def
+R2236:2248 QuickChick.Test <> updMaxDiscard def
+R2303:2311 BST.Runners.BespokeGenerator_sampler <> num_tests:87 var
+R2251:2263 QuickChick.Test <> updMaxSuccess def
+R2292:2300 BST.Runners.BespokeGenerator_sampler <> num_tests:87 var
+R2266:2276 QuickChick.Test <> updAnalysis def
+R2286:2289 Coq.Init.Datatypes <> true constr
+R2278:2284 QuickChick.Test <> stdArgs def
+def 2349:2366 <> sample_DeleteValid
+R2370:2370 QuickChick.Generators <> G def
+R2372:2376 BST.Runners.BespokeGenerator_sampler <> Args2 ind
+R2384:2390 QuickChick.Generators <> bindGen def
+R2409:2412 BST.Src.Impl <> Tree ind
+binder 2406:2406 <> t:88
+R2421:2427 QuickChick.Generators <> bindGen def
+R2448:2450 Coq.Init.Datatypes <> nat ind
+binder 2445:2445 <> k:89
+R2458:2460 ExtLib.Structures.Monad <> ret meth
+R2462:2468 BST.Runners.BespokeGenerator_sampler <> Args2Mk constr
+R2472:2472 BST.Runners.BespokeGenerator_sampler <> k:89 var
+R2470:2470 BST.Runners.BespokeGenerator_sampler <> t:88 var
+R2429:2437 QuickChick.Classes <> arbitrary meth
+R2392:2398 BST.Strategies.BespokeGenerator <> bespoke def
+def 2490:2514 <> qctest_sample_DeleteValid
+R2535:2537 Coq.Init.Datatypes <> nat ind
+binder 2524:2532 <> num_tests:90
+R2542:2567 QuickChick.ExtractionQC <> print_extracted_coq_string prfax
+R2570:2588 BST.Runners.BespokeGenerator_sampler <> showTimedResultList def
+R2591:2601 QuickChick.Test <> quickSample def
+R2682:2699 BST.Runners.BespokeGenerator_sampler <> sample_DeleteValid def
+R2604:2616 QuickChick.Test <> updMaxDiscard def
+R2671:2679 BST.Runners.BespokeGenerator_sampler <> num_tests:90 var
+R2619:2631 QuickChick.Test <> updMaxSuccess def
+R2660:2668 BST.Runners.BespokeGenerator_sampler <> num_tests:90 var
+R2634:2644 QuickChick.Test <> updAnalysis def
+R2654:2657 Coq.Init.Datatypes <> true constr
+R2646:2652 QuickChick.Test <> stdArgs def
+def 2718:2734 <> sample_UnionValid
+R2739:2739 QuickChick.Generators <> G def
+R2741:2745 BST.Runners.BespokeGenerator_sampler <> Args2 ind
+R2752:2758 QuickChick.Generators <> bindGen def
+R2778:2781 BST.Src.Impl <> Tree ind
+binder 2774:2775 <> t1:91
+R2790:2796 QuickChick.Generators <> bindGen def
+R2816:2819 BST.Src.Impl <> Tree ind
+binder 2812:2813 <> t2:92
+R2827:2829 ExtLib.Structures.Monad <> ret meth
+R2832:2838 BST.Runners.BespokeGenerator_sampler <> Args2Mk constr
+R2843:2844 BST.Runners.BespokeGenerator_sampler <> t2:92 var
+R2840:2841 BST.Runners.BespokeGenerator_sampler <> t1:91 var
+R2798:2804 BST.Strategies.BespokeGenerator <> bespoke def
+R2760:2766 BST.Strategies.BespokeGenerator <> bespoke def
+def 2863:2886 <> qctest_sample_UnionValid
+R2907:2909 Coq.Init.Datatypes <> nat ind
+binder 2896:2904 <> num_tests:93
+R2914:2939 QuickChick.ExtractionQC <> print_extracted_coq_string prfax
+R2942:2960 BST.Runners.BespokeGenerator_sampler <> showTimedResultList def
+R2963:2973 QuickChick.Test <> quickSample def
+R3054:3070 BST.Runners.BespokeGenerator_sampler <> sample_UnionValid def
+R2976:2988 QuickChick.Test <> updMaxDiscard def
+R3043:3051 BST.Runners.BespokeGenerator_sampler <> num_tests:93 var
+R2991:3003 QuickChick.Test <> updMaxSuccess def
+R3032:3040 BST.Runners.BespokeGenerator_sampler <> num_tests:93 var
+R3006:3016 QuickChick.Test <> updAnalysis def
+R3026:3029 Coq.Init.Datatypes <> true constr
+R3018:3024 QuickChick.Test <> stdArgs def
+def 3089:3105 <> sample_InsertPost
+R3115:3121 QuickChick.Generators <> bindGen def
+R3140:3143 BST.Src.Impl <> Tree ind
+binder 3137:3137 <> t:94
+R3152:3158 QuickChick.Generators <> bindGen def
+R3179:3181 Coq.Init.Datatypes <> nat ind
+binder 3176:3176 <> k:95
+R3190:3196 QuickChick.Generators <> bindGen def
+R3218:3220 Coq.Init.Datatypes <> nat ind
+binder 3214:3215 <> k':96
+R3229:3235 QuickChick.Generators <> bindGen def
+R3256:3258 Coq.Init.Datatypes <> nat ind
+binder 3253:3253 <> v:97
+R3266:3268 ExtLib.Structures.Monad <> ret meth
+R3271:3277 BST.Runners.BespokeGenerator_sampler <> Args4Mk constr
+R3286:3286 BST.Runners.BespokeGenerator_sampler <> v:97 var
+R3283:3284 BST.Runners.BespokeGenerator_sampler <> k':96 var
+R3281:3281 BST.Runners.BespokeGenerator_sampler <> k:95 var
+R3279:3279 BST.Runners.BespokeGenerator_sampler <> t:94 var
+R3237:3245 QuickChick.Classes <> arbitrary meth
+R3198:3206 QuickChick.Classes <> arbitrary meth
+R3160:3168 QuickChick.Classes <> arbitrary meth
+R3123:3129 BST.Strategies.BespokeGenerator <> bespoke def
+def 3306:3329 <> qctest_sample_InsertPost
+R3350:3352 Coq.Init.Datatypes <> nat ind
+binder 3339:3347 <> num_tests:98
+R3357:3382 QuickChick.ExtractionQC <> print_extracted_coq_string prfax
+R3385:3403 BST.Runners.BespokeGenerator_sampler <> showTimedResultList def
+R3406:3416 QuickChick.Test <> quickSample def
+R3497:3513 BST.Runners.BespokeGenerator_sampler <> sample_InsertPost def
+R3419:3431 QuickChick.Test <> updMaxDiscard def
+R3486:3494 BST.Runners.BespokeGenerator_sampler <> num_tests:98 var
+R3434:3446 QuickChick.Test <> updMaxSuccess def
+R3475:3483 BST.Runners.BespokeGenerator_sampler <> num_tests:98 var
+R3449:3459 QuickChick.Test <> updAnalysis def
+R3469:3472 Coq.Init.Datatypes <> true constr
+R3461:3467 QuickChick.Test <> stdArgs def
+def 3532:3548 <> sample_DeletePost
+R3558:3564 QuickChick.Generators <> bindGen def
+R3583:3586 BST.Src.Impl <> Tree ind
+binder 3580:3580 <> t:99
+R3595:3601 QuickChick.Generators <> bindGen def
+R3622:3624 Coq.Init.Datatypes <> nat ind
+binder 3619:3619 <> k:100
+R3633:3639 QuickChick.Generators <> bindGen def
+R3661:3663 Coq.Init.Datatypes <> nat ind
+binder 3657:3658 <> k':101
+R3671:3673 ExtLib.Structures.Monad <> ret meth
+R3676:3682 BST.Runners.BespokeGenerator_sampler <> Args3Mk constr
+R3688:3689 BST.Runners.BespokeGenerator_sampler <> k':101 var
+R3686:3686 BST.Runners.BespokeGenerator_sampler <> k:100 var
+R3684:3684 BST.Runners.BespokeGenerator_sampler <> t:99 var
+R3641:3649 QuickChick.Classes <> arbitrary meth
+R3603:3611 QuickChick.Classes <> arbitrary meth
+R3566:3572 BST.Strategies.BespokeGenerator <> bespoke def
+def 3709:3732 <> qctest_sample_DeletePost
+R3753:3755 Coq.Init.Datatypes <> nat ind
+binder 3742:3750 <> num_tests:102
+R3760:3785 QuickChick.ExtractionQC <> print_extracted_coq_string prfax
+R3788:3806 BST.Runners.BespokeGenerator_sampler <> showTimedResultList def
+R3809:3819 QuickChick.Test <> quickSample def
+R3900:3916 BST.Runners.BespokeGenerator_sampler <> sample_DeletePost def
+R3822:3834 QuickChick.Test <> updMaxDiscard def
+R3889:3897 BST.Runners.BespokeGenerator_sampler <> num_tests:102 var
+R3837:3849 QuickChick.Test <> updMaxSuccess def
+R3878:3886 BST.Runners.BespokeGenerator_sampler <> num_tests:102 var
+R3852:3862 QuickChick.Test <> updAnalysis def
+R3872:3875 Coq.Init.Datatypes <> true constr
+R3864:3870 QuickChick.Test <> stdArgs def
+def 3935:3950 <> sample_UnionPost
+R3959:3965 QuickChick.Generators <> bindGen def
+R3984:3987 BST.Src.Impl <> Tree ind
+binder 3981:3981 <> t:103
+R3996:4002 QuickChick.Generators <> bindGen def
+R4022:4025 BST.Src.Impl <> Tree ind
+binder 4018:4019 <> t':104
+R4034:4040 QuickChick.Generators <> bindGen def
+R4061:4063 Coq.Init.Datatypes <> nat ind
+binder 4058:4058 <> k:105
+R4071:4073 ExtLib.Structures.Monad <> ret meth
+R4076:4082 BST.Runners.BespokeGenerator_sampler <> Args3Mk constr
+R4089:4089 BST.Runners.BespokeGenerator_sampler <> k:105 var
+R4086:4087 BST.Runners.BespokeGenerator_sampler <> t':104 var
+R4084:4084 BST.Runners.BespokeGenerator_sampler <> t:103 var
+R4042:4050 QuickChick.Classes <> arbitrary meth
+R4004:4010 BST.Strategies.BespokeGenerator <> bespoke def
+R3967:3973 BST.Strategies.BespokeGenerator <> bespoke def
+def 4109:4131 <> qctest_sample_UnionPost
+R4152:4154 Coq.Init.Datatypes <> nat ind
+binder 4141:4149 <> num_tests:106
+R4159:4184 QuickChick.ExtractionQC <> print_extracted_coq_string prfax
+R4187:4205 BST.Runners.BespokeGenerator_sampler <> showTimedResultList def
+R4208:4218 QuickChick.Test <> quickSample def
+R4299:4314 BST.Runners.BespokeGenerator_sampler <> sample_UnionPost def
+R4221:4233 QuickChick.Test <> updMaxDiscard def
+R4288:4296 BST.Runners.BespokeGenerator_sampler <> num_tests:106 var
+R4236:4248 QuickChick.Test <> updMaxSuccess def
+R4277:4285 BST.Runners.BespokeGenerator_sampler <> num_tests:106 var
+R4251:4261 QuickChick.Test <> updAnalysis def
+R4271:4274 Coq.Init.Datatypes <> true constr
+R4263:4269 QuickChick.Test <> stdArgs def
+def 4332:4349 <> sample_InsertModel
+R4358:4364 QuickChick.Generators <> bindGen def
+R4383:4386 BST.Src.Impl <> Tree ind
+binder 4380:4380 <> t:107
+R4395:4401 QuickChick.Generators <> bindGen def
+R4422:4424 Coq.Init.Datatypes <> nat ind
+binder 4419:4419 <> k:108
+R4433:4439 QuickChick.Generators <> bindGen def
+R4460:4462 Coq.Init.Datatypes <> nat ind
+binder 4457:4457 <> v:109
+R4470:4472 ExtLib.Structures.Monad <> ret meth
+R4475:4481 BST.Runners.BespokeGenerator_sampler <> Args3Mk constr
+R4487:4487 BST.Runners.BespokeGenerator_sampler <> v:109 var
+R4485:4485 BST.Runners.BespokeGenerator_sampler <> k:108 var
+R4483:4483 BST.Runners.BespokeGenerator_sampler <> t:107 var
+R4441:4449 QuickChick.Classes <> arbitrary meth
+R4403:4411 QuickChick.Classes <> arbitrary meth
+R4366:4372 BST.Strategies.BespokeGenerator <> bespoke def
+def 4507:4531 <> qctest_sample_InsertModel
+R4552:4554 Coq.Init.Datatypes <> nat ind
+binder 4541:4549 <> num_tests:110
+R4559:4584 QuickChick.ExtractionQC <> print_extracted_coq_string prfax
+R4587:4605 BST.Runners.BespokeGenerator_sampler <> showTimedResultList def
+R4608:4618 QuickChick.Test <> quickSample def
+R4699:4716 BST.Runners.BespokeGenerator_sampler <> sample_InsertModel def
+R4621:4633 QuickChick.Test <> updMaxDiscard def
+R4688:4696 BST.Runners.BespokeGenerator_sampler <> num_tests:110 var
+R4636:4648 QuickChick.Test <> updMaxSuccess def
+R4677:4685 BST.Runners.BespokeGenerator_sampler <> num_tests:110 var
+R4651:4661 QuickChick.Test <> updAnalysis def
+R4671:4674 Coq.Init.Datatypes <> true constr
+R4663:4669 QuickChick.Test <> stdArgs def
+def 4735:4752 <> sample_DeleteModel
+R4761:4767 QuickChick.Generators <> bindGen def
+R4786:4789 BST.Src.Impl <> Tree ind
+binder 4783:4783 <> t:111
+R4798:4804 QuickChick.Generators <> bindGen def
+R4825:4827 Coq.Init.Datatypes <> nat ind
+binder 4822:4822 <> k:112
+R4835:4837 ExtLib.Structures.Monad <> ret meth
+R4840:4846 BST.Runners.BespokeGenerator_sampler <> Args2Mk constr
+R4850:4850 BST.Runners.BespokeGenerator_sampler <> k:112 var
+R4848:4848 BST.Runners.BespokeGenerator_sampler <> t:111 var
+R4806:4814 QuickChick.Classes <> arbitrary meth
+R4769:4775 BST.Strategies.BespokeGenerator <> bespoke def
+def 4869:4893 <> qctest_sample_DeleteModel
+R4914:4916 Coq.Init.Datatypes <> nat ind
+binder 4903:4911 <> num_tests:113
+R4921:4946 QuickChick.ExtractionQC <> print_extracted_coq_string prfax
+R4949:4967 BST.Runners.BespokeGenerator_sampler <> showTimedResultList def
+R4970:4980 QuickChick.Test <> quickSample def
+R5061:5078 BST.Runners.BespokeGenerator_sampler <> sample_DeleteModel def
+R4983:4995 QuickChick.Test <> updMaxDiscard def
+R5050:5058 BST.Runners.BespokeGenerator_sampler <> num_tests:113 var
+R4998:5010 QuickChick.Test <> updMaxSuccess def
+R5039:5047 BST.Runners.BespokeGenerator_sampler <> num_tests:113 var
+R5013:5023 QuickChick.Test <> updAnalysis def
+R5033:5036 Coq.Init.Datatypes <> true constr
+R5025:5031 QuickChick.Test <> stdArgs def
+def 5097:5113 <> sample_UnionModel
+R5123:5129 QuickChick.Generators <> bindGen def
+R5148:5151 BST.Src.Impl <> Tree ind
+binder 5145:5145 <> t:114
+R5160:5166 QuickChick.Generators <> bindGen def
+R5186:5189 BST.Src.Impl <> Tree ind
+binder 5182:5183 <> t':115
+R5197:5199 ExtLib.Structures.Monad <> ret meth
+R5202:5208 BST.Runners.BespokeGenerator_sampler <> Args2Mk constr
+R5212:5213 BST.Runners.BespokeGenerator_sampler <> t':115 var
+R5210:5210 BST.Runners.BespokeGenerator_sampler <> t:114 var
+R5168:5174 BST.Strategies.BespokeGenerator <> bespoke def
+R5131:5137 BST.Strategies.BespokeGenerator <> bespoke def
+def 5231:5254 <> qctest_sample_UnionModel
+R5275:5277 Coq.Init.Datatypes <> nat ind
+binder 5264:5272 <> num_tests:116
+R5282:5307 QuickChick.ExtractionQC <> print_extracted_coq_string prfax
+R5310:5328 BST.Runners.BespokeGenerator_sampler <> showTimedResultList def
+R5331:5341 QuickChick.Test <> quickSample def
+R5422:5438 BST.Runners.BespokeGenerator_sampler <> sample_UnionModel def
+R5344:5356 QuickChick.Test <> updMaxDiscard def
+R5411:5419 BST.Runners.BespokeGenerator_sampler <> num_tests:116 var
+R5359:5371 QuickChick.Test <> updMaxSuccess def
+R5400:5408 BST.Runners.BespokeGenerator_sampler <> num_tests:116 var
+R5374:5384 QuickChick.Test <> updAnalysis def
+R5394:5397 Coq.Init.Datatypes <> true constr
+R5386:5392 QuickChick.Test <> stdArgs def
+def 5457:5475 <> sample_InsertInsert
+R5485:5491 QuickChick.Generators <> bindGen def
+R5510:5513 BST.Src.Impl <> Tree ind
+binder 5507:5507 <> t:117
+R5522:5528 QuickChick.Generators <> bindGen def
+R5549:5551 Coq.Init.Datatypes <> nat ind
+binder 5546:5546 <> k:118
+R5560:5566 QuickChick.Generators <> bindGen def
+R5588:5590 Coq.Init.Datatypes <> nat ind
+binder 5584:5585 <> k':119
+R5599:5605 QuickChick.Generators <> bindGen def
+R5626:5628 Coq.Init.Datatypes <> nat ind
+binder 5623:5623 <> v:120
+R5637:5643 QuickChick.Generators <> bindGen def
+R5665:5667 Coq.Init.Datatypes <> nat ind
+binder 5661:5662 <> v':121
+R5675:5677 ExtLib.Structures.Monad <> ret meth
+R5680:5686 BST.Runners.BespokeGenerator_sampler <> Args5Mk constr
+R5697:5698 BST.Runners.BespokeGenerator_sampler <> v':121 var
+R5695:5695 BST.Runners.BespokeGenerator_sampler <> v:120 var
+R5692:5693 BST.Runners.BespokeGenerator_sampler <> k':119 var
+R5690:5690 BST.Runners.BespokeGenerator_sampler <> k:118 var
+R5688:5688 BST.Runners.BespokeGenerator_sampler <> t:117 var
+R5645:5653 QuickChick.Classes <> arbitrary meth
+R5607:5615 QuickChick.Classes <> arbitrary meth
+R5568:5576 QuickChick.Classes <> arbitrary meth
+R5530:5538 QuickChick.Classes <> arbitrary meth
+R5493:5499 BST.Strategies.BespokeGenerator <> bespoke def
+def 5720:5745 <> qctest_sample_InsertInsert
+R5766:5768 Coq.Init.Datatypes <> nat ind
+binder 5755:5763 <> num_tests:122
+R5773:5798 QuickChick.ExtractionQC <> print_extracted_coq_string prfax
+R5801:5819 BST.Runners.BespokeGenerator_sampler <> showTimedResultList def
+R5822:5832 QuickChick.Test <> quickSample def
+R5913:5931 BST.Runners.BespokeGenerator_sampler <> sample_InsertInsert def
+R5835:5847 QuickChick.Test <> updMaxDiscard def
+R5902:5910 BST.Runners.BespokeGenerator_sampler <> num_tests:122 var
+R5850:5862 QuickChick.Test <> updMaxSuccess def
+R5891:5899 BST.Runners.BespokeGenerator_sampler <> num_tests:122 var
+R5865:5875 QuickChick.Test <> updAnalysis def
+R5885:5888 Coq.Init.Datatypes <> true constr
+R5877:5883 QuickChick.Test <> stdArgs def
+def 5950:5968 <> sample_InsertDelete
+R5978:5984 QuickChick.Generators <> bindGen def
+R6003:6006 BST.Src.Impl <> Tree ind
+binder 6000:6000 <> t:123
+R6015:6021 QuickChick.Generators <> bindGen def
+R6042:6044 Coq.Init.Datatypes <> nat ind
+binder 6039:6039 <> k:124
+R6053:6059 QuickChick.Generators <> bindGen def
+R6081:6083 Coq.Init.Datatypes <> nat ind
+binder 6077:6078 <> k':125
+R6092:6098 QuickChick.Generators <> bindGen def
+R6119:6121 Coq.Init.Datatypes <> nat ind
+binder 6116:6116 <> v:126
+R6129:6131 ExtLib.Structures.Monad <> ret meth
+R6134:6140 BST.Runners.BespokeGenerator_sampler <> Args4Mk constr
+R6149:6149 BST.Runners.BespokeGenerator_sampler <> v:126 var
+R6146:6147 BST.Runners.BespokeGenerator_sampler <> k':125 var
+R6144:6144 BST.Runners.BespokeGenerator_sampler <> k:124 var
+R6142:6142 BST.Runners.BespokeGenerator_sampler <> t:123 var
+R6100:6108 QuickChick.Classes <> arbitrary meth
+R6061:6069 QuickChick.Classes <> arbitrary meth
+R6023:6031 QuickChick.Classes <> arbitrary meth
+R5986:5992 BST.Strategies.BespokeGenerator <> bespoke def
+def 6170:6195 <> qctest_sample_InsertDelete
+R6216:6218 Coq.Init.Datatypes <> nat ind
+binder 6205:6213 <> num_tests:127
+R6223:6248 QuickChick.ExtractionQC <> print_extracted_coq_string prfax
+R6251:6269 BST.Runners.BespokeGenerator_sampler <> showTimedResultList def
+R6272:6282 QuickChick.Test <> quickSample def
+R6363:6381 BST.Runners.BespokeGenerator_sampler <> sample_InsertDelete def
+R6285:6297 QuickChick.Test <> updMaxDiscard def
+R6352:6360 BST.Runners.BespokeGenerator_sampler <> num_tests:127 var
+R6300:6312 QuickChick.Test <> updMaxSuccess def
+R6341:6349 BST.Runners.BespokeGenerator_sampler <> num_tests:127 var
+R6315:6325 QuickChick.Test <> updAnalysis def
+R6335:6338 Coq.Init.Datatypes <> true constr
+R6327:6333 QuickChick.Test <> stdArgs def
+def 6400:6417 <> sample_InsertUnion
+R6426:6432 QuickChick.Generators <> bindGen def
+R6451:6454 BST.Src.Impl <> Tree ind
+binder 6448:6448 <> t:128
+R6463:6469 QuickChick.Generators <> bindGen def
+R6489:6492 BST.Src.Impl <> Tree ind
+binder 6485:6486 <> t':129
+R6501:6507 QuickChick.Generators <> bindGen def
+R6528:6530 Coq.Init.Datatypes <> nat ind
+binder 6525:6525 <> k:130
+R6539:6545 QuickChick.Generators <> bindGen def
+R6566:6568 Coq.Init.Datatypes <> nat ind
+binder 6563:6563 <> v:131
+R6576:6578 ExtLib.Structures.Monad <> ret meth
+R6581:6587 BST.Runners.BespokeGenerator_sampler <> Args4Mk constr
+R6596:6596 BST.Runners.BespokeGenerator_sampler <> v:131 var
+R6594:6594 BST.Runners.BespokeGenerator_sampler <> k:130 var
+R6591:6592 BST.Runners.BespokeGenerator_sampler <> t':129 var
+R6589:6589 BST.Runners.BespokeGenerator_sampler <> t:128 var
+R6547:6555 QuickChick.Classes <> arbitrary meth
+R6509:6517 QuickChick.Classes <> arbitrary meth
+R6471:6477 BST.Strategies.BespokeGenerator <> bespoke def
+R6434:6440 BST.Strategies.BespokeGenerator <> bespoke def
+def 6617:6641 <> qctest_sample_InsertUnion
+R6662:6664 Coq.Init.Datatypes <> nat ind
+binder 6651:6659 <> num_tests:132
+R6669:6694 QuickChick.ExtractionQC <> print_extracted_coq_string prfax
+R6697:6715 BST.Runners.BespokeGenerator_sampler <> showTimedResultList def
+R6718:6728 QuickChick.Test <> quickSample def
+R6809:6826 BST.Runners.BespokeGenerator_sampler <> sample_InsertUnion def
+R6731:6743 QuickChick.Test <> updMaxDiscard def
+R6798:6806 BST.Runners.BespokeGenerator_sampler <> num_tests:132 var
+R6746:6758 QuickChick.Test <> updMaxSuccess def
+R6787:6795 BST.Runners.BespokeGenerator_sampler <> num_tests:132 var
+R6761:6771 QuickChick.Test <> updAnalysis def
+R6781:6784 Coq.Init.Datatypes <> true constr
+R6773:6779 QuickChick.Test <> stdArgs def
+def 6845:6863 <> sample_DeleteInsert
+R6873:6879 QuickChick.Generators <> bindGen def
+R6898:6901 BST.Src.Impl <> Tree ind
+binder 6895:6895 <> t:133
+R6910:6916 QuickChick.Generators <> bindGen def
+R6937:6939 Coq.Init.Datatypes <> nat ind
+binder 6934:6934 <> k:134
+R6948:6954 QuickChick.Generators <> bindGen def
+R6976:6978 Coq.Init.Datatypes <> nat ind
+binder 6972:6973 <> k':135
+R6987:6993 QuickChick.Generators <> bindGen def
+R7015:7017 Coq.Init.Datatypes <> nat ind
+binder 7011:7012 <> v':136
+R7025:7027 ExtLib.Structures.Monad <> ret meth
+R7030:7036 BST.Runners.BespokeGenerator_sampler <> Args4Mk constr
+R7045:7046 BST.Runners.BespokeGenerator_sampler <> v':136 var
+R7042:7043 BST.Runners.BespokeGenerator_sampler <> k':135 var
+R7040:7040 BST.Runners.BespokeGenerator_sampler <> k:134 var
+R7038:7038 BST.Runners.BespokeGenerator_sampler <> t:133 var
+R6995:7003 QuickChick.Classes <> arbitrary meth
+R6956:6964 QuickChick.Classes <> arbitrary meth
+R6918:6926 QuickChick.Classes <> arbitrary meth
+R6881:6887 BST.Strategies.BespokeGenerator <> bespoke def
+def 7067:7092 <> qctest_sample_DeleteInsert
+R7113:7115 Coq.Init.Datatypes <> nat ind
+binder 7102:7110 <> num_tests:137
+R7120:7145 QuickChick.ExtractionQC <> print_extracted_coq_string prfax
+R7148:7166 BST.Runners.BespokeGenerator_sampler <> showTimedResultList def
+R7169:7179 QuickChick.Test <> quickSample def
+R7260:7278 BST.Runners.BespokeGenerator_sampler <> sample_DeleteInsert def
+R7182:7194 QuickChick.Test <> updMaxDiscard def
+R7249:7257 BST.Runners.BespokeGenerator_sampler <> num_tests:137 var
+R7197:7209 QuickChick.Test <> updMaxSuccess def
+R7238:7246 BST.Runners.BespokeGenerator_sampler <> num_tests:137 var
+R7212:7222 QuickChick.Test <> updAnalysis def
+R7232:7235 Coq.Init.Datatypes <> true constr
+R7224:7230 QuickChick.Test <> stdArgs def
+def 7297:7315 <> sample_DeleteDelete
+R7325:7331 QuickChick.Generators <> bindGen def
+R7350:7353 BST.Src.Impl <> Tree ind
+binder 7347:7347 <> t:138
+R7362:7368 QuickChick.Generators <> bindGen def
+R7389:7391 Coq.Init.Datatypes <> nat ind
+binder 7386:7386 <> k:139
+R7400:7406 QuickChick.Generators <> bindGen def
+R7428:7430 Coq.Init.Datatypes <> nat ind
+binder 7424:7425 <> k':140
+R7438:7440 ExtLib.Structures.Monad <> ret meth
+R7443:7449 BST.Runners.BespokeGenerator_sampler <> Args3Mk constr
+R7455:7456 BST.Runners.BespokeGenerator_sampler <> k':140 var
+R7453:7453 BST.Runners.BespokeGenerator_sampler <> k:139 var
+R7451:7451 BST.Runners.BespokeGenerator_sampler <> t:138 var
+R7408:7416 QuickChick.Classes <> arbitrary meth
+R7370:7378 QuickChick.Classes <> arbitrary meth
+R7333:7339 BST.Strategies.BespokeGenerator <> bespoke def
+def 7476:7501 <> qctest_sample_DeleteDelete
+R7522:7524 Coq.Init.Datatypes <> nat ind
+binder 7511:7519 <> num_tests:141
+R7529:7554 QuickChick.ExtractionQC <> print_extracted_coq_string prfax
+R7557:7575 BST.Runners.BespokeGenerator_sampler <> showTimedResultList def
+R7578:7588 QuickChick.Test <> quickSample def
+R7669:7687 BST.Runners.BespokeGenerator_sampler <> sample_DeleteDelete def
+R7591:7603 QuickChick.Test <> updMaxDiscard def
+R7658:7666 BST.Runners.BespokeGenerator_sampler <> num_tests:141 var
+R7606:7618 QuickChick.Test <> updMaxSuccess def
+R7647:7655 BST.Runners.BespokeGenerator_sampler <> num_tests:141 var
+R7621:7631 QuickChick.Test <> updAnalysis def
+R7641:7644 Coq.Init.Datatypes <> true constr
+R7633:7639 QuickChick.Test <> stdArgs def
+def 7706:7723 <> sample_DeleteUnion
+R7732:7738 QuickChick.Generators <> bindGen def
+R7757:7760 BST.Src.Impl <> Tree ind
+binder 7754:7754 <> t:142
+R7769:7775 QuickChick.Generators <> bindGen def
+R7795:7798 BST.Src.Impl <> Tree ind
+binder 7791:7792 <> t':143
+R7807:7813 QuickChick.Generators <> bindGen def
+R7834:7836 Coq.Init.Datatypes <> nat ind
+binder 7831:7831 <> k:144
+R7844:7846 ExtLib.Structures.Monad <> ret meth
+R7849:7855 BST.Runners.BespokeGenerator_sampler <> Args3Mk constr
+R7862:7862 BST.Runners.BespokeGenerator_sampler <> k:144 var
+R7859:7860 BST.Runners.BespokeGenerator_sampler <> t':143 var
+R7857:7857 BST.Runners.BespokeGenerator_sampler <> t:142 var
+R7815:7823 QuickChick.Classes <> arbitrary meth
+R7777:7783 BST.Strategies.BespokeGenerator <> bespoke def
+R7740:7746 BST.Strategies.BespokeGenerator <> bespoke def
+def 7882:7906 <> qctest_sample_DeleteUnion
+R7927:7929 Coq.Init.Datatypes <> nat ind
+binder 7916:7924 <> num_tests:145
+R7934:7959 QuickChick.ExtractionQC <> print_extracted_coq_string prfax
+R7962:7980 BST.Runners.BespokeGenerator_sampler <> showTimedResultList def
+R7983:7993 QuickChick.Test <> quickSample def
+R8074:8091 BST.Runners.BespokeGenerator_sampler <> sample_DeleteUnion def
+R7996:8008 QuickChick.Test <> updMaxDiscard def
+R8063:8071 BST.Runners.BespokeGenerator_sampler <> num_tests:145 var
+R8011:8023 QuickChick.Test <> updMaxSuccess def
+R8052:8060 BST.Runners.BespokeGenerator_sampler <> num_tests:145 var
+R8026:8036 QuickChick.Test <> updAnalysis def
+R8046:8049 Coq.Init.Datatypes <> true constr
+R8038:8044 QuickChick.Test <> stdArgs def
+def 8110:8133 <> sample_UnionDeleteInsert
+R8142:8148 QuickChick.Generators <> bindGen def
+R8167:8170 BST.Src.Impl <> Tree ind
+binder 8164:8164 <> t:146
+R8179:8185 QuickChick.Generators <> bindGen def
+R8205:8208 BST.Src.Impl <> Tree ind
+binder 8201:8202 <> t':147
+R8217:8223 QuickChick.Generators <> bindGen def
+R8244:8246 Coq.Init.Datatypes <> nat ind
+binder 8241:8241 <> k:148
+R8255:8261 QuickChick.Generators <> bindGen def
+R8282:8284 Coq.Init.Datatypes <> nat ind
+binder 8279:8279 <> v:149
+R8292:8294 ExtLib.Structures.Monad <> ret meth
+R8297:8303 BST.Runners.BespokeGenerator_sampler <> Args4Mk constr
+R8312:8312 BST.Runners.BespokeGenerator_sampler <> v:149 var
+R8310:8310 BST.Runners.BespokeGenerator_sampler <> k:148 var
+R8307:8308 BST.Runners.BespokeGenerator_sampler <> t':147 var
+R8305:8305 BST.Runners.BespokeGenerator_sampler <> t:146 var
+R8263:8271 QuickChick.Classes <> arbitrary meth
+R8225:8233 QuickChick.Classes <> arbitrary meth
+R8187:8193 BST.Strategies.BespokeGenerator <> bespoke def
+R8150:8156 BST.Strategies.BespokeGenerator <> bespoke def
+def 8333:8363 <> qctest_sample_UnionDeleteInsert
+R8384:8386 Coq.Init.Datatypes <> nat ind
+binder 8373:8381 <> num_tests:150
+R8391:8416 QuickChick.ExtractionQC <> print_extracted_coq_string prfax
+R8419:8437 BST.Runners.BespokeGenerator_sampler <> showTimedResultList def
+R8440:8450 QuickChick.Test <> quickSample def
+R8531:8554 BST.Runners.BespokeGenerator_sampler <> sample_UnionDeleteInsert def
+R8453:8465 QuickChick.Test <> updMaxDiscard def
+R8520:8528 BST.Runners.BespokeGenerator_sampler <> num_tests:150 var
+R8468:8480 QuickChick.Test <> updMaxSuccess def
+R8509:8517 BST.Runners.BespokeGenerator_sampler <> num_tests:150 var
+R8483:8493 QuickChick.Test <> updAnalysis def
+R8503:8506 Coq.Init.Datatypes <> true constr
+R8495:8501 QuickChick.Test <> stdArgs def
+def 8573:8593 <> sample_UnionUnionIdem
+R8603:8609 QuickChick.Generators <> bindGen def
+R8628:8631 BST.Src.Impl <> Tree ind
+binder 8625:8625 <> t:151
+R8639:8641 ExtLib.Structures.Monad <> ret meth
+R8644:8650 BST.Runners.BespokeGenerator_sampler <> Args1Mk constr
+R8652:8652 BST.Runners.BespokeGenerator_sampler <> t:151 var
+R8611:8617 BST.Strategies.BespokeGenerator <> bespoke def
+def 8670:8697 <> qctest_sample_UnionUnionIdem
+R8718:8720 Coq.Init.Datatypes <> nat ind
+binder 8707:8715 <> num_tests:152
+R8725:8750 QuickChick.ExtractionQC <> print_extracted_coq_string prfax
+R8753:8771 BST.Runners.BespokeGenerator_sampler <> showTimedResultList def
+R8774:8784 QuickChick.Test <> quickSample def
+R8865:8885 BST.Runners.BespokeGenerator_sampler <> sample_UnionUnionIdem def
+R8787:8799 QuickChick.Test <> updMaxDiscard def
+R8854:8862 BST.Runners.BespokeGenerator_sampler <> num_tests:152 var
+R8802:8814 QuickChick.Test <> updMaxSuccess def
+R8843:8851 BST.Runners.BespokeGenerator_sampler <> num_tests:152 var
+R8817:8827 QuickChick.Test <> updAnalysis def
+R8837:8840 Coq.Init.Datatypes <> true constr
+R8829:8835 QuickChick.Test <> stdArgs def
+def 8904:8925 <> sample_UnionUnionAssoc
+R8934:8940 QuickChick.Generators <> bindGen def
+R8960:8963 BST.Src.Impl <> Tree ind
+binder 8956:8957 <> t1:153
+R8972:8978 QuickChick.Generators <> bindGen def
+R8998:9001 BST.Src.Impl <> Tree ind
+binder 8994:8995 <> t2:154
+R9010:9016 QuickChick.Generators <> bindGen def
+R9036:9039 BST.Src.Impl <> Tree ind
+binder 9032:9033 <> t3:155
+R9047:9049 ExtLib.Structures.Monad <> ret meth
+R9052:9058 BST.Runners.BespokeGenerator_sampler <> Args3Mk constr
+R9066:9067 BST.Runners.BespokeGenerator_sampler <> t3:155 var
+R9063:9064 BST.Runners.BespokeGenerator_sampler <> t2:154 var
+R9060:9061 BST.Runners.BespokeGenerator_sampler <> t1:153 var
+R9018:9024 BST.Strategies.BespokeGenerator <> bespoke def
+R8980:8986 BST.Strategies.BespokeGenerator <> bespoke def
+R8942:8948 BST.Strategies.BespokeGenerator <> bespoke def
+def 9087:9115 <> qctest_sample_UnionUnionAssoc
+R9136:9138 Coq.Init.Datatypes <> nat ind
+binder 9125:9133 <> num_tests:156
+R9143:9168 QuickChick.ExtractionQC <> print_extracted_coq_string prfax
+R9171:9189 BST.Runners.BespokeGenerator_sampler <> showTimedResultList def
+R9192:9202 QuickChick.Test <> quickSample def
+R9283:9304 BST.Runners.BespokeGenerator_sampler <> sample_UnionUnionAssoc def
+R9205:9217 QuickChick.Test <> updMaxDiscard def
+R9272:9280 BST.Runners.BespokeGenerator_sampler <> num_tests:156 var
+R9220:9232 QuickChick.Test <> updMaxSuccess def
+R9261:9269 BST.Runners.BespokeGenerator_sampler <> num_tests:156 var
+R9235:9245 QuickChick.Test <> updAnalysis def
+R9255:9258 Coq.Init.Datatypes <> true constr
+R9247:9253 QuickChick.Test <> stdArgs def
+ax 9325:9335 <> OCamlString
+ax 9394:9401 <> test_map
+R9405:9408 Coq.Init.Datatypes <> list ind
+R9422:9425 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R9437:9437 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R9411:9421 BST.Runners.BespokeGenerator_sampler <> OCamlString defax
+R9429:9432 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9426:9428 Coq.Init.Datatypes <> nat ind
+R9433:9436 Coq.Init.Datatypes <> unit ind
+ax 10405:10414 <> qctest_map
+R10429:10432 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10418:10428 BST.Runners.BespokeGenerator_sampler <> OCamlString defax
+R10436:10439 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10433:10435 Coq.Init.Datatypes <> nat ind
+R10440:10443 Coq.Init.Datatypes <> unit ind

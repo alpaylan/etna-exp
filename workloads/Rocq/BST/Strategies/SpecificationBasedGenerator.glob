@@ -1,0 +1,479 @@
+DIGEST 23caf6f208a98332ce2a485fe07ae80f
+FBST.Strategies.SpecificationBasedGenerator
+R31:40 QuickChick.QuickChick <> <> lib
+R50:59 QuickChick.Checker QcNotation <> mod
+R86:89 Coq.Lists.List <> <> lib
+R99:111 Coq.Lists.List ListNotations <> mod
+R141:145 ExtLib.Structures.Monad <> <> lib
+R155:167 ExtLib.Structures.Monad MonadNotation <> mod
+R195:198 BST.Src.Impl <> <> lib
+R225:228 BST.Src.Spec <> <> lib
+ind 242:248 <> between
+constr 283:291 <> between_n
+constr 345:353 <> between_S
+R255:258 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R252:254 Coq.Init.Datatypes <> nat ind
+R262:265 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R259:261 Coq.Init.Datatypes <> nat ind
+R269:272 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R266:268 Coq.Init.Datatypes <> nat ind
+binder 302:302 <> n:3
+binder 304:304 <> m:4
+R313:316 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R307:308 Coq.Init.Peano <> le ind
+R310:310 BST.Strategies.SpecificationBasedGenerator <> n:3 var
+R312:312 BST.Strategies.SpecificationBasedGenerator <> m:4 var
+R317:323 BST.Strategies.SpecificationBasedGenerator <> between:1 ind
+R334:334 Coq.Init.Datatypes <> S constr
+R337:337 Coq.Init.Datatypes <> S constr
+R339:339 BST.Strategies.SpecificationBasedGenerator <> m:4 var
+R328:328 Coq.Init.Datatypes <> S constr
+R330:330 BST.Strategies.SpecificationBasedGenerator <> n:3 var
+R325:325 BST.Strategies.SpecificationBasedGenerator <> n:3 var
+binder 364:364 <> n:5
+binder 366:366 <> m:6
+binder 368:368 <> o:7
+R384:387 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R371:377 BST.Strategies.SpecificationBasedGenerator <> between:1 ind
+R383:383 BST.Strategies.SpecificationBasedGenerator <> o:7 var
+R381:381 BST.Strategies.SpecificationBasedGenerator <> m:6 var
+R379:379 BST.Strategies.SpecificationBasedGenerator <> n:5 var
+R388:394 BST.Strategies.SpecificationBasedGenerator <> between:1 ind
+R405:405 Coq.Init.Datatypes <> S constr
+R407:407 BST.Strategies.SpecificationBasedGenerator <> o:7 var
+R399:399 Coq.Init.Datatypes <> S constr
+R401:401 BST.Strategies.SpecificationBasedGenerator <> m:6 var
+R396:396 BST.Strategies.SpecificationBasedGenerator <> n:5 var
+ind 604:606 <> bst
+constr 642:649 <> bst_leaf
+constr 681:688 <> bst_node
+R613:616 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R610:612 Coq.Init.Datatypes <> nat ind
+R620:623 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R617:619 Coq.Init.Datatypes <> nat ind
+R628:631 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R624:627 BST.Src.Impl <> Tree ind
+binder 660:661 <> lo:98
+binder 663:664 <> hi:99
+R667:669 BST.Strategies.SpecificationBasedGenerator <> bst:96 ind
+R677:677 BST.Src.Impl <> E constr
+R674:675 BST.Strategies.SpecificationBasedGenerator <> hi:99 var
+R671:672 BST.Strategies.SpecificationBasedGenerator <> lo:98 var
+binder 699:700 <> lo:100
+binder 702:703 <> hi:101
+binder 705:705 <> k:102
+binder 707:707 <> v:103
+binder 709:709 <> l:104
+binder 711:711 <> r:105
+R733:740 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R718:724 BST.Strategies.SpecificationBasedGenerator <> between ind
+R726:727 BST.Strategies.SpecificationBasedGenerator <> lo:100 var
+R729:729 BST.Strategies.SpecificationBasedGenerator <> k:102 var
+R731:732 BST.Strategies.SpecificationBasedGenerator <> hi:101 var
+R751:754 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R741:743 BST.Strategies.SpecificationBasedGenerator <> bst:96 ind
+R750:750 BST.Strategies.SpecificationBasedGenerator <> l:104 var
+R748:748 BST.Strategies.SpecificationBasedGenerator <> k:102 var
+R745:746 BST.Strategies.SpecificationBasedGenerator <> lo:100 var
+R765:772 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R755:757 BST.Strategies.SpecificationBasedGenerator <> bst:96 ind
+R764:764 BST.Strategies.SpecificationBasedGenerator <> r:105 var
+R761:762 BST.Strategies.SpecificationBasedGenerator <> hi:101 var
+R759:759 BST.Strategies.SpecificationBasedGenerator <> k:102 var
+R773:775 BST.Strategies.SpecificationBasedGenerator <> bst:96 ind
+R784:784 BST.Src.Impl <> T constr
+R786:786 BST.Strategies.SpecificationBasedGenerator <> l:104 var
+R788:788 BST.Strategies.SpecificationBasedGenerator <> k:102 var
+R790:790 BST.Strategies.SpecificationBasedGenerator <> v:103 var
+R792:792 BST.Strategies.SpecificationBasedGenerator <> r:105 var
+R780:781 BST.Strategies.SpecificationBasedGenerator <> hi:101 var
+R777:778 BST.Strategies.SpecificationBasedGenerator <> lo:100 var
+def 901:921 <> test_prop_InsertValid
+R930:940 QuickChick.Checker <> forAllMaybe def
+R1001:1004 BST.Src.Impl <> Tree ind
+binder 997:997 <> t:149
+R1012:1017 QuickChick.Checker <> forAll def
+R1038:1040 Coq.Init.Datatypes <> nat ind
+binder 1035:1035 <> k:150
+R1049:1054 QuickChick.Checker <> forAll def
+R1075:1077 Coq.Init.Datatypes <> nat ind
+binder 1072:1072 <> v:151
+R1085:1100 BST.Src.Spec <> prop_InsertValid def
+R1102:1102 BST.Strategies.SpecificationBasedGenerator <> t:149 var
+R1104:1104 BST.Strategies.SpecificationBasedGenerator <> k:150 var
+R1106:1106 BST.Strategies.SpecificationBasedGenerator <> v:151 var
+R1056:1064 QuickChick.Classes <> arbitrary meth
+R1019:1027 QuickChick.Classes <> arbitrary meth
+R944:958 QuickChick.DependentClasses <> arbitrarySizeST meth
+binder 967:967 <> t:152
+R972:974 BST.Strategies.SpecificationBasedGenerator <> bst ind
+R982:982 BST.Strategies.SpecificationBasedGenerator <> t:152 var
+def 1168:1188 <> test_prop_DeleteValid
+R1197:1207 QuickChick.Checker <> forAllMaybe def
+R1268:1271 BST.Src.Impl <> Tree ind
+binder 1264:1264 <> t:153
+R1279:1284 QuickChick.Checker <> forAll def
+R1305:1307 Coq.Init.Datatypes <> nat ind
+binder 1302:1302 <> k:154
+R1315:1330 BST.Src.Spec <> prop_DeleteValid def
+R1332:1332 BST.Strategies.SpecificationBasedGenerator <> t:153 var
+R1334:1334 BST.Strategies.SpecificationBasedGenerator <> k:154 var
+R1286:1294 QuickChick.Classes <> arbitrary meth
+R1211:1225 QuickChick.DependentClasses <> arbitrarySizeST meth
+binder 1234:1234 <> t:155
+R1239:1241 BST.Strategies.SpecificationBasedGenerator <> bst ind
+R1249:1249 BST.Strategies.SpecificationBasedGenerator <> t:155 var
+def 1395:1414 <> test_prop_UnionValid
+R1424:1434 QuickChick.Checker <> forAllMaybe def
+R1496:1499 BST.Src.Impl <> Tree ind
+binder 1491:1492 <> t1:156
+R1507:1517 QuickChick.Checker <> forAllMaybe def
+R1579:1582 BST.Src.Impl <> Tree ind
+binder 1574:1575 <> t2:157
+R1590:1604 BST.Src.Spec <> prop_UnionValid def
+R1606:1607 BST.Strategies.SpecificationBasedGenerator <> t1:156 var
+R1609:1610 BST.Strategies.SpecificationBasedGenerator <> t2:157 var
+R1521:1535 QuickChick.DependentClasses <> arbitrarySizeST meth
+binder 1544:1544 <> t:158
+R1549:1551 BST.Strategies.SpecificationBasedGenerator <> bst ind
+R1559:1559 BST.Strategies.SpecificationBasedGenerator <> t:158 var
+R1438:1452 QuickChick.DependentClasses <> arbitrarySizeST meth
+binder 1461:1461 <> t:159
+R1466:1468 BST.Strategies.SpecificationBasedGenerator <> bst ind
+R1476:1476 BST.Strategies.SpecificationBasedGenerator <> t:159 var
+def 1669:1688 <> test_prop_InsertPost
+R1698:1708 QuickChick.Checker <> forAllMaybe def
+R1769:1772 BST.Src.Impl <> Tree ind
+binder 1765:1765 <> t:160
+R1780:1785 QuickChick.Checker <> forAll def
+R1806:1808 Coq.Init.Datatypes <> nat ind
+binder 1803:1803 <> k:161
+R1817:1822 QuickChick.Checker <> forAll def
+R1844:1846 Coq.Init.Datatypes <> nat ind
+binder 1840:1841 <> k':162
+R1855:1860 QuickChick.Checker <> forAll def
+R1881:1883 Coq.Init.Datatypes <> nat ind
+binder 1878:1878 <> v:163
+R1891:1905 BST.Src.Spec <> prop_InsertPost def
+R1907:1907 BST.Strategies.SpecificationBasedGenerator <> t:160 var
+R1909:1909 BST.Strategies.SpecificationBasedGenerator <> k:161 var
+R1911:1912 BST.Strategies.SpecificationBasedGenerator <> k':162 var
+R1914:1914 BST.Strategies.SpecificationBasedGenerator <> v:163 var
+R1862:1870 QuickChick.Classes <> arbitrary meth
+R1824:1832 QuickChick.Classes <> arbitrary meth
+R1787:1795 QuickChick.Classes <> arbitrary meth
+R1712:1726 QuickChick.DependentClasses <> arbitrarySizeST meth
+binder 1735:1735 <> t:164
+R1740:1742 BST.Strategies.SpecificationBasedGenerator <> bst ind
+R1750:1750 BST.Strategies.SpecificationBasedGenerator <> t:164 var
+def 1975:1994 <> test_prop_DeletePost
+R2004:2014 QuickChick.Checker <> forAllMaybe def
+R2075:2078 BST.Src.Impl <> Tree ind
+binder 2071:2071 <> t:165
+R2086:2091 QuickChick.Checker <> forAll def
+R2112:2114 Coq.Init.Datatypes <> nat ind
+binder 2109:2109 <> k:166
+R2123:2128 QuickChick.Checker <> forAll def
+R2150:2152 Coq.Init.Datatypes <> nat ind
+binder 2146:2147 <> k':167
+R2160:2174 BST.Src.Spec <> prop_DeletePost def
+R2176:2176 BST.Strategies.SpecificationBasedGenerator <> t:165 var
+R2178:2178 BST.Strategies.SpecificationBasedGenerator <> k:166 var
+R2180:2181 BST.Strategies.SpecificationBasedGenerator <> k':167 var
+R2130:2138 QuickChick.Classes <> arbitrary meth
+R2093:2101 QuickChick.Classes <> arbitrary meth
+R2018:2032 QuickChick.DependentClasses <> arbitrarySizeST meth
+binder 2041:2041 <> t:168
+R2046:2048 BST.Strategies.SpecificationBasedGenerator <> bst ind
+R2056:2056 BST.Strategies.SpecificationBasedGenerator <> t:168 var
+def 2241:2259 <> test_prop_UnionPost
+R2268:2278 QuickChick.Checker <> forAllMaybe def
+R2339:2342 BST.Src.Impl <> Tree ind
+binder 2335:2335 <> t:169
+R2350:2360 QuickChick.Checker <> forAllMaybe def
+R2422:2425 BST.Src.Impl <> Tree ind
+binder 2417:2418 <> t':170
+R2433:2438 QuickChick.Checker <> forAll def
+R2459:2461 Coq.Init.Datatypes <> nat ind
+binder 2456:2456 <> k:171
+R2469:2482 BST.Src.Spec <> prop_UnionPost def
+R2484:2484 BST.Strategies.SpecificationBasedGenerator <> t:169 var
+R2486:2487 BST.Strategies.SpecificationBasedGenerator <> t':170 var
+R2489:2489 BST.Strategies.SpecificationBasedGenerator <> k:171 var
+R2440:2448 QuickChick.Classes <> arbitrary meth
+R2364:2378 QuickChick.DependentClasses <> arbitrarySizeST meth
+binder 2387:2387 <> t:172
+R2392:2394 BST.Strategies.SpecificationBasedGenerator <> bst ind
+R2402:2402 BST.Strategies.SpecificationBasedGenerator <> t:172 var
+R2282:2296 QuickChick.DependentClasses <> arbitrarySizeST meth
+binder 2305:2305 <> t:173
+R2310:2312 BST.Strategies.SpecificationBasedGenerator <> bst ind
+R2320:2320 BST.Strategies.SpecificationBasedGenerator <> t:173 var
+def 2548:2568 <> test_prop_InsertModel
+R2577:2587 QuickChick.Checker <> forAllMaybe def
+R2648:2651 BST.Src.Impl <> Tree ind
+binder 2644:2644 <> t:174
+R2659:2664 QuickChick.Checker <> forAll def
+R2685:2687 Coq.Init.Datatypes <> nat ind
+binder 2682:2682 <> k:175
+R2696:2701 QuickChick.Checker <> forAll def
+R2722:2724 Coq.Init.Datatypes <> nat ind
+binder 2719:2719 <> v:176
+R2732:2747 BST.Src.Spec <> prop_InsertModel def
+R2749:2749 BST.Strategies.SpecificationBasedGenerator <> t:174 var
+R2751:2751 BST.Strategies.SpecificationBasedGenerator <> k:175 var
+R2753:2753 BST.Strategies.SpecificationBasedGenerator <> v:176 var
+R2703:2711 QuickChick.Classes <> arbitrary meth
+R2666:2674 QuickChick.Classes <> arbitrary meth
+R2591:2605 QuickChick.DependentClasses <> arbitrarySizeST meth
+binder 2614:2614 <> t:177
+R2619:2621 BST.Strategies.SpecificationBasedGenerator <> bst ind
+R2629:2629 BST.Strategies.SpecificationBasedGenerator <> t:177 var
+def 2814:2834 <> test_prop_DeleteModel
+R2843:2853 QuickChick.Checker <> forAllMaybe def
+R2914:2917 BST.Src.Impl <> Tree ind
+binder 2910:2910 <> t:178
+R2925:2930 QuickChick.Checker <> forAll def
+R2951:2953 Coq.Init.Datatypes <> nat ind
+binder 2948:2948 <> k:179
+R2961:2976 BST.Src.Spec <> prop_DeleteModel def
+R2978:2978 BST.Strategies.SpecificationBasedGenerator <> t:178 var
+R2980:2980 BST.Strategies.SpecificationBasedGenerator <> k:179 var
+R2932:2940 QuickChick.Classes <> arbitrary meth
+R2857:2871 QuickChick.DependentClasses <> arbitrarySizeST meth
+binder 2880:2880 <> t:180
+R2885:2887 BST.Strategies.SpecificationBasedGenerator <> bst ind
+R2895:2895 BST.Strategies.SpecificationBasedGenerator <> t:180 var
+def 3040:3059 <> test_prop_UnionModel
+R3069:3079 QuickChick.Checker <> forAllMaybe def
+R3140:3143 BST.Src.Impl <> Tree ind
+binder 3136:3136 <> t:181
+R3151:3161 QuickChick.Checker <> forAllMaybe def
+R3223:3226 BST.Src.Impl <> Tree ind
+binder 3218:3219 <> t':182
+R3234:3248 BST.Src.Spec <> prop_UnionModel def
+R3250:3250 BST.Strategies.SpecificationBasedGenerator <> t:181 var
+R3252:3253 BST.Strategies.SpecificationBasedGenerator <> t':182 var
+R3165:3179 QuickChick.DependentClasses <> arbitrarySizeST meth
+binder 3188:3188 <> t:183
+R3193:3195 BST.Strategies.SpecificationBasedGenerator <> bst ind
+R3203:3203 BST.Strategies.SpecificationBasedGenerator <> t:183 var
+R3083:3097 QuickChick.DependentClasses <> arbitrarySizeST meth
+binder 3106:3106 <> t:184
+R3111:3113 BST.Strategies.SpecificationBasedGenerator <> bst ind
+R3121:3121 BST.Strategies.SpecificationBasedGenerator <> t:184 var
+def 3312:3333 <> test_prop_InsertInsert
+R3343:3353 QuickChick.Checker <> forAllMaybe def
+R3414:3417 BST.Src.Impl <> Tree ind
+binder 3410:3410 <> t:185
+R3425:3430 QuickChick.Checker <> forAll def
+R3451:3453 Coq.Init.Datatypes <> nat ind
+binder 3448:3448 <> k:186
+R3462:3467 QuickChick.Checker <> forAll def
+R3489:3491 Coq.Init.Datatypes <> nat ind
+binder 3485:3486 <> k':187
+R3500:3505 QuickChick.Checker <> forAll def
+R3526:3528 Coq.Init.Datatypes <> nat ind
+binder 3523:3523 <> v:188
+R3537:3542 QuickChick.Checker <> forAll def
+R3564:3566 Coq.Init.Datatypes <> nat ind
+binder 3560:3561 <> v':189
+R3574:3590 BST.Src.Spec <> prop_InsertInsert def
+R3592:3592 BST.Strategies.SpecificationBasedGenerator <> t:185 var
+R3594:3594 BST.Strategies.SpecificationBasedGenerator <> k:186 var
+R3596:3597 BST.Strategies.SpecificationBasedGenerator <> k':187 var
+R3599:3599 BST.Strategies.SpecificationBasedGenerator <> v:188 var
+R3601:3602 BST.Strategies.SpecificationBasedGenerator <> v':189 var
+R3544:3552 QuickChick.Classes <> arbitrary meth
+R3507:3515 QuickChick.Classes <> arbitrary meth
+R3469:3477 QuickChick.Classes <> arbitrary meth
+R3432:3440 QuickChick.Classes <> arbitrary meth
+R3357:3371 QuickChick.DependentClasses <> arbitrarySizeST meth
+binder 3380:3380 <> t:190
+R3385:3387 BST.Strategies.SpecificationBasedGenerator <> bst ind
+R3395:3395 BST.Strategies.SpecificationBasedGenerator <> t:190 var
+def 3666:3687 <> test_prop_InsertDelete
+R3697:3707 QuickChick.Checker <> forAllMaybe def
+R3768:3771 BST.Src.Impl <> Tree ind
+binder 3764:3764 <> t:191
+R3779:3784 QuickChick.Checker <> forAll def
+R3805:3807 Coq.Init.Datatypes <> nat ind
+binder 3802:3802 <> k:192
+R3816:3821 QuickChick.Checker <> forAll def
+R3843:3845 Coq.Init.Datatypes <> nat ind
+binder 3839:3840 <> k':193
+R3854:3859 QuickChick.Checker <> forAll def
+R3880:3882 Coq.Init.Datatypes <> nat ind
+binder 3877:3877 <> v:194
+R3890:3906 BST.Src.Spec <> prop_InsertDelete def
+R3908:3908 BST.Strategies.SpecificationBasedGenerator <> t:191 var
+R3910:3910 BST.Strategies.SpecificationBasedGenerator <> k:192 var
+R3912:3913 BST.Strategies.SpecificationBasedGenerator <> k':193 var
+R3915:3915 BST.Strategies.SpecificationBasedGenerator <> v:194 var
+R3861:3869 QuickChick.Classes <> arbitrary meth
+R3823:3831 QuickChick.Classes <> arbitrary meth
+R3786:3794 QuickChick.Classes <> arbitrary meth
+R3711:3725 QuickChick.DependentClasses <> arbitrarySizeST meth
+binder 3734:3734 <> t:195
+R3739:3741 BST.Strategies.SpecificationBasedGenerator <> bst ind
+R3749:3749 BST.Strategies.SpecificationBasedGenerator <> t:195 var
+def 3978:3998 <> test_prop_InsertUnion
+R4007:4017 QuickChick.Checker <> forAllMaybe def
+R4078:4081 BST.Src.Impl <> Tree ind
+binder 4074:4074 <> t:196
+R4089:4099 QuickChick.Checker <> forAllMaybe def
+R4161:4164 BST.Src.Impl <> Tree ind
+binder 4156:4157 <> t':197
+R4172:4177 QuickChick.Checker <> forAll def
+R4198:4200 Coq.Init.Datatypes <> nat ind
+binder 4195:4195 <> k:198
+R4209:4214 QuickChick.Checker <> forAll def
+R4235:4237 Coq.Init.Datatypes <> nat ind
+binder 4232:4232 <> v:199
+R4245:4260 BST.Src.Spec <> prop_InsertUnion def
+R4262:4262 BST.Strategies.SpecificationBasedGenerator <> t:196 var
+R4264:4265 BST.Strategies.SpecificationBasedGenerator <> t':197 var
+R4267:4267 BST.Strategies.SpecificationBasedGenerator <> k:198 var
+R4269:4269 BST.Strategies.SpecificationBasedGenerator <> v:199 var
+R4216:4224 QuickChick.Classes <> arbitrary meth
+R4179:4187 QuickChick.Classes <> arbitrary meth
+R4103:4117 QuickChick.DependentClasses <> arbitrarySizeST meth
+binder 4126:4126 <> t:200
+R4131:4133 BST.Strategies.SpecificationBasedGenerator <> bst ind
+R4141:4141 BST.Strategies.SpecificationBasedGenerator <> t:200 var
+R4021:4035 QuickChick.DependentClasses <> arbitrarySizeST meth
+binder 4044:4044 <> t:201
+R4049:4051 BST.Strategies.SpecificationBasedGenerator <> bst ind
+R4059:4059 BST.Strategies.SpecificationBasedGenerator <> t:201 var
+def 4331:4352 <> test_prop_DeleteInsert
+R4362:4372 QuickChick.Checker <> forAllMaybe def
+R4433:4436 BST.Src.Impl <> Tree ind
+binder 4429:4429 <> t:202
+R4444:4449 QuickChick.Checker <> forAll def
+R4470:4472 Coq.Init.Datatypes <> nat ind
+binder 4467:4467 <> k:203
+R4481:4486 QuickChick.Checker <> forAll def
+R4508:4510 Coq.Init.Datatypes <> nat ind
+binder 4504:4505 <> k':204
+R4519:4524 QuickChick.Checker <> forAll def
+R4546:4548 Coq.Init.Datatypes <> nat ind
+binder 4542:4543 <> v':205
+R4556:4572 BST.Src.Spec <> prop_DeleteInsert def
+R4574:4574 BST.Strategies.SpecificationBasedGenerator <> t:202 var
+R4576:4576 BST.Strategies.SpecificationBasedGenerator <> k:203 var
+R4578:4579 BST.Strategies.SpecificationBasedGenerator <> k':204 var
+R4581:4582 BST.Strategies.SpecificationBasedGenerator <> v':205 var
+R4526:4534 QuickChick.Classes <> arbitrary meth
+R4488:4496 QuickChick.Classes <> arbitrary meth
+R4451:4459 QuickChick.Classes <> arbitrary meth
+R4376:4390 QuickChick.DependentClasses <> arbitrarySizeST meth
+binder 4399:4399 <> t:206
+R4404:4406 BST.Strategies.SpecificationBasedGenerator <> bst ind
+R4414:4414 BST.Strategies.SpecificationBasedGenerator <> t:206 var
+def 4645:4666 <> test_prop_DeleteDelete
+R4676:4686 QuickChick.Checker <> forAllMaybe def
+R4747:4750 BST.Src.Impl <> Tree ind
+binder 4743:4743 <> t:207
+R4758:4763 QuickChick.Checker <> forAll def
+R4784:4786 Coq.Init.Datatypes <> nat ind
+binder 4781:4781 <> k:208
+R4795:4800 QuickChick.Checker <> forAll def
+R4822:4824 Coq.Init.Datatypes <> nat ind
+binder 4818:4819 <> k':209
+R4833:4849 BST.Src.Spec <> prop_DeleteDelete def
+R4851:4851 BST.Strategies.SpecificationBasedGenerator <> t:207 var
+R4853:4853 BST.Strategies.SpecificationBasedGenerator <> k:208 var
+R4855:4856 BST.Strategies.SpecificationBasedGenerator <> k':209 var
+R4802:4810 QuickChick.Classes <> arbitrary meth
+R4765:4773 QuickChick.Classes <> arbitrary meth
+R4690:4704 QuickChick.DependentClasses <> arbitrarySizeST meth
+binder 4713:4713 <> t:210
+R4718:4720 BST.Strategies.SpecificationBasedGenerator <> bst ind
+R4728:4728 BST.Strategies.SpecificationBasedGenerator <> t:210 var
+def 4919:4939 <> test_prop_DeleteUnion
+R4948:4958 QuickChick.Checker <> forAllMaybe def
+R5019:5022 BST.Src.Impl <> Tree ind
+binder 5015:5015 <> t:211
+R5030:5040 QuickChick.Checker <> forAllMaybe def
+R5102:5105 BST.Src.Impl <> Tree ind
+binder 5097:5098 <> t':212
+R5113:5118 QuickChick.Checker <> forAll def
+R5139:5141 Coq.Init.Datatypes <> nat ind
+binder 5136:5136 <> k:213
+R5149:5164 BST.Src.Spec <> prop_DeleteUnion def
+R5166:5166 BST.Strategies.SpecificationBasedGenerator <> t:211 var
+R5168:5169 BST.Strategies.SpecificationBasedGenerator <> t':212 var
+R5171:5171 BST.Strategies.SpecificationBasedGenerator <> k:213 var
+R5120:5128 QuickChick.Classes <> arbitrary meth
+R5044:5058 QuickChick.DependentClasses <> arbitrarySizeST meth
+binder 5067:5067 <> t:214
+R5072:5074 BST.Strategies.SpecificationBasedGenerator <> bst ind
+R5082:5082 BST.Strategies.SpecificationBasedGenerator <> t:214 var
+R4962:4976 QuickChick.DependentClasses <> arbitrarySizeST meth
+binder 4985:4985 <> t:215
+R4990:4992 BST.Strategies.SpecificationBasedGenerator <> bst ind
+R5000:5000 BST.Strategies.SpecificationBasedGenerator <> t:215 var
+def 5232:5258 <> test_prop_UnionDeleteInsert
+R5267:5277 QuickChick.Checker <> forAllMaybe def
+R5337:5340 BST.Src.Impl <> Tree ind
+binder 5334:5334 <> t:216
+R5348:5358 QuickChick.Checker <> forAllMaybe def
+R5420:5423 BST.Src.Impl <> Tree ind
+binder 5415:5416 <> t':217
+R5431:5436 QuickChick.Checker <> forAll def
+R5457:5459 Coq.Init.Datatypes <> nat ind
+binder 5454:5454 <> k:218
+R5468:5473 QuickChick.Checker <> forAll def
+R5494:5496 Coq.Init.Datatypes <> nat ind
+binder 5491:5491 <> v:219
+R5505:5526 BST.Src.Spec <> prop_UnionDeleteInsert def
+R5528:5528 BST.Strategies.SpecificationBasedGenerator <> t:216 var
+R5530:5531 BST.Strategies.SpecificationBasedGenerator <> t':217 var
+R5533:5533 BST.Strategies.SpecificationBasedGenerator <> k:218 var
+R5535:5535 BST.Strategies.SpecificationBasedGenerator <> v:219 var
+R5475:5483 QuickChick.Classes <> arbitrary meth
+R5438:5446 QuickChick.Classes <> arbitrary meth
+R5362:5376 QuickChick.DependentClasses <> arbitrarySizeST meth
+binder 5385:5385 <> t:220
+R5390:5392 BST.Strategies.SpecificationBasedGenerator <> bst ind
+R5400:5400 BST.Strategies.SpecificationBasedGenerator <> t:220 var
+R5281:5295 QuickChick.DependentClasses <> arbitrarySizeST meth
+binder 5304:5304 <> t:221
+R5309:5311 BST.Strategies.SpecificationBasedGenerator <> bst ind
+R5319:5319 BST.Strategies.SpecificationBasedGenerator <> t:221 var
+def 5604:5627 <> test_prop_UnionUnionIdem
+R5637:5647 QuickChick.Checker <> forAllMaybe def
+R5707:5710 BST.Src.Impl <> Tree ind
+binder 5704:5704 <> t:222
+R5718:5736 BST.Src.Spec <> prop_UnionUnionIdem def
+R5738:5738 BST.Strategies.SpecificationBasedGenerator <> t:222 var
+R5651:5665 QuickChick.DependentClasses <> arbitrarySizeST meth
+binder 5674:5674 <> t:223
+R5679:5681 BST.Strategies.SpecificationBasedGenerator <> bst ind
+R5689:5689 BST.Strategies.SpecificationBasedGenerator <> t:223 var
+def 5800:5824 <> test_prop_UnionUnionAssoc
+R5833:5843 QuickChick.Checker <> forAllMaybe def
+R5905:5908 BST.Src.Impl <> Tree ind
+binder 5900:5901 <> t1:224
+R5916:5926 QuickChick.Checker <> forAllMaybe def
+R5988:5991 BST.Src.Impl <> Tree ind
+binder 5983:5984 <> t2:225
+R5999:6009 QuickChick.Checker <> forAllMaybe def
+R6071:6074 BST.Src.Impl <> Tree ind
+binder 6066:6067 <> t3:226
+R6082:6101 BST.Src.Spec <> prop_UnionUnionAssoc def
+R6103:6104 BST.Strategies.SpecificationBasedGenerator <> t1:224 var
+R6106:6107 BST.Strategies.SpecificationBasedGenerator <> t2:225 var
+R6109:6110 BST.Strategies.SpecificationBasedGenerator <> t3:226 var
+R6013:6027 QuickChick.DependentClasses <> arbitrarySizeST meth
+binder 6036:6036 <> t:227
+R6041:6043 BST.Strategies.SpecificationBasedGenerator <> bst ind
+R6051:6051 BST.Strategies.SpecificationBasedGenerator <> t:227 var
+R5930:5944 QuickChick.DependentClasses <> arbitrarySizeST meth
+binder 5953:5953 <> t:228
+R5958:5960 BST.Strategies.SpecificationBasedGenerator <> bst ind
+R5968:5968 BST.Strategies.SpecificationBasedGenerator <> t:228 var
+R5847:5861 QuickChick.DependentClasses <> arbitrarySizeST meth
+binder 5870:5870 <> t:229
+R5875:5877 BST.Strategies.SpecificationBasedGenerator <> bst ind
+R5885:5885 BST.Strategies.SpecificationBasedGenerator <> t:229 var
