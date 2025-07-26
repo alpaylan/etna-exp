@@ -1,0 +1,123 @@
+{
+    "check_steps": [
+        {
+            "Command": {
+                "command": "coqc",
+                "args": [
+                    "--print-version"
+                ]
+            }
+        }
+    ],
+    "build_steps": [
+        {
+            "Command": {
+                "command": "$workload_path/build"
+            }
+        },
+        {
+            "Command": {
+                "command": "$workload_path/build_generator",
+                "args": [
+                    "!generator"
+                ],
+                "params": [
+                    "workload_path",
+                    "generator"
+                ]
+            }
+        },
+        {
+            "Command": {
+                "command": "$workload_path/build_fuzzer",
+                "args": [
+                    "!fuzzer"
+                ],
+                "params": [
+                    "workload_path",
+                    "fuzzer"
+                ]
+            }
+        }
+    ],
+    "run_step": {
+        "Match": {
+            "value": "strategy",
+            "options": {
+                "fuzzer": {
+                    "Command": {
+                        "command": "$workload_path/main_exec",
+                        "args": [
+                            "\"$strategy_exec $property\""
+                        ],
+                        "params": [
+                            "workload_path",
+                            "property",
+                            "strategy"
+                        ]
+                    }
+                },
+                "generator": {
+                    "Match": {
+                        "value": "cross",
+                        "options": {
+                            "false": {
+                                "Command": {
+                                    "command": "$workload_path/$strategy_test_runner.native",
+                                    "args": [
+                                        "$property"
+                                    ],
+                                    "params": [
+                                        "workload_path",
+                                        "property",
+                                        "strategy"
+                                    ]
+                                }
+                            },
+                            "true": {
+                                "Command": {
+                                    "command": "$workload_path/$strategy_sampler.native",
+                                    "args": [
+                                        "$property",
+                                        "1000"
+                                    ],
+                                    "params": [
+                                        "workload_path",
+                                        "property",
+                                        "strategy"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "tags": {
+        "BespokeGenerator": [
+            "generator",
+            "sampler"
+        ],
+        "SpecificationBasedGenerator": [
+            "generator"
+        ],
+        "TypeBasedGenerator": [
+            "generator"
+        ],
+        "TypeBasedFuzzer": [
+            "fuzzer"
+        ],
+        "generator": [
+            "BespokeGenerator",
+            "SpecificationBasedGenerator",
+            "TypeBasedGenerator"
+        ],
+        "fuzzer": [
+            "TypeBasedFuzzer"
+        ],
+        "sampler": [
+            "BespokeGenerator"
+        ]
+    }
+}

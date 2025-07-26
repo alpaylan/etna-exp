@@ -1,0 +1,317 @@
+DIGEST 2e8ba4da0c9d39b76e531fd2c68533cf
+FBST.Runners.BespokeGenerator_test_runner
+R31:40 QuickChick.QuickChick <> <> lib
+R125:140 BST.Strategies.BespokeGenerator <> <> lib
+ax 150:158 <> num_tests
+R162:164 Coq.Init.Datatypes <> nat ind
+def 221:248 <> qctest_test_prop_InsertValid
+R262:265 Coq.Init.Datatypes <> unit ind
+R270:295 QuickChick.ExtractionQC <> print_extracted_coq_string prfax
+R303:306 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R451:454 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R307:310 QuickChick.Show <> show meth
+R313:320 QuickChick.Test <> withTime prfax
+binder 326:327 <> tt:3
+R333:346 QuickChick.Test <> quickCheckWith def
+R427:447 BST.Strategies.BespokeGenerator <> test_prop_InsertValid def
+R349:361 QuickChick.Test <> updMaxDiscard def
+R416:424 BST.Runners.BespokeGenerator_test_runner <> num_tests prfax
+R364:376 QuickChick.Test <> updMaxSuccess def
+R405:413 BST.Runners.BespokeGenerator_test_runner <> num_tests prfax
+R379:389 QuickChick.Test <> updAnalysis def
+R399:402 Coq.Init.Datatypes <> true constr
+R391:397 QuickChick.Test <> stdArgs def
+def 475:502 <> qctest_test_prop_DeleteValid
+R516:519 Coq.Init.Datatypes <> unit ind
+R524:549 QuickChick.ExtractionQC <> print_extracted_coq_string prfax
+R557:560 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R705:708 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R561:564 QuickChick.Show <> show meth
+R567:574 QuickChick.Test <> withTime prfax
+binder 580:581 <> tt:4
+R587:600 QuickChick.Test <> quickCheckWith def
+R681:701 BST.Strategies.BespokeGenerator <> test_prop_DeleteValid def
+R603:615 QuickChick.Test <> updMaxDiscard def
+R670:678 BST.Runners.BespokeGenerator_test_runner <> num_tests prfax
+R618:630 QuickChick.Test <> updMaxSuccess def
+R659:667 BST.Runners.BespokeGenerator_test_runner <> num_tests prfax
+R633:643 QuickChick.Test <> updAnalysis def
+R653:656 Coq.Init.Datatypes <> true constr
+R645:651 QuickChick.Test <> stdArgs def
+def 729:755 <> qctest_test_prop_UnionValid
+R769:772 Coq.Init.Datatypes <> unit ind
+R777:802 QuickChick.ExtractionQC <> print_extracted_coq_string prfax
+R810:813 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R957:960 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R814:817 QuickChick.Show <> show meth
+R820:827 QuickChick.Test <> withTime prfax
+binder 833:834 <> tt:5
+R840:853 QuickChick.Test <> quickCheckWith def
+R934:953 BST.Strategies.BespokeGenerator <> test_prop_UnionValid def
+R856:868 QuickChick.Test <> updMaxDiscard def
+R923:931 BST.Runners.BespokeGenerator_test_runner <> num_tests prfax
+R871:883 QuickChick.Test <> updMaxSuccess def
+R912:920 BST.Runners.BespokeGenerator_test_runner <> num_tests prfax
+R886:896 QuickChick.Test <> updAnalysis def
+R906:909 Coq.Init.Datatypes <> true constr
+R898:904 QuickChick.Test <> stdArgs def
+def 981:1007 <> qctest_test_prop_InsertPost
+R1021:1024 Coq.Init.Datatypes <> unit ind
+R1029:1054 QuickChick.ExtractionQC <> print_extracted_coq_string prfax
+R1062:1065 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R1209:1212 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R1066:1069 QuickChick.Show <> show meth
+R1072:1079 QuickChick.Test <> withTime prfax
+binder 1085:1086 <> tt:6
+R1092:1105 QuickChick.Test <> quickCheckWith def
+R1186:1205 BST.Strategies.BespokeGenerator <> test_prop_InsertPost def
+R1108:1120 QuickChick.Test <> updMaxDiscard def
+R1175:1183 BST.Runners.BespokeGenerator_test_runner <> num_tests prfax
+R1123:1135 QuickChick.Test <> updMaxSuccess def
+R1164:1172 BST.Runners.BespokeGenerator_test_runner <> num_tests prfax
+R1138:1148 QuickChick.Test <> updAnalysis def
+R1158:1161 Coq.Init.Datatypes <> true constr
+R1150:1156 QuickChick.Test <> stdArgs def
+def 1233:1259 <> qctest_test_prop_DeletePost
+R1273:1276 Coq.Init.Datatypes <> unit ind
+R1281:1306 QuickChick.ExtractionQC <> print_extracted_coq_string prfax
+R1314:1317 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R1461:1464 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R1318:1321 QuickChick.Show <> show meth
+R1324:1331 QuickChick.Test <> withTime prfax
+binder 1337:1338 <> tt:7
+R1344:1357 QuickChick.Test <> quickCheckWith def
+R1438:1457 BST.Strategies.BespokeGenerator <> test_prop_DeletePost def
+R1360:1372 QuickChick.Test <> updMaxDiscard def
+R1427:1435 BST.Runners.BespokeGenerator_test_runner <> num_tests prfax
+R1375:1387 QuickChick.Test <> updMaxSuccess def
+R1416:1424 BST.Runners.BespokeGenerator_test_runner <> num_tests prfax
+R1390:1400 QuickChick.Test <> updAnalysis def
+R1410:1413 Coq.Init.Datatypes <> true constr
+R1402:1408 QuickChick.Test <> stdArgs def
+def 1485:1510 <> qctest_test_prop_UnionPost
+R1524:1527 Coq.Init.Datatypes <> unit ind
+R1532:1557 QuickChick.ExtractionQC <> print_extracted_coq_string prfax
+R1565:1568 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R1711:1714 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R1569:1572 QuickChick.Show <> show meth
+R1575:1582 QuickChick.Test <> withTime prfax
+binder 1588:1589 <> tt:8
+R1595:1608 QuickChick.Test <> quickCheckWith def
+R1689:1707 BST.Strategies.BespokeGenerator <> test_prop_UnionPost def
+R1611:1623 QuickChick.Test <> updMaxDiscard def
+R1678:1686 BST.Runners.BespokeGenerator_test_runner <> num_tests prfax
+R1626:1638 QuickChick.Test <> updMaxSuccess def
+R1667:1675 BST.Runners.BespokeGenerator_test_runner <> num_tests prfax
+R1641:1651 QuickChick.Test <> updAnalysis def
+R1661:1664 Coq.Init.Datatypes <> true constr
+R1653:1659 QuickChick.Test <> stdArgs def
+def 1735:1762 <> qctest_test_prop_InsertModel
+R1776:1779 Coq.Init.Datatypes <> unit ind
+R1784:1809 QuickChick.ExtractionQC <> print_extracted_coq_string prfax
+R1817:1820 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R1965:1968 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R1821:1824 QuickChick.Show <> show meth
+R1827:1834 QuickChick.Test <> withTime prfax
+binder 1840:1841 <> tt:9
+R1847:1860 QuickChick.Test <> quickCheckWith def
+R1941:1961 BST.Strategies.BespokeGenerator <> test_prop_InsertModel def
+R1863:1875 QuickChick.Test <> updMaxDiscard def
+R1930:1938 BST.Runners.BespokeGenerator_test_runner <> num_tests prfax
+R1878:1890 QuickChick.Test <> updMaxSuccess def
+R1919:1927 BST.Runners.BespokeGenerator_test_runner <> num_tests prfax
+R1893:1903 QuickChick.Test <> updAnalysis def
+R1913:1916 Coq.Init.Datatypes <> true constr
+R1905:1911 QuickChick.Test <> stdArgs def
+def 1989:2016 <> qctest_test_prop_DeleteModel
+R2030:2033 Coq.Init.Datatypes <> unit ind
+R2038:2063 QuickChick.ExtractionQC <> print_extracted_coq_string prfax
+R2071:2074 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R2219:2222 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R2075:2078 QuickChick.Show <> show meth
+R2081:2088 QuickChick.Test <> withTime prfax
+binder 2094:2095 <> tt:10
+R2101:2114 QuickChick.Test <> quickCheckWith def
+R2195:2215 BST.Strategies.BespokeGenerator <> test_prop_DeleteModel def
+R2117:2129 QuickChick.Test <> updMaxDiscard def
+R2184:2192 BST.Runners.BespokeGenerator_test_runner <> num_tests prfax
+R2132:2144 QuickChick.Test <> updMaxSuccess def
+R2173:2181 BST.Runners.BespokeGenerator_test_runner <> num_tests prfax
+R2147:2157 QuickChick.Test <> updAnalysis def
+R2167:2170 Coq.Init.Datatypes <> true constr
+R2159:2165 QuickChick.Test <> stdArgs def
+def 2243:2269 <> qctest_test_prop_UnionModel
+R2283:2286 Coq.Init.Datatypes <> unit ind
+R2291:2316 QuickChick.ExtractionQC <> print_extracted_coq_string prfax
+R2324:2327 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R2471:2474 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R2328:2331 QuickChick.Show <> show meth
+R2334:2341 QuickChick.Test <> withTime prfax
+binder 2347:2348 <> tt:11
+R2354:2367 QuickChick.Test <> quickCheckWith def
+R2448:2467 BST.Strategies.BespokeGenerator <> test_prop_UnionModel def
+R2370:2382 QuickChick.Test <> updMaxDiscard def
+R2437:2445 BST.Runners.BespokeGenerator_test_runner <> num_tests prfax
+R2385:2397 QuickChick.Test <> updMaxSuccess def
+R2426:2434 BST.Runners.BespokeGenerator_test_runner <> num_tests prfax
+R2400:2410 QuickChick.Test <> updAnalysis def
+R2420:2423 Coq.Init.Datatypes <> true constr
+R2412:2418 QuickChick.Test <> stdArgs def
+def 2495:2523 <> qctest_test_prop_InsertInsert
+R2537:2540 Coq.Init.Datatypes <> unit ind
+R2545:2570 QuickChick.ExtractionQC <> print_extracted_coq_string prfax
+R2578:2581 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R2727:2730 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R2582:2585 QuickChick.Show <> show meth
+R2588:2595 QuickChick.Test <> withTime prfax
+binder 2601:2602 <> tt:12
+R2608:2621 QuickChick.Test <> quickCheckWith def
+R2702:2723 BST.Strategies.BespokeGenerator <> test_prop_InsertInsert def
+R2624:2636 QuickChick.Test <> updMaxDiscard def
+R2691:2699 BST.Runners.BespokeGenerator_test_runner <> num_tests prfax
+R2639:2651 QuickChick.Test <> updMaxSuccess def
+R2680:2688 BST.Runners.BespokeGenerator_test_runner <> num_tests prfax
+R2654:2664 QuickChick.Test <> updAnalysis def
+R2674:2677 Coq.Init.Datatypes <> true constr
+R2666:2672 QuickChick.Test <> stdArgs def
+def 2751:2779 <> qctest_test_prop_InsertDelete
+R2793:2796 Coq.Init.Datatypes <> unit ind
+R2801:2826 QuickChick.ExtractionQC <> print_extracted_coq_string prfax
+R2834:2837 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R2983:2986 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R2838:2841 QuickChick.Show <> show meth
+R2844:2851 QuickChick.Test <> withTime prfax
+binder 2857:2858 <> tt:13
+R2864:2877 QuickChick.Test <> quickCheckWith def
+R2958:2979 BST.Strategies.BespokeGenerator <> test_prop_InsertDelete def
+R2880:2892 QuickChick.Test <> updMaxDiscard def
+R2947:2955 BST.Runners.BespokeGenerator_test_runner <> num_tests prfax
+R2895:2907 QuickChick.Test <> updMaxSuccess def
+R2936:2944 BST.Runners.BespokeGenerator_test_runner <> num_tests prfax
+R2910:2920 QuickChick.Test <> updAnalysis def
+R2930:2933 Coq.Init.Datatypes <> true constr
+R2922:2928 QuickChick.Test <> stdArgs def
+def 3007:3034 <> qctest_test_prop_InsertUnion
+R3048:3051 Coq.Init.Datatypes <> unit ind
+R3056:3081 QuickChick.ExtractionQC <> print_extracted_coq_string prfax
+R3089:3092 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R3237:3240 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R3093:3096 QuickChick.Show <> show meth
+R3099:3106 QuickChick.Test <> withTime prfax
+binder 3112:3113 <> tt:14
+R3119:3132 QuickChick.Test <> quickCheckWith def
+R3213:3233 BST.Strategies.BespokeGenerator <> test_prop_InsertUnion def
+R3135:3147 QuickChick.Test <> updMaxDiscard def
+R3202:3210 BST.Runners.BespokeGenerator_test_runner <> num_tests prfax
+R3150:3162 QuickChick.Test <> updMaxSuccess def
+R3191:3199 BST.Runners.BespokeGenerator_test_runner <> num_tests prfax
+R3165:3175 QuickChick.Test <> updAnalysis def
+R3185:3188 Coq.Init.Datatypes <> true constr
+R3177:3183 QuickChick.Test <> stdArgs def
+def 3261:3289 <> qctest_test_prop_DeleteInsert
+R3303:3306 Coq.Init.Datatypes <> unit ind
+R3311:3336 QuickChick.ExtractionQC <> print_extracted_coq_string prfax
+R3344:3347 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R3493:3496 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R3348:3351 QuickChick.Show <> show meth
+R3354:3361 QuickChick.Test <> withTime prfax
+binder 3367:3368 <> tt:15
+R3374:3387 QuickChick.Test <> quickCheckWith def
+R3468:3489 BST.Strategies.BespokeGenerator <> test_prop_DeleteInsert def
+R3390:3402 QuickChick.Test <> updMaxDiscard def
+R3457:3465 BST.Runners.BespokeGenerator_test_runner <> num_tests prfax
+R3405:3417 QuickChick.Test <> updMaxSuccess def
+R3446:3454 BST.Runners.BespokeGenerator_test_runner <> num_tests prfax
+R3420:3430 QuickChick.Test <> updAnalysis def
+R3440:3443 Coq.Init.Datatypes <> true constr
+R3432:3438 QuickChick.Test <> stdArgs def
+def 3517:3545 <> qctest_test_prop_DeleteDelete
+R3559:3562 Coq.Init.Datatypes <> unit ind
+R3567:3592 QuickChick.ExtractionQC <> print_extracted_coq_string prfax
+R3600:3603 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R3749:3752 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R3604:3607 QuickChick.Show <> show meth
+R3610:3617 QuickChick.Test <> withTime prfax
+binder 3623:3624 <> tt:16
+R3630:3643 QuickChick.Test <> quickCheckWith def
+R3724:3745 BST.Strategies.BespokeGenerator <> test_prop_DeleteDelete def
+R3646:3658 QuickChick.Test <> updMaxDiscard def
+R3713:3721 BST.Runners.BespokeGenerator_test_runner <> num_tests prfax
+R3661:3673 QuickChick.Test <> updMaxSuccess def
+R3702:3710 BST.Runners.BespokeGenerator_test_runner <> num_tests prfax
+R3676:3686 QuickChick.Test <> updAnalysis def
+R3696:3699 Coq.Init.Datatypes <> true constr
+R3688:3694 QuickChick.Test <> stdArgs def
+def 3773:3800 <> qctest_test_prop_DeleteUnion
+R3814:3817 Coq.Init.Datatypes <> unit ind
+R3822:3847 QuickChick.ExtractionQC <> print_extracted_coq_string prfax
+R3855:3858 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R4003:4006 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R3859:3862 QuickChick.Show <> show meth
+R3865:3872 QuickChick.Test <> withTime prfax
+binder 3878:3879 <> tt:17
+R3885:3898 QuickChick.Test <> quickCheckWith def
+R3979:3999 BST.Strategies.BespokeGenerator <> test_prop_DeleteUnion def
+R3901:3913 QuickChick.Test <> updMaxDiscard def
+R3968:3976 BST.Runners.BespokeGenerator_test_runner <> num_tests prfax
+R3916:3928 QuickChick.Test <> updMaxSuccess def
+R3957:3965 BST.Runners.BespokeGenerator_test_runner <> num_tests prfax
+R3931:3941 QuickChick.Test <> updAnalysis def
+R3951:3954 Coq.Init.Datatypes <> true constr
+R3943:3949 QuickChick.Test <> stdArgs def
+def 4027:4060 <> qctest_test_prop_UnionDeleteInsert
+R4074:4077 Coq.Init.Datatypes <> unit ind
+R4082:4107 QuickChick.ExtractionQC <> print_extracted_coq_string prfax
+R4115:4118 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R4269:4272 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R4119:4122 QuickChick.Show <> show meth
+R4125:4132 QuickChick.Test <> withTime prfax
+binder 4138:4139 <> tt:18
+R4145:4158 QuickChick.Test <> quickCheckWith def
+R4239:4265 BST.Strategies.BespokeGenerator <> test_prop_UnionDeleteInsert def
+R4161:4173 QuickChick.Test <> updMaxDiscard def
+R4228:4236 BST.Runners.BespokeGenerator_test_runner <> num_tests prfax
+R4176:4188 QuickChick.Test <> updMaxSuccess def
+R4217:4225 BST.Runners.BespokeGenerator_test_runner <> num_tests prfax
+R4191:4201 QuickChick.Test <> updAnalysis def
+R4211:4214 Coq.Init.Datatypes <> true constr
+R4203:4209 QuickChick.Test <> stdArgs def
+def 4293:4323 <> qctest_test_prop_UnionUnionIdem
+R4337:4340 Coq.Init.Datatypes <> unit ind
+R4345:4370 QuickChick.ExtractionQC <> print_extracted_coq_string prfax
+R4378:4381 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R4529:4532 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R4382:4385 QuickChick.Show <> show meth
+R4388:4395 QuickChick.Test <> withTime prfax
+binder 4401:4402 <> tt:19
+R4408:4421 QuickChick.Test <> quickCheckWith def
+R4502:4525 BST.Strategies.BespokeGenerator <> test_prop_UnionUnionIdem def
+R4424:4436 QuickChick.Test <> updMaxDiscard def
+R4491:4499 BST.Runners.BespokeGenerator_test_runner <> num_tests prfax
+R4439:4451 QuickChick.Test <> updMaxSuccess def
+R4480:4488 BST.Runners.BespokeGenerator_test_runner <> num_tests prfax
+R4454:4464 QuickChick.Test <> updAnalysis def
+R4474:4477 Coq.Init.Datatypes <> true constr
+R4466:4472 QuickChick.Test <> stdArgs def
+def 4553:4584 <> qctest_test_prop_UnionUnionAssoc
+R4598:4601 Coq.Init.Datatypes <> unit ind
+R4606:4631 QuickChick.ExtractionQC <> print_extracted_coq_string prfax
+R4639:4642 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R4791:4794 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R4643:4646 QuickChick.Show <> show meth
+R4649:4656 QuickChick.Test <> withTime prfax
+binder 4662:4663 <> tt:20
+R4669:4682 QuickChick.Test <> quickCheckWith def
+R4763:4787 BST.Strategies.BespokeGenerator <> test_prop_UnionUnionAssoc def
+R4685:4697 QuickChick.Test <> updMaxDiscard def
+R4752:4760 BST.Runners.BespokeGenerator_test_runner <> num_tests prfax
+R4700:4712 QuickChick.Test <> updMaxSuccess def
+R4741:4749 BST.Runners.BespokeGenerator_test_runner <> num_tests prfax
+R4715:4725 QuickChick.Test <> updAnalysis def
+R4735:4738 Coq.Init.Datatypes <> true constr
+R4727:4733 QuickChick.Test <> stdArgs def
+ax 4815:4825 <> OCamlString
+ax 4884:4893 <> qctest_map
+R4908:4911 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4897:4907 BST.Runners.BespokeGenerator_test_runner <> OCamlString defax
+R4912:4915 Coq.Init.Datatypes <> unit ind

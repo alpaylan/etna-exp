@@ -1,0 +1,219 @@
+DIGEST 8d0f42be95e7298c4e3fa7423b2c615a
+FBST.Src.Impl
+R15:18 Coq.Lists.List <> <> lib
+R20:25 Coq.ZArith.ZArith <> <> lib
+R35:47 Coq.Lists.List ListNotations <> mod
+R58:67 Coq.extraction.Extraction <> <> lib
+R101:110 QuickChick.QuickChick <> <> lib
+R120:129 QuickChick.Checker QcNotation <> mod
+ind 143:146 <> Tree
+constr 153:153 <> E
+constr 158:158 <> T
+R166:169 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R162:165 BST.Src.Impl <> Tree:1 ind
+R173:176 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R170:172 Coq.Init.Datatypes <> nat ind
+R180:183 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R177:179 Coq.Init.Datatypes <> nat ind
+R188:191 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R184:187 BST.Src.Impl <> Tree:1 ind
+R192:195 BST.Src.Impl <> Tree:1 ind
+scheme 143:146 <> Tree_rect
+scheme 143:146 <> Tree_ind
+scheme 143:146 <> Tree_rec
+scheme 143:146 <> Tree_sind
+inst 250:257 <> ShowTree
+R261:264 QuickChick.Show <> Show class
+R266:269 BST.Src.Impl <> Tree ind
+R279:282 QuickChick.Show <> show meth
+R279:282 QuickChick.Show <> show meth
+R279:282 QuickChick.Show <> show meth
+binder 284:284 <> t:3
+R311:314 BST.Src.Impl <> Tree ind
+binder 307:307 <> t:4
+R319:324 Coq.Strings.String <> string ind
+R341:341 BST.Src.Impl <> t:4 var
+R356:356 BST.Src.Impl <> E constr
+R375:375 BST.Src.Impl <> T constr
+R393:396 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R402:405 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R397:399 BST.Src.Impl <> aux:5 var
+R409:412 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R419:422 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R413:416 QuickChick.Show <> show meth
+R426:429 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R436:439 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R430:433 QuickChick.Show <> show meth
+R443:446 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R452:455 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R447:449 BST.Src.Impl <> aux:5 var
+binder 302:304 <> aux:7
+R477:479 BST.Src.Impl <> aux:7 var
+R481:481 BST.Src.Impl <> t:3 var
+ax 529:532 <> fuel
+R536:538 Coq.Init.Datatypes <> nat ind
+def 588:593 <> insert
+R600:602 Coq.Init.Datatypes <> nat ind
+binder 596:596 <> k:10
+R609:611 Coq.Init.Datatypes <> nat ind
+binder 606:606 <> v:11
+R619:622 BST.Src.Impl <> Tree ind
+binder 615:615 <> t:12
+R636:636 BST.Src.Impl <> t:12 var
+R647:647 BST.Src.Impl <> E constr
+R652:652 BST.Src.Impl <> T constr
+R654:654 BST.Src.Impl <> E constr
+R656:656 BST.Src.Impl <> k:10 var
+R658:658 BST.Src.Impl <> v:11 var
+R660:660 BST.Src.Impl <> E constr
+R666:666 BST.Src.Impl <> T constr
+R719:722 Coq.Arith.PeanoNat <> ::nat_scope:x_'<?'_x not
+R718:718 BST.Src.Impl <> k:10 var
+R771:774 Coq.Arith.PeanoNat <> ::nat_scope:x_'<?'_x not
+R775:775 BST.Src.Impl <> k:10 var
+R817:817 BST.Src.Impl <> T constr
+R824:824 BST.Src.Impl <> v:11 var
+R782:782 BST.Src.Impl <> T constr
+R793:798 BST.Src.Impl <> insert:13 def
+R802:802 BST.Src.Impl <> v:11 var
+R800:800 BST.Src.Impl <> k:10 var
+R731:731 BST.Src.Impl <> T constr
+R734:739 BST.Src.Impl <> insert:13 def
+R743:743 BST.Src.Impl <> v:11 var
+R741:741 BST.Src.Impl <> k:10 var
+def 1169:1172 <> join
+R1178:1181 BST.Src.Impl <> Tree ind
+binder 1175:1175 <> l:15
+R1188:1191 BST.Src.Impl <> Tree ind
+binder 1185:1185 <> r:16
+R1208:1208 BST.Src.Impl <> r:16 var
+R1205:1205 BST.Src.Impl <> l:15 var
+R1219:1219 BST.Src.Impl <> E constr
+R1227:1227 BST.Src.Impl <> r:16 var
+R1236:1236 BST.Src.Impl <> E constr
+R1241:1241 BST.Src.Impl <> l:15 var
+R1247:1247 BST.Src.Impl <> T constr
+R1258:1258 BST.Src.Impl <> T constr
+R1279:1279 BST.Src.Impl <> T constr
+R1281:1281 BST.Src.Impl <> l:15 var
+R1288:1288 BST.Src.Impl <> T constr
+R1291:1294 BST.Src.Impl <> join:17 def
+R1296:1296 BST.Src.Impl <> r:16 var
+def 1333:1338 <> delete
+R1344:1346 Coq.Init.Datatypes <> nat ind
+binder 1341:1341 <> k:20
+R1353:1356 BST.Src.Impl <> Tree ind
+binder 1350:1350 <> t:21
+R1370:1370 BST.Src.Impl <> t:21 var
+R1381:1381 BST.Src.Impl <> E constr
+R1386:1386 BST.Src.Impl <> E constr
+R1392:1392 BST.Src.Impl <> T constr
+R1418:1421 Coq.Arith.PeanoNat <> ::nat_scope:x_'<?'_x not
+R1417:1417 BST.Src.Impl <> k:20 var
+R1465:1468 Coq.Arith.PeanoNat <> ::nat_scope:x_'<?'_x not
+R1469:1469 BST.Src.Impl <> k:20 var
+R1506:1509 BST.Src.Impl <> join def
+R1476:1476 BST.Src.Impl <> T constr
+R1487:1492 BST.Src.Impl <> delete:22 def
+R1494:1494 BST.Src.Impl <> k:20 var
+R1430:1430 BST.Src.Impl <> T constr
+R1433:1438 BST.Src.Impl <> delete:22 def
+R1440:1440 BST.Src.Impl <> k:20 var
+def 1765:1769 <> below
+R1775:1777 Coq.Init.Datatypes <> nat ind
+binder 1772:1772 <> k:24
+R1784:1787 BST.Src.Impl <> Tree ind
+binder 1781:1781 <> t:25
+R1804:1804 BST.Src.Impl <> t:25 var
+R1801:1801 BST.Src.Impl <> k:24 var
+R1818:1818 BST.Src.Impl <> E constr
+R1823:1823 BST.Src.Impl <> E constr
+R1832:1832 BST.Src.Impl <> T constr
+R1854:1858 Coq.Arith.PeanoNat <> ::nat_scope:x_'<=?'_x not
+R1853:1853 BST.Src.Impl <> k:24 var
+R1886:1886 BST.Src.Impl <> T constr
+R1896:1900 BST.Src.Impl <> below:26 def
+R1902:1902 BST.Src.Impl <> k:24 var
+R1867:1871 BST.Src.Impl <> below:26 def
+R1873:1873 BST.Src.Impl <> k:24 var
+def 1924:1928 <> above
+R1934:1936 Coq.Init.Datatypes <> nat ind
+binder 1931:1931 <> k:29
+R1943:1946 BST.Src.Impl <> Tree ind
+binder 1940:1940 <> t:30
+R1963:1963 BST.Src.Impl <> t:30 var
+R1960:1960 BST.Src.Impl <> k:29 var
+R1977:1977 BST.Src.Impl <> E constr
+R1982:1982 BST.Src.Impl <> E constr
+R1992:1992 BST.Src.Impl <> T constr
+R2016:2020 Coq.Arith.PeanoNat <> ::nat_scope:x_'<=?'_x not
+R2021:2021 BST.Src.Impl <> k:29 var
+R2047:2047 BST.Src.Impl <> T constr
+R2050:2054 BST.Src.Impl <> above:31 def
+R2056:2056 BST.Src.Impl <> k:29 var
+R2028:2032 BST.Src.Impl <> above:31 def
+R2034:2034 BST.Src.Impl <> k:29 var
+def 2088:2093 <> union_
+R2099:2102 BST.Src.Impl <> Tree ind
+binder 2096:2096 <> l:34
+R2109:2112 BST.Src.Impl <> Tree ind
+binder 2106:2106 <> r:35
+R2119:2121 Coq.Init.Datatypes <> nat ind
+binder 2116:2116 <> f:36
+R2135:2135 BST.Src.Impl <> f:36 var
+R2151:2151 BST.Src.Impl <> E constr
+R2157:2157 Coq.Init.Datatypes <> S constr
+R2178:2178 BST.Src.Impl <> r:35 var
+R2175:2175 BST.Src.Impl <> l:34 var
+R2191:2191 BST.Src.Impl <> E constr
+R2199:2199 BST.Src.Impl <> r:35 var
+R2210:2210 BST.Src.Impl <> E constr
+R2215:2215 BST.Src.Impl <> l:34 var
+R2227:2227 BST.Src.Impl <> T constr
+R2250:2250 BST.Src.Impl <> T constr
+R2253:2258 BST.Src.Impl <> union_:37 def
+R2263:2267 BST.Src.Impl <> below def
+R2260:2260 BST.Src.Impl <> l:34 var
+R2283:2288 BST.Src.Impl <> union_:37 def
+R2293:2297 BST.Src.Impl <> above def
+R2290:2290 BST.Src.Impl <> r:35 var
+def 2968:2972 <> union
+R2978:2981 BST.Src.Impl <> Tree ind
+binder 2975:2975 <> l:41
+R2988:2991 BST.Src.Impl <> Tree ind
+binder 2985:2985 <> r:42
+R2999:3004 BST.Src.Impl <> union_ def
+R3006:3006 BST.Src.Impl <> l:41 var
+R3008:3008 BST.Src.Impl <> r:42 var
+R3010:3013 BST.Src.Impl <> fuel prfax
+def 3027:3030 <> find
+R3036:3038 Coq.Init.Datatypes <> nat ind
+binder 3033:3033 <> k:43
+R3045:3048 BST.Src.Impl <> Tree ind
+binder 3042:3042 <> t:44
+R3052:3057 Coq.Init.Datatypes <> option ind
+R3059:3061 Coq.Init.Datatypes <> nat ind
+R3077:3077 BST.Src.Impl <> t:44 var
+R3074:3074 BST.Src.Impl <> k:43 var
+R3091:3091 BST.Src.Impl <> E constr
+R3096:3099 Coq.Init.Datatypes <> None constr
+R3109:3109 BST.Src.Impl <> T constr
+R3133:3136 Coq.Arith.PeanoNat <> ::nat_scope:x_'<?'_x not
+R3132:3132 BST.Src.Impl <> k:43 var
+R3168:3171 Coq.Arith.PeanoNat <> ::nat_scope:x_'<?'_x not
+R3172:3172 BST.Src.Impl <> k:43 var
+R3197:3200 Coq.Init.Datatypes <> Some constr
+R3179:3182 BST.Src.Impl <> find:45 def
+R3184:3184 BST.Src.Impl <> k:43 var
+R3145:3148 BST.Src.Impl <> find:45 def
+R3150:3150 BST.Src.Impl <> k:43 var
+def 3224:3227 <> size
+R3233:3236 BST.Src.Impl <> Tree ind
+binder 3230:3230 <> t:48
+R3250:3250 BST.Src.Impl <> t:48 var
+R3261:3261 BST.Src.Impl <> E constr
+R3272:3272 BST.Src.Impl <> T constr
+R3295:3297 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R3286:3288 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R3289:3292 BST.Src.Impl <> size:49 def
+R3298:3301 BST.Src.Impl <> size:49 def

@@ -1,0 +1,568 @@
+DIGEST abf96ee7ccf913f2f242f4842501a74c
+FBST.Strategies.TypeBasedFuzzer
+R31:40 QuickChick.QuickChick <> <> lib
+R50:59 QuickChick.Checker QcNotation <> mod
+R86:89 Coq.Lists.List <> <> lib
+R99:111 Coq.Lists.List ListNotations <> mod
+R138:143 Coq.ZArith.ZArith <> <> lib
+R173:177 ExtLib.Structures.Monad <> <> lib
+R187:199 ExtLib.Structures.Monad MonadNotation <> mod
+R227:230 BST.Src.Impl <> <> lib
+R257:260 BST.Src.Spec <> <> lib
+inst 282:289 <> FuzzyNat
+R293:297 QuickChick.Classes <> Fuzzy class
+R299:301 Coq.Init.Datatypes <> nat ind
+R311:314 QuickChick.Classes <> fuzz meth
+R311:314 QuickChick.Classes <> fuzz meth
+R311:314 QuickChick.Classes <> fuzz meth
+binder 316:316 <> n:1
+R321:326 QuickChick.Producer <> choose meth
+R328:328 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R334:335 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R341:341 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R330:332 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R329:329 BST.Strategies.TypeBasedFuzzer <> n:1 var
+R337:339 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R336:336 BST.Strategies.TypeBasedFuzzer <> n:1 var
+inst 416:424 <> FuzzyProd
+binder 427:427 <> A:53
+R432:436 QuickChick.Classes <> Fuzzy class
+R438:438 BST.Strategies.TypeBasedFuzzer <> A:53 var
+binder 432:438 <> H:54
+binder 442:442 <> B:55
+R447:451 QuickChick.Classes <> Fuzzy class
+R453:453 BST.Strategies.TypeBasedFuzzer <> B:55 var
+binder 447:453 <> H0:56
+R459:463 QuickChick.Classes <> Fuzzy class
+R467:469 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R466:466 BST.Strategies.TypeBasedFuzzer <> A:53 var
+R470:470 BST.Strategies.TypeBasedFuzzer <> B:55 var
+R482:485 QuickChick.Classes <> fuzz meth
+R482:485 QuickChick.Classes <> fuzz meth
+R482:485 QuickChick.Classes <> fuzz meth
+binder 487:488 <> ab:57
+R513:514 BST.Strategies.TypeBasedFuzzer <> ab:57 var
+R503:503 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R505:506 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R508:508 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R525:528 ExtLib.Structures.Monad MonadNotation ::monad_scope:x_'<-'_x_';;'_x not
+R535:542 ExtLib.Structures.Monad MonadNotation ::monad_scope:x_'<-'_x_';;'_x not
+R529:532 QuickChick.Classes <> fuzz meth
+binder 523:524 <> ma:59
+R545:548 ExtLib.Structures.Monad MonadNotation ::monad_scope:x_'<-'_x_';;'_x not
+R555:562 ExtLib.Structures.Monad MonadNotation ::monad_scope:x_'<-'_x_';;'_x not
+R549:552 QuickChick.Classes <> fuzz meth
+binder 543:544 <> mb:60
+R563:565 ExtLib.Structures.Monad <> ret meth
+R567:567 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R570:570 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R573:573 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R568:569 BST.Strategies.TypeBasedFuzzer <> ma:59 var
+R571:572 BST.Strategies.TypeBasedFuzzer <> mb:60 var
+ax 658:666 <> num_tests
+R670:672 Coq.Init.Datatypes <> nat ind
+def 728:748 <> test_prop_InsertValid
+R767:769 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R761:763 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R757:760 BST.Src.Impl <> Tree ind
+R764:766 Coq.Init.Datatypes <> nat ind
+R770:772 Coq.Init.Datatypes <> nat ind
+binder 751:753 <> tkv:63
+R799:801 BST.Strategies.TypeBasedFuzzer <> tkv:63 var
+R786:786 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R788:789 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R791:792 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R794:794 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R808:823 BST.Src.Spec <> prop_InsertValid def
+def 844:871 <> test_prop_InsertValid_fuzzer
+R887:890 Coq.Init.Datatypes <> unit ind
+binder 883:883 <> u:65
+R896:907 QuickChick.Test <> fuzzLoopWith def
+R1008:1028 BST.Strategies.TypeBasedFuzzer <> test_prop_InsertValid def
+R1003:1006 QuickChick.Show <> show meth
+R998:1001 QuickChick.Classes <> fuzz meth
+R988:996 QuickChick.Classes <> arbitrary meth
+R910:922 QuickChick.Test <> updMaxDiscard def
+R977:985 BST.Strategies.TypeBasedFuzzer <> num_tests prfax
+R925:937 QuickChick.Test <> updMaxSuccess def
+R966:974 BST.Strategies.TypeBasedFuzzer <> num_tests prfax
+R940:950 QuickChick.Test <> updAnalysis def
+R960:963 Coq.Init.Datatypes <> true constr
+R952:958 QuickChick.Test <> stdArgs def
+def 1119:1139 <> test_prop_DeleteValid
+R1150:1152 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1146:1149 BST.Src.Impl <> Tree ind
+R1153:1155 Coq.Init.Datatypes <> nat ind
+binder 1142:1143 <> tk:66
+R1179:1180 BST.Strategies.TypeBasedFuzzer <> tk:66 var
+R1169:1169 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1171:1172 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1174:1174 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1187:1202 BST.Src.Spec <> prop_DeleteValid def
+def 1221:1248 <> test_prop_DeleteValid_fuzzer
+R1264:1267 Coq.Init.Datatypes <> unit ind
+binder 1260:1260 <> u:68
+R1273:1284 QuickChick.Test <> fuzzLoopWith def
+R1385:1405 BST.Strategies.TypeBasedFuzzer <> test_prop_DeleteValid def
+R1380:1383 QuickChick.Show <> show meth
+R1375:1378 QuickChick.Classes <> fuzz meth
+R1365:1373 QuickChick.Classes <> arbitrary meth
+R1287:1299 QuickChick.Test <> updMaxDiscard def
+R1354:1362 BST.Strategies.TypeBasedFuzzer <> num_tests prfax
+R1302:1314 QuickChick.Test <> updMaxSuccess def
+R1343:1351 BST.Strategies.TypeBasedFuzzer <> num_tests prfax
+R1317:1327 QuickChick.Test <> updAnalysis def
+R1337:1340 Coq.Init.Datatypes <> true constr
+R1329:1335 QuickChick.Test <> stdArgs def
+def 1496:1515 <> test_prop_UnionValid
+R1528:1530 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1524:1527 BST.Src.Impl <> Tree ind
+R1531:1534 BST.Src.Impl <> Tree ind
+binder 1518:1521 <> t1t2:69
+R1560:1563 BST.Strategies.TypeBasedFuzzer <> t1t2:69 var
+R1548:1548 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1551:1552 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1555:1555 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1570:1584 BST.Src.Spec <> prop_UnionValid def
+def 1605:1631 <> test_prop_UnionValid_fuzzer
+R1647:1650 Coq.Init.Datatypes <> unit ind
+binder 1643:1643 <> u:71
+R1656:1667 QuickChick.Test <> fuzzLoopWith def
+R1768:1787 BST.Strategies.TypeBasedFuzzer <> test_prop_UnionValid def
+R1763:1766 QuickChick.Show <> show meth
+R1758:1761 QuickChick.Classes <> fuzz meth
+R1748:1756 QuickChick.Classes <> arbitrary meth
+R1670:1682 QuickChick.Test <> updMaxDiscard def
+R1737:1745 BST.Strategies.TypeBasedFuzzer <> num_tests prfax
+R1685:1697 QuickChick.Test <> updMaxSuccess def
+R1726:1734 BST.Strategies.TypeBasedFuzzer <> num_tests prfax
+R1700:1710 QuickChick.Test <> updAnalysis def
+R1720:1723 Coq.Init.Datatypes <> true constr
+R1712:1718 QuickChick.Test <> stdArgs def
+def 1875:1894 <> test_prop_InsertPost
+R1920:1922 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1914:1916 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1908:1910 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1904:1907 BST.Src.Impl <> Tree ind
+R1911:1913 Coq.Init.Datatypes <> nat ind
+R1917:1919 Coq.Init.Datatypes <> nat ind
+R1923:1925 Coq.Init.Datatypes <> nat ind
+binder 1897:1901 <> tkkpv:72
+R1955:1959 BST.Strategies.TypeBasedFuzzer <> tkkpv:72 var
+R1938:1938 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1940:1941 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1943:1944 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1947:1948 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1950:1950 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1966:1980 BST.Src.Spec <> prop_InsertPost def
+def 2004:2030 <> test_prop_InsertPost_fuzzer
+R2046:2049 Coq.Init.Datatypes <> unit ind
+binder 2042:2042 <> u:74
+R2055:2066 QuickChick.Test <> fuzzLoopWith def
+R2167:2186 BST.Strategies.TypeBasedFuzzer <> test_prop_InsertPost def
+R2162:2165 QuickChick.Show <> show meth
+R2157:2160 QuickChick.Classes <> fuzz meth
+R2147:2155 QuickChick.Classes <> arbitrary meth
+R2069:2081 QuickChick.Test <> updMaxDiscard def
+R2136:2144 BST.Strategies.TypeBasedFuzzer <> num_tests prfax
+R2084:2096 QuickChick.Test <> updMaxSuccess def
+R2125:2133 BST.Strategies.TypeBasedFuzzer <> num_tests prfax
+R2099:2109 QuickChick.Test <> updAnalysis def
+R2119:2122 Coq.Init.Datatypes <> true constr
+R2111:2117 QuickChick.Test <> stdArgs def
+def 2274:2293 <> test_prop_DeletePost
+R2312:2314 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R2306:2308 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R2302:2305 BST.Src.Impl <> Tree ind
+R2309:2311 Coq.Init.Datatypes <> nat ind
+R2315:2317 Coq.Init.Datatypes <> nat ind
+binder 2296:2299 <> tkkp:75
+R2344:2347 BST.Strategies.TypeBasedFuzzer <> tkkp:75 var
+R2330:2330 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2332:2333 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2335:2336 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2339:2339 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2354:2368 BST.Src.Spec <> prop_DeletePost def
+def 2389:2415 <> test_prop_DeletePost_fuzzer
+R2431:2434 Coq.Init.Datatypes <> unit ind
+binder 2427:2427 <> u:77
+R2440:2451 QuickChick.Test <> fuzzLoopWith def
+R2552:2571 BST.Strategies.TypeBasedFuzzer <> test_prop_DeletePost def
+R2547:2550 QuickChick.Show <> show meth
+R2542:2545 QuickChick.Classes <> fuzz meth
+R2532:2540 QuickChick.Classes <> arbitrary meth
+R2454:2466 QuickChick.Test <> updMaxDiscard def
+R2521:2529 BST.Strategies.TypeBasedFuzzer <> num_tests prfax
+R2469:2481 QuickChick.Test <> updMaxSuccess def
+R2510:2518 BST.Strategies.TypeBasedFuzzer <> num_tests prfax
+R2484:2494 QuickChick.Test <> updAnalysis def
+R2504:2507 Coq.Init.Datatypes <> true constr
+R2496:2502 QuickChick.Test <> stdArgs def
+def 2659:2677 <> test_prop_UnionPost
+R2697:2699 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R2690:2692 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R2686:2689 BST.Src.Impl <> Tree ind
+R2693:2696 BST.Src.Impl <> Tree ind
+R2700:2702 Coq.Init.Datatypes <> nat ind
+binder 2680:2683 <> ttpk:78
+R2730:2733 BST.Strategies.TypeBasedFuzzer <> ttpk:78 var
+R2716:2716 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2718:2719 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2722:2723 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2725:2725 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2740:2753 BST.Src.Spec <> prop_UnionPost def
+def 2775:2800 <> test_prop_UnionPost_fuzzer
+R2816:2819 Coq.Init.Datatypes <> unit ind
+binder 2812:2812 <> u:80
+R2825:2836 QuickChick.Test <> fuzzLoopWith def
+R2937:2955 BST.Strategies.TypeBasedFuzzer <> test_prop_UnionPost def
+R2932:2935 QuickChick.Show <> show meth
+R2927:2930 QuickChick.Classes <> fuzz meth
+R2917:2925 QuickChick.Classes <> arbitrary meth
+R2839:2851 QuickChick.Test <> updMaxDiscard def
+R2906:2914 BST.Strategies.TypeBasedFuzzer <> num_tests prfax
+R2854:2866 QuickChick.Test <> updMaxSuccess def
+R2895:2903 BST.Strategies.TypeBasedFuzzer <> num_tests prfax
+R2869:2879 QuickChick.Test <> updAnalysis def
+R2889:2892 Coq.Init.Datatypes <> true constr
+R2881:2887 QuickChick.Test <> stdArgs def
+def 3041:3061 <> test_prop_InsertModel
+R3079:3081 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R3073:3075 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R3069:3072 BST.Src.Impl <> Tree ind
+R3076:3078 Coq.Init.Datatypes <> nat ind
+R3082:3084 Coq.Init.Datatypes <> nat ind
+binder 3064:3066 <> tkv:81
+R3111:3113 BST.Strategies.TypeBasedFuzzer <> tkv:81 var
+R3098:3098 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3100:3101 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3103:3104 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3106:3106 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3120:3135 BST.Src.Spec <> prop_InsertModel def
+def 3156:3183 <> test_prop_InsertModel_fuzzer
+R3199:3202 Coq.Init.Datatypes <> unit ind
+binder 3195:3195 <> u:83
+R3208:3219 QuickChick.Test <> fuzzLoopWith def
+R3320:3340 BST.Strategies.TypeBasedFuzzer <> test_prop_InsertModel def
+R3315:3318 QuickChick.Show <> show meth
+R3310:3313 QuickChick.Classes <> fuzz meth
+R3300:3308 QuickChick.Classes <> arbitrary meth
+R3222:3234 QuickChick.Test <> updMaxDiscard def
+R3289:3297 BST.Strategies.TypeBasedFuzzer <> num_tests prfax
+R3237:3249 QuickChick.Test <> updMaxSuccess def
+R3278:3286 BST.Strategies.TypeBasedFuzzer <> num_tests prfax
+R3252:3262 QuickChick.Test <> updAnalysis def
+R3272:3275 Coq.Init.Datatypes <> true constr
+R3264:3270 QuickChick.Test <> stdArgs def
+def 3430:3450 <> test_prop_DeleteModel
+R3461:3463 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R3457:3460 BST.Src.Impl <> Tree ind
+R3464:3466 Coq.Init.Datatypes <> nat ind
+binder 3453:3454 <> tk:84
+R3490:3491 BST.Strategies.TypeBasedFuzzer <> tk:84 var
+R3480:3480 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3482:3483 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3485:3485 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3498:3513 BST.Src.Spec <> prop_DeleteModel def
+def 3532:3559 <> test_prop_DeleteModel_fuzzer
+R3575:3578 Coq.Init.Datatypes <> unit ind
+binder 3571:3571 <> u:86
+R3584:3595 QuickChick.Test <> fuzzLoopWith def
+R3696:3716 BST.Strategies.TypeBasedFuzzer <> test_prop_DeleteModel def
+R3691:3694 QuickChick.Show <> show meth
+R3686:3689 QuickChick.Classes <> fuzz meth
+R3676:3684 QuickChick.Classes <> arbitrary meth
+R3598:3610 QuickChick.Test <> updMaxDiscard def
+R3665:3673 BST.Strategies.TypeBasedFuzzer <> num_tests prfax
+R3613:3625 QuickChick.Test <> updMaxSuccess def
+R3654:3662 BST.Strategies.TypeBasedFuzzer <> num_tests prfax
+R3628:3638 QuickChick.Test <> updAnalysis def
+R3648:3651 Coq.Init.Datatypes <> true constr
+R3640:3646 QuickChick.Test <> stdArgs def
+def 3806:3825 <> test_prop_UnionModel
+R3837:3839 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R3833:3836 BST.Src.Impl <> Tree ind
+R3840:3843 BST.Src.Impl <> Tree ind
+binder 3828:3830 <> ttp:87
+R3867:3869 BST.Strategies.TypeBasedFuzzer <> ttp:87 var
+R3856:3856 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3858:3859 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3862:3862 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3876:3890 BST.Src.Spec <> prop_UnionModel def
+def 3910:3936 <> test_prop_UnionModel_fuzzer
+R3952:3955 Coq.Init.Datatypes <> unit ind
+binder 3948:3948 <> u:89
+R3961:3972 QuickChick.Test <> fuzzLoopWith def
+R4073:4092 BST.Strategies.TypeBasedFuzzer <> test_prop_UnionModel def
+R4068:4071 QuickChick.Show <> show meth
+R4063:4066 QuickChick.Classes <> fuzz meth
+R4053:4061 QuickChick.Classes <> arbitrary meth
+R3975:3987 QuickChick.Test <> updMaxDiscard def
+R4042:4050 BST.Strategies.TypeBasedFuzzer <> num_tests prfax
+R3990:4002 QuickChick.Test <> updMaxSuccess def
+R4031:4039 BST.Strategies.TypeBasedFuzzer <> num_tests prfax
+R4005:4015 QuickChick.Test <> updAnalysis def
+R4025:4028 Coq.Init.Datatypes <> true constr
+R4017:4023 QuickChick.Test <> stdArgs def
+def 4180:4201 <> test_prop_InsertInsert
+R4235:4237 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R4229:4231 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R4223:4225 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R4217:4219 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R4213:4216 BST.Src.Impl <> Tree ind
+R4220:4222 Coq.Init.Datatypes <> nat ind
+R4226:4228 Coq.Init.Datatypes <> nat ind
+R4232:4234 Coq.Init.Datatypes <> nat ind
+R4238:4240 Coq.Init.Datatypes <> nat ind
+binder 4204:4210 <> tkkpvvp:90
+R4276:4282 BST.Strategies.TypeBasedFuzzer <> tkkpvvp:90 var
+R4255:4255 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4257:4258 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4260:4261 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4264:4265 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4267:4268 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4271:4271 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4289:4305 BST.Src.Spec <> prop_InsertInsert def
+def 4331:4359 <> test_prop_InsertInsert_fuzzer
+R4375:4378 Coq.Init.Datatypes <> unit ind
+binder 4371:4371 <> u:92
+R4384:4395 QuickChick.Test <> fuzzLoopWith def
+R4496:4517 BST.Strategies.TypeBasedFuzzer <> test_prop_InsertInsert def
+R4491:4494 QuickChick.Show <> show meth
+R4486:4489 QuickChick.Classes <> fuzz meth
+R4476:4484 QuickChick.Classes <> arbitrary meth
+R4398:4410 QuickChick.Test <> updMaxDiscard def
+R4465:4473 BST.Strategies.TypeBasedFuzzer <> num_tests prfax
+R4413:4425 QuickChick.Test <> updMaxSuccess def
+R4454:4462 BST.Strategies.TypeBasedFuzzer <> num_tests prfax
+R4428:4438 QuickChick.Test <> updAnalysis def
+R4448:4451 Coq.Init.Datatypes <> true constr
+R4440:4446 QuickChick.Test <> stdArgs def
+def 4609:4630 <> test_prop_InsertDelete
+R4656:4658 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R4650:4652 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R4644:4646 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R4640:4643 BST.Src.Impl <> Tree ind
+R4647:4649 Coq.Init.Datatypes <> nat ind
+R4653:4655 Coq.Init.Datatypes <> nat ind
+R4659:4661 Coq.Init.Datatypes <> nat ind
+binder 4633:4637 <> tkkpv:93
+R4692:4696 BST.Strategies.TypeBasedFuzzer <> tkkpv:93 var
+R4675:4675 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4677:4678 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4680:4681 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4684:4685 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4687:4687 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4703:4719 BST.Src.Spec <> prop_InsertDelete def
+def 4743:4771 <> test_prop_InsertDelete_fuzzer
+R4787:4790 Coq.Init.Datatypes <> unit ind
+binder 4783:4783 <> u:95
+R4796:4807 QuickChick.Test <> fuzzLoopWith def
+R4908:4929 BST.Strategies.TypeBasedFuzzer <> test_prop_InsertDelete def
+R4903:4906 QuickChick.Show <> show meth
+R4898:4901 QuickChick.Classes <> fuzz meth
+R4888:4896 QuickChick.Classes <> arbitrary meth
+R4810:4822 QuickChick.Test <> updMaxDiscard def
+R4877:4885 BST.Strategies.TypeBasedFuzzer <> num_tests prfax
+R4825:4837 QuickChick.Test <> updMaxSuccess def
+R4866:4874 BST.Strategies.TypeBasedFuzzer <> num_tests prfax
+R4840:4850 QuickChick.Test <> updAnalysis def
+R4860:4863 Coq.Init.Datatypes <> true constr
+R4852:4858 QuickChick.Test <> stdArgs def
+def 5021:5041 <> test_prop_InsertUnion
+R5068:5070 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R5062:5064 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R5055:5057 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R5051:5054 BST.Src.Impl <> Tree ind
+R5058:5061 BST.Src.Impl <> Tree ind
+R5065:5067 Coq.Init.Datatypes <> nat ind
+R5071:5073 Coq.Init.Datatypes <> nat ind
+binder 5044:5048 <> ttpkv:96
+R5103:5107 BST.Strategies.TypeBasedFuzzer <> ttpkv:96 var
+R5086:5086 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5088:5089 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5092:5093 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5095:5096 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5098:5098 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5114:5129 BST.Src.Spec <> prop_InsertUnion def
+def 5153:5180 <> test_prop_InsertUnion_fuzzer
+R5196:5199 Coq.Init.Datatypes <> unit ind
+binder 5192:5192 <> u:98
+R5205:5216 QuickChick.Test <> fuzzLoopWith def
+R5317:5337 BST.Strategies.TypeBasedFuzzer <> test_prop_InsertUnion def
+R5312:5315 QuickChick.Show <> show meth
+R5307:5310 QuickChick.Classes <> fuzz meth
+R5297:5305 QuickChick.Classes <> arbitrary meth
+R5219:5231 QuickChick.Test <> updMaxDiscard def
+R5286:5294 BST.Strategies.TypeBasedFuzzer <> num_tests prfax
+R5234:5246 QuickChick.Test <> updMaxSuccess def
+R5275:5283 BST.Strategies.TypeBasedFuzzer <> num_tests prfax
+R5249:5259 QuickChick.Test <> updAnalysis def
+R5269:5272 Coq.Init.Datatypes <> true constr
+R5261:5267 QuickChick.Test <> stdArgs def
+def 5427:5448 <> test_prop_DeleteInsert
+R5475:5477 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R5469:5471 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R5463:5465 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R5459:5462 BST.Src.Impl <> Tree ind
+R5466:5468 Coq.Init.Datatypes <> nat ind
+R5472:5474 Coq.Init.Datatypes <> nat ind
+R5478:5480 Coq.Init.Datatypes <> nat ind
+binder 5451:5456 <> tkkpvp:99
+R5511:5516 BST.Strategies.TypeBasedFuzzer <> tkkpvp:99 var
+R5493:5493 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5495:5496 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5498:5499 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5502:5503 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5506:5506 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5523:5539 BST.Src.Spec <> prop_DeleteInsert def
+def 5564:5592 <> test_prop_DeleteInsert_fuzzer
+R5608:5611 Coq.Init.Datatypes <> unit ind
+binder 5604:5604 <> u:101
+R5617:5628 QuickChick.Test <> fuzzLoopWith def
+R5729:5750 BST.Strategies.TypeBasedFuzzer <> test_prop_DeleteInsert def
+R5724:5727 QuickChick.Show <> show meth
+R5719:5722 QuickChick.Classes <> fuzz meth
+R5709:5717 QuickChick.Classes <> arbitrary meth
+R5631:5643 QuickChick.Test <> updMaxDiscard def
+R5698:5706 BST.Strategies.TypeBasedFuzzer <> num_tests prfax
+R5646:5658 QuickChick.Test <> updMaxSuccess def
+R5687:5695 BST.Strategies.TypeBasedFuzzer <> num_tests prfax
+R5661:5671 QuickChick.Test <> updAnalysis def
+R5681:5684 Coq.Init.Datatypes <> true constr
+R5673:5679 QuickChick.Test <> stdArgs def
+def 5842:5863 <> test_prop_DeleteDelete
+R5882:5884 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R5876:5878 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R5872:5875 BST.Src.Impl <> Tree ind
+R5879:5881 Coq.Init.Datatypes <> nat ind
+R5885:5887 Coq.Init.Datatypes <> nat ind
+binder 5866:5869 <> tkkp:102
+R5914:5917 BST.Strategies.TypeBasedFuzzer <> tkkp:102 var
+R5900:5900 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5902:5903 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5905:5906 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5909:5909 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5924:5940 BST.Src.Spec <> prop_DeleteDelete def
+def 5962:5990 <> test_prop_DeleteDelete_fuzzer
+R6006:6009 Coq.Init.Datatypes <> unit ind
+binder 6002:6002 <> u:104
+R6015:6026 QuickChick.Test <> fuzzLoopWith def
+R6127:6148 BST.Strategies.TypeBasedFuzzer <> test_prop_DeleteDelete def
+R6122:6125 QuickChick.Show <> show meth
+R6117:6120 QuickChick.Classes <> fuzz meth
+R6107:6115 QuickChick.Classes <> arbitrary meth
+R6029:6041 QuickChick.Test <> updMaxDiscard def
+R6096:6104 BST.Strategies.TypeBasedFuzzer <> num_tests prfax
+R6044:6056 QuickChick.Test <> updMaxSuccess def
+R6085:6093 BST.Strategies.TypeBasedFuzzer <> num_tests prfax
+R6059:6069 QuickChick.Test <> updAnalysis def
+R6079:6082 Coq.Init.Datatypes <> true constr
+R6071:6077 QuickChick.Test <> stdArgs def
+def 6240:6260 <> test_prop_DeleteUnion
+R6280:6282 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R6273:6275 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R6269:6272 BST.Src.Impl <> Tree ind
+R6276:6279 BST.Src.Impl <> Tree ind
+R6283:6285 Coq.Init.Datatypes <> nat ind
+binder 6263:6266 <> ttpk:105
+R6312:6315 BST.Strategies.TypeBasedFuzzer <> ttpk:105 var
+R6298:6298 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6300:6301 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6304:6305 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6307:6307 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6322:6337 BST.Src.Spec <> prop_DeleteUnion def
+def 6359:6386 <> test_prop_DeleteUnion_fuzzer
+R6402:6405 Coq.Init.Datatypes <> unit ind
+binder 6398:6398 <> u:107
+R6411:6422 QuickChick.Test <> fuzzLoopWith def
+R6523:6543 BST.Strategies.TypeBasedFuzzer <> test_prop_DeleteUnion def
+R6518:6521 QuickChick.Show <> show meth
+R6513:6516 QuickChick.Classes <> fuzz meth
+R6503:6511 QuickChick.Classes <> arbitrary meth
+R6425:6437 QuickChick.Test <> updMaxDiscard def
+R6492:6500 BST.Strategies.TypeBasedFuzzer <> num_tests prfax
+R6440:6452 QuickChick.Test <> updMaxSuccess def
+R6481:6489 BST.Strategies.TypeBasedFuzzer <> num_tests prfax
+R6455:6465 QuickChick.Test <> updAnalysis def
+R6475:6478 Coq.Init.Datatypes <> true constr
+R6467:6473 QuickChick.Test <> stdArgs def
+def 6633:6659 <> test_prop_UnionDeleteInsert
+R6686:6688 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R6680:6682 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R6673:6675 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R6669:6672 BST.Src.Impl <> Tree ind
+R6676:6679 BST.Src.Impl <> Tree ind
+R6683:6685 Coq.Init.Datatypes <> nat ind
+R6689:6691 Coq.Init.Datatypes <> nat ind
+binder 6662:6666 <> ttpkv:108
+R6721:6725 BST.Strategies.TypeBasedFuzzer <> ttpkv:108 var
+R6704:6704 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6706:6707 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6710:6711 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6713:6714 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6716:6716 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6732:6753 BST.Src.Spec <> prop_UnionDeleteInsert def
+def 6777:6810 <> test_prop_UnionDeleteInsert_fuzzer
+R6826:6829 Coq.Init.Datatypes <> unit ind
+binder 6822:6822 <> u:110
+R6835:6846 QuickChick.Test <> fuzzLoopWith def
+R6947:6973 BST.Strategies.TypeBasedFuzzer <> test_prop_UnionDeleteInsert def
+R6942:6945 QuickChick.Show <> show meth
+R6937:6940 QuickChick.Classes <> fuzz meth
+R6927:6935 QuickChick.Classes <> arbitrary meth
+R6849:6861 QuickChick.Test <> updMaxDiscard def
+R6916:6924 BST.Strategies.TypeBasedFuzzer <> num_tests prfax
+R6864:6876 QuickChick.Test <> updMaxSuccess def
+R6905:6913 BST.Strategies.TypeBasedFuzzer <> num_tests prfax
+R6879:6889 QuickChick.Test <> updAnalysis def
+R6899:6902 Coq.Init.Datatypes <> true constr
+R6891:6897 QuickChick.Test <> stdArgs def
+def 7075:7098 <> test_prop_UnionUnionIdem
+R7104:7107 BST.Src.Impl <> Tree ind
+binder 7101:7101 <> t:111
+R7115:7133 BST.Src.Spec <> prop_UnionUnionIdem def
+R7135:7135 BST.Strategies.TypeBasedFuzzer <> t:111 var
+def 7150:7180 <> test_prop_UnionUnionIdem_fuzzer
+R7196:7199 Coq.Init.Datatypes <> unit ind
+binder 7192:7192 <> u:112
+R7205:7216 QuickChick.Test <> fuzzLoopWith def
+R7317:7340 BST.Strategies.TypeBasedFuzzer <> test_prop_UnionUnionIdem def
+R7312:7315 QuickChick.Show <> show meth
+R7307:7310 QuickChick.Classes <> fuzz meth
+R7297:7305 QuickChick.Classes <> arbitrary meth
+R7219:7231 QuickChick.Test <> updMaxDiscard def
+R7286:7294 BST.Strategies.TypeBasedFuzzer <> num_tests prfax
+R7234:7246 QuickChick.Test <> updMaxSuccess def
+R7275:7283 BST.Strategies.TypeBasedFuzzer <> num_tests prfax
+R7249:7259 QuickChick.Test <> updAnalysis def
+R7269:7272 Coq.Init.Datatypes <> true constr
+R7261:7267 QuickChick.Test <> stdArgs def
+def 7436:7460 <> test_prop_UnionUnionAssoc
+R7483:7485 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R7476:7478 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R7472:7475 BST.Src.Impl <> Tree ind
+R7479:7482 BST.Src.Impl <> Tree ind
+R7486:7489 BST.Src.Impl <> Tree ind
+binder 7463:7468 <> t1t2t3:113
+R7518:7523 BST.Strategies.TypeBasedFuzzer <> t1t2t3:113 var
+R7502:7502 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7505:7506 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7509:7510 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7513:7513 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7530:7549 BST.Src.Spec <> prop_UnionUnionAssoc def
+def 7573:7604 <> test_prop_UnionUnionAssoc_fuzzer
+R7620:7623 Coq.Init.Datatypes <> unit ind
+binder 7616:7616 <> u:115
+R7629:7640 QuickChick.Test <> fuzzLoopWith def
+R7741:7765 BST.Strategies.TypeBasedFuzzer <> test_prop_UnionUnionAssoc def
+R7736:7739 QuickChick.Show <> show meth
+R7731:7734 QuickChick.Classes <> fuzz meth
+R7721:7729 QuickChick.Classes <> arbitrary meth
+R7643:7655 QuickChick.Test <> updMaxDiscard def
+R7710:7718 BST.Strategies.TypeBasedFuzzer <> num_tests prfax
+R7658:7670 QuickChick.Test <> updMaxSuccess def
+R7699:7707 BST.Strategies.TypeBasedFuzzer <> num_tests prfax
+R7673:7683 QuickChick.Test <> updAnalysis def
+R7693:7696 Coq.Init.Datatypes <> true constr
+R7685:7691 QuickChick.Test <> stdArgs def
