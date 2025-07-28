@@ -17,3 +17,7 @@ language = "Haskell"
 [[workloads]]
 name = "BST"
 language = "OCaml"
+
+[[workloads]]
+name = "BST"
+language = "Rust"
