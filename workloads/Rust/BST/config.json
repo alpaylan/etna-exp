@@ -1,0 +1,50 @@
+{
+    "check_steps": [],
+    "build_steps": [
+        {
+            "Command": {
+                "command": "cargo",
+                "args": [
+                    "build",
+                    "--release"
+                ]
+            }
+        }
+    ],
+    "run_step": {
+        "Match": {
+            "value": "cross",
+            "options": {
+                "true": {
+                    "Command": {
+                        "command": "$workload_path/target/release/bst-sampler",
+                        "args": [
+                            "$strategy",
+                            "$property",
+                            "$tests"
+                        ],
+                        "params": [
+                            "workload_path",
+                            "property",
+                            "strategy"
+                        ]
+                    }
+                },
+                "false": {
+                    "Command": {
+                        "command": "$workload_path/target/release/bst",
+                        "args": [
+                            "$strategy",
+                            "$property"
+                        ],
+                        "params": [
+                            "workload_path",
+                            "property",
+                            "strategy"
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}
