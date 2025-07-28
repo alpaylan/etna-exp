@@ -1,0 +1,1 @@
+module BaseType : Base_quickcheck.Test.S with type t = Impl.rbt
