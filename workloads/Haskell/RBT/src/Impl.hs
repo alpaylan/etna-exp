@@ -85,11 +85,9 @@ delete x t =
     del E = return E
     del (T _ a y vy b)
       {-! -}
-{-!
       | x < y = delLeft a y vy b
       | x > y = delRight a y vy b
       | otherwise = join a b
--}
       {-!! delete_4 -}
       {-!
       | x < y = del a
@@ -97,9 +95,11 @@ delete x t =
       | otherwise = join a b
       -}
       {-!! delete_5 -}
+      {-!
       | x > y = delLeft a y vy b
       | x < y = delRight a y vy b
       | otherwise = join a b
+      -}
       {- !-}
 
     delLeft a@(T B _ _ _ _) y vy b = do

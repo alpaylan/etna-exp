@@ -1,0 +1,330 @@
+[
+    {
+        "language": "Rocq",
+        "workload": "BST",
+        "mutations": [
+            "insert_1"
+        ],
+        "trials": 10,
+        "timeout": 0.5,
+        "cross": true,
+        "params": {
+            "tests": 1000
+        },
+        "tasks": [
+            {
+                "strategy": "BespokeGenerator",
+                "property": "InsertInsert"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "InsertPost"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "InsertModel"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "DeleteInsert"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "InsertUnion"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "UnionDeleteInsert"
+            }
+        ]
+    },
+    {
+        "language": "Rocq",
+        "workload": "BST",
+        "mutations": [
+            "insert_2"
+        ],
+        "trials": 10,
+        "timeout": 0.5,
+        "cross": true,
+        "params": {
+            "tests": 1000
+        },
+        "tasks": [
+            {
+                "strategy": "BespokeGenerator",
+                "property": "InsertPost"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "InsertModel"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "InsertDelete"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "DeleteInsert"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "InsertInsert"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "InsertUnion"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "UnionDeleteInsert"
+            }
+        ]
+    },
+    {
+        "language": "Rocq",
+        "workload": "BST",
+        "mutations": [
+            "insert_3"
+        ],
+        "trials": 10,
+        "timeout": 0.5,
+        "cross": true,
+        "params": {
+            "tests": 1000
+        },
+        "tasks": [
+            {
+                "strategy": "BespokeGenerator",
+                "property": "InsertPost"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "InsertModel"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "InsertDelete"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "InsertInsert"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "InsertUnion"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "UnionDeleteInsert"
+            }
+        ]
+    },
+    {
+        "language": "Rocq",
+        "workload": "BST",
+        "mutations": [
+            "delete_4"
+        ],
+        "trials": 10,
+        "timeout": 0.5,
+        "cross": true,
+        "params": {
+            "tests": 1000
+        },
+        "tasks": [
+            {
+                "strategy": "BespokeGenerator",
+                "property": "DeleteModel"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "DeletePost"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "DeleteDelete"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "DeleteInsert"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "DeleteUnion"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "InsertDelete"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "UnionDeleteInsert"
+            }
+        ]
+    },
+    {
+        "language": "Rocq",
+        "workload": "BST",
+        "mutations": [
+            "delete_5"
+        ],
+        "trials": 10,
+        "timeout": 0.5,
+        "cross": true,
+        "params": {
+            "tests": 1000
+        },
+        "tasks": [
+            {
+                "strategy": "BespokeGenerator",
+                "property": "DeleteModel"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "DeletePost"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "DeleteDelete"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "DeleteInsert"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "DeleteUnion"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "UnionDeleteInsert"
+            }
+        ]
+    },
+    {
+        "language": "Rocq",
+        "workload": "BST",
+        "mutations": [
+            "union_6"
+        ],
+        "trials": 10,
+        "timeout": 0.5,
+        "cross": true,
+        "params": {
+            "tests": 1000
+        },
+        "tasks": [
+            {
+                "strategy": "BespokeGenerator",
+                "property": "UnionValid"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "UnionPost"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "UnionModel"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "DeleteUnion"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "InsertUnion"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "UnionDeleteInsert"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "UnionUnionAssoc"
+            }
+        ]
+    },
+    {
+        "language": "Rocq",
+        "workload": "BST",
+        "mutations": [
+            "union_7"
+        ],
+        "trials": 10,
+        "timeout": 0.5,
+        "cross": true,
+        "params": {
+            "tests": 1000
+        },
+        "tasks": [
+            {
+                "strategy": "BespokeGenerator",
+                "property": "UnionValid"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "UnionPost"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "UnionModel"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "DeleteUnion"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "InsertUnion"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "UnionDeleteInsert"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "UnionUnionAssoc"
+            }
+        ]
+    },
+    {
+        "language": "Rocq",
+        "workload": "BST",
+        "mutations": [
+            "union_8"
+        ],
+        "trials": 10,
+        "timeout": 0.5,
+        "cross": true,
+        "params": {
+            "tests": 1000
+        },
+        "tasks": [
+            {
+                "strategy": "BespokeGenerator",
+                "property": "UnionPost"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "UnionModel"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "DeleteUnion"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "InsertUnion"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "UnionDeleteInsert"
+            },
+            {
+                "strategy": "BespokeGenerator",
+                "property": "UnionUnionAssoc"
+            }
+        ]
+    }
+]

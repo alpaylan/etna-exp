@@ -1,4 +1,4 @@
-DIGEST 59df33f9e7e6da0e18010e6464270070
+DIGEST f66ba106abe71b920df643f5f234e8e1
 FRBT.Src.Impl
 R16:21 Coq.ZArith.ZArith <> <> lib
 R55:64 QuickChick.QuickChick <> <> lib
@@ -172,27 +172,27 @@ R2200:2200 RBT.Src.Impl <> s:51 var
 R2196:2197 RBT.Src.Impl <> vx:50 var
 R2193:2193 RBT.Src.Impl <> x:49 var
 R2220:2220 RBT.Src.Impl <> E constr
-R2292:2292 RBT.Src.Impl <> T constr
-R2294:2294 RBT.Src.Impl <> B constr
-R2296:2296 RBT.Src.Impl <> E constr
-R2298:2298 RBT.Src.Impl <> x:49 var
-R2300:2301 RBT.Src.Impl <> vx:50 var
-R2303:2303 RBT.Src.Impl <> E constr
-R2330:2330 RBT.Src.Impl <> T constr
-R2367:2371 RBT.Src.Impl <> :::x_'<??'_x not
-R2366:2366 RBT.Src.Impl <> x:49 var
-R2423:2427 RBT.Src.Impl <> :::x_'<??'_x not
-R2428:2428 RBT.Src.Impl <> x:49 var
-R2475:2475 RBT.Src.Impl <> T constr
-R2484:2485 RBT.Src.Impl <> vx:50 var
-R2435:2441 RBT.Src.Impl <> balance def
-R2454:2456 RBT.Src.Impl <> ins:52 var
-R2460:2461 RBT.Src.Impl <> vx:50 var
-R2458:2458 RBT.Src.Impl <> x:49 var
-R2379:2385 RBT.Src.Impl <> balance def
-R2391:2393 RBT.Src.Impl <> ins:52 var
-R2397:2398 RBT.Src.Impl <> vx:50 var
-R2395:2395 RBT.Src.Impl <> x:49 var
+R2240:2240 RBT.Src.Impl <> T constr
+R2242:2242 RBT.Src.Impl <> R constr
+R2244:2244 RBT.Src.Impl <> E constr
+R2246:2246 RBT.Src.Impl <> x:49 var
+R2248:2249 RBT.Src.Impl <> vx:50 var
+R2251:2251 RBT.Src.Impl <> E constr
+R2338:2338 RBT.Src.Impl <> T constr
+R3044:3048 RBT.Src.Impl <> :::x_'<??'_x not
+R3043:3043 RBT.Src.Impl <> x:49 var
+R3100:3104 RBT.Src.Impl <> :::x_'<??'_x not
+R3105:3105 RBT.Src.Impl <> x:49 var
+R3149:3149 RBT.Src.Impl <> T constr
+R3158:3159 RBT.Src.Impl <> vx:50 var
+R3112:3112 RBT.Src.Impl <> T constr
+R3125:3130 RBT.Src.Impl <> insert:48 def
+R3134:3135 RBT.Src.Impl <> vx:50 var
+R3132:3132 RBT.Src.Impl <> x:49 var
+R3056:3062 RBT.Src.Impl <> balance def
+R3068:3070 RBT.Src.Impl <> ins:52 var
+R3074:3075 RBT.Src.Impl <> vx:50 var
+R3072:3072 RBT.Src.Impl <> x:49 var
 binder 2144:2146 <> ins:56
 R3189:3195 RBT.Src.Impl <> blacken def
 R3198:3200 RBT.Src.Impl <> ins:56 var

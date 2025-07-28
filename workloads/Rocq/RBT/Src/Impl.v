@@ -87,11 +87,11 @@ Fixpoint insert (key: Z) (val: Z) (t: Tree) : Tree :=
     match x, vx, s with
     | x, vx, E =>
     (*! *)
-(*!
     T R E x vx E
-*)
     (*!! miscolor_insert *)
+    (*!
     T B E x vx E
+    *)
     (* !*)
     | x, vx, (T rb a y vy b) =>
     (*! *)

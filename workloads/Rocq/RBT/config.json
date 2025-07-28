@@ -29,13 +29,9 @@
         },
         {
             "Command": {
-                "command": "$workload_path/build_fuzzer",
+                "command": "$workload_path/build_sampler",
                 "args": [
-                    "!fuzzer"
-                ],
-                "params": [
-                    "workload_path",
-                    "fuzzer"
+                    "!sampler"
                 ]
             }
         }
@@ -79,7 +75,7 @@
                                     "command": "$workload_path/$strategy_sampler.native",
                                     "args": [
                                         "$property",
-                                        "1000"
+                                        "$tests"
                                     ],
                                     "params": [
                                         "workload_path",

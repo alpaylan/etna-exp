@@ -3469,8 +3469,13 @@ let rec union_ l r f =
     | T (l0, k, v, r0) ->
       (match r with
        | E -> l
-       | T (_, _, _, _) ->
-         T ((union_ l0 (below k r) f'), k, v, (union_ r0 (above k r) f'))))
+       | T (l', k', v', r') ->
+         if Nat.eqb k k'
+         then T ((union_ l0 l' f'), k, v, (union_ r0 r' f'))
+         else if Nat.ltb k k'
+              then T ((union_ l0 (below k l') f'), k, v,
+                     (union_ r0 (T ((above k l'), k', v', r')) f'))
+              else union_ (T (l', k', v', r')) (T (l0, k, v, r0)) f'))
     f
 
 (** val union : tree0 -> tree0 -> tree0 **)

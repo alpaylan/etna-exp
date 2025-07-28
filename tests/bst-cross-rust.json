@@ -1,0 +1,330 @@
+[
+    {
+        "language": "Rust",
+        "workload": "BST",
+        "mutations": [
+            "insert_1"
+        ],
+        "trials": 10,
+        "timeout": 0.5,
+        "cross": true,
+        "params": {
+            "tests": 10000
+        },
+        "tasks": [
+            {
+                "strategy": "quickcheck",
+                "property": "InsertInsert"
+            },
+            {
+                "strategy": "quickcheck",
+                "property": "InsertPost"
+            },
+            {
+                "strategy": "quickcheck",
+                "property": "InsertModel"
+            },
+            {
+                "strategy": "quickcheck",
+                "property": "DeleteInsert"
+            },
+            {
+                "strategy": "quickcheck",
+                "property": "InsertUnion"
+            },
+            {
+                "strategy": "quickcheck",
+                "property": "UnionDeleteInsert"
+            }
+        ]
+    },
+    {
+        "language": "Rust",
+        "workload": "BST",
+        "mutations": [
+            "insert_2"
+        ],
+        "trials": 10,
+        "timeout": 0.5,
+        "cross": true,
+        "params": {
+            "tests": 10000
+        },
+        "tasks": [
+            {
+                "strategy": "quickcheck",
+                "property": "InsertPost"
+            },
+            {
+                "strategy": "quickcheck",
+                "property": "InsertModel"
+            },
+            {
+                "strategy": "quickcheck",
+                "property": "InsertDelete"
+            },
+            {
+                "strategy": "quickcheck",
+                "property": "DeleteInsert"
+            },
+            {
+                "strategy": "quickcheck",
+                "property": "InsertInsert"
+            },
+            {
+                "strategy": "quickcheck",
+                "property": "InsertUnion"
+            },
+            {
+                "strategy": "quickcheck",
+                "property": "UnionDeleteInsert"
+            }
+        ]
+    },
+    {
+        "language": "Rust",
+        "workload": "BST",
+        "mutations": [
+            "insert_3"
+        ],
+        "trials": 10,
+        "timeout": 0.5,
+        "cross": true,
+        "params": {
+            "tests": 10000
+        },
+        "tasks": [
+            {
+                "strategy": "quickcheck",
+                "property": "InsertPost"
+            },
+            {
+                "strategy": "quickcheck",
+                "property": "InsertModel"
+            },
+            {
+                "strategy": "quickcheck",
+                "property": "InsertDelete"
+            },
+            {
+                "strategy": "quickcheck",
+                "property": "InsertInsert"
+            },
+            {
+                "strategy": "quickcheck",
+                "property": "InsertUnion"
+            },
+            {
+                "strategy": "quickcheck",
+                "property": "UnionDeleteInsert"
+            }
+        ]
+    },
+    {
+        "language": "Rust",
+        "workload": "BST",
+        "mutations": [
+            "delete_4"
+        ],
+        "trials": 10,
+        "timeout": 0.5,
+        "cross": true,
+        "params": {
+            "tests": 10000
+        },
+        "tasks": [
+            {
+                "strategy": "quickcheck",
+                "property": "DeleteModel"
+            },
+            {
+                "strategy": "quickcheck",
+                "property": "DeletePost"
+            },
+            {
+                "strategy": "quickcheck",
+                "property": "DeleteDelete"
+            },
+            {
+                "strategy": "quickcheck",
+                "property": "DeleteInsert"
+            },
+            {
+                "strategy": "quickcheck",
+                "property": "DeleteUnion"
+            },
+            {
+                "strategy": "quickcheck",
+                "property": "InsertDelete"
+            },
+            {
+                "strategy": "quickcheck",
+                "property": "UnionDeleteInsert"
+            }
+        ]
+    },
+    {
+        "language": "Rust",
+        "workload": "BST",
+        "mutations": [
+            "delete_5"
+        ],
+        "trials": 10,
+        "timeout": 0.5,
+        "cross": true,
+        "params": {
+            "tests": 10000
+        },
+        "tasks": [
+            {
+                "strategy": "quickcheck",
+                "property": "DeleteModel"
+            },
+            {
+                "strategy": "quickcheck",
+                "property": "DeletePost"
+            },
+            {
+                "strategy": "quickcheck",
+                "property": "DeleteDelete"
+            },
+            {
+                "strategy": "quickcheck",
+                "property": "DeleteInsert"
+            },
+            {
+                "strategy": "quickcheck",
+                "property": "DeleteUnion"
+            },
+            {
+                "strategy": "quickcheck",
+                "property": "UnionDeleteInsert"
+            }
+        ]
+    },
+    {
+        "language": "Rust",
+        "workload": "BST",
+        "mutations": [
+            "union_6"
+        ],
+        "trials": 10,
+        "timeout": 0.5,
+        "cross": true,
+        "params": {
+            "tests": 10000
+        },
+        "tasks": [
+            {
+                "strategy": "quickcheck",
+                "property": "UnionValid"
+            },
+            {
+                "strategy": "quickcheck",
+                "property": "UnionPost"
+            },
+            {
+                "strategy": "quickcheck",
+                "property": "UnionModel"
+            },
+            {
+                "strategy": "quickcheck",
+                "property": "DeleteUnion"
+            },
+            {
+                "strategy": "quickcheck",
+                "property": "InsertUnion"
+            },
+            {
+                "strategy": "quickcheck",
+                "property": "UnionDeleteInsert"
+            },
+            {
+                "strategy": "quickcheck",
+                "property": "UnionUnionAssoc"
+            }
+        ]
+    },
+    {
+        "language": "Rust",
+        "workload": "BST",
+        "mutations": [
+            "union_7"
+        ],
+        "trials": 10,
+        "timeout": 0.5,
+        "cross": true,
+        "params": {
+            "tests": 10000
+        },
+        "tasks": [
+            {
+                "strategy": "quickcheck",
+                "property": "UnionValid"
+            },
+            {
+                "strategy": "quickcheck",
+                "property": "UnionPost"
+            },
+            {
+                "strategy": "quickcheck",
+                "property": "UnionModel"
+            },
+            {
+                "strategy": "quickcheck",
+                "property": "DeleteUnion"
+            },
+            {
+                "strategy": "quickcheck",
+                "property": "InsertUnion"
+            },
+            {
+                "strategy": "quickcheck",
+                "property": "UnionDeleteInsert"
+            },
+            {
+                "strategy": "quickcheck",
+                "property": "UnionUnionAssoc"
+            }
+        ]
+    },
+    {
+        "language": "Rust",
+        "workload": "BST",
+        "mutations": [
+            "union_8"
+        ],
+        "trials": 10,
+        "timeout": 0.5,
+        "cross": true,
+        "params": {
+            "tests": 10000
+        },
+        "tasks": [
+            {
+                "strategy": "quickcheck",
+                "property": "UnionPost"
+            },
+            {
+                "strategy": "quickcheck",
+                "property": "UnionModel"
+            },
+            {
+                "strategy": "quickcheck",
+                "property": "DeleteUnion"
+            },
+            {
+                "strategy": "quickcheck",
+                "property": "InsertUnion"
+            },
+            {
+                "strategy": "quickcheck",
+                "property": "UnionDeleteInsert"
+            },
+            {
+                "strategy": "quickcheck",
+                "property": "UnionUnionAssoc"
+            }
+        ]
+    }
+]

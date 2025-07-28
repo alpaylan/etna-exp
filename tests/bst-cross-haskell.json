@@ -1,0 +1,330 @@
+[
+    {
+        "language": "Haskell",
+        "workload": "BST",
+        "mutations": [
+            "insert_1"
+        ],
+        "trials": 10,
+        "timeout": 1,
+        "cross": true,
+        "params": {
+            "tests": 1000
+        },
+        "tasks": [
+            {
+                "strategy": "Correct",
+                "property": "InsertInsert"
+            },
+            {
+                "strategy": "Correct",
+                "property": "InsertPost"
+            },
+            {
+                "strategy": "Correct",
+                "property": "InsertModel"
+            },
+            {
+                "strategy": "Correct",
+                "property": "DeleteInsert"
+            },
+            {
+                "strategy": "Correct",
+                "property": "InsertUnion"
+            },
+            {
+                "strategy": "Correct",
+                "property": "UnionDeleteInsert"
+            }
+        ]
+    },
+    {
+        "language": "Haskell",
+        "workload": "BST",
+        "mutations": [
+            "insert_2"
+        ],
+        "trials": 10,
+        "timeout": 1,
+        "cross": true,
+        "params": {
+            "tests": 1000
+        },
+        "tasks": [
+            {
+                "strategy": "Correct",
+                "property": "InsertPost"
+            },
+            {
+                "strategy": "Correct",
+                "property": "InsertModel"
+            },
+            {
+                "strategy": "Correct",
+                "property": "InsertDelete"
+            },
+            {
+                "strategy": "Correct",
+                "property": "DeleteInsert"
+            },
+            {
+                "strategy": "Correct",
+                "property": "InsertInsert"
+            },
+            {
+                "strategy": "Correct",
+                "property": "InsertUnion"
+            },
+            {
+                "strategy": "Correct",
+                "property": "UnionDeleteInsert"
+            }
+        ]
+    },
+    {
+        "language": "Haskell",
+        "workload": "BST",
+        "mutations": [
+            "insert_3"
+        ],
+        "trials": 10,
+        "timeout": 1,
+        "cross": true,
+        "params": {
+            "tests": 1000
+        },
+        "tasks": [
+            {
+                "strategy": "Correct",
+                "property": "InsertPost"
+            },
+            {
+                "strategy": "Correct",
+                "property": "InsertModel"
+            },
+            {
+                "strategy": "Correct",
+                "property": "InsertDelete"
+            },
+            {
+                "strategy": "Correct",
+                "property": "InsertInsert"
+            },
+            {
+                "strategy": "Correct",
+                "property": "InsertUnion"
+            },
+            {
+                "strategy": "Correct",
+                "property": "UnionDeleteInsert"
+            }
+        ]
+    },
+    {
+        "language": "Haskell",
+        "workload": "BST",
+        "mutations": [
+            "delete_4"
+        ],
+        "trials": 10,
+        "timeout": 1,
+        "cross": true,
+        "params": {
+            "tests": 1000
+        },
+        "tasks": [
+            {
+                "strategy": "Correct",
+                "property": "DeleteModel"
+            },
+            {
+                "strategy": "Correct",
+                "property": "DeletePost"
+            },
+            {
+                "strategy": "Correct",
+                "property": "DeleteDelete"
+            },
+            {
+                "strategy": "Correct",
+                "property": "DeleteInsert"
+            },
+            {
+                "strategy": "Correct",
+                "property": "DeleteUnion"
+            },
+            {
+                "strategy": "Correct",
+                "property": "InsertDelete"
+            },
+            {
+                "strategy": "Correct",
+                "property": "UnionDeleteInsert"
+            }
+        ]
+    },
+    {
+        "language": "Haskell",
+        "workload": "BST",
+        "mutations": [
+            "delete_5"
+        ],
+        "trials": 10,
+        "timeout": 1,
+        "cross": true,
+        "params": {
+            "tests": 1000
+        },
+        "tasks": [
+            {
+                "strategy": "Correct",
+                "property": "DeleteModel"
+            },
+            {
+                "strategy": "Correct",
+                "property": "DeletePost"
+            },
+            {
+                "strategy": "Correct",
+                "property": "DeleteDelete"
+            },
+            {
+                "strategy": "Correct",
+                "property": "DeleteInsert"
+            },
+            {
+                "strategy": "Correct",
+                "property": "DeleteUnion"
+            },
+            {
+                "strategy": "Correct",
+                "property": "UnionDeleteInsert"
+            }
+        ]
+    },
+    {
+        "language": "Haskell",
+        "workload": "BST",
+        "mutations": [
+            "union_6"
+        ],
+        "trials": 10,
+        "timeout": 1,
+        "cross": true,
+        "params": {
+            "tests": 1000
+        },
+        "tasks": [
+            {
+                "strategy": "Correct",
+                "property": "UnionValid"
+            },
+            {
+                "strategy": "Correct",
+                "property": "UnionPost"
+            },
+            {
+                "strategy": "Correct",
+                "property": "UnionModel"
+            },
+            {
+                "strategy": "Correct",
+                "property": "DeleteUnion"
+            },
+            {
+                "strategy": "Correct",
+                "property": "InsertUnion"
+            },
+            {
+                "strategy": "Correct",
+                "property": "UnionDeleteInsert"
+            },
+            {
+                "strategy": "Correct",
+                "property": "UnionUnionAssoc"
+            }
+        ]
+    },
+    {
+        "language": "Haskell",
+        "workload": "BST",
+        "mutations": [
+            "union_7"
+        ],
+        "trials": 10,
+        "timeout": 1,
+        "cross": true,
+        "params": {
+            "tests": 1000
+        },
+        "tasks": [
+            {
+                "strategy": "Correct",
+                "property": "UnionValid"
+            },
+            {
+                "strategy": "Correct",
+                "property": "UnionPost"
+            },
+            {
+                "strategy": "Correct",
+                "property": "UnionModel"
+            },
+            {
+                "strategy": "Correct",
+                "property": "DeleteUnion"
+            },
+            {
+                "strategy": "Correct",
+                "property": "InsertUnion"
+            },
+            {
+                "strategy": "Correct",
+                "property": "UnionDeleteInsert"
+            },
+            {
+                "strategy": "Correct",
+                "property": "UnionUnionAssoc"
+            }
+        ]
+    },
+    {
+        "language": "Haskell",
+        "workload": "BST",
+        "mutations": [
+            "union_8"
+        ],
+        "trials": 10,
+        "timeout": 1,
+        "cross": true,
+        "params": {
+            "tests": 1000
+        },
+        "tasks": [
+            {
+                "strategy": "Correct",
+                "property": "UnionPost"
+            },
+            {
+                "strategy": "Correct",
+                "property": "UnionModel"
+            },
+            {
+                "strategy": "Correct",
+                "property": "DeleteUnion"
+            },
+            {
+                "strategy": "Correct",
+                "property": "InsertUnion"
+            },
+            {
+                "strategy": "Correct",
+                "property": "UnionDeleteInsert"
+            },
+            {
+                "strategy": "Correct",
+                "property": "UnionUnionAssoc"
+            }
+        ]
+    }
+]

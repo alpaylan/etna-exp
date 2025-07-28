@@ -1,0 +1,538 @@
+[
+    {
+        "language": "OCaml",
+        "workload": "BST",
+        "mutations": [
+            "insert_1"
+        ],
+        "trials": 10,
+        "timeout": 0.5,
+        "cross": true,
+        "params": {
+            "tests": 1000
+        },
+        "tasks": [
+            {
+                "strategy": "qcheck:bespoke",
+                "property": "InsertInsert"
+            },
+            {
+                "strategy": "qcheck:typebased",
+                "property": "InsertInsert"
+            },
+            {
+                "strategy": "qcheck:bespoke",
+                "property": "InsertPost"
+            },
+            {
+                "strategy": "qcheck:typebased",
+                "property": "InsertPost"
+            },
+            {
+                "strategy": "qcheck:bespoke",
+                "property": "InsertModel"
+            },
+            {
+                "strategy": "qcheck:typebased",
+                "property": "InsertModel"
+            },
+            {
+                "strategy": "qcheck:bespoke",
+                "property": "DeleteInsert"
+            },
+            {
+                "strategy": "qcheck:typebased",
+                "property": "DeleteInsert"
+            },
+            {
+                "strategy": "qcheck:bespoke",
+                "property": "InsertUnion"
+            },
+            {
+                "strategy": "qcheck:typebased",
+                "property": "InsertUnion"
+            },
+            {
+                "strategy": "qcheck:bespoke",
+                "property": "UnionDeleteInsert"
+            },
+            {
+                "strategy": "qcheck:typebased",
+                "property": "UnionDeleteInsert"
+            }
+        ]
+    },
+    {
+        "language": "OCaml",
+        "workload": "BST",
+        "mutations": [
+            "insert_2"
+        ],
+        "trials": 10,
+        "timeout": 0.5,
+        "cross": true,
+        "params": {
+            "tests": 1000
+        },
+        "tasks": [
+            {
+                "strategy": "qcheck:bespoke",
+                "property": "InsertPost"
+            },
+            {
+                "strategy": "qcheck:typebased",
+                "property": "InsertPost"
+            },
+            {
+                "strategy": "qcheck:bespoke",
+                "property": "InsertModel"
+            },
+            {
+                "strategy": "qcheck:typebased",
+                "property": "InsertModel"
+            },
+            {
+                "strategy": "qcheck:bespoke",
+                "property": "InsertDelete"
+            },
+            {
+                "strategy": "qcheck:typebased",
+                "property": "InsertDelete"
+            },
+            {
+                "strategy": "qcheck:bespoke",
+                "property": "DeleteInsert"
+            },
+            {
+                "strategy": "qcheck:typebased",
+                "property": "DeleteInsert"
+            },
+            {
+                "strategy": "qcheck:bespoke",
+                "property": "InsertInsert"
+            },
+            {
+                "strategy": "qcheck:typebased",
+                "property": "InsertInsert"
+            },
+            {
+                "strategy": "qcheck:bespoke",
+                "property": "InsertUnion"
+            },
+            {
+                "strategy": "qcheck:typebased",
+                "property": "InsertUnion"
+            },
+            {
+                "strategy": "qcheck:bespoke",
+                "property": "UnionDeleteInsert"
+            },
+            {
+                "strategy": "qcheck:typebased",
+                "property": "UnionDeleteInsert"
+            }
+        ]
+    },
+    {
+        "language": "OCaml",
+        "workload": "BST",
+        "mutations": [
+            "insert_3"
+        ],
+        "trials": 10,
+        "timeout": 0.5,
+        "cross": true,
+        "params": {
+            "tests": 1000
+        },
+        "tasks": [
+            {
+                "strategy": "qcheck:bespoke",
+                "property": "InsertPost"
+            },
+            {
+                "strategy": "qcheck:typebased",
+                "property": "InsertPost"
+            },
+            {
+                "strategy": "qcheck:bespoke",
+                "property": "InsertModel"
+            },
+            {
+                "strategy": "qcheck:typebased",
+                "property": "InsertModel"
+            },
+            {
+                "strategy": "qcheck:bespoke",
+                "property": "InsertDelete"
+            },
+            {
+                "strategy": "qcheck:typebased",
+                "property": "InsertDelete"
+            },
+            {
+                "strategy": "qcheck:bespoke",
+                "property": "InsertInsert"
+            },
+            {
+                "strategy": "qcheck:typebased",
+                "property": "InsertInsert"
+            },
+            {
+                "strategy": "qcheck:bespoke",
+                "property": "InsertUnion"
+            },
+            {
+                "strategy": "qcheck:typebased",
+                "property": "InsertUnion"
+            },
+            {
+                "strategy": "qcheck:bespoke",
+                "property": "UnionDeleteInsert"
+            },
+            {
+                "strategy": "qcheck:typebased",
+                "property": "UnionDeleteInsert"
+            }
+        ]
+    },
+    {
+        "language": "OCaml",
+        "workload": "BST",
+        "mutations": [
+            "delete_4"
+        ],
+        "trials": 10,
+        "timeout": 0.5,
+        "cross": true,
+        "params": {
+            "tests": 1000
+        },
+        "tasks": [
+            {
+                "strategy": "qcheck:bespoke",
+                "property": "DeleteModel"
+            },
+            {
+                "strategy": "qcheck:typebased",
+                "property": "DeleteModel"
+            },
+            {
+                "strategy": "qcheck:bespoke",
+                "property": "DeletePost"
+            },
+            {
+                "strategy": "qcheck:typebased",
+                "property": "DeletePost"
+            },
+            {
+                "strategy": "qcheck:bespoke",
+                "property": "DeleteDelete"
+            },
+            {
+                "strategy": "qcheck:typebased",
+                "property": "DeleteDelete"
+            },
+            {
+                "strategy": "qcheck:bespoke",
+                "property": "DeleteInsert"
+            },
+            {
+                "strategy": "qcheck:typebased",
+                "property": "DeleteInsert"
+            },
+            {
+                "strategy": "qcheck:bespoke",
+                "property": "DeleteUnion"
+            },
+            {
+                "strategy": "qcheck:typebased",
+                "property": "DeleteUnion"
+            },
+            {
+                "strategy": "qcheck:bespoke",
+                "property": "InsertDelete"
+            },
+            {
+                "strategy": "qcheck:typebased",
+                "property": "InsertDelete"
+            },
+            {
+                "strategy": "qcheck:bespoke",
+                "property": "UnionDeleteInsert"
+            },
+            {
+                "strategy": "qcheck:typebased",
+                "property": "UnionDeleteInsert"
+            }
+        ]
+    },
+    {
+        "language": "OCaml",
+        "workload": "BST",
+        "mutations": [
+            "delete_5"
+        ],
+        "trials": 10,
+        "timeout": 0.5,
+        "cross": true,
+        "params": {
+            "tests": 1000
+        },
+        "tasks": [
+            {
+                "strategy": "qcheck:bespoke",
+                "property": "DeleteModel"
+            },
+            {
+                "strategy": "qcheck:typebased",
+                "property": "DeleteModel"
+            },
+            {
+                "strategy": "qcheck:bespoke",
+                "property": "DeletePost"
+            },
+            {
+                "strategy": "qcheck:typebased",
+                "property": "DeletePost"
+            },
+            {
+                "strategy": "qcheck:bespoke",
+                "property": "DeleteDelete"
+            },
+            {
+                "strategy": "qcheck:typebased",
+                "property": "DeleteDelete"
+            },
+            {
+                "strategy": "qcheck:bespoke",
+                "property": "DeleteInsert"
+            },
+            {
+                "strategy": "qcheck:typebased",
+                "property": "DeleteInsert"
+            },
+            {
+                "strategy": "qcheck:bespoke",
+                "property": "DeleteUnion"
+            },
+            {
+                "strategy": "qcheck:typebased",
+                "property": "DeleteUnion"
+            },
+            {
+                "strategy": "qcheck:bespoke",
+                "property": "UnionDeleteInsert"
+            },
+            {
+                "strategy": "qcheck:typebased",
+                "property": "UnionDeleteInsert"
+            }
+        ]
+    },
+    {
+        "language": "OCaml",
+        "workload": "BST",
+        "mutations": [
+            "union_6"
+        ],
+        "trials": 10,
+        "timeout": 0.5,
+        "cross": true,
+        "params": {
+            "tests": 1000
+        },
+        "tasks": [
+            {
+                "strategy": "qcheck:bespoke",
+                "property": "UnionValid"
+            },
+            {
+                "strategy": "qcheck:typebased",
+                "property": "UnionValid"
+            },
+            {
+                "strategy": "qcheck:bespoke",
+                "property": "UnionPost"
+            },
+            {
+                "strategy": "qcheck:typebased",
+                "property": "UnionPost"
+            },
+            {
+                "strategy": "qcheck:bespoke",
+                "property": "UnionModel"
+            },
+            {
+                "strategy": "qcheck:typebased",
+                "property": "UnionModel"
+            },
+            {
+                "strategy": "qcheck:bespoke",
+                "property": "DeleteUnion"
+            },
+            {
+                "strategy": "qcheck:typebased",
+                "property": "DeleteUnion"
+            },
+            {
+                "strategy": "qcheck:bespoke",
+                "property": "InsertUnion"
+            },
+            {
+                "strategy": "qcheck:typebased",
+                "property": "InsertUnion"
+            },
+            {
+                "strategy": "qcheck:bespoke",
+                "property": "UnionDeleteInsert"
+            },
+            {
+                "strategy": "qcheck:typebased",
+                "property": "UnionDeleteInsert"
+            },
+            {
+                "strategy": "qcheck:bespoke",
+                "property": "UnionUnionAssoc"
+            },
+            {
+                "strategy": "qcheck:typebased",
+                "property": "UnionUnionAssoc"
+            }
+        ]
+    },
+    {
+        "language": "OCaml",
+        "workload": "BST",
+        "mutations": [
+            "union_7"
+        ],
+        "trials": 10,
+        "timeout": 0.5,
+        "cross": true,
+        "params": {
+            "tests": 1000
+        },
+        "tasks": [
+            {
+                "strategy": "qcheck:bespoke",
+                "property": "UnionValid"
+            },
+            {
+                "strategy": "qcheck:typebased",
+                "property": "UnionValid"
+            },
+            {
+                "strategy": "qcheck:bespoke",
+                "property": "UnionPost"
+            },
+            {
+                "strategy": "qcheck:typebased",
+                "property": "UnionPost"
+            },
+            {
+                "strategy": "qcheck:bespoke",
+                "property": "UnionModel"
+            },
+            {
+                "strategy": "qcheck:typebased",
+                "property": "UnionModel"
+            },
+            {
+                "strategy": "qcheck:bespoke",
+                "property": "DeleteUnion"
+            },
+            {
+                "strategy": "qcheck:typebased",
+                "property": "DeleteUnion"
+            },
+            {
+                "strategy": "qcheck:bespoke",
+                "property": "InsertUnion"
+            },
+            {
+                "strategy": "qcheck:typebased",
+                "property": "InsertUnion"
+            },
+            {
+                "strategy": "qcheck:bespoke",
+                "property": "UnionDeleteInsert"
+            },
+            {
+                "strategy": "qcheck:typebased",
+                "property": "UnionDeleteInsert"
+            },
+            {
+                "strategy": "qcheck:bespoke",
+                "property": "UnionUnionAssoc"
+            },
+            {
+                "strategy": "qcheck:typebased",
+                "property": "UnionUnionAssoc"
+            }
+        ]
+    },
+    {
+        "language": "OCaml",
+        "workload": "BST",
+        "mutations": [
+            "union_8"
+        ],
+        "trials": 10,
+        "timeout": 0.5,
+        "cross": true,
+        "params": {
+            "tests": 1000
+        },
+        "tasks": [
+            {
+                "strategy": "qcheck:bespoke",
+                "property": "UnionPost"
+            },
+            {
+                "strategy": "qcheck:typebased",
+                "property": "UnionPost"
+            },
+            {
+                "strategy": "qcheck:bespoke",
+                "property": "UnionModel"
+            },
+            {
+                "strategy": "qcheck:typebased",
+                "property": "UnionModel"
+            },
+            {
+                "strategy": "qcheck:bespoke",
+                "property": "DeleteUnion"
+            },
+            {
+                "strategy": "qcheck:typebased",
+                "property": "DeleteUnion"
+            },
+            {
+                "strategy": "qcheck:bespoke",
+                "property": "InsertUnion"
+            },
+            {
+                "strategy": "qcheck:typebased",
+                "property": "InsertUnion"
+            },
+            {
+                "strategy": "qcheck:bespoke",
+                "property": "UnionDeleteInsert"
+            },
+            {
+                "strategy": "qcheck:typebased",
+                "property": "UnionDeleteInsert"
+            },
+            {
+                "strategy": "qcheck:bespoke",
+                "property": "UnionUnionAssoc"
+            },
+            {
+                "strategy": "qcheck:typebased",
+                "property": "UnionUnionAssoc"
+            }
+        ]
+    }
+]

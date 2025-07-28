@@ -1,0 +1,349 @@
+[
+    {
+        "language": "Rust",
+        "workload": "RBT",
+        "mutations": [
+            "insert_1"
+        ],
+        "trials": 10,
+        "timeout": 1,
+        "cross": true,
+        "params": {
+            "tests": 1000
+        },
+        "tasks": [
+            {
+                "strategy": "quickcheck",
+                "property": "InsertPost"
+            },
+            {
+                "strategy": "quickcheck",
+                "property": "InsertModel"
+            },
+            {
+                "strategy": "quickcheck",
+                "property": "DeleteInsert"
+            },
+            {
+                "strategy": "quickcheck",
+                "property": "InsertInsert"
+            }
+        ]
+    },
+    {
+        "language": "Rust",
+        "workload": "RBT",
+        "mutations": [
+            "insert_2"
+        ],
+        "trials": 10,
+        "timeout": 1,
+        "cross": true,
+        "params": {
+            "tests": 1000
+        },
+        "tasks": [
+            {
+                "strategy": "quickcheck",
+                "property": "InsertPost"
+            },
+            {
+                "strategy": "quickcheck",
+                "property": "InsertModel"
+            },
+            {
+                "strategy": "quickcheck",
+                "property": "InsertDelete"
+            },
+            {
+                "strategy": "quickcheck",
+                "property": "DeleteInsert"
+            },
+            {
+                "strategy": "quickcheck",
+                "property": "InsertInsert"
+            }
+        ]
+    },
+    {
+        "language": "Rust",
+        "workload": "RBT",
+        "mutations": [
+            "insert_3"
+        ],
+        "trials": 10,
+        "timeout": 1,
+        "cross": true,
+        "params": {
+            "tests": 1000
+        },
+        "tasks": [
+            {
+                "strategy": "quickcheck",
+                "property": "InsertPost"
+            },
+            {
+                "strategy": "quickcheck",
+                "property": "InsertModel"
+            },
+            {
+                "strategy": "quickcheck",
+                "property": "InsertDelete"
+            },
+            {
+                "strategy": "quickcheck",
+                "property": "InsertInsert"
+            }
+        ]
+    },
+        {
+        "language": "Rust",
+        "workload": "RBT",
+        "mutations": [
+            "delete_4"
+        ],
+        "trials": 10,
+        "timeout": 1,
+        "cross": true,
+        "params": {
+            "tests": 1000
+        },
+        "tasks": [
+            {
+                "strategy": "quickcheck",
+                "property": "DeleteDelete"
+            },
+            {
+                "strategy": "quickcheck",
+                "property": "DeleteModel"
+            },
+            {
+                "strategy": "quickcheck",
+                "property": "DeletePost"
+            },
+            {
+                "strategy": "quickcheck",
+                "property": "DeleteInsert"
+            },
+            {
+                "strategy": "quickcheck",
+                "property": "InsertDelete"
+            }
+        ]
+    },
+    {
+        "language": "Rust",
+        "workload": "RBT",
+        "mutations": [
+            "delete_5"
+        ],
+        "trials": 10,
+        "timeout": 1,
+        "cross": true,
+        "params": {
+            "tests": 1000
+        },
+        "tasks": [
+            {
+                "strategy": "quickcheck",
+                "property": "DeleteModel"
+            },
+            {
+                "strategy": "quickcheck",
+                "property": "DeletePost"
+            },
+            {
+                "strategy": "quickcheck",
+                "property": "DeleteDelete"
+            },
+            {
+                "strategy": "quickcheck",
+                "property": "DeleteInsert"
+            }
+        ]
+    },
+    {
+        "language": "Rust",
+        "workload": "RBT",
+        "mutations": [
+            "miscolor_insert"
+        ],
+        "trials": 10,
+        "timeout": 1,
+        "cross": true,
+        "params": {
+            "tests": 1000
+        },
+        "tasks": [
+            {
+                "strategy": "quickcheck",
+                "property": "InsertValid"
+            },
+            {
+                "strategy": "quickcheck",
+                "property": "DeleteInsert"
+            }
+        ]
+    },
+    {
+        "language": "Rust",
+        "workload": "RBT",
+        "mutations": [
+            "miscolor_delete"
+        ],
+        "trials": 10,
+        "timeout": 1,
+        "cross": true,
+        "params": {
+            "tests": 1000
+        },
+        "tasks": [
+            {
+                "strategy": "quickcheck",
+                "property": "DeleteValid"
+            }
+        ]
+    },
+    {
+        "language": "Rust",
+        "workload": "RBT",
+        "mutations": [
+            "miscolor_balLeft"
+        ],
+        "trials": 10,
+        "timeout": 1,
+        "cross": true,
+        "params": {
+            "tests": 1000
+        },
+        "tasks": [
+            {
+                "strategy": "quickcheck",
+                "property": "DeleteValid"
+            },
+            {
+                "strategy": "quickcheck",
+                "property": "DeleteDelete"
+            }
+        ]
+    },
+    {
+        "language": "Rust",
+        "workload": "RBT",
+        "mutations": [
+            "miscolor_balRight"
+        ],
+        "trials": 10,
+        "timeout": 1,
+        "cross": true,
+        "params": {
+            "tests": 1000
+        },
+        "tasks": [
+            {
+                "strategy": "quickcheck",
+                "property": "DeleteValid"
+            },
+            {
+                "strategy": "quickcheck",
+                "property": "DeleteDelete"
+            }
+        ]
+    },
+    {
+        "language": "Rust",
+        "workload": "RBT",
+        "mutations": [
+            "miscolor_join_1"
+        ],
+        "trials": 10,
+        "timeout": 1,
+        "cross": true,
+        "params": {
+            "tests": 1000
+        },
+        "tasks": [
+            {
+                "strategy": "quickcheck",
+                "property": "DeleteValid"
+            }
+        ]
+    },
+    {
+        "language": "Rust",
+        "workload": "RBT",
+        "mutations": [
+            "miscolor_join_2"
+        ],
+        "trials": 10,
+        "timeout": 1,
+        "cross": true,
+        "params": {
+            "tests": 1000
+        },
+        "tasks": [
+            {
+                "strategy": "quickcheck",
+                "property": "DeleteValid"
+            },
+            {
+                "strategy": "quickcheck",
+                "property": "DeleteDelete"
+            }
+        ]
+    },
+    {
+        "language": "Rust",
+        "workload": "RBT",
+        "mutations": [
+            "no_balance_insert_1"
+        ],
+        "trials": 10,
+        "timeout": 1,
+        "cross": true,
+        "params": {
+            "tests": 1000
+        },
+        "tasks": [
+            {
+                "strategy": "quickcheck",
+                "property": "InsertValid"
+            },
+            {
+                "strategy": "quickcheck",
+                "property": "DeleteInsert"
+            },
+            {
+                "strategy": "quickcheck",
+                "property": "InsertDelete"
+            }
+        ]
+    },
+    {
+        "language": "Rust",
+        "workload": "RBT",
+        "mutations": [
+            "no_balance_insert_2"
+        ],
+        "trials": 10,
+        "timeout": 1,
+        "cross": true,
+        "params": {
+            "tests": 1000
+        },
+        "tasks": [
+            {
+                "strategy": "quickcheck",
+                "property": "InsertValid"
+            },
+            {
+                "strategy": "quickcheck",
+                "property": "DeleteInsert"
+            },
+            {
+                "strategy": "quickcheck",
+                "property": "InsertDelete"
+            }
+        ]
+    }
+]

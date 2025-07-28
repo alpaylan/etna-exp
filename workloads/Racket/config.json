@@ -1,0 +1,49 @@
+{
+    "check_steps": [],
+    "build_steps": [
+        {
+            "Command": {
+                "command": "raco",
+                "args": [
+                    "exe",
+                    "main.rkt"
+                ]
+            }
+        }
+    ],
+    "run_step": {
+        "Match": {
+            "value": "cross",
+            "options": {
+                "true": {
+                    "Command": {
+                        "command": "workload_path/main-sampler",
+                        "args": [
+                            "$property",
+                            "1000"
+                        ],
+                        "params": [
+                            "workload_path",
+                            "property",
+                            "strategy"
+                        ]
+                    }
+                },
+                "false": {
+                    "Command": {
+                        "command": "workload_path/main",
+                        "args": [
+                            "$strategy",
+                            "$property"
+                        ],
+                        "params": [
+                            "workload_path",
+                            "property",
+                            "strategy"
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

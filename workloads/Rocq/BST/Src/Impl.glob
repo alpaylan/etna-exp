@@ -1,4 +1,4 @@
-DIGEST 8d0f42be95e7298c4e3fa7423b2c615a
+DIGEST da3744089bc7e83dd9ede0926aee7b1a
 FBST.Src.Impl
 R15:18 Coq.Lists.List <> <> lib
 R20:25 Coq.ZArith.ZArith <> <> lib
@@ -169,14 +169,28 @@ R2191:2191 BST.Src.Impl <> E constr
 R2199:2199 BST.Src.Impl <> r:35 var
 R2210:2210 BST.Src.Impl <> E constr
 R2215:2215 BST.Src.Impl <> l:34 var
-R2227:2227 BST.Src.Impl <> T constr
-R2250:2250 BST.Src.Impl <> T constr
-R2253:2258 BST.Src.Impl <> union_:37 def
-R2263:2267 BST.Src.Impl <> below def
-R2260:2260 BST.Src.Impl <> l:34 var
-R2283:2288 BST.Src.Impl <> union_:37 def
-R2293:2297 BST.Src.Impl <> above def
-R2290:2290 BST.Src.Impl <> r:35 var
+R2668:2668 BST.Src.Impl <> T constr
+R2681:2681 BST.Src.Impl <> T constr
+R2707:2710 Coq.Arith.PeanoNat <> ::nat_scope:x_'=?'_x not
+R2773:2776 Coq.Arith.PeanoNat <> ::nat_scope:x_'<?'_x not
+R2899:2904 BST.Src.Impl <> union_:37 def
+R2923:2923 BST.Src.Impl <> T constr
+R2925:2925 BST.Src.Impl <> l:34 var
+R2931:2931 BST.Src.Impl <> r:35 var
+R2907:2907 BST.Src.Impl <> T constr
+R2787:2787 BST.Src.Impl <> T constr
+R2790:2795 BST.Src.Impl <> union_:37 def
+R2800:2804 BST.Src.Impl <> below def
+R2797:2797 BST.Src.Impl <> l:34 var
+R2849:2854 BST.Src.Impl <> union_:37 def
+R2859:2859 BST.Src.Impl <> T constr
+R2862:2866 BST.Src.Impl <> above def
+R2856:2856 BST.Src.Impl <> r:35 var
+R2720:2720 BST.Src.Impl <> T constr
+R2723:2728 BST.Src.Impl <> union_:37 def
+R2730:2730 BST.Src.Impl <> l:34 var
+R2744:2749 BST.Src.Impl <> union_:37 def
+R2751:2751 BST.Src.Impl <> r:35 var
 def 2968:2972 <> union
 R2978:2981 BST.Src.Impl <> Tree ind
 binder 2975:2975 <> l:41

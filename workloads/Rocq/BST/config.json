@@ -26,18 +26,6 @@
                     "generator"
                 ]
             }
-        },
-        {
-            "Command": {
-                "command": "$workload_path/build_fuzzer",
-                "args": [
-                    "!fuzzer"
-                ],
-                "params": [
-                    "workload_path",
-                    "fuzzer"
-                ]
-            }
         }
     ],
     "run_step": {
@@ -112,9 +100,6 @@
             "BespokeGenerator",
             "SpecificationBasedGenerator",
             "TypeBasedGenerator"
-        ],
-        "fuzzer": [
-            "TypeBasedFuzzer"
         ],
         "sampler": [
             "BespokeGenerator"

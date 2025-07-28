@@ -3655,12 +3655,12 @@ let balance col tl key0 val0 tr =
 let rec insert key0 val0 t0 =
   let ins =
     let rec ins x vx = function
-    | E -> T (B, E, x, vx, E)
+    | E -> T (R, E, x, vx, E)
     | T (rb, a, y, vy, b) ->
       if z_lt_le_dec x y
       then balance rb (ins x vx a) y vy b
       else if z_lt_le_dec y x
-           then balance rb a y vy (ins x vx b)
+           then T (rb, a, y, vy, (insert x vx b))
            else T (rb, a, y, vx, b)
     in ins
   in

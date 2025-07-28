@@ -129,13 +129,11 @@
        ]
       [(list x vx (T rb a y vy b))
        #|! |#
-#|!
        (cond
          [(< x y) (balance rb (ins x vx a) y vy b)]
          [(< y x) (balance rb a y vy (ins x vx b))]
          [else (T rb a y vx b)]
          )
-|#
        #|!! insert_1 |#
        #|!
           (T (R) (E) x vx (E))
@@ -148,11 +146,13 @@
           )
        |#
        #|!! insert_3 |#
+       #|!
           (cond
             [(< x y) (balance rb (ins x vx a) y vy b)]
             [(< y x) (balance rb a y vy (ins x vx b))]
             [else (T rb a y vy b)]
           )
+       |#
        #|!! no_balance_insert_1 |#
        #|!
           (cond

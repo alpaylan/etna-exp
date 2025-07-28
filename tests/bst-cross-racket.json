@@ -1,0 +1,330 @@
+[
+    {
+        "language": "Racket",
+        "workload": "BST",
+        "mutations": [
+            "insert_1"
+        ],
+        "trials": 10,
+        "timeout": 60,
+        "cross": true,
+        "params": {
+            "tests": 1000
+        },
+        "tasks": [
+            {
+                "strategy": "RackcheckBespoke",
+                "property": "InsertInsert"
+            },
+            {
+                "strategy": "RackcheckBespoke",
+                "property": "InsertPost"
+            },
+            {
+                "strategy": "RackcheckBespoke",
+                "property": "InsertModel"
+            },
+            {
+                "strategy": "RackcheckBespoke",
+                "property": "DeleteInsert"
+            },
+            {
+                "strategy": "RackcheckBespoke",
+                "property": "InsertUnion"
+            },
+            {
+                "strategy": "RackcheckBespoke",
+                "property": "UnionDeleteInsert"
+            }
+        ]
+    },
+    {
+        "language": "Racket",
+        "workload": "BST",
+        "mutations": [
+            "insert_2"
+        ],
+        "trials": 10,
+        "timeout": 60,
+        "cross": true,
+        "params": {
+            "tests": 1000
+        },
+        "tasks": [
+            {
+                "strategy": "RackcheckBespoke",
+                "property": "InsertPost"
+            },
+            {
+                "strategy": "RackcheckBespoke",
+                "property": "InsertModel"
+            },
+            {
+                "strategy": "RackcheckBespoke",
+                "property": "InsertDelete"
+            },
+            {
+                "strategy": "RackcheckBespoke",
+                "property": "DeleteInsert"
+            },
+            {
+                "strategy": "RackcheckBespoke",
+                "property": "InsertInsert"
+            },
+            {
+                "strategy": "RackcheckBespoke",
+                "property": "InsertUnion"
+            },
+            {
+                "strategy": "RackcheckBespoke",
+                "property": "UnionDeleteInsert"
+            }
+        ]
+    },
+    {
+        "language": "Racket",
+        "workload": "BST",
+        "mutations": [
+            "insert_3"
+        ],
+        "trials": 10,
+        "timeout": 60,
+        "cross": true,
+        "params": {
+            "tests": 1000
+        },
+        "tasks": [
+            {
+                "strategy": "RackcheckBespoke",
+                "property": "InsertPost"
+            },
+            {
+                "strategy": "RackcheckBespoke",
+                "property": "InsertModel"
+            },
+            {
+                "strategy": "RackcheckBespoke",
+                "property": "InsertDelete"
+            },
+            {
+                "strategy": "RackcheckBespoke",
+                "property": "InsertInsert"
+            },
+            {
+                "strategy": "RackcheckBespoke",
+                "property": "InsertUnion"
+            },
+            {
+                "strategy": "RackcheckBespoke",
+                "property": "UnionDeleteInsert"
+            }
+        ]
+    },
+    {
+        "language": "Racket",
+        "workload": "BST",
+        "mutations": [
+            "delete_4"
+        ],
+        "trials": 10,
+        "timeout": 60,
+        "cross": true,
+        "params": {
+            "tests": 1000
+        },
+        "tasks": [
+            {
+                "strategy": "RackcheckBespoke",
+                "property": "DeleteModel"
+            },
+            {
+                "strategy": "RackcheckBespoke",
+                "property": "DeletePost"
+            },
+            {
+                "strategy": "RackcheckBespoke",
+                "property": "DeleteDelete"
+            },
+            {
+                "strategy": "RackcheckBespoke",
+                "property": "DeleteInsert"
+            },
+            {
+                "strategy": "RackcheckBespoke",
+                "property": "DeleteUnion"
+            },
+            {
+                "strategy": "RackcheckBespoke",
+                "property": "InsertDelete"
+            },
+            {
+                "strategy": "RackcheckBespoke",
+                "property": "UnionDeleteInsert"
+            }
+        ]
+    },
+    {
+        "language": "Racket",
+        "workload": "BST",
+        "mutations": [
+            "delete_5"
+        ],
+        "trials": 10,
+        "timeout": 60,
+        "cross": true,
+        "params": {
+            "tests": 1000
+        },
+        "tasks": [
+            {
+                "strategy": "RackcheckBespoke",
+                "property": "DeleteModel"
+            },
+            {
+                "strategy": "RackcheckBespoke",
+                "property": "DeletePost"
+            },
+            {
+                "strategy": "RackcheckBespoke",
+                "property": "DeleteDelete"
+            },
+            {
+                "strategy": "RackcheckBespoke",
+                "property": "DeleteInsert"
+            },
+            {
+                "strategy": "RackcheckBespoke",
+                "property": "DeleteUnion"
+            },
+            {
+                "strategy": "RackcheckBespoke",
+                "property": "UnionDeleteInsert"
+            }
+        ]
+    },
+    {
+        "language": "Racket",
+        "workload": "BST",
+        "mutations": [
+            "union_6"
+        ],
+        "trials": 10,
+        "timeout": 60,
+        "cross": true,
+        "params": {
+            "tests": 1000
+        },
+        "tasks": [
+            {
+                "strategy": "RackcheckBespoke",
+                "property": "UnionValid"
+            },
+            {
+                "strategy": "RackcheckBespoke",
+                "property": "UnionPost"
+            },
+            {
+                "strategy": "RackcheckBespoke",
+                "property": "UnionModel"
+            },
+            {
+                "strategy": "RackcheckBespoke",
+                "property": "DeleteUnion"
+            },
+            {
+                "strategy": "RackcheckBespoke",
+                "property": "InsertUnion"
+            },
+            {
+                "strategy": "RackcheckBespoke",
+                "property": "UnionDeleteInsert"
+            },
+            {
+                "strategy": "RackcheckBespoke",
+                "property": "UnionUnionAssoc"
+            }
+        ]
+    },
+    {
+        "language": "Racket",
+        "workload": "BST",
+        "mutations": [
+            "union_7"
+        ],
+        "trials": 10,
+        "timeout": 60,
+        "cross": true,
+        "params": {
+            "tests": 1000
+        },
+        "tasks": [
+            {
+                "strategy": "RackcheckBespoke",
+                "property": "UnionValid"
+            },
+            {
+                "strategy": "RackcheckBespoke",
+                "property": "UnionPost"
+            },
+            {
+                "strategy": "RackcheckBespoke",
+                "property": "UnionModel"
+            },
+            {
+                "strategy": "RackcheckBespoke",
+                "property": "DeleteUnion"
+            },
+            {
+                "strategy": "RackcheckBespoke",
+                "property": "InsertUnion"
+            },
+            {
+                "strategy": "RackcheckBespoke",
+                "property": "UnionDeleteInsert"
+            },
+            {
+                "strategy": "RackcheckBespoke",
+                "property": "UnionUnionAssoc"
+            }
+        ]
+    },
+    {
+        "language": "Racket",
+        "workload": "BST",
+        "mutations": [
+            "union_8"
+        ],
+        "trials": 10,
+        "timeout": 60,
+        "cross": true,
+        "params": {
+            "tests": 1000
+        },
+        "tasks": [
+            {
+                "strategy": "RackcheckBespoke",
+                "property": "UnionPost"
+            },
+            {
+                "strategy": "RackcheckBespoke",
+                "property": "UnionModel"
+            },
+            {
+                "strategy": "RackcheckBespoke",
+                "property": "DeleteUnion"
+            },
+            {
+                "strategy": "RackcheckBespoke",
+                "property": "InsertUnion"
+            },
+            {
+                "strategy": "RackcheckBespoke",
+                "property": "UnionDeleteInsert"
+            },
+            {
+                "strategy": "RackcheckBespoke",
+                "property": "UnionUnionAssoc"
+            }
+        ]
+    }
+]
