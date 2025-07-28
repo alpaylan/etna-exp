@@ -29,3 +29,7 @@ language = "Rust"
 [[workloads]]
 name = "RBT"
 language = "Rocq"
+
+[[workloads]]
+name = "RBT"
+language = "Haskell"
