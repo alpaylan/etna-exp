@@ -1,0 +1,164 @@
+DIGEST c5f436107e7d2ca0fb36b59b09a5c49c
+FRBT.Strategies.TypeBasedGenerator
+R18:23 Coq.ZArith.ZArith <> <> lib
+R57:66 QuickChick.QuickChick <> <> lib
+R96:100 ExtLib.Structures.Monad <> <> lib
+R142:152 ExtLib.Data.Monads.OptionMonad <> <> lib
+R162:171 QuickChick.Checker QcNotation <> mod
+R181:193 ExtLib.Structures.Monad MonadNotation <> mod
+R220:223 Coq.Lists.List <> <> lib
+R233:245 Coq.Lists.List ListNotations <> mod
+R274:277 RBT.Src.Impl <> <> lib
+R279:282 RBT.Src.Spec <> <> lib
+def 453:473 <> test_prop_InsertValid
+R484:489 QuickChick.Checker <> forAll def
+binder 506:506 <> t:33
+R519:524 QuickChick.Checker <> forAll def
+binder 541:541 <> k:34
+R550:555 QuickChick.Checker <> forAll def
+binder 572:572 <> v:35
+R586:601 RBT.Src.Spec <> prop_InsertValid def
+R603:603 RBT.Strategies.TypeBasedGenerator <> t:33 var
+R605:605 RBT.Strategies.TypeBasedGenerator <> k:34 var
+R607:607 RBT.Strategies.TypeBasedGenerator <> v:35 var
+R557:565 QuickChick.Classes <> arbitrary meth
+R526:534 QuickChick.Classes <> arbitrary meth
+R491:499 QuickChick.Classes <> arbitrary meth
+def 668:688 <> test_prop_DeleteValid
+R699:704 QuickChick.Checker <> forAll def
+binder 721:721 <> t:36
+R734:739 QuickChick.Checker <> forAll def
+binder 756:756 <> k:37
+R769:784 RBT.Src.Spec <> prop_DeleteValid def
+R786:786 RBT.Strategies.TypeBasedGenerator <> t:36 var
+R788:788 RBT.Strategies.TypeBasedGenerator <> k:37 var
+R741:749 QuickChick.Classes <> arbitrary meth
+R706:714 QuickChick.Classes <> arbitrary meth
+def 847:866 <> test_prop_InsertPost
+R877:882 QuickChick.Checker <> forAll def
+binder 899:899 <> t:38
+R912:917 QuickChick.Checker <> forAll def
+binder 934:934 <> k:39
+R943:948 QuickChick.Checker <> forAll def
+binder 965:966 <> k':40
+R976:981 QuickChick.Checker <> forAll def
+binder 998:998 <> v:41
+R1011:1025 RBT.Src.Spec <> prop_InsertPost def
+R1027:1027 RBT.Strategies.TypeBasedGenerator <> t:38 var
+R1029:1029 RBT.Strategies.TypeBasedGenerator <> k:39 var
+R1031:1032 RBT.Strategies.TypeBasedGenerator <> k':40 var
+R1034:1034 RBT.Strategies.TypeBasedGenerator <> v:41 var
+R983:991 QuickChick.Classes <> arbitrary meth
+R950:958 QuickChick.Classes <> arbitrary meth
+R919:927 QuickChick.Classes <> arbitrary meth
+R884:892 QuickChick.Classes <> arbitrary meth
+def 1094:1113 <> test_prop_DeletePost
+R1123:1128 QuickChick.Checker <> forAll def
+binder 1145:1145 <> t:42
+R1158:1163 QuickChick.Checker <> forAll def
+binder 1180:1180 <> k:43
+R1189:1194 QuickChick.Checker <> forAll def
+binder 1211:1212 <> k':44
+R1225:1239 RBT.Src.Spec <> prop_DeletePost def
+R1241:1241 RBT.Strategies.TypeBasedGenerator <> t:42 var
+R1243:1243 RBT.Strategies.TypeBasedGenerator <> k:43 var
+R1245:1246 RBT.Strategies.TypeBasedGenerator <> k':44 var
+R1196:1204 QuickChick.Classes <> arbitrary meth
+R1165:1173 QuickChick.Classes <> arbitrary meth
+R1130:1138 QuickChick.Classes <> arbitrary meth
+def 1309:1329 <> test_prop_InsertModel
+R1340:1345 QuickChick.Checker <> forAll def
+binder 1362:1362 <> t:45
+R1375:1380 QuickChick.Checker <> forAll def
+binder 1397:1397 <> k:46
+R1406:1411 QuickChick.Checker <> forAll def
+binder 1428:1428 <> v:47
+R1441:1456 RBT.Src.Spec <> prop_InsertModel def
+R1458:1458 RBT.Strategies.TypeBasedGenerator <> t:45 var
+R1460:1460 RBT.Strategies.TypeBasedGenerator <> k:46 var
+R1462:1462 RBT.Strategies.TypeBasedGenerator <> v:47 var
+R1413:1421 QuickChick.Classes <> arbitrary meth
+R1382:1390 QuickChick.Classes <> arbitrary meth
+R1347:1355 QuickChick.Classes <> arbitrary meth
+def 1526:1546 <> test_prop_DeleteModel
+R1557:1562 QuickChick.Checker <> forAll def
+binder 1579:1579 <> t:48
+R1592:1597 QuickChick.Checker <> forAll def
+binder 1614:1614 <> k:49
+R1631:1646 RBT.Src.Spec <> prop_DeleteModel def
+R1648:1648 RBT.Strategies.TypeBasedGenerator <> t:48 var
+R1650:1650 RBT.Strategies.TypeBasedGenerator <> k:49 var
+R1599:1607 QuickChick.Classes <> arbitrary meth
+R1564:1572 QuickChick.Classes <> arbitrary meth
+def 1709:1730 <> test_prop_InsertInsert
+R1741:1746 QuickChick.Checker <> forAll def
+binder 1763:1763 <> t:50
+R1776:1781 QuickChick.Checker <> forAll def
+binder 1798:1798 <> k:51
+R1807:1812 QuickChick.Checker <> forAll def
+binder 1829:1830 <> k':52
+R1839:1844 QuickChick.Checker <> forAll def
+binder 1861:1861 <> v:53
+R1870:1875 QuickChick.Checker <> forAll def
+binder 1892:1893 <> v':54
+R1911:1927 RBT.Src.Spec <> prop_InsertInsert def
+R1929:1929 RBT.Strategies.TypeBasedGenerator <> t:50 var
+R1931:1931 RBT.Strategies.TypeBasedGenerator <> k:51 var
+R1933:1934 RBT.Strategies.TypeBasedGenerator <> k':52 var
+R1936:1936 RBT.Strategies.TypeBasedGenerator <> v:53 var
+R1938:1939 RBT.Strategies.TypeBasedGenerator <> v':54 var
+R1877:1885 QuickChick.Classes <> arbitrary meth
+R1846:1854 QuickChick.Classes <> arbitrary meth
+R1814:1822 QuickChick.Classes <> arbitrary meth
+R1783:1791 QuickChick.Classes <> arbitrary meth
+R1748:1756 QuickChick.Classes <> arbitrary meth
+def 2006:2027 <> test_prop_InsertDelete
+R2037:2042 QuickChick.Checker <> forAll def
+binder 2059:2059 <> t:55
+R2072:2077 QuickChick.Checker <> forAll def
+binder 2094:2094 <> k:56
+R2103:2108 QuickChick.Checker <> forAll def
+binder 2125:2126 <> k':57
+R2135:2140 QuickChick.Checker <> forAll def
+binder 2157:2157 <> v:58
+R2170:2186 RBT.Src.Spec <> prop_InsertDelete def
+R2188:2188 RBT.Strategies.TypeBasedGenerator <> t:55 var
+R2190:2190 RBT.Strategies.TypeBasedGenerator <> k:56 var
+R2192:2193 RBT.Strategies.TypeBasedGenerator <> k':57 var
+R2195:2195 RBT.Strategies.TypeBasedGenerator <> v:58 var
+R2142:2150 QuickChick.Classes <> arbitrary meth
+R2110:2118 QuickChick.Classes <> arbitrary meth
+R2079:2087 QuickChick.Classes <> arbitrary meth
+R2044:2052 QuickChick.Classes <> arbitrary meth
+def 2261:2282 <> test_prop_DeleteInsert
+R2292:2297 QuickChick.Checker <> forAll def
+binder 2314:2314 <> t:59
+R2327:2332 QuickChick.Checker <> forAll def
+binder 2349:2349 <> k:60
+R2358:2363 QuickChick.Checker <> forAll def
+binder 2380:2381 <> k':61
+R2390:2395 QuickChick.Checker <> forAll def
+binder 2412:2413 <> v':62
+R2426:2442 RBT.Src.Spec <> prop_DeleteInsert def
+R2444:2444 RBT.Strategies.TypeBasedGenerator <> t:59 var
+R2446:2446 RBT.Strategies.TypeBasedGenerator <> k:60 var
+R2448:2449 RBT.Strategies.TypeBasedGenerator <> k':61 var
+R2451:2452 RBT.Strategies.TypeBasedGenerator <> v':62 var
+R2397:2405 QuickChick.Classes <> arbitrary meth
+R2365:2373 QuickChick.Classes <> arbitrary meth
+R2334:2342 QuickChick.Classes <> arbitrary meth
+R2299:2307 QuickChick.Classes <> arbitrary meth
+def 2518:2539 <> test_prop_DeleteDelete
+R2550:2555 QuickChick.Checker <> forAll def
+binder 2572:2572 <> t:63
+R2585:2590 QuickChick.Checker <> forAll def
+binder 2607:2607 <> k:64
+R2616:2621 QuickChick.Checker <> forAll def
+binder 2638:2639 <> k':65
+R2652:2668 RBT.Src.Spec <> prop_DeleteDelete def
+R2670:2670 RBT.Strategies.TypeBasedGenerator <> t:63 var
+R2672:2672 RBT.Strategies.TypeBasedGenerator <> k:64 var
+R2674:2675 RBT.Strategies.TypeBasedGenerator <> k':65 var
+R2623:2631 QuickChick.Classes <> arbitrary meth
+R2592:2600 QuickChick.Classes <> arbitrary meth
+R2557:2565 QuickChick.Classes <> arbitrary meth

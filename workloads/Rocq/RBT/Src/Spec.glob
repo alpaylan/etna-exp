@@ -1,0 +1,583 @@
+DIGEST acbff5c866050eafe983a338c1a09fd2
+FRBT.Src.Spec
+R129:134 Coq.ZArith.ZArith <> <> lib
+R168:177 QuickChick.QuickChick <> <> lib
+R207:211 ExtLib.Structures.Monad <> <> lib
+R253:263 ExtLib.Data.Monads.OptionMonad <> <> lib
+R273:282 QuickChick.Checker QcNotation <> mod
+R292:304 ExtLib.Structures.Monad MonadNotation <> mod
+R331:334 Coq.Lists.List <> <> lib
+R344:356 Coq.Lists.List ListNotations <> mod
+R412:415 RBT.Src.Impl <> <> lib
+def 429:433 <> isBST
+R439:442 RBT.Src.Impl <> Tree ind
+binder 436:436 <> t:1
+R447:450 Coq.Init.Datatypes <> bool ind
+R479:482 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R478:478 Coq.Numbers.BinNums <> Z ind
+R483:486 Coq.Init.Datatypes <> bool ind
+binder 474:474 <> p:3
+R493:496 RBT.Src.Impl <> Tree ind
+binder 490:490 <> t:4
+R501:504 Coq.Init.Datatypes <> bool ind
+R523:523 RBT.Src.Spec <> t:4 var
+R540:540 RBT.Src.Impl <> E constr
+R545:548 Coq.Init.Datatypes <> true constr
+R561:561 RBT.Src.Impl <> T constr
+R577:580 Coq.Init.Datatypes <> andb def
+R608:612 RBT.Src.Spec <> every:5 var
+R614:614 RBT.Src.Spec <> p:3 var
+R583:586 Coq.Init.Datatypes <> andb def
+R595:599 RBT.Src.Spec <> every:5 var
+R601:601 RBT.Src.Spec <> p:3 var
+R589:589 RBT.Src.Spec <> p:3 var
+binder 467:471 <> every:7
+R644:644 RBT.Src.Spec <> t:1 var
+R657:657 RBT.Src.Impl <> E constr
+R662:665 Coq.Init.Datatypes <> true constr
+R674:674 RBT.Src.Impl <> T constr
+R805:808 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R794:797 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R773:776 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R756:760 RBT.Src.Spec <> every:7 var
+R763:767 Coq.ZArith.BinInt Z gtb def
+R777:781 RBT.Src.Spec <> every:7 var
+R784:788 Coq.ZArith.BinInt Z ltb def
+R798:802 RBT.Src.Spec <> isBST:2 def
+R809:813 RBT.Src.Spec <> isBST:2 def
+def 877:884 <> noRedRed
+R890:893 RBT.Src.Impl <> Tree ind
+binder 887:887 <> t:9
+R898:901 Coq.Init.Datatypes <> bool ind
+R932:935 RBT.Src.Impl <> Tree ind
+binder 929:929 <> t:11
+R940:943 Coq.Init.Datatypes <> bool ind
+R962:962 RBT.Src.Spec <> t:11 var
+R980:980 RBT.Src.Impl <> T constr
+R982:982 RBT.Src.Impl <> R constr
+R996:1000 Coq.Init.Datatypes <> false constr
+R1017:1020 Coq.Init.Datatypes <> true constr
+binder 918:926 <> blackRoot:14
+R1047:1047 RBT.Src.Spec <> t:9 var
+R1060:1060 RBT.Src.Impl <> E constr
+R1065:1068 Coq.Init.Datatypes <> true constr
+R1077:1077 RBT.Src.Impl <> T constr
+R1079:1079 RBT.Src.Impl <> B constr
+R1103:1106 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R1093:1100 RBT.Src.Spec <> noRedRed:10 def
+R1107:1114 RBT.Src.Spec <> noRedRed:10 def
+R1125:1125 RBT.Src.Impl <> T constr
+R1127:1127 RBT.Src.Impl <> R constr
+R1181:1184 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R1167:1170 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R1152:1155 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R1141:1149 RBT.Src.Spec <> blackRoot:14 var
+R1156:1164 RBT.Src.Spec <> blackRoot:14 var
+R1171:1178 RBT.Src.Spec <> noRedRed:10 def
+R1185:1192 RBT.Src.Spec <> noRedRed:10 def
+def 1312:1332 <> consistentBlackHeight
+R1339:1342 RBT.Src.Impl <> Tree ind
+binder 1336:1336 <> t:16
+R1347:1350 Coq.Init.Datatypes <> bool ind
+R1374:1377 RBT.Src.Impl <> Tree ind
+binder 1371:1371 <> t:17
+R1387:1389 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1383:1386 Coq.Init.Datatypes <> bool ind
+R1390:1390 Coq.Numbers.BinNums <> Z ind
+R1410:1410 RBT.Src.Spec <> t:17 var
+R1427:1427 RBT.Src.Impl <> E constr
+R1432:1432 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1437:1438 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1440:1440 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1433:1436 Coq.Init.Datatypes <> true constr
+R1452:1452 RBT.Src.Impl <> T constr
+R1504:1505 RBT.Src.Spec <> go:18 var
+binder 1485:1489 <> aBool:20
+binder 1492:1498 <> aHeight:21
+R1548:1549 RBT.Src.Spec <> go:18 var
+binder 1529:1533 <> bBool:22
+binder 1536:1542 <> bHeight:23
+R1585:1589 RBT.Src.Impl <> Color ind
+binder 1581:1582 <> rb:24
+R1621:1622 RBT.Src.Spec <> rb:24 var
+R1647:1647 RBT.Src.Impl <> B constr
+R1672:1672 RBT.Src.Impl <> R constr
+R1585:1589 RBT.Src.Impl <> Color ind
+binder 1581:1582 <> rb:26
+R1594:1594 Coq.Numbers.BinNums <> Z ind
+binder 1572:1578 <> isBlack:27
+R1711:1711 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1756:1757 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1778:1778 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1712:1715 Coq.Init.Datatypes <> andb def
+R1744:1747 Coq.ZArith.BinInt <> ::Z_scope:x_'=?'_x not
+R1737:1743 RBT.Src.Spec <> aHeight:21 var
+R1748:1754 RBT.Src.Spec <> bHeight:23 var
+R1718:1721 Coq.Init.Datatypes <> andb def
+R1729:1733 RBT.Src.Spec <> bBool:22 var
+R1723:1727 RBT.Src.Spec <> aBool:20 var
+R1765:1767 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R1758:1764 RBT.Src.Spec <> aHeight:21 var
+R1768:1774 RBT.Src.Spec <> isBlack:27 var
+binder 1367:1368 <> go:28
+R1799:1801 Coq.Init.Datatypes <> fst def
+R1804:1805 RBT.Src.Spec <> go:28 var
+R1807:1807 RBT.Src.Spec <> t:16 var
+def 1823:1827 <> isRBT
+R1833:1836 RBT.Src.Impl <> Tree ind
+binder 1830:1830 <> t:29
+R1841:1844 Coq.Init.Datatypes <> bool ind
+R1887:1890 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R1860:1863 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R1853:1857 RBT.Src.Spec <> isBST def
+R1859:1859 RBT.Src.Spec <> t:29 var
+R1864:1884 RBT.Src.Spec <> consistentBlackHeight def
+R1886:1886 RBT.Src.Spec <> t:29 var
+R1891:1898 RBT.Src.Spec <> noRedRed def
+R1900:1900 RBT.Src.Spec <> t:29 var
+def 1916:1924 <> color_eqb
+binder 1926:1927 <> c1:30
+binder 1929:1930 <> c2:31
+R1949:1950 RBT.Src.Spec <> c2:31 var
+R1945:1946 RBT.Src.Spec <> c1:30 var
+R1963:1963 RBT.Src.Impl <> R constr
+R1966:1966 RBT.Src.Impl <> R constr
+R1971:1974 Coq.Init.Datatypes <> true constr
+R1982:1982 RBT.Src.Impl <> B constr
+R1985:1985 RBT.Src.Impl <> B constr
+R1990:1993 Coq.Init.Datatypes <> true constr
+R2009:2013 Coq.Init.Datatypes <> false constr
+def 2036:2043 <> tree_eqb
+R2049:2052 RBT.Src.Impl <> Tree ind
+binder 2046:2046 <> t:34
+R2060:2063 RBT.Src.Impl <> Tree ind
+binder 2056:2057 <> t':35
+R2068:2071 Coq.Init.Datatypes <> bool ind
+R2087:2088 RBT.Src.Spec <> t':35 var
+R2084:2084 RBT.Src.Spec <> t:34 var
+R2099:2099 RBT.Src.Impl <> E constr
+R2102:2102 RBT.Src.Impl <> E constr
+R2107:2110 Coq.Init.Datatypes <> true constr
+R2116:2116 RBT.Src.Impl <> T constr
+R2129:2129 RBT.Src.Impl <> T constr
+R2213:2216 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R2196:2199 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R2183:2187 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R2195:2195 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R2153:2153 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R2168:2174 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R2182:2182 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R2154:2162 RBT.Src.Spec <> color_eqb def
+R2176:2179 Coq.ZArith.BinInt <> ::Z_scope:x_'=?'_x not
+R2189:2192 Coq.ZArith.BinInt <> ::Z_scope:x_'=?'_x not
+R2200:2207 RBT.Src.Spec <> tree_eqb:36 def
+R2217:2224 RBT.Src.Spec <> tree_eqb:36 def
+R2243:2247 Coq.Init.Datatypes <> false constr
+def 2266:2271 <> toList
+R2277:2280 RBT.Src.Impl <> Tree ind
+binder 2274:2274 <> t:39
+R2285:2288 Coq.Init.Datatypes <> list ind
+R2292:2294 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R2291:2291 Coq.Numbers.BinNums <> Z ind
+R2295:2295 Coq.Numbers.BinNums <> Z ind
+R2311:2311 RBT.Src.Spec <> t:39 var
+R2324:2324 RBT.Src.Impl <> E constr
+R2329:2331 Coq.Init.Datatypes <> nil constr
+R2340:2340 RBT.Src.Impl <> T constr
+R2372:2375 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R2364:2369 RBT.Src.Spec <> toList:40 def
+R2384:2387 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R2376:2376 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R2383:2383 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R2377:2377 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2379:2380 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2382:2382 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2388:2393 RBT.Src.Spec <> toList:40 def
+def 2467:2482 <> prop_InsertValid
+R2489:2492 RBT.Src.Impl <> Tree ind
+binder 2486:2486 <> t:42
+R2499:2499 Coq.Numbers.BinNums <> Z ind
+binder 2496:2496 <> k:43
+R2506:2506 Coq.Numbers.BinNums <> Z ind
+binder 2503:2503 <> v:44
+R2521:2525 QuickChick.Decidability <> :::x_'-=>'_x not
+R2514:2518 RBT.Src.Spec <> isRBT def
+R2520:2520 RBT.Src.Spec <> t:42 var
+R2526:2530 RBT.Src.Spec <> isRBT def
+R2533:2538 RBT.Src.Impl <> insert def
+R2540:2540 RBT.Src.Spec <> k:43 var
+R2542:2542 RBT.Src.Spec <> v:44 var
+R2544:2544 RBT.Src.Spec <> t:42 var
+def 2560:2575 <> prop_DeleteValid
+R2582:2585 RBT.Src.Impl <> Tree ind
+binder 2579:2579 <> t:45
+R2592:2592 Coq.Numbers.BinNums <> Z ind
+binder 2589:2589 <> k:46
+R2607:2616 QuickChick.Decidability <> :::x_'-=>'_x not
+R2600:2604 RBT.Src.Spec <> isRBT def
+R2606:2606 RBT.Src.Spec <> t:45 var
+R2623:2628 RBT.Src.Impl <> delete def
+R2630:2630 RBT.Src.Spec <> k:46 var
+R2632:2632 RBT.Src.Spec <> t:45 var
+R2645:2648 Coq.Init.Datatypes <> None constr
+R2653:2656 Coq.Init.Datatypes <> Some constr
+R2658:2662 Coq.Init.Datatypes <> false constr
+R2670:2673 Coq.Init.Datatypes <> Some constr
+R2681:2684 Coq.Init.Datatypes <> Some constr
+R2687:2691 RBT.Src.Spec <> isRBT def
+def 2772:2786 <> prop_InsertPost
+R2793:2796 RBT.Src.Impl <> Tree ind
+binder 2790:2790 <> t:47
+R2803:2803 Coq.Numbers.BinNums <> Z ind
+binder 2800:2800 <> k:48
+R2811:2811 Coq.Numbers.BinNums <> Z ind
+binder 2807:2808 <> k':49
+R2818:2818 Coq.Numbers.BinNums <> Z ind
+binder 2815:2815 <> v:50
+R2833:2847 QuickChick.Decidability <> :::x_'-=>'_x not
+R2945:2945 QuickChick.Decidability <> :::x_'-=>'_x not
+R2826:2830 RBT.Src.Spec <> isRBT def
+R2832:2832 RBT.Src.Spec <> t:47 var
+R2858:2861 RBT.Src.Impl <> find def
+R2863:2864 RBT.Src.Spec <> k':49 var
+R2867:2872 RBT.Src.Impl <> insert def
+R2874:2874 RBT.Src.Spec <> k:48 var
+R2876:2876 RBT.Src.Spec <> v:50 var
+R2878:2878 RBT.Src.Spec <> t:47 var
+binder 2852:2853 <> v':51
+R2892:2895 Coq.ZArith.BinInt <> ::Z_scope:x_'=?'_x not
+R2891:2891 RBT.Src.Spec <> k:48 var
+R2896:2897 RBT.Src.Spec <> k':49 var
+R2928:2928 QuickChick.Decidability <> :::x_'?' not
+R2943:2944 QuickChick.Decidability <> :::x_'?' not
+R2931:2933 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2929:2930 RBT.Src.Spec <> v':51 var
+R2934:2937 RBT.Src.Impl <> find def
+R2939:2940 RBT.Src.Spec <> k':49 var
+R2942:2942 RBT.Src.Spec <> t:47 var
+R2904:2904 QuickChick.Decidability <> :::x_'?' not
+R2916:2917 QuickChick.Decidability <> :::x_'?' not
+R2907:2909 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2905:2906 RBT.Src.Spec <> v':51 var
+R2910:2913 Coq.Init.Datatypes <> Some constr
+R2915:2915 RBT.Src.Spec <> v:50 var
+def 2961:2975 <> prop_DeletePost
+R2981:2984 RBT.Src.Impl <> Tree ind
+binder 2978:2978 <> t:52
+R2991:2991 Coq.Numbers.BinNums <> Z ind
+binder 2988:2988 <> k:53
+R2999:2999 Coq.Numbers.BinNums <> Z ind
+binder 2995:2996 <> k':54
+R3014:3028 QuickChick.Decidability <> :::x_'-=>'_x not
+R3153:3158 QuickChick.Decidability <> :::x_'-=>'_x not
+R3007:3011 RBT.Src.Spec <> isRBT def
+R3013:3013 RBT.Src.Spec <> t:52 var
+R3035:3040 RBT.Src.Impl <> delete def
+R3042:3042 RBT.Src.Spec <> k:53 var
+R3044:3044 RBT.Src.Spec <> t:52 var
+R3057:3060 Coq.Init.Datatypes <> None constr
+R3065:3069 Coq.Init.Datatypes <> false constr
+R3077:3080 Coq.Init.Datatypes <> Some constr
+R3094:3094 QuickChick.Decidability <> :::x_'?' not
+R3143:3144 QuickChick.Decidability <> :::x_'?' not
+R3105:3107 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3095:3098 RBT.Src.Impl <> find def
+R3100:3101 RBT.Src.Spec <> k':54 var
+R3112:3115 Coq.ZArith.BinInt <> ::Z_scope:x_'=?'_x not
+R3111:3111 RBT.Src.Spec <> k:53 var
+R3116:3117 RBT.Src.Spec <> k':54 var
+R3134:3137 RBT.Src.Impl <> find def
+R3139:3140 RBT.Src.Spec <> k':54 var
+R3142:3142 RBT.Src.Spec <> t:52 var
+R3124:3127 Coq.Init.Datatypes <> None constr
+def 3225:3233 <> deleteKey
+R3240:3240 Coq.Numbers.BinNums <> Z ind
+binder 3237:3237 <> k:55
+R3247:3250 Coq.Init.Datatypes <> list ind
+R3254:3256 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R3253:3253 Coq.Numbers.BinNums <> Z ind
+R3257:3257 Coq.Numbers.BinNums <> Z ind
+binder 3244:3244 <> l:56
+R3262:3265 Coq.Init.Datatypes <> list ind
+R3269:3271 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R3268:3268 Coq.Numbers.BinNums <> Z ind
+R3272:3272 Coq.Numbers.BinNums <> Z ind
+R3280:3285 Coq.Lists.List <> filter def
+R3316:3316 RBT.Src.Spec <> l:56 var
+binder 3292:3292 <> x:57
+R3297:3300 Coq.Init.Datatypes <> negb def
+R3308:3311 Coq.ZArith.BinInt <> ::Z_scope:x_'=?'_x not
+R3303:3305 Coq.Init.Datatypes <> fst def
+R3307:3307 RBT.Src.Spec <> x:57 var
+R3312:3312 RBT.Src.Spec <> k:55 var
+def 3331:3338 <> L_insert
+R3346:3348 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R3345:3345 Coq.Numbers.BinNums <> Z ind
+R3349:3349 Coq.Numbers.BinNums <> Z ind
+binder 3341:3342 <> kv:58
+R3356:3359 Coq.Init.Datatypes <> list ind
+R3363:3365 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R3362:3362 Coq.Numbers.BinNums <> Z ind
+R3366:3366 Coq.Numbers.BinNums <> Z ind
+binder 3353:3353 <> l:59
+R3372:3375 Coq.Init.Datatypes <> list ind
+R3379:3381 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R3378:3378 Coq.Numbers.BinNums <> Z ind
+R3382:3382 Coq.Numbers.BinNums <> Z ind
+R3398:3398 RBT.Src.Spec <> l:59 var
+R3411:3413 Coq.Init.Datatypes <> nil constr
+R3418:3418 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R3421:3421 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R3419:3420 RBT.Src.Spec <> kv:58 var
+R3435:3436 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3429:3429 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3431:3432 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3434:3434 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3458:3461 Coq.ZArith.BinInt <> ::Z_scope:x_'=?'_x not
+R3452:3454 Coq.Init.Datatypes <> fst def
+R3456:3457 RBT.Src.Spec <> kv:58 var
+R3510:3513 Coq.ZArith.BinInt <> ::Z_scope:x_'<?'_x not
+R3504:3506 Coq.Init.Datatypes <> fst def
+R3508:3509 RBT.Src.Spec <> kv:58 var
+R3558:3560 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3575:3575 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3552:3552 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3554:3555 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3557:3557 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3561:3568 RBT.Src.Spec <> L_insert:60 def
+R3570:3571 RBT.Src.Spec <> kv:58 var
+R3537:3538 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3521:3521 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3528:3529 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3536:3536 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3522:3524 Coq.Init.Datatypes <> fst def
+R3526:3527 RBT.Src.Spec <> kv:58 var
+R3530:3532 Coq.Init.Datatypes <> snd def
+R3534:3535 RBT.Src.Spec <> kv:58 var
+R3539:3539 RBT.Src.Spec <> l:59 var
+R3485:3486 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3469:3469 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3476:3477 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3484:3484 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3470:3472 Coq.Init.Datatypes <> fst def
+R3474:3475 RBT.Src.Spec <> kv:58 var
+R3478:3480 Coq.Init.Datatypes <> snd def
+R3482:3483 RBT.Src.Spec <> kv:58 var
+def 3599:3614 <> prop_InsertModel
+R3621:3624 RBT.Src.Impl <> Tree ind
+binder 3618:3618 <> t:62
+R3631:3631 Coq.Numbers.BinNums <> Z ind
+binder 3628:3628 <> k:63
+R3638:3638 Coq.Numbers.BinNums <> Z ind
+binder 3635:3635 <> v:64
+R3653:3666 QuickChick.Decidability <> :::x_'-=>'_x not
+R3646:3650 RBT.Src.Spec <> isRBT def
+R3652:3652 RBT.Src.Spec <> t:62 var
+R3667:3667 QuickChick.Decidability <> :::x_'?' not
+R3736:3737 QuickChick.Decidability <> :::x_'?' not
+R3668:3668 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3690:3694 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3735:3735 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3669:3674 RBT.Src.Spec <> toList def
+R3677:3682 RBT.Src.Impl <> insert def
+R3684:3684 RBT.Src.Spec <> k:63 var
+R3686:3686 RBT.Src.Spec <> v:64 var
+R3688:3688 RBT.Src.Spec <> t:62 var
+R3695:3702 RBT.Src.Spec <> L_insert def
+R3704:3704 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3706:3707 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3709:3709 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3705:3705 RBT.Src.Spec <> k:63 var
+R3708:3708 RBT.Src.Spec <> v:64 var
+R3712:3720 RBT.Src.Spec <> deleteKey def
+R3722:3722 RBT.Src.Spec <> k:63 var
+R3725:3730 RBT.Src.Spec <> toList def
+R3732:3732 RBT.Src.Spec <> t:62 var
+def 3754:3769 <> prop_DeleteModel
+R3776:3779 RBT.Src.Impl <> Tree ind
+binder 3773:3773 <> t:65
+R3786:3786 Coq.Numbers.BinNums <> Z ind
+binder 3783:3783 <> k:66
+R3801:3814 QuickChick.Decidability <> :::x_'-=>'_x not
+R3794:3798 RBT.Src.Spec <> isRBT def
+R3800:3800 RBT.Src.Spec <> t:65 var
+R3821:3826 RBT.Src.Impl <> delete def
+R3828:3828 RBT.Src.Spec <> k:66 var
+R3830:3830 RBT.Src.Spec <> t:65 var
+R3843:3846 Coq.Init.Datatypes <> None constr
+R3851:3855 Coq.Init.Datatypes <> false constr
+R3863:3866 Coq.Init.Datatypes <> Some constr
+R3874:3874 QuickChick.Decidability <> :::x_'?' not
+R3909:3910 QuickChick.Decidability <> :::x_'?' not
+R3884:3886 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3875:3880 RBT.Src.Spec <> toList def
+R3887:3895 RBT.Src.Spec <> deleteKey def
+R3897:3897 RBT.Src.Spec <> k:66 var
+R3900:3905 RBT.Src.Spec <> toList def
+R3907:3907 RBT.Src.Spec <> t:65 var
+def 3987:4003 <> prop_InsertInsert
+R4010:4013 RBT.Src.Impl <> Tree ind
+binder 4007:4007 <> t:67
+R4020:4020 Coq.Numbers.BinNums <> Z ind
+binder 4017:4017 <> k:68
+R4028:4028 Coq.Numbers.BinNums <> Z ind
+binder 4024:4025 <> k':69
+R4035:4035 Coq.Numbers.BinNums <> Z ind
+binder 4032:4032 <> v:70
+R4043:4043 Coq.Numbers.BinNums <> Z ind
+binder 4039:4040 <> v':71
+R4058:4066 QuickChick.Decidability <> :::x_'-=>'_x not
+R4051:4055 RBT.Src.Spec <> isRBT def
+R4057:4057 RBT.Src.Spec <> t:67 var
+R4067:4067 QuickChick.Decidability <> :::x_'?' not
+R4176:4177 QuickChick.Decidability <> :::x_'?' not
+R4104:4106 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4068:4073 RBT.Src.Spec <> toList def
+R4076:4081 RBT.Src.Impl <> insert def
+R4083:4083 RBT.Src.Spec <> k:68 var
+R4085:4085 RBT.Src.Spec <> v:70 var
+R4088:4093 RBT.Src.Impl <> insert def
+R4095:4096 RBT.Src.Spec <> k':69 var
+R4098:4099 RBT.Src.Spec <> v':71 var
+R4101:4101 RBT.Src.Spec <> t:67 var
+R4107:4112 RBT.Src.Spec <> toList def
+R4118:4121 Coq.ZArith.BinInt <> ::Z_scope:x_'=?'_x not
+R4117:4117 RBT.Src.Spec <> k:68 var
+R4122:4123 RBT.Src.Spec <> k':69 var
+R4148:4153 RBT.Src.Impl <> insert def
+R4155:4156 RBT.Src.Spec <> k':69 var
+R4158:4159 RBT.Src.Spec <> v':71 var
+R4162:4167 RBT.Src.Impl <> insert def
+R4169:4169 RBT.Src.Spec <> k:68 var
+R4171:4171 RBT.Src.Spec <> v:70 var
+R4173:4173 RBT.Src.Spec <> t:67 var
+R4130:4135 RBT.Src.Impl <> insert def
+R4137:4137 RBT.Src.Spec <> k:68 var
+R4139:4139 RBT.Src.Spec <> v:70 var
+R4141:4141 RBT.Src.Spec <> t:67 var
+def 4192:4208 <> prop_InsertDelete
+R4214:4217 RBT.Src.Impl <> Tree ind
+binder 4211:4211 <> t:72
+R4224:4224 Coq.Numbers.BinNums <> Z ind
+binder 4221:4221 <> k:73
+R4232:4232 Coq.Numbers.BinNums <> Z ind
+binder 4228:4229 <> k':74
+R4239:4239 Coq.Numbers.BinNums <> Z ind
+binder 4236:4236 <> v:75
+R4255:4268 QuickChick.Decidability <> :::x_'-=>'_x not
+R4248:4252 RBT.Src.Spec <> isRBT def
+R4254:4254 RBT.Src.Spec <> t:72 var
+R4276:4281 RBT.Src.Impl <> delete def
+R4283:4284 RBT.Src.Spec <> k':74 var
+R4286:4286 RBT.Src.Spec <> t:72 var
+R4300:4303 Coq.Init.Datatypes <> None constr
+R4308:4312 Coq.Init.Datatypes <> false constr
+R4320:4323 Coq.Init.Datatypes <> Some constr
+R4343:4348 RBT.Src.Impl <> delete def
+R4350:4351 RBT.Src.Spec <> k':74 var
+R4354:4359 RBT.Src.Impl <> insert def
+R4361:4361 RBT.Src.Spec <> k:73 var
+R4363:4363 RBT.Src.Spec <> v:75 var
+R4365:4365 RBT.Src.Spec <> t:72 var
+R4381:4384 Coq.Init.Datatypes <> None constr
+R4389:4393 Coq.Init.Datatypes <> false constr
+R4403:4406 Coq.Init.Datatypes <> Some constr
+R4423:4423 QuickChick.Decidability <> :::x_'?' not
+R4493:4494 QuickChick.Decidability <> :::x_'?' not
+R4445:4447 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4424:4429 RBT.Src.Spec <> toList def
+R4431:4436 RBT.Src.Impl <> insert def
+R4438:4438 RBT.Src.Spec <> k:73 var
+R4440:4440 RBT.Src.Spec <> v:75 var
+R4448:4453 RBT.Src.Spec <> toList def
+R4459:4462 Coq.ZArith.BinInt <> ::Z_scope:x_'=?'_x not
+R4458:4458 RBT.Src.Spec <> k:73 var
+R4463:4464 RBT.Src.Spec <> k':74 var
+R4471:4476 RBT.Src.Impl <> insert def
+R4478:4478 RBT.Src.Spec <> k:73 var
+R4480:4480 RBT.Src.Spec <> v:75 var
+R4482:4482 RBT.Src.Spec <> t:72 var
+def 4527:4543 <> prop_DeleteInsert
+R4549:4552 RBT.Src.Impl <> Tree ind
+binder 4546:4546 <> t:76
+R4559:4559 Coq.Numbers.BinNums <> Z ind
+binder 4556:4556 <> k:77
+R4567:4567 Coq.Numbers.BinNums <> Z ind
+binder 4563:4564 <> k':78
+R4575:4575 Coq.Numbers.BinNums <> Z ind
+binder 4571:4572 <> v':79
+R4591:4604 QuickChick.Decidability <> :::x_'-=>'_x not
+R4584:4588 RBT.Src.Spec <> isRBT def
+R4590:4590 RBT.Src.Spec <> t:76 var
+R4611:4616 RBT.Src.Impl <> delete def
+R4618:4618 RBT.Src.Spec <> k:77 var
+R4621:4626 RBT.Src.Impl <> insert def
+R4628:4629 RBT.Src.Spec <> k':78 var
+R4631:4632 RBT.Src.Spec <> v':79 var
+R4634:4634 RBT.Src.Spec <> t:76 var
+R4648:4651 Coq.Init.Datatypes <> None constr
+R4656:4660 Coq.Init.Datatypes <> false constr
+R4668:4671 Coq.Init.Datatypes <> Some constr
+R4691:4696 RBT.Src.Impl <> delete def
+R4698:4698 RBT.Src.Spec <> k:77 var
+R4700:4700 RBT.Src.Spec <> t:76 var
+R4715:4718 Coq.Init.Datatypes <> None constr
+R4723:4727 Coq.Init.Datatypes <> false constr
+R4737:4740 Coq.Init.Datatypes <> Some constr
+R4769:4774 RBT.Src.Impl <> insert def
+R4776:4777 RBT.Src.Spec <> k':78 var
+R4779:4780 RBT.Src.Spec <> v':79 var
+binder 4761:4764 <> t''':80
+R4797:4797 QuickChick.Decidability <> :::x_'?' not
+R4848:4849 QuickChick.Decidability <> :::x_'?' not
+R4807:4809 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4798:4803 RBT.Src.Spec <> toList def
+R4810:4815 RBT.Src.Spec <> toList def
+R4822:4825 Coq.ZArith.BinInt <> ::Z_scope:x_'=?'_x not
+R4821:4821 RBT.Src.Spec <> k:77 var
+R4826:4827 RBT.Src.Spec <> k':78 var
+R4843:4846 RBT.Src.Spec <> t''':80 var
+def 4882:4898 <> prop_DeleteDelete
+R4905:4908 RBT.Src.Impl <> Tree ind
+binder 4902:4902 <> t:81
+R4915:4915 Coq.Numbers.BinNums <> Z ind
+binder 4912:4912 <> k:82
+R4923:4923 Coq.Numbers.BinNums <> Z ind
+binder 4919:4920 <> k':83
+R4938:4951 QuickChick.Decidability <> :::x_'-=>'_x not
+R4931:4935 RBT.Src.Spec <> isRBT def
+R4937:4937 RBT.Src.Spec <> t:81 var
+R4958:4963 RBT.Src.Impl <> delete def
+R4965:4966 RBT.Src.Spec <> k':83 var
+R4968:4968 RBT.Src.Spec <> t:81 var
+R4981:4984 Coq.Init.Datatypes <> None constr
+R4989:4993 Coq.Init.Datatypes <> false constr
+R5001:5004 Coq.Init.Datatypes <> Some constr
+R5024:5029 RBT.Src.Impl <> delete def
+R5031:5031 RBT.Src.Spec <> k:82 var
+R5049:5052 Coq.Init.Datatypes <> None constr
+R5057:5061 Coq.Init.Datatypes <> false constr
+R5071:5074 Coq.Init.Datatypes <> Some constr
+R5097:5102 RBT.Src.Impl <> delete def
+R5104:5104 RBT.Src.Spec <> k:82 var
+R5106:5106 RBT.Src.Spec <> t:81 var
+R5123:5126 Coq.Init.Datatypes <> None constr
+R5131:5135 Coq.Init.Datatypes <> false constr
+R5147:5150 Coq.Init.Datatypes <> Some constr
+R5175:5180 RBT.Src.Impl <> delete def
+R5182:5183 RBT.Src.Spec <> k':83 var
+R5206:5209 Coq.Init.Datatypes <> None constr
+R5214:5218 Coq.Init.Datatypes <> false constr
+R5232:5235 Coq.Init.Datatypes <> Some constr
+R5257:5257 QuickChick.Decidability <> :::x_'?' not
+R5282:5283 QuickChick.Decidability <> :::x_'?' not
+R5268:5270 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5258:5263 RBT.Src.Spec <> toList def
+R5271:5276 RBT.Src.Spec <> toList def
+def 5360:5366 <> sizeRBT
+R5373:5376 RBT.Src.Impl <> Tree ind
+binder 5370:5370 <> t:84
+R5380:5382 Coq.Init.Datatypes <> nat ind
+R5391:5396 Coq.Lists.List <> length abbrev
+R5399:5404 RBT.Src.Spec <> toList def
+R5406:5406 RBT.Src.Spec <> t:84 var

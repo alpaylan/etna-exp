@@ -1,0 +1,572 @@
+DIGEST 59df33f9e7e6da0e18010e6464270070
+FRBT.Src.Impl
+R16:21 Coq.ZArith.ZArith <> <> lib
+R55:64 QuickChick.QuickChick <> <> lib
+R94:98 ExtLib.Structures.Monad <> <> lib
+R140:150 ExtLib.Data.Monads.OptionMonad <> <> lib
+R160:169 QuickChick.Checker QcNotation <> mod
+R179:191 ExtLib.Structures.Monad MonadNotation <> mod
+R218:221 Coq.Lists.List <> <> lib
+R231:243 Coq.Lists.List ListNotations <> mod
+R298:308 Coq.ZArith.ZArith_dec <> Z_lt_le_dec thm
+not 284:284 <> :::x_'<??'_x
+ind 360:364 <> Color
+constr 369:369 <> R
+constr 373:373 <> B
+scheme 360:364 <> Color_rect
+scheme 360:364 <> Color_ind
+scheme 360:364 <> Color_rec
+scheme 360:364 <> Color_sind
+ind 424:427 <> Tree
+constr 438:438 <> E
+constr 453:453 <> T
+R442:445 RBT.Src.Impl <> Tree:22 ind
+R462:465 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R457:461 RBT.Src.Impl <> Color ind
+R470:473 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R466:469 RBT.Src.Impl <> Tree:22 ind
+R475:478 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R474:474 Coq.Numbers.BinNums <> Z ind
+R480:483 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R479:479 Coq.Numbers.BinNums <> Z ind
+R488:491 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R484:487 RBT.Src.Impl <> Tree:22 ind
+R492:495 RBT.Src.Impl <> Tree:22 ind
+scheme 424:427 <> Tree_rect
+scheme 424:427 <> Tree_ind
+scheme 424:427 <> Tree_rec
+scheme 424:427 <> Tree_sind
+inst 551:558 <> ShowTree
+R562:565 QuickChick.Show <> Show class
+R567:570 RBT.Src.Impl <> Tree ind
+R580:583 QuickChick.Show <> show meth
+R580:583 QuickChick.Show <> show meth
+R580:583 QuickChick.Show <> show meth
+binder 585:585 <> t:24
+R612:615 RBT.Src.Impl <> Tree ind
+binder 608:608 <> t:25
+R620:625 Coq.Strings.String <> string ind
+R642:642 RBT.Src.Impl <> t:25 var
+R657:657 RBT.Src.Impl <> E constr
+R676:676 RBT.Src.Impl <> T constr
+R697:700 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R707:710 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R701:704 QuickChick.Show <> show meth
+R715:718 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R724:727 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R719:721 RBT.Src.Impl <> aux:26 var
+R731:734 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R741:744 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R735:738 QuickChick.Show <> show meth
+R748:751 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R758:761 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R752:755 QuickChick.Show <> show meth
+R765:768 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R774:777 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R769:771 RBT.Src.Impl <> aux:26 var
+binder 603:605 <> aux:28
+R799:801 RBT.Src.Impl <> aux:28 var
+R803:803 RBT.Src.Impl <> t:24 var
+ax 851:854 <> fuel
+R858:860 Coq.Init.Datatypes <> nat ind
+def 966:972 <> blacken
+R978:981 RBT.Src.Impl <> Tree ind
+binder 975:975 <> t:31
+R986:989 RBT.Src.Impl <> Tree ind
+R1004:1004 RBT.Src.Impl <> t:31 var
+R1017:1017 RBT.Src.Impl <> E constr
+R1022:1022 RBT.Src.Impl <> E constr
+R1031:1031 RBT.Src.Impl <> T constr
+R1048:1048 RBT.Src.Impl <> T constr
+R1050:1050 RBT.Src.Impl <> B constr
+def 1083:1088 <> redden
+R1094:1097 RBT.Src.Impl <> Tree ind
+binder 1091:1091 <> t:33
+R1102:1107 Coq.Init.Datatypes <> option ind
+R1109:1112 RBT.Src.Impl <> Tree ind
+R1127:1127 RBT.Src.Impl <> t:33 var
+R1140:1140 RBT.Src.Impl <> T constr
+R1142:1142 RBT.Src.Impl <> B constr
+R1156:1159 Coq.Init.Datatypes <> Some constr
+R1161:1161 RBT.Src.Impl <> T constr
+R1163:1163 RBT.Src.Impl <> R constr
+R1186:1189 Coq.Init.Datatypes <> None constr
+def 1212:1218 <> balance
+R1226:1230 RBT.Src.Impl <> Color ind
+binder 1221:1223 <> col:35
+R1238:1241 RBT.Src.Impl <> Tree ind
+binder 1234:1235 <> tl:36
+R1250:1250 Coq.Numbers.BinNums <> Z ind
+binder 1245:1247 <> key:37
+R1259:1259 Coq.Numbers.BinNums <> Z ind
+binder 1254:1256 <> val:38
+R1267:1270 RBT.Src.Impl <> Tree ind
+binder 1263:1264 <> tr:39
+R1275:1278 RBT.Src.Impl <> Tree ind
+R1312:1313 RBT.Src.Impl <> tr:39 var
+R1307:1309 RBT.Src.Impl <> val:38 var
+R1302:1304 RBT.Src.Impl <> key:37 var
+R1298:1299 RBT.Src.Impl <> tl:36 var
+R1293:1295 RBT.Src.Impl <> col:35 var
+R1337:1337 RBT.Src.Impl <> B constr
+R1341:1341 RBT.Src.Impl <> T constr
+R1346:1346 RBT.Src.Impl <> T constr
+R1348:1348 RBT.Src.Impl <> R constr
+R1343:1343 RBT.Src.Impl <> R constr
+R1381:1381 RBT.Src.Impl <> T constr
+R1383:1383 RBT.Src.Impl <> R constr
+R1386:1386 RBT.Src.Impl <> T constr
+R1388:1388 RBT.Src.Impl <> B constr
+R1406:1406 RBT.Src.Impl <> T constr
+R1408:1408 RBT.Src.Impl <> B constr
+R1562:1562 RBT.Src.Impl <> B constr
+R1566:1566 RBT.Src.Impl <> T constr
+R1578:1578 RBT.Src.Impl <> T constr
+R1580:1580 RBT.Src.Impl <> R constr
+R1568:1568 RBT.Src.Impl <> R constr
+R1606:1606 RBT.Src.Impl <> T constr
+R1608:1608 RBT.Src.Impl <> R constr
+R1611:1611 RBT.Src.Impl <> T constr
+R1613:1613 RBT.Src.Impl <> B constr
+R1631:1631 RBT.Src.Impl <> T constr
+R1633:1633 RBT.Src.Impl <> B constr
+R1662:1662 RBT.Src.Impl <> B constr
+R1676:1676 RBT.Src.Impl <> T constr
+R1681:1681 RBT.Src.Impl <> T constr
+R1683:1683 RBT.Src.Impl <> R constr
+R1678:1678 RBT.Src.Impl <> R constr
+R1706:1706 RBT.Src.Impl <> T constr
+R1708:1708 RBT.Src.Impl <> R constr
+R1711:1711 RBT.Src.Impl <> T constr
+R1713:1713 RBT.Src.Impl <> B constr
+R1731:1731 RBT.Src.Impl <> T constr
+R1733:1733 RBT.Src.Impl <> B constr
+R1886:1886 RBT.Src.Impl <> B constr
+R1900:1900 RBT.Src.Impl <> T constr
+R1912:1912 RBT.Src.Impl <> T constr
+R1914:1914 RBT.Src.Impl <> R constr
+R1902:1902 RBT.Src.Impl <> R constr
+R1930:1930 RBT.Src.Impl <> T constr
+R1932:1932 RBT.Src.Impl <> R constr
+R1935:1935 RBT.Src.Impl <> T constr
+R1937:1937 RBT.Src.Impl <> B constr
+R1955:1955 RBT.Src.Impl <> T constr
+R1957:1957 RBT.Src.Impl <> B constr
+R1994:1994 RBT.Src.Impl <> T constr
+def 2087:2092 <> insert
+R2100:2100 Coq.Numbers.BinNums <> Z ind
+binder 2095:2097 <> key:45
+R2109:2109 Coq.Numbers.BinNums <> Z ind
+binder 2104:2106 <> val:46
+R2116:2119 RBT.Src.Impl <> Tree ind
+binder 2113:2113 <> t:47
+R2124:2127 RBT.Src.Impl <> Tree ind
+R2152:2152 Coq.Numbers.BinNums <> Z ind
+binder 2149:2149 <> x:49
+R2160:2160 Coq.Numbers.BinNums <> Z ind
+binder 2156:2157 <> vx:50
+R2167:2170 RBT.Src.Impl <> Tree ind
+binder 2164:2164 <> s:51
+R2175:2178 RBT.Src.Impl <> Tree ind
+R2200:2200 RBT.Src.Impl <> s:51 var
+R2196:2197 RBT.Src.Impl <> vx:50 var
+R2193:2193 RBT.Src.Impl <> x:49 var
+R2220:2220 RBT.Src.Impl <> E constr
+R2292:2292 RBT.Src.Impl <> T constr
+R2294:2294 RBT.Src.Impl <> B constr
+R2296:2296 RBT.Src.Impl <> E constr
+R2298:2298 RBT.Src.Impl <> x:49 var
+R2300:2301 RBT.Src.Impl <> vx:50 var
+R2303:2303 RBT.Src.Impl <> E constr
+R2330:2330 RBT.Src.Impl <> T constr
+R2367:2371 RBT.Src.Impl <> :::x_'<??'_x not
+R2366:2366 RBT.Src.Impl <> x:49 var
+R2423:2427 RBT.Src.Impl <> :::x_'<??'_x not
+R2428:2428 RBT.Src.Impl <> x:49 var
+R2475:2475 RBT.Src.Impl <> T constr
+R2484:2485 RBT.Src.Impl <> vx:50 var
+R2435:2441 RBT.Src.Impl <> balance def
+R2454:2456 RBT.Src.Impl <> ins:52 var
+R2460:2461 RBT.Src.Impl <> vx:50 var
+R2458:2458 RBT.Src.Impl <> x:49 var
+R2379:2385 RBT.Src.Impl <> balance def
+R2391:2393 RBT.Src.Impl <> ins:52 var
+R2397:2398 RBT.Src.Impl <> vx:50 var
+R2395:2395 RBT.Src.Impl <> x:49 var
+binder 2144:2146 <> ins:56
+R3189:3195 RBT.Src.Impl <> blacken def
+R3198:3200 RBT.Src.Impl <> ins:56 var
+R3210:3210 RBT.Src.Impl <> t:47 var
+R3206:3208 RBT.Src.Impl <> val:46 var
+R3202:3204 RBT.Src.Impl <> key:45 var
+def 3352:3358 <> balLeft
+R3365:3368 RBT.Src.Impl <> Tree ind
+binder 3361:3362 <> tl:57
+R3375:3375 Coq.Numbers.BinNums <> Z ind
+binder 3372:3372 <> k:58
+R3382:3382 Coq.Numbers.BinNums <> Z ind
+binder 3379:3379 <> v:59
+R3390:3393 RBT.Src.Impl <> Tree ind
+binder 3386:3387 <> tr:60
+R3398:3403 Coq.Init.Datatypes <> option ind
+R3405:3408 RBT.Src.Impl <> Tree ind
+R3433:3434 RBT.Src.Impl <> tr:60 var
+R3430:3430 RBT.Src.Impl <> v:59 var
+R3427:3427 RBT.Src.Impl <> k:58 var
+R3423:3424 RBT.Src.Impl <> tl:57 var
+R3448:3448 RBT.Src.Impl <> T constr
+R3450:3450 RBT.Src.Impl <> R constr
+R3475:3478 Coq.Init.Datatypes <> Some constr
+R3481:3481 RBT.Src.Impl <> T constr
+R3483:3483 RBT.Src.Impl <> R constr
+R3486:3486 RBT.Src.Impl <> T constr
+R3488:3488 RBT.Src.Impl <> B constr
+R3526:3526 RBT.Src.Impl <> T constr
+R3528:3528 RBT.Src.Impl <> B constr
+R3543:3546 Coq.Init.Datatypes <> Some constr
+R3549:3555 RBT.Src.Impl <> balance def
+R3557:3557 RBT.Src.Impl <> B constr
+R3568:3568 RBT.Src.Impl <> T constr
+R3570:3570 RBT.Src.Impl <> R constr
+R3601:3601 RBT.Src.Impl <> T constr
+R3606:3606 RBT.Src.Impl <> T constr
+R3608:3608 RBT.Src.Impl <> B constr
+R3603:3603 RBT.Src.Impl <> R constr
+R3648:3652 ExtLib.Structures.Monad MonadNotation ::monad_scope:x_'<-'_x_';;'_x not
+R3661:3669 ExtLib.Structures.Monad MonadNotation ::monad_scope:x_'<-'_x_';;'_x not
+R3653:3658 RBT.Src.Impl <> redden def
+binder 3646:3647 <> c':65
+R3670:3673 Coq.Init.Datatypes <> Some constr
+R3676:3676 RBT.Src.Impl <> T constr
+R3678:3678 RBT.Src.Impl <> R constr
+R3681:3681 RBT.Src.Impl <> T constr
+R3683:3683 RBT.Src.Impl <> B constr
+R3702:3708 RBT.Src.Impl <> balance def
+R3710:3710 RBT.Src.Impl <> B constr
+R3719:3720 RBT.Src.Impl <> c':65 var
+R3857:3860 Coq.Init.Datatypes <> None constr
+def 3884:3891 <> balRight
+R3898:3901 RBT.Src.Impl <> Tree ind
+binder 3894:3895 <> tl:66
+R3908:3908 Coq.Numbers.BinNums <> Z ind
+binder 3905:3905 <> k:67
+R3915:3915 Coq.Numbers.BinNums <> Z ind
+binder 3912:3912 <> v:68
+R3923:3926 RBT.Src.Impl <> Tree ind
+binder 3919:3920 <> tr:69
+R3931:3936 Coq.Init.Datatypes <> option ind
+R3938:3941 RBT.Src.Impl <> Tree ind
+R3966:3967 RBT.Src.Impl <> tr:69 var
+R3963:3963 RBT.Src.Impl <> v:68 var
+R3960:3960 RBT.Src.Impl <> k:67 var
+R3956:3957 RBT.Src.Impl <> tl:66 var
+R3991:3991 RBT.Src.Impl <> T constr
+R3993:3993 RBT.Src.Impl <> R constr
+R4008:4011 Coq.Init.Datatypes <> Some constr
+R4013:4013 RBT.Src.Impl <> T constr
+R4015:4015 RBT.Src.Impl <> R constr
+R4025:4025 RBT.Src.Impl <> T constr
+R4027:4027 RBT.Src.Impl <> B constr
+R4047:4047 RBT.Src.Impl <> T constr
+R4049:4049 RBT.Src.Impl <> B constr
+R4075:4078 Coq.Init.Datatypes <> Some constr
+R4080:4086 RBT.Src.Impl <> balance def
+R4088:4088 RBT.Src.Impl <> B constr
+R4091:4091 RBT.Src.Impl <> T constr
+R4093:4093 RBT.Src.Impl <> R constr
+R4121:4121 RBT.Src.Impl <> T constr
+R4133:4133 RBT.Src.Impl <> T constr
+R4135:4135 RBT.Src.Impl <> B constr
+R4123:4123 RBT.Src.Impl <> R constr
+R4183:4186 ExtLib.Structures.Monad MonadNotation ::monad_scope:x_'<-'_x_';;'_x not
+R4195:4206 ExtLib.Structures.Monad MonadNotation ::monad_scope:x_'<-'_x_';;'_x not
+R4187:4192 RBT.Src.Impl <> redden def
+binder 4181:4182 <> a':74
+R4207:4210 Coq.Init.Datatypes <> Some constr
+R4213:4213 RBT.Src.Impl <> T constr
+R4215:4215 RBT.Src.Impl <> R constr
+R4218:4224 RBT.Src.Impl <> balance def
+R4226:4226 RBT.Src.Impl <> B constr
+R4228:4229 RBT.Src.Impl <> a':74 var
+R4245:4245 RBT.Src.Impl <> T constr
+R4247:4247 RBT.Src.Impl <> B constr
+R4399:4402 Coq.Init.Datatypes <> None constr
+def 4423:4427 <> _join
+R4434:4437 RBT.Src.Impl <> Tree ind
+binder 4430:4431 <> t1:75
+R4445:4448 RBT.Src.Impl <> Tree ind
+binder 4441:4442 <> t2:76
+R4455:4457 Coq.Init.Datatypes <> nat ind
+binder 4452:4452 <> f:77
+R4462:4467 Coq.Init.Datatypes <> option ind
+R4469:4472 RBT.Src.Impl <> Tree ind
+R4487:4487 RBT.Src.Impl <> f:77 var
+R4500:4500 Coq.Init.Datatypes <> O constr
+R4505:4508 Coq.Init.Datatypes <> None constr
+R4516:4516 Coq.Init.Datatypes <> S constr
+R4542:4543 RBT.Src.Impl <> t2:76 var
+R4538:4539 RBT.Src.Impl <> t1:75 var
+R4560:4560 RBT.Src.Impl <> E constr
+R4568:4571 Coq.Init.Datatypes <> Some constr
+R4588:4588 RBT.Src.Impl <> E constr
+R4593:4596 Coq.Init.Datatypes <> Some constr
+R4611:4611 RBT.Src.Impl <> T constr
+R4613:4613 RBT.Src.Impl <> R constr
+R4627:4627 RBT.Src.Impl <> T constr
+R4629:4629 RBT.Src.Impl <> R constr
+R4662:4666 RBT.Src.Impl <> _join:78 def
+R4694:4697 Coq.Init.Datatypes <> None constr
+R4702:4705 Coq.Init.Datatypes <> None constr
+R4721:4724 Coq.Init.Datatypes <> Some constr
+R4726:4726 RBT.Src.Impl <> T constr
+R4728:4728 RBT.Src.Impl <> R constr
+R4780:4783 Coq.Init.Datatypes <> Some constr
+R4786:4786 RBT.Src.Impl <> T constr
+R4788:4788 RBT.Src.Impl <> R constr
+R4791:4791 RBT.Src.Impl <> T constr
+R4793:4793 RBT.Src.Impl <> R constr
+R4812:4812 RBT.Src.Impl <> T constr
+R4814:4814 RBT.Src.Impl <> R constr
+R4975:4978 Coq.Init.Datatypes <> Some constr
+R4987:4990 Coq.Init.Datatypes <> Some constr
+R4992:4992 RBT.Src.Impl <> T constr
+R4994:4994 RBT.Src.Impl <> R constr
+R5004:5004 RBT.Src.Impl <> T constr
+R5006:5006 RBT.Src.Impl <> R constr
+R5047:5047 RBT.Src.Impl <> T constr
+R5049:5049 RBT.Src.Impl <> B constr
+R5063:5063 RBT.Src.Impl <> T constr
+R5065:5065 RBT.Src.Impl <> B constr
+R5098:5102 RBT.Src.Impl <> _join:78 def
+R5130:5133 Coq.Init.Datatypes <> None constr
+R5138:5141 Coq.Init.Datatypes <> None constr
+R5157:5160 Coq.Init.Datatypes <> Some constr
+R5162:5162 RBT.Src.Impl <> T constr
+R5164:5164 RBT.Src.Impl <> R constr
+R5212:5215 Coq.Init.Datatypes <> Some constr
+R5217:5217 RBT.Src.Impl <> T constr
+R5219:5219 RBT.Src.Impl <> R constr
+R5222:5222 RBT.Src.Impl <> T constr
+R5224:5224 RBT.Src.Impl <> B constr
+R5243:5243 RBT.Src.Impl <> T constr
+R5245:5245 RBT.Src.Impl <> B constr
+R5418:5421 Coq.Init.Datatypes <> Some constr
+R5446:5452 RBT.Src.Impl <> balLeft def
+R5462:5462 RBT.Src.Impl <> T constr
+R5464:5464 RBT.Src.Impl <> B constr
+R5507:5507 RBT.Src.Impl <> T constr
+R5509:5509 RBT.Src.Impl <> R constr
+R5542:5546 RBT.Src.Impl <> _join:78 def
+R5574:5577 Coq.Init.Datatypes <> None constr
+R5582:5585 Coq.Init.Datatypes <> None constr
+R5601:5604 Coq.Init.Datatypes <> Some constr
+R5628:5631 Coq.Init.Datatypes <> Some constr
+R5634:5634 RBT.Src.Impl <> T constr
+R5636:5636 RBT.Src.Impl <> R constr
+R5676:5676 RBT.Src.Impl <> T constr
+R5678:5678 RBT.Src.Impl <> R constr
+R5710:5713 ExtLib.Structures.Monad MonadNotation ::monad_scope:x_'<-'_x_';;'_x not
+R5726:5741 ExtLib.Structures.Monad MonadNotation ::monad_scope:x_'<-'_x_';;'_x not
+R5714:5718 RBT.Src.Impl <> _join:78 def
+binder 5708:5709 <> t':82
+R5742:5745 Coq.Init.Datatypes <> Some constr
+R5748:5748 RBT.Src.Impl <> T constr
+R5750:5750 RBT.Src.Impl <> R constr
+R5759:5760 RBT.Src.Impl <> t':82 var
+def 5796:5799 <> join
+R5806:5809 RBT.Src.Impl <> Tree ind
+binder 5802:5803 <> t1:83
+R5817:5820 RBT.Src.Impl <> Tree ind
+binder 5813:5814 <> t2:84
+R5825:5830 Coq.Init.Datatypes <> option ind
+R5832:5835 RBT.Src.Impl <> Tree ind
+R5844:5848 RBT.Src.Impl <> _join def
+R5850:5851 RBT.Src.Impl <> t1:83 var
+R5853:5854 RBT.Src.Impl <> t2:84 var
+R5856:5859 RBT.Src.Impl <> fuel prfax
+def 5890:5892 <> del
+def 6829:6835 <> delLeft
+def 7259:7266 <> delRight
+R5898:5898 Coq.Numbers.BinNums <> Z ind
+binder 5895:5895 <> x:85
+R5905:5908 RBT.Src.Impl <> Tree ind
+binder 5902:5902 <> s:86
+R5915:5917 Coq.Init.Datatypes <> nat ind
+binder 5912:5912 <> f:87
+R6841:6841 Coq.Numbers.BinNums <> Z ind
+binder 6838:6838 <> x:88
+R6849:6852 RBT.Src.Impl <> Tree ind
+binder 6845:6846 <> dl:89
+R6860:6860 Coq.Numbers.BinNums <> Z ind
+binder 6856:6857 <> dy:90
+R6869:6869 Coq.Numbers.BinNums <> Z ind
+binder 6864:6866 <> dvy:91
+R6877:6880 RBT.Src.Impl <> Tree ind
+binder 6873:6874 <> dr:92
+R6887:6889 Coq.Init.Datatypes <> nat ind
+binder 6884:6884 <> f:93
+R7272:7272 Coq.Numbers.BinNums <> Z ind
+binder 7269:7269 <> x:94
+R7280:7283 RBT.Src.Impl <> Tree ind
+binder 7276:7277 <> dl:95
+R7291:7291 Coq.Numbers.BinNums <> Z ind
+binder 7287:7288 <> dy:96
+R7300:7300 Coq.Numbers.BinNums <> Z ind
+binder 7295:7297 <> dvy:97
+R7308:7311 RBT.Src.Impl <> Tree ind
+binder 7304:7305 <> dr:98
+R7318:7320 Coq.Init.Datatypes <> nat ind
+binder 7315:7315 <> f:99
+R5922:5927 Coq.Init.Datatypes <> option ind
+R5929:5932 RBT.Src.Impl <> Tree ind
+R6893:6898 Coq.Init.Datatypes <> option ind
+R6900:6903 RBT.Src.Impl <> Tree ind
+R7324:7329 Coq.Init.Datatypes <> option ind
+R7331:7334 RBT.Src.Impl <> Tree ind
+R5947:5947 RBT.Src.Impl <> f:87 var
+R5960:5960 Coq.Init.Datatypes <> O constr
+R5965:5968 Coq.Init.Datatypes <> None constr
+R5976:5976 Coq.Init.Datatypes <> S constr
+R5998:5998 RBT.Src.Impl <> s:86 var
+R6015:6015 RBT.Src.Impl <> E constr
+R6020:6023 Coq.Init.Datatypes <> Some constr
+R6025:6025 RBT.Src.Impl <> E constr
+R6038:6038 RBT.Src.Impl <> T constr
+R6090:6094 RBT.Src.Impl <> :::x_'<??'_x not
+R6089:6089 RBT.Src.Impl <> x:85 var
+R6194:6198 RBT.Src.Impl <> :::x_'<??'_x not
+R6199:6199 RBT.Src.Impl <> x:85 var
+R6313:6316 ExtLib.Structures.Monad MonadNotation ::monad_scope:x_'<-'_x_';;'_x not
+R6325:6344 ExtLib.Structures.Monad MonadNotation ::monad_scope:x_'<-'_x_';;'_x not
+R6317:6320 RBT.Src.Impl <> join def
+binder 6311:6312 <> t':105
+R6345:6348 Coq.Init.Datatypes <> Some constr
+R6350:6351 RBT.Src.Impl <> t':105 var
+R6224:6227 ExtLib.Structures.Monad MonadNotation ::monad_scope:x_'<-'_x_';;'_x not
+R6250:6269 ExtLib.Structures.Monad MonadNotation ::monad_scope:x_'<-'_x_';;'_x not
+R6228:6235 RBT.Src.Impl <> delRight:102 def
+R6237:6237 RBT.Src.Impl <> x:85 var
+binder 6222:6223 <> t':106
+R6270:6273 Coq.Init.Datatypes <> Some constr
+R6275:6276 RBT.Src.Impl <> t':106 var
+R6120:6123 ExtLib.Structures.Monad MonadNotation ::monad_scope:x_'<-'_x_';;'_x not
+R6145:6164 ExtLib.Structures.Monad MonadNotation ::monad_scope:x_'<-'_x_';;'_x not
+R6124:6130 RBT.Src.Impl <> delLeft:101 def
+R6132:6132 RBT.Src.Impl <> x:85 var
+binder 6118:6119 <> t':107
+R6165:6168 Coq.Init.Datatypes <> Some constr
+R6170:6171 RBT.Src.Impl <> t':107 var
+R6918:6918 RBT.Src.Impl <> f:93 var
+R6931:6931 Coq.Init.Datatypes <> O constr
+R6936:6939 Coq.Init.Datatypes <> None constr
+R6947:6947 Coq.Init.Datatypes <> S constr
+R6982:6983 RBT.Src.Impl <> dr:92 var
+R6977:6979 RBT.Src.Impl <> dvy:91 var
+R6973:6974 RBT.Src.Impl <> dy:90 var
+R6969:6970 RBT.Src.Impl <> dl:89 var
+R7001:7001 RBT.Src.Impl <> T constr
+R7003:7003 RBT.Src.Impl <> B constr
+R7046:7050 ExtLib.Structures.Monad MonadNotation ::monad_scope:x_'<-'_x_';;'_x not
+R7078:7094 ExtLib.Structures.Monad MonadNotation ::monad_scope:x_'<-'_x_';;'_x not
+R7051:7053 RBT.Src.Impl <> del:100 def
+R7058:7058 RBT.Src.Impl <> T constr
+R7060:7060 RBT.Src.Impl <> B constr
+R7055:7055 RBT.Src.Impl <> x:88 var
+binder 7044:7045 <> t':113
+R7098:7101 ExtLib.Structures.Monad MonadNotation ::monad_scope:x_'<-'_x_';;'_x not
+R7119:7134 ExtLib.Structures.Monad MonadNotation ::monad_scope:x_'<-'_x_';;'_x not
+R7102:7108 RBT.Src.Impl <> balLeft def
+R7110:7111 RBT.Src.Impl <> t':113 var
+binder 7095:7097 <> t'':114
+R7135:7138 Coq.Init.Datatypes <> Some constr
+R7140:7142 RBT.Src.Impl <> t'':114 var
+R7183:7186 ExtLib.Structures.Monad MonadNotation ::monad_scope:x_'<-'_x_';;'_x not
+R7197:7212 ExtLib.Structures.Monad MonadNotation ::monad_scope:x_'<-'_x_';;'_x not
+R7187:7189 RBT.Src.Impl <> del:100 def
+R7191:7191 RBT.Src.Impl <> x:88 var
+binder 7181:7182 <> t':115
+R7213:7216 Coq.Init.Datatypes <> Some constr
+R7219:7219 RBT.Src.Impl <> T constr
+R7221:7221 RBT.Src.Impl <> R constr
+R7223:7224 RBT.Src.Impl <> t':115 var
+R7349:7349 RBT.Src.Impl <> f:99 var
+R7362:7362 Coq.Init.Datatypes <> O constr
+R7367:7370 Coq.Init.Datatypes <> None constr
+R7378:7378 Coq.Init.Datatypes <> S constr
+R7413:7414 RBT.Src.Impl <> dr:98 var
+R7408:7410 RBT.Src.Impl <> dvy:97 var
+R7404:7405 RBT.Src.Impl <> dy:96 var
+R7400:7401 RBT.Src.Impl <> dl:95 var
+R7442:7442 RBT.Src.Impl <> T constr
+R7444:7444 RBT.Src.Impl <> B constr
+R7477:7481 ExtLib.Structures.Monad MonadNotation ::monad_scope:x_'<-'_x_';;'_x not
+R7509:7525 ExtLib.Structures.Monad MonadNotation ::monad_scope:x_'<-'_x_';;'_x not
+R7482:7484 RBT.Src.Impl <> del:100 def
+R7489:7489 RBT.Src.Impl <> T constr
+R7491:7491 RBT.Src.Impl <> B constr
+R7486:7486 RBT.Src.Impl <> x:94 var
+binder 7475:7476 <> t':121
+R7529:7532 ExtLib.Structures.Monad MonadNotation ::monad_scope:x_'<-'_x_';;'_x not
+R7551:7566 ExtLib.Structures.Monad MonadNotation ::monad_scope:x_'<-'_x_';;'_x not
+R7533:7540 RBT.Src.Impl <> balRight def
+R7549:7550 RBT.Src.Impl <> t':121 var
+binder 7526:7528 <> t'':122
+R7567:7570 Coq.Init.Datatypes <> Some constr
+R7572:7574 RBT.Src.Impl <> t'':122 var
+R7615:7618 ExtLib.Structures.Monad MonadNotation ::monad_scope:x_'<-'_x_';;'_x not
+R7629:7644 ExtLib.Structures.Monad MonadNotation ::monad_scope:x_'<-'_x_';;'_x not
+R7619:7621 RBT.Src.Impl <> del:100 def
+R7623:7623 RBT.Src.Impl <> x:94 var
+binder 7613:7614 <> t':123
+R7645:7648 Coq.Init.Datatypes <> Some constr
+R7651:7651 RBT.Src.Impl <> T constr
+R7653:7653 RBT.Src.Impl <> R constr
+R7662:7663 RBT.Src.Impl <> t':123 var
+def 7699:7704 <> delete
+R7710:7710 Coq.Numbers.BinNums <> Z ind
+binder 7707:7707 <> x:124
+R7717:7720 RBT.Src.Impl <> Tree ind
+binder 7714:7714 <> t:125
+R7725:7730 Coq.Init.Datatypes <> option ind
+R7732:7735 RBT.Src.Impl <> Tree ind
+R7757:7760 ExtLib.Structures.Monad MonadNotation ::monad_scope:x_'<-'_x_';;'_x not
+R7773:7780 ExtLib.Structures.Monad MonadNotation ::monad_scope:x_'<-'_x_';;'_x not
+R7761:7763 RBT.Src.Impl <> del def
+R7765:7765 RBT.Src.Impl <> x:124 var
+R7767:7767 RBT.Src.Impl <> t:125 var
+R7769:7772 RBT.Src.Impl <> fuel prfax
+binder 7755:7756 <> t':126
+R7781:7784 Coq.Init.Datatypes <> Some constr
+R7787:7793 RBT.Src.Impl <> blacken def
+R7795:7796 RBT.Src.Impl <> t':126 var
+def 7888:7891 <> find
+R7897:7897 Coq.Numbers.BinNums <> Z ind
+binder 7894:7894 <> x:127
+R7904:7907 RBT.Src.Impl <> Tree ind
+binder 7901:7901 <> t:128
+R7912:7917 Coq.Init.Datatypes <> option ind
+R7919:7919 Coq.Numbers.BinNums <> Z ind
+R7934:7934 RBT.Src.Impl <> t:128 var
+R7947:7947 RBT.Src.Impl <> E constr
+R7952:7955 Coq.Init.Datatypes <> None constr
+R7964:7964 RBT.Src.Impl <> T constr
+R7993:7997 RBT.Src.Impl <> :::x_'<??'_x not
+R7992:7992 RBT.Src.Impl <> x:127 var
+R8031:8035 RBT.Src.Impl <> :::x_'<??'_x not
+R8036:8036 RBT.Src.Impl <> x:127 var
+R8066:8069 Coq.Init.Datatypes <> Some constr
+R8043:8046 RBT.Src.Impl <> find:129 def
+R8048:8048 RBT.Src.Impl <> x:127 var
+R8005:8008 RBT.Src.Impl <> find:129 def
+R8010:8010 RBT.Src.Impl <> x:127 var
+def 8095:8098 <> size
+R8104:8107 RBT.Src.Impl <> Tree ind
+binder 8101:8101 <> t:131
+R8112:8114 Coq.Init.Datatypes <> nat ind
+R8127:8127 RBT.Src.Impl <> t:131 var
+R8138:8138 RBT.Src.Impl <> E constr
+R8149:8149 RBT.Src.Impl <> T constr
+R8174:8176 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R8165:8167 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R8168:8171 RBT.Src.Impl <> size:132 def
+R8177:8180 RBT.Src.Impl <> size:132 def

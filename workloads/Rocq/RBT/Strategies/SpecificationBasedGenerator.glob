@@ -1,0 +1,346 @@
+DIGEST 4aa014c0ce606b9ab68ef54dd1da51ba
+FRBT.Strategies.SpecificationBasedGenerator
+R16:21 Coq.ZArith.ZArith <> <> lib
+R55:64 QuickChick.QuickChick <> <> lib
+R94:98 ExtLib.Structures.Monad <> <> lib
+R140:150 ExtLib.Data.Monads.OptionMonad <> <> lib
+R160:169 QuickChick.Checker QcNotation <> mod
+R179:191 ExtLib.Structures.Monad MonadNotation <> mod
+R218:221 Coq.Lists.List <> <> lib
+R231:243 Coq.Lists.List ListNotations <> mod
+R272:275 RBT.Src.Impl <> <> lib
+R277:280 RBT.Src.Spec <> <> lib
+ind 324:330 <> between
+constr 359:367 <> between_n
+constr 423:431 <> between_S
+R335:338 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R334:334 Coq.Numbers.BinNums <> Z ind
+R340:343 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R339:339 Coq.Numbers.BinNums <> Z ind
+R345:348 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R344:344 Coq.Numbers.BinNums <> Z ind
+binder 378:378 <> n:3
+binder 380:380 <> m:4
+R391:394 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R383:386 Coq.ZArith.BinInt Z le def
+R388:388 RBT.Strategies.SpecificationBasedGenerator <> n:3 var
+R390:390 RBT.Strategies.SpecificationBasedGenerator <> m:4 var
+R395:401 RBT.Strategies.SpecificationBasedGenerator <> between:1 ind
+R415:417 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R414:414 RBT.Strategies.SpecificationBasedGenerator <> m:4 var
+R407:409 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R406:406 RBT.Strategies.SpecificationBasedGenerator <> n:3 var
+R403:403 RBT.Strategies.SpecificationBasedGenerator <> n:3 var
+binder 442:442 <> n:5
+binder 444:444 <> m:6
+binder 446:446 <> o:7
+R462:465 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R449:455 RBT.Strategies.SpecificationBasedGenerator <> between:1 ind
+R461:461 RBT.Strategies.SpecificationBasedGenerator <> o:7 var
+R459:459 RBT.Strategies.SpecificationBasedGenerator <> m:6 var
+R457:457 RBT.Strategies.SpecificationBasedGenerator <> n:5 var
+R466:472 RBT.Strategies.SpecificationBasedGenerator <> between:1 ind
+R486:488 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R485:485 RBT.Strategies.SpecificationBasedGenerator <> o:7 var
+R478:480 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R477:477 RBT.Strategies.SpecificationBasedGenerator <> m:6 var
+R474:474 RBT.Strategies.SpecificationBasedGenerator <> n:5 var
+scheme 324:330 <> between_ind
+scheme 324:330 <> between_sind
+ind 504:516 <> red_black_bst
+constr 566:588 <> rbt_leafbh_leafbst_leaf
+constr 684:718 <> rbt_black_nodebh_black_nodebst_node
+constr 1163:1193 <> rbt_red_nodebh_red_nodebst_node
+R525:528 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R520:524 RBT.Src.Impl <> Color ind
+R532:535 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R529:531 Coq.Init.Datatypes <> nat ind
+R537:540 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R536:536 Coq.Numbers.BinNums <> Z ind
+R542:545 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R541:541 Coq.Numbers.BinNums <> Z ind
+R550:553 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R546:549 RBT.Src.Impl <> Tree ind
+R608:608 Coq.Numbers.BinNums <> Z ind
+binder 600:601 <> lo:10
+binder 603:604 <> hi:11
+R616:620 RBT.Src.Impl <> Color ind
+binder 612:612 <> c:12
+R654:666 RBT.Strategies.SpecificationBasedGenerator <> red_black_bst:8 ind
+R678:678 RBT.Src.Impl <> E constr
+R675:676 RBT.Strategies.SpecificationBasedGenerator <> hi:11 var
+R672:673 RBT.Strategies.SpecificationBasedGenerator <> lo:10 var
+R668:668 RBT.Strategies.SpecificationBasedGenerator <> c:12 var
+R741:741 Coq.Numbers.BinNums <> Z ind
+binder 730:731 <> lo:13
+binder 733:734 <> hi:14
+binder 736:736 <> x:15
+binder 738:738 <> y:16
+R795:798 RBT.Src.Impl <> Tree ind
+binder 789:789 <> l:17
+binder 791:791 <> r:18
+R806:808 Coq.Init.Datatypes <> nat ind
+binder 802:802 <> h:19
+R864:868 RBT.Src.Impl <> Color ind
+binder 856:857 <> c1:20
+binder 859:860 <> c2:21
+R929:974 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R914:920 RBT.Strategies.SpecificationBasedGenerator <> between ind
+R922:923 RBT.Strategies.SpecificationBasedGenerator <> lo:13 var
+R925:925 RBT.Strategies.SpecificationBasedGenerator <> x:15 var
+R927:928 RBT.Strategies.SpecificationBasedGenerator <> hi:14 var
+R1000:1045 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R975:987 RBT.Strategies.SpecificationBasedGenerator <> red_black_bst:8 ind
+R999:999 RBT.Strategies.SpecificationBasedGenerator <> l:17 var
+R997:997 RBT.Strategies.SpecificationBasedGenerator <> x:15 var
+R994:995 RBT.Strategies.SpecificationBasedGenerator <> lo:13 var
+R992:992 RBT.Strategies.SpecificationBasedGenerator <> h:19 var
+R989:990 RBT.Strategies.SpecificationBasedGenerator <> c1:20 var
+R1071:1116 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1046:1058 RBT.Strategies.SpecificationBasedGenerator <> red_black_bst:8 ind
+R1070:1070 RBT.Strategies.SpecificationBasedGenerator <> r:18 var
+R1067:1068 RBT.Strategies.SpecificationBasedGenerator <> hi:14 var
+R1065:1065 RBT.Strategies.SpecificationBasedGenerator <> x:15 var
+R1063:1063 RBT.Strategies.SpecificationBasedGenerator <> h:19 var
+R1060:1061 RBT.Strategies.SpecificationBasedGenerator <> c2:21 var
+R1117:1129 RBT.Strategies.SpecificationBasedGenerator <> red_black_bst:8 ind
+R1146:1146 RBT.Src.Impl <> T constr
+R1148:1148 RBT.Src.Impl <> B constr
+R1150:1150 RBT.Strategies.SpecificationBasedGenerator <> l:17 var
+R1152:1152 RBT.Strategies.SpecificationBasedGenerator <> x:15 var
+R1154:1154 RBT.Strategies.SpecificationBasedGenerator <> y:16 var
+R1156:1156 RBT.Strategies.SpecificationBasedGenerator <> r:18 var
+R1142:1143 RBT.Strategies.SpecificationBasedGenerator <> hi:14 var
+R1139:1140 RBT.Strategies.SpecificationBasedGenerator <> lo:13 var
+R1134:1134 Coq.Init.Datatypes <> S constr
+R1136:1136 RBT.Strategies.SpecificationBasedGenerator <> h:19 var
+R1131:1131 RBT.Src.Impl <> B constr
+R1216:1216 Coq.Numbers.BinNums <> Z ind
+binder 1205:1206 <> lo:22
+binder 1208:1209 <> hi:23
+binder 1211:1211 <> x:24
+binder 1213:1213 <> y:25
+R1226:1229 RBT.Src.Impl <> Tree ind
+binder 1220:1220 <> l:26
+binder 1222:1222 <> r:27
+R1237:1239 Coq.Init.Datatypes <> nat ind
+binder 1233:1233 <> h:28
+R1296:1337 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1281:1287 RBT.Strategies.SpecificationBasedGenerator <> between ind
+R1289:1290 RBT.Strategies.SpecificationBasedGenerator <> lo:22 var
+R1292:1292 RBT.Strategies.SpecificationBasedGenerator <> x:24 var
+R1294:1295 RBT.Strategies.SpecificationBasedGenerator <> hi:23 var
+R1362:1403 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1338:1350 RBT.Strategies.SpecificationBasedGenerator <> red_black_bst:8 ind
+R1361:1361 RBT.Strategies.SpecificationBasedGenerator <> l:26 var
+R1359:1359 RBT.Strategies.SpecificationBasedGenerator <> x:24 var
+R1356:1357 RBT.Strategies.SpecificationBasedGenerator <> lo:22 var
+R1354:1354 RBT.Strategies.SpecificationBasedGenerator <> h:28 var
+R1352:1352 RBT.Src.Impl <> B constr
+R1428:1469 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1404:1416 RBT.Strategies.SpecificationBasedGenerator <> red_black_bst:8 ind
+R1427:1427 RBT.Strategies.SpecificationBasedGenerator <> r:27 var
+R1424:1425 RBT.Strategies.SpecificationBasedGenerator <> hi:23 var
+R1422:1422 RBT.Strategies.SpecificationBasedGenerator <> x:24 var
+R1420:1420 RBT.Strategies.SpecificationBasedGenerator <> h:28 var
+R1418:1418 RBT.Src.Impl <> B constr
+R1470:1482 RBT.Strategies.SpecificationBasedGenerator <> red_black_bst:8 ind
+R1495:1495 RBT.Src.Impl <> T constr
+R1497:1497 RBT.Src.Impl <> R constr
+R1499:1499 RBT.Strategies.SpecificationBasedGenerator <> l:26 var
+R1501:1501 RBT.Strategies.SpecificationBasedGenerator <> x:24 var
+R1503:1503 RBT.Strategies.SpecificationBasedGenerator <> y:25 var
+R1505:1505 RBT.Strategies.SpecificationBasedGenerator <> r:27 var
+R1491:1492 RBT.Strategies.SpecificationBasedGenerator <> hi:23 var
+R1488:1489 RBT.Strategies.SpecificationBasedGenerator <> lo:22 var
+R1486:1486 RBT.Strategies.SpecificationBasedGenerator <> h:28 var
+R1484:1484 RBT.Src.Impl <> R constr
+scheme 504:516 <> red_black_bst_ind
+scheme 504:516 <> red_black_bst_sind
+inst 1529:1539 <> gen_between
+R1550:1550 Coq.Numbers.BinNums <> Z ind
+binder 1542:1543 <> lo:29
+binder 1545:1546 <> hi:30
+R1555:1570 QuickChick.DependentClasses <> GenSizedSuchThat class
+binder 1579:1579 <> x:31
+R1584:1590 RBT.Strategies.SpecificationBasedGenerator <> between ind
+R1592:1593 RBT.Strategies.SpecificationBasedGenerator <> lo:29 var
+R1595:1595 RBT.Strategies.SpecificationBasedGenerator <> x:31 var
+R1597:1598 RBT.Strategies.SpecificationBasedGenerator <> hi:30 var
+R1607:1621 QuickChick.DependentClasses <> arbitrarySizeST meth
+R1607:1621 QuickChick.DependentClasses <> arbitrarySizeST meth
+R1607:1621 QuickChick.DependentClasses <> arbitrarySizeST meth
+binder 1630:1630 <> n:32
+R1662:1666 Coq.ZArith.BinInt Z leb def
+R1673:1675 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R1795:1797 ExtLib.Structures.Monad <> ret meth
+R1799:1802 Coq.Init.Datatypes <> None constr
+R1711:1717 QuickChick.Generators <> bindGen def
+binder 1747:1747 <> x:33
+R1752:1754 ExtLib.Structures.Monad <> ret meth
+R1757:1760 Coq.Init.Datatypes <> Some constr
+R1762:1762 RBT.Strategies.SpecificationBasedGenerator <> x:33 var
+R1720:1725 QuickChick.Producer <> choose meth
+R1727:1727 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1732:1732 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1737:1737 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1730:1730 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R1735:1735 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+def 1897:1900 <> gRbt
+R1912:1926 QuickChick.DependentClasses <> arbitrarySizeST meth
+binder 1935:1935 <> t:71
+R1940:1952 RBT.Strategies.SpecificationBasedGenerator <> red_black_bst ind
+R1954:1954 RBT.Src.Impl <> B constr
+R1964:1964 RBT.Strategies.SpecificationBasedGenerator <> t:71 var
+def 2043:2063 <> test_prop_InsertValid
+R2074:2084 QuickChick.Checker <> forAllMaybe def
+binder 2096:2096 <> t:72
+R2109:2114 QuickChick.Checker <> forAll def
+binder 2131:2131 <> k:73
+R2140:2145 QuickChick.Checker <> forAll def
+binder 2162:2162 <> v:74
+R2176:2191 RBT.Src.Spec <> prop_InsertValid def
+R2193:2193 RBT.Strategies.SpecificationBasedGenerator <> t:72 var
+R2195:2195 RBT.Strategies.SpecificationBasedGenerator <> k:73 var
+R2197:2197 RBT.Strategies.SpecificationBasedGenerator <> v:74 var
+R2147:2155 QuickChick.Classes <> arbitrary meth
+R2116:2124 QuickChick.Classes <> arbitrary meth
+R2086:2089 RBT.Strategies.SpecificationBasedGenerator <> gRbt def
+def 2258:2278 <> test_prop_DeleteValid
+R2289:2299 QuickChick.Checker <> forAllMaybe def
+binder 2311:2311 <> t:75
+R2324:2329 QuickChick.Checker <> forAll def
+binder 2346:2346 <> k:76
+R2359:2374 RBT.Src.Spec <> prop_DeleteValid def
+R2376:2376 RBT.Strategies.SpecificationBasedGenerator <> t:75 var
+R2378:2378 RBT.Strategies.SpecificationBasedGenerator <> k:76 var
+R2331:2339 QuickChick.Classes <> arbitrary meth
+R2301:2304 RBT.Strategies.SpecificationBasedGenerator <> gRbt def
+def 2437:2456 <> test_prop_InsertPost
+R2467:2477 QuickChick.Checker <> forAllMaybe def
+binder 2489:2489 <> t:77
+R2502:2507 QuickChick.Checker <> forAll def
+binder 2524:2524 <> k:78
+R2533:2538 QuickChick.Checker <> forAll def
+binder 2555:2556 <> k':79
+R2566:2571 QuickChick.Checker <> forAll def
+binder 2588:2588 <> v:80
+R2601:2615 RBT.Src.Spec <> prop_InsertPost def
+R2617:2617 RBT.Strategies.SpecificationBasedGenerator <> t:77 var
+R2619:2619 RBT.Strategies.SpecificationBasedGenerator <> k:78 var
+R2621:2622 RBT.Strategies.SpecificationBasedGenerator <> k':79 var
+R2624:2624 RBT.Strategies.SpecificationBasedGenerator <> v:80 var
+R2573:2581 QuickChick.Classes <> arbitrary meth
+R2540:2548 QuickChick.Classes <> arbitrary meth
+R2509:2517 QuickChick.Classes <> arbitrary meth
+R2479:2482 RBT.Strategies.SpecificationBasedGenerator <> gRbt def
+def 2684:2703 <> test_prop_DeletePost
+R2713:2723 QuickChick.Checker <> forAllMaybe def
+binder 2735:2735 <> t:81
+R2748:2753 QuickChick.Checker <> forAll def
+binder 2770:2770 <> k:82
+R2779:2784 QuickChick.Checker <> forAll def
+binder 2801:2802 <> k':83
+R2815:2829 RBT.Src.Spec <> prop_DeletePost def
+R2831:2831 RBT.Strategies.SpecificationBasedGenerator <> t:81 var
+R2833:2833 RBT.Strategies.SpecificationBasedGenerator <> k:82 var
+R2835:2836 RBT.Strategies.SpecificationBasedGenerator <> k':83 var
+R2786:2794 QuickChick.Classes <> arbitrary meth
+R2755:2763 QuickChick.Classes <> arbitrary meth
+R2725:2728 RBT.Strategies.SpecificationBasedGenerator <> gRbt def
+def 2899:2919 <> test_prop_InsertModel
+R2930:2940 QuickChick.Checker <> forAllMaybe def
+binder 2952:2952 <> t:84
+R2965:2970 QuickChick.Checker <> forAll def
+binder 2987:2987 <> k:85
+R2996:3001 QuickChick.Checker <> forAll def
+binder 3018:3018 <> v:86
+R3031:3046 RBT.Src.Spec <> prop_InsertModel def
+R3048:3048 RBT.Strategies.SpecificationBasedGenerator <> t:84 var
+R3050:3050 RBT.Strategies.SpecificationBasedGenerator <> k:85 var
+R3052:3052 RBT.Strategies.SpecificationBasedGenerator <> v:86 var
+R3003:3011 QuickChick.Classes <> arbitrary meth
+R2972:2980 QuickChick.Classes <> arbitrary meth
+R2942:2945 RBT.Strategies.SpecificationBasedGenerator <> gRbt def
+def 3116:3136 <> test_prop_DeleteModel
+R3147:3157 QuickChick.Checker <> forAllMaybe def
+binder 3169:3169 <> t:87
+R3182:3187 QuickChick.Checker <> forAll def
+binder 3204:3204 <> k:88
+R3221:3236 RBT.Src.Spec <> prop_DeleteModel def
+R3238:3238 RBT.Strategies.SpecificationBasedGenerator <> t:87 var
+R3240:3240 RBT.Strategies.SpecificationBasedGenerator <> k:88 var
+R3189:3197 QuickChick.Classes <> arbitrary meth
+R3159:3162 RBT.Strategies.SpecificationBasedGenerator <> gRbt def
+def 3299:3320 <> test_prop_InsertInsert
+R3331:3341 QuickChick.Checker <> forAllMaybe def
+binder 3353:3353 <> t:89
+R3366:3371 QuickChick.Checker <> forAll def
+binder 3388:3388 <> k:90
+R3397:3402 QuickChick.Checker <> forAll def
+binder 3419:3420 <> k':91
+R3429:3434 QuickChick.Checker <> forAll def
+binder 3451:3451 <> v:92
+R3460:3465 QuickChick.Checker <> forAll def
+binder 3482:3483 <> v':93
+R3501:3517 RBT.Src.Spec <> prop_InsertInsert def
+R3519:3519 RBT.Strategies.SpecificationBasedGenerator <> t:89 var
+R3521:3521 RBT.Strategies.SpecificationBasedGenerator <> k:90 var
+R3523:3524 RBT.Strategies.SpecificationBasedGenerator <> k':91 var
+R3526:3526 RBT.Strategies.SpecificationBasedGenerator <> v:92 var
+R3528:3529 RBT.Strategies.SpecificationBasedGenerator <> v':93 var
+R3467:3475 QuickChick.Classes <> arbitrary meth
+R3436:3444 QuickChick.Classes <> arbitrary meth
+R3404:3412 QuickChick.Classes <> arbitrary meth
+R3373:3381 QuickChick.Classes <> arbitrary meth
+R3343:3346 RBT.Strategies.SpecificationBasedGenerator <> gRbt def
+def 3596:3617 <> test_prop_InsertDelete
+R3627:3637 QuickChick.Checker <> forAllMaybe def
+binder 3649:3649 <> t:94
+R3662:3667 QuickChick.Checker <> forAll def
+binder 3684:3684 <> k:95
+R3693:3698 QuickChick.Checker <> forAll def
+binder 3715:3716 <> k':96
+R3725:3730 QuickChick.Checker <> forAll def
+binder 3747:3747 <> v:97
+R3760:3776 RBT.Src.Spec <> prop_InsertDelete def
+R3778:3778 RBT.Strategies.SpecificationBasedGenerator <> t:94 var
+R3780:3780 RBT.Strategies.SpecificationBasedGenerator <> k:95 var
+R3782:3783 RBT.Strategies.SpecificationBasedGenerator <> k':96 var
+R3785:3785 RBT.Strategies.SpecificationBasedGenerator <> v:97 var
+R3732:3740 QuickChick.Classes <> arbitrary meth
+R3700:3708 QuickChick.Classes <> arbitrary meth
+R3669:3677 QuickChick.Classes <> arbitrary meth
+R3639:3642 RBT.Strategies.SpecificationBasedGenerator <> gRbt def
+def 3851:3872 <> test_prop_DeleteInsert
+R3882:3892 QuickChick.Checker <> forAllMaybe def
+binder 3904:3904 <> t:98
+R3917:3922 QuickChick.Checker <> forAll def
+binder 3939:3939 <> k:99
+R3948:3953 QuickChick.Checker <> forAll def
+binder 3970:3971 <> k':100
+R3980:3985 QuickChick.Checker <> forAll def
+binder 4002:4003 <> v':101
+R4016:4032 RBT.Src.Spec <> prop_DeleteInsert def
+R4034:4034 RBT.Strategies.SpecificationBasedGenerator <> t:98 var
+R4036:4036 RBT.Strategies.SpecificationBasedGenerator <> k:99 var
+R4038:4039 RBT.Strategies.SpecificationBasedGenerator <> k':100 var
+R4041:4042 RBT.Strategies.SpecificationBasedGenerator <> v':101 var
+R3987:3995 QuickChick.Classes <> arbitrary meth
+R3955:3963 QuickChick.Classes <> arbitrary meth
+R3924:3932 QuickChick.Classes <> arbitrary meth
+R3894:3897 RBT.Strategies.SpecificationBasedGenerator <> gRbt def
+def 4108:4129 <> test_prop_DeleteDelete
+R4140:4150 QuickChick.Checker <> forAllMaybe def
+binder 4162:4162 <> t:102
+R4175:4180 QuickChick.Checker <> forAll def
+binder 4197:4197 <> k:103
+R4206:4211 QuickChick.Checker <> forAll def
+binder 4228:4229 <> k':104
+R4242:4258 RBT.Src.Spec <> prop_DeleteDelete def
+R4260:4260 RBT.Strategies.SpecificationBasedGenerator <> t:102 var
+R4262:4262 RBT.Strategies.SpecificationBasedGenerator <> k:103 var
+R4264:4265 RBT.Strategies.SpecificationBasedGenerator <> k':104 var
+R4213:4221 QuickChick.Classes <> arbitrary meth
+R4182:4190 QuickChick.Classes <> arbitrary meth
+R4152:4155 RBT.Strategies.SpecificationBasedGenerator <> gRbt def

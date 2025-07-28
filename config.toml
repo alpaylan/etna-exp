@@ -25,3 +25,7 @@ language = "Rust"
 [[workloads]]
 name = "RBT"
 language = "Rust"
+
+[[workloads]]
+name = "RBT"
+language = "Rocq"
