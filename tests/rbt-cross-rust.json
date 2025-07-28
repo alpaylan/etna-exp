@@ -6,10 +6,10 @@
             "insert_1"
         ],
         "trials": 10,
-        "timeout": 1,
+        "timeout": 0.5,
         "cross": true,
         "params": {
-            "tests": 1000
+            "tests": 10000
         },
         "tasks": [
             {
@@ -37,10 +37,10 @@
             "insert_2"
         ],
         "trials": 10,
-        "timeout": 1,
+        "timeout": 0.5,
         "cross": true,
         "params": {
-            "tests": 1000
+            "tests": 10000
         },
         "tasks": [
             {
@@ -72,10 +72,10 @@
             "insert_3"
         ],
         "trials": 10,
-        "timeout": 1,
+        "timeout": 0.5,
         "cross": true,
         "params": {
-            "tests": 1000
+            "tests": 10000
         },
         "tasks": [
             {
@@ -103,10 +103,10 @@
             "delete_4"
         ],
         "trials": 10,
-        "timeout": 1,
+        "timeout": 0.5,
         "cross": true,
         "params": {
-            "tests": 1000
+            "tests": 10000
         },
         "tasks": [
             {
@@ -138,10 +138,10 @@
             "delete_5"
         ],
         "trials": 10,
-        "timeout": 1,
+        "timeout": 0.5,
         "cross": true,
         "params": {
-            "tests": 1000
+            "tests": 10000
         },
         "tasks": [
             {
@@ -169,10 +169,10 @@
             "miscolor_insert"
         ],
         "trials": 10,
-        "timeout": 1,
+        "timeout": 0.5,
         "cross": true,
         "params": {
-            "tests": 1000
+            "tests": 10000
         },
         "tasks": [
             {
@@ -192,10 +192,10 @@
             "miscolor_delete"
         ],
         "trials": 10,
-        "timeout": 1,
+        "timeout": 0.5,
         "cross": true,
         "params": {
-            "tests": 1000
+            "tests": 10000
         },
         "tasks": [
             {
@@ -211,10 +211,10 @@
             "miscolor_balLeft"
         ],
         "trials": 10,
-        "timeout": 1,
+        "timeout": 0.5,
         "cross": true,
         "params": {
-            "tests": 1000
+            "tests": 10000
         },
         "tasks": [
             {
@@ -234,10 +234,10 @@
             "miscolor_balRight"
         ],
         "trials": 10,
-        "timeout": 1,
+        "timeout": 0.5,
         "cross": true,
         "params": {
-            "tests": 1000
+            "tests": 10000
         },
         "tasks": [
             {
@@ -257,10 +257,10 @@
             "miscolor_join_1"
         ],
         "trials": 10,
-        "timeout": 1,
+        "timeout": 0.5,
         "cross": true,
         "params": {
-            "tests": 1000
+            "tests": 10000
         },
         "tasks": [
             {
@@ -276,10 +276,10 @@
             "miscolor_join_2"
         ],
         "trials": 10,
-        "timeout": 1,
+        "timeout": 0.5,
         "cross": true,
         "params": {
-            "tests": 1000
+            "tests": 10000
         },
         "tasks": [
             {
@@ -299,10 +299,10 @@
             "no_balance_insert_1"
         ],
         "trials": 10,
-        "timeout": 1,
+        "timeout": 0.5,
         "cross": true,
         "params": {
-            "tests": 1000
+            "tests": 10000
         },
         "tasks": [
             {
@@ -326,10 +326,10 @@
             "no_balance_insert_2"
         ],
         "trials": 10,
-        "timeout": 1,
+        "timeout": 0.5,
         "cross": true,
         "params": {
-            "tests": 1000
+            "tests": 10000
         },
         "tasks": [
             {

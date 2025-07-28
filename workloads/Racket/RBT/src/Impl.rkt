@@ -313,11 +313,13 @@
     [(E) (return (E))]
     [(T c a y vy b)
      #|! |#
+#|!
      (cond
        [(< x y) (delLeft x a y vy b)]
        [(> x y) (delRight x a y vy b)]
        [else (join a b)]
        )
+|#
      #|!! delete_4 |#
      #|!
      (cond
@@ -327,13 +329,11 @@
        )
      |#
      #|!! delete_5 |#
-     #|!
         (cond
           [(> x y) (delLeft x a y vy b)]
           [(< x y) (delRight x a y vy b)]
           [else (join a b)]
         )
-     |#
      #| !|#
      ]
     )

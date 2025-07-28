@@ -20,7 +20,8 @@
                         "command": "$workload_path/target/release/rbt-sampler",
                         "args": [
                             "$strategy",
-                            "$property"
+                            "$property",
+                            "$tests"
                         ],
                         "params": [
                             "workload_path",

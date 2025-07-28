@@ -81,10 +81,12 @@
     [(E) (E)]
     [(T l key val r)
      #|! |#
+#|!
      (cond
        [(< k key) (T (delete k l) key val r)]
        [(> k key) (T l key val (delete k r))]
        [else (join l r)])
+|#
      #|!! delete_4 |#
      #|!
      (cond
@@ -93,12 +95,10 @@
        [else (join l r)])
      |#
      #|!! delete_5 |#
-     #|!
      (cond
       [(< key k) (T (delete k l) key val r)]
       [(> key k) (T l key val (delete k r))]
       [else (join l r)])
-     |#
      #| !|#
      ]))
 

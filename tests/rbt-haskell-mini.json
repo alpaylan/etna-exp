@@ -1,0 +1,21 @@
+[
+    {
+        "language": "Haskell",
+        "workload": "RBT",
+        "mutations": [
+            "insert_1"
+        ],
+        "trials": 10,
+        "timeout": 1,
+        "tasks": [
+            {
+                "strategy": "Correct",
+                "property": "InsertPost"
+            },
+            {
+                "strategy": "Correct",
+                "property": "InsertModel"
+            }
+        ]
+    }
+]
