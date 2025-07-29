@@ -1,0 +1,349 @@
+[
+    {
+        "language": "Haskell",
+        "workload": "RBT",
+        "mutations": [
+            "insert_1"
+        ],
+        "trials": 10,
+        "timeout": 0.5,
+        "cross": true,
+        "params": {
+            "tests": 10000
+        },
+        "tasks": [
+            {
+                "strategy": "Correct",
+                "property": "InsertPost"
+            },
+            {
+                "strategy": "Correct",
+                "property": "InsertModel"
+            },
+            {
+                "strategy": "Correct",
+                "property": "DeleteInsert"
+            },
+            {
+                "strategy": "Correct",
+                "property": "InsertInsert"
+            }
+        ]
+    },
+    {
+        "language": "Haskell",
+        "workload": "RBT",
+        "mutations": [
+            "insert_2"
+        ],
+        "trials": 10,
+        "timeout": 0.5,
+        "cross": true,
+        "params": {
+            "tests": 10000
+        },
+        "tasks": [
+            {
+                "strategy": "Correct",
+                "property": "InsertPost"
+            },
+            {
+                "strategy": "Correct",
+                "property": "InsertModel"
+            },
+            {
+                "strategy": "Correct",
+                "property": "InsertDelete"
+            },
+            {
+                "strategy": "Correct",
+                "property": "DeleteInsert"
+            },
+            {
+                "strategy": "Correct",
+                "property": "InsertInsert"
+            }
+        ]
+    },
+    {
+        "language": "Haskell",
+        "workload": "RBT",
+        "mutations": [
+            "insert_3"
+        ],
+        "trials": 10,
+        "timeout": 0.5,
+        "cross": true,
+        "params": {
+            "tests": 10000
+        },
+        "tasks": [
+            {
+                "strategy": "Correct",
+                "property": "InsertPost"
+            },
+            {
+                "strategy": "Correct",
+                "property": "InsertModel"
+            },
+            {
+                "strategy": "Correct",
+                "property": "InsertDelete"
+            },
+            {
+                "strategy": "Correct",
+                "property": "InsertInsert"
+            }
+        ]
+    },
+        {
+        "language": "Haskell",
+        "workload": "RBT",
+        "mutations": [
+            "delete_4"
+        ],
+        "trials": 10,
+        "timeout": 0.5,
+        "cross": true,
+        "params": {
+            "tests": 10000
+        },
+        "tasks": [
+            {
+                "strategy": "Correct",
+                "property": "DeleteDelete"
+            },
+            {
+                "strategy": "Correct",
+                "property": "DeleteModel"
+            },
+            {
+                "strategy": "Correct",
+                "property": "DeletePost"
+            },
+            {
+                "strategy": "Correct",
+                "property": "DeleteInsert"
+            },
+            {
+                "strategy": "Correct",
+                "property": "InsertDelete"
+            }
+        ]
+    },
+    {
+        "language": "Haskell",
+        "workload": "RBT",
+        "mutations": [
+            "delete_5"
+        ],
+        "trials": 10,
+        "timeout": 0.5,
+        "cross": true,
+        "params": {
+            "tests": 10000
+        },
+        "tasks": [
+            {
+                "strategy": "Correct",
+                "property": "DeleteModel"
+            },
+            {
+                "strategy": "Correct",
+                "property": "DeletePost"
+            },
+            {
+                "strategy": "Correct",
+                "property": "DeleteDelete"
+            },
+            {
+                "strategy": "Correct",
+                "property": "DeleteInsert"
+            }
+        ]
+    },
+    {
+        "language": "Haskell",
+        "workload": "RBT",
+        "mutations": [
+            "miscolor_insert"
+        ],
+        "trials": 10,
+        "timeout": 0.5,
+        "cross": true,
+        "params": {
+            "tests": 10000
+        },
+        "tasks": [
+            {
+                "strategy": "Correct",
+                "property": "InsertValid"
+            },
+            {
+                "strategy": "Correct",
+                "property": "DeleteInsert"
+            }
+        ]
+    },
+    {
+        "language": "Haskell",
+        "workload": "RBT",
+        "mutations": [
+            "miscolor_delete"
+        ],
+        "trials": 10,
+        "timeout": 0.5,
+        "cross": true,
+        "params": {
+            "tests": 10000
+        },
+        "tasks": [
+            {
+                "strategy": "Correct",
+                "property": "DeleteValid"
+            }
+        ]
+    },
+    {
+        "language": "Haskell",
+        "workload": "RBT",
+        "mutations": [
+            "miscolor_balLeft"
+        ],
+        "trials": 10,
+        "timeout": 0.5,
+        "cross": true,
+        "params": {
+            "tests": 10000
+        },
+        "tasks": [
+            {
+                "strategy": "Correct",
+                "property": "DeleteValid"
+            },
+            {
+                "strategy": "Correct",
+                "property": "DeleteDelete"
+            }
+        ]
+    },
+    {
+        "language": "Haskell",
+        "workload": "RBT",
+        "mutations": [
+            "miscolor_balRight"
+        ],
+        "trials": 10,
+        "timeout": 0.5,
+        "cross": true,
+        "params": {
+            "tests": 10000
+        },
+        "tasks": [
+            {
+                "strategy": "Correct",
+                "property": "DeleteValid"
+            },
+            {
+                "strategy": "Correct",
+                "property": "DeleteDelete"
+            }
+        ]
+    },
+    {
+        "language": "Haskell",
+        "workload": "RBT",
+        "mutations": [
+            "miscolor_join_1"
+        ],
+        "trials": 10,
+        "timeout": 0.5,
+        "cross": true,
+        "params": {
+            "tests": 10000
+        },
+        "tasks": [
+            {
+                "strategy": "Correct",
+                "property": "DeleteValid"
+            }
+        ]
+    },
+    {
+        "language": "Haskell",
+        "workload": "RBT",
+        "mutations": [
+            "miscolor_join_2"
+        ],
+        "trials": 10,
+        "timeout": 0.5,
+        "cross": true,
+        "params": {
+            "tests": 10000
+        },
+        "tasks": [
+            {
+                "strategy": "Correct",
+                "property": "DeleteValid"
+            },
+            {
+                "strategy": "Correct",
+                "property": "DeleteDelete"
+            }
+        ]
+    },
+    {
+        "language": "Haskell",
+        "workload": "RBT",
+        "mutations": [
+            "no_balance_insert_1"
+        ],
+        "trials": 10,
+        "timeout": 0.5,
+        "cross": true,
+        "params": {
+            "tests": 10000
+        },
+        "tasks": [
+            {
+                "strategy": "Correct",
+                "property": "InsertValid"
+            },
+            {
+                "strategy": "Correct",
+                "property": "DeleteInsert"
+            },
+            {
+                "strategy": "Correct",
+                "property": "InsertDelete"
+            }
+        ]
+    },
+    {
+        "language": "Haskell",
+        "workload": "RBT",
+        "mutations": [
+            "no_balance_insert_2"
+        ],
+        "trials": 10,
+        "timeout": 0.5,
+        "cross": true,
+        "params": {
+            "tests": 10000
+        },
+        "tasks": [
+            {
+                "strategy": "Correct",
+                "property": "InsertValid"
+            },
+            {
+                "strategy": "Correct",
+                "property": "DeleteInsert"
+            },
+            {
+                "strategy": "Correct",
+                "property": "InsertDelete"
+            }
+        ]
+    }
+]

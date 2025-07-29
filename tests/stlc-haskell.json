@@ -7,6 +7,7 @@
         ],
         "trials": 10,
         "timeout": 60,
+        "cross": false,
         "tasks": [
             {
                 "strategy": "Correct",
@@ -26,6 +27,7 @@
         ],
         "trials": 10,
         "timeout": 60,
+        "cross": false,
         "tasks": [
             {
                 "strategy": "Correct",
@@ -45,6 +47,7 @@
         ],
         "trials": 10,
         "timeout": 60,
+        "cross": false,
         "tasks": [
             {
                 "strategy": "Correct",
@@ -64,6 +67,7 @@
         ],
         "trials": 10,
         "timeout": 60,
+        "cross": false,
         "tasks": [
             {
                 "strategy": "Correct",
@@ -83,6 +87,7 @@
         ],
         "trials": 10,
         "timeout": 60,
+        "cross": false,
         "tasks": [
             {
                 "strategy": "Correct",
@@ -102,6 +107,7 @@
         ],
         "trials": 10,
         "timeout": 60,
+        "cross": false,
         "tasks": [
             {
                 "strategy": "Correct",
@@ -121,6 +127,7 @@
         ],
         "trials": 10,
         "timeout": 60,
+        "cross": false,
         "tasks": [
             {
                 "strategy": "Correct",
@@ -140,6 +147,7 @@
         ],
         "trials": 10,
         "timeout": 60,
+        "cross": false,
         "tasks": [
             {
                 "strategy": "Correct",
@@ -159,6 +167,7 @@
         ],
         "trials": 10,
         "timeout": 60,
+        "cross": false,
         "tasks": [
             {
                 "strategy": "Correct",
@@ -178,6 +187,7 @@
         ],
         "trials": 10,
         "timeout": 60,
+        "cross": false,
         "tasks": [
             {
                 "strategy": "Correct",
