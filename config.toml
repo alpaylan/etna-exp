@@ -41,3 +41,7 @@ language = "Racket"
 [[workloads]]
 name = "RBT"
 language = "OCaml"
+
+[[workloads]]
+name = "STLC"
+language = "Rust"
