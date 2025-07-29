@@ -57,3 +57,7 @@ language = "OCaml"
 [[workloads]]
 name = "RBT"
 language = "Haskell"
+
+[[workloads]]
+name = "STLC"
+language = "Racket"
