@@ -57,3 +57,7 @@ language = "Racket"
 [[workloads]]
 name = "STLC"
 language = "Haskell"
+
+[[workloads]]
+name = "BST"
+language = "Rust"
