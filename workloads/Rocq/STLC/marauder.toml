@@ -1,0 +1,4 @@
+languages = ["Rocq"]
+ignore = []
+use_gitignore = false
+custom_languages = []
