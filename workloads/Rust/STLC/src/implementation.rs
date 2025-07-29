@@ -141,11 +141,11 @@ pub fn subst(n: i32, s: &Expr, e: &Expr) -> Expr {
         Bool(b) => Bool(*b),
         Abs(typ, body) => {
             /*| */
-/*|
             Abs(typ.clone(), Box::new(subst(n + 1, &shift(1, s), body)))
-*/
             /*|| subst_abs_no_shift */
+            /*|
             Abs(typ.clone(), Box::new(subst(n + 1, s, body)))
+            */
             /*|| subst_abs_no_incr */
             /*|
             Abs(typ.clone(), Box::new(subst(n, &shift(1, s), body)))

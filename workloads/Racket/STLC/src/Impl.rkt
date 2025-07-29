@@ -72,9 +72,7 @@
     (match e 
         [(Var n) (
             #|! |#
-#|!
             if (< n c) (Var n) (Var (+ n d))
-|#
             #|!! shift_var_none |#
             #|!
 Var n
@@ -84,7 +82,9 @@ Var n
 Var (+ n d)
             |#
             #|!! shift_var_leq |#
+            #|!
 if (<= n c) (Var n) (Var (+ n d))
+            |#
             #| !|#
             )]
         [(Bool b) (Bool b)]

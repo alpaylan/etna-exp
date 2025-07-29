@@ -52,12 +52,12 @@ let shift (d : int) (ex : expr) : expr =
     match e with
     | Var n ->
         (*! *)
-(*!
         if n < c then Var n
         else Var (n + d)
-*)
         (*!! shift_var_none *)
+        (*!
           Var n
+        *)
         (*!! shift_var_all *)
         (*!
           Var (n + d)
