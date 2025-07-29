@@ -45,3 +45,7 @@ language = "OCaml"
 [[workloads]]
 name = "STLC"
 language = "Rocq"
+
+[[workloads]]
+name = "STLC"
+language = "Rust"
