@@ -19,10 +19,6 @@ name = "BST"
 language = "OCaml"
 
 [[workloads]]
-name = "BST"
-language = "Rust"
-
-[[workloads]]
 name = "RBT"
 language = "Rust"
 
