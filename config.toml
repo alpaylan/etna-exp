@@ -24,10 +24,6 @@ language = "Rocq"
 
 [[workloads]]
 name = "RBT"
-language = "Racket"
-
-[[workloads]]
-name = "RBT"
 language = "OCaml"
 
 [[workloads]]
