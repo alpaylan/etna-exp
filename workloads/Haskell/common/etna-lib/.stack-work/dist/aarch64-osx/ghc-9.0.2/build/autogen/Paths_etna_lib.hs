@@ -30,12 +30,12 @@ version :: Version
 version = Version [0,1,0,0] []
 bindir, libdir, dynlibdir, datadir, libexecdir, sysconfdir :: FilePath
 
-bindir     = "/Users/akeles/Programming/projects/PbtBenchmark/etna2/exp/workloads/Haskell/RBT/.stack-work/install/aarch64-osx/4f0a2e23ab5ced38d0c59d030489910952f1412068c84340cda7b286690ea7f0/9.0.2/bin"
-libdir     = "/Users/akeles/Programming/projects/PbtBenchmark/etna2/exp/workloads/Haskell/RBT/.stack-work/install/aarch64-osx/4f0a2e23ab5ced38d0c59d030489910952f1412068c84340cda7b286690ea7f0/9.0.2/lib/aarch64-osx-ghc-9.0.2/etna-lib-0.1.0.0-9kdBsaidl6FDR1PzzQLgG"
-dynlibdir  = "/Users/akeles/Programming/projects/PbtBenchmark/etna2/exp/workloads/Haskell/RBT/.stack-work/install/aarch64-osx/4f0a2e23ab5ced38d0c59d030489910952f1412068c84340cda7b286690ea7f0/9.0.2/lib/aarch64-osx-ghc-9.0.2"
-datadir    = "/Users/akeles/Programming/projects/PbtBenchmark/etna2/exp/workloads/Haskell/RBT/.stack-work/install/aarch64-osx/4f0a2e23ab5ced38d0c59d030489910952f1412068c84340cda7b286690ea7f0/9.0.2/share/aarch64-osx-ghc-9.0.2/etna-lib-0.1.0.0"
-libexecdir = "/Users/akeles/Programming/projects/PbtBenchmark/etna2/exp/workloads/Haskell/RBT/.stack-work/install/aarch64-osx/4f0a2e23ab5ced38d0c59d030489910952f1412068c84340cda7b286690ea7f0/9.0.2/libexec/aarch64-osx-ghc-9.0.2/etna-lib-0.1.0.0"
-sysconfdir = "/Users/akeles/Programming/projects/PbtBenchmark/etna2/exp/workloads/Haskell/RBT/.stack-work/install/aarch64-osx/4f0a2e23ab5ced38d0c59d030489910952f1412068c84340cda7b286690ea7f0/9.0.2/etc"
+bindir     = "/Users/akeles/Programming/projects/PbtBenchmark/etna2/exp/workloads/Haskell/STLC/.stack-work/install/aarch64-osx/4f0a2e23ab5ced38d0c59d030489910952f1412068c84340cda7b286690ea7f0/9.0.2/bin"
+libdir     = "/Users/akeles/Programming/projects/PbtBenchmark/etna2/exp/workloads/Haskell/STLC/.stack-work/install/aarch64-osx/4f0a2e23ab5ced38d0c59d030489910952f1412068c84340cda7b286690ea7f0/9.0.2/lib/aarch64-osx-ghc-9.0.2/etna-lib-0.1.0.0-9kdBsaidl6FDR1PzzQLgG"
+dynlibdir  = "/Users/akeles/Programming/projects/PbtBenchmark/etna2/exp/workloads/Haskell/STLC/.stack-work/install/aarch64-osx/4f0a2e23ab5ced38d0c59d030489910952f1412068c84340cda7b286690ea7f0/9.0.2/lib/aarch64-osx-ghc-9.0.2"
+datadir    = "/Users/akeles/Programming/projects/PbtBenchmark/etna2/exp/workloads/Haskell/STLC/.stack-work/install/aarch64-osx/4f0a2e23ab5ced38d0c59d030489910952f1412068c84340cda7b286690ea7f0/9.0.2/share/aarch64-osx-ghc-9.0.2/etna-lib-0.1.0.0"
+libexecdir = "/Users/akeles/Programming/projects/PbtBenchmark/etna2/exp/workloads/Haskell/STLC/.stack-work/install/aarch64-osx/4f0a2e23ab5ced38d0c59d030489910952f1412068c84340cda7b286690ea7f0/9.0.2/libexec/aarch64-osx-ghc-9.0.2/etna-lib-0.1.0.0"
+sysconfdir = "/Users/akeles/Programming/projects/PbtBenchmark/etna2/exp/workloads/Haskell/STLC/.stack-work/install/aarch64-osx/4f0a2e23ab5ced38d0c59d030489910952f1412068c84340cda7b286690ea7f0/9.0.2/etc"
 
 getBinDir, getLibDir, getDynLibDir, getDataDir, getLibexecDir, getSysconfDir :: IO FilePath
 getBinDir = catchIO (getEnv "etna_lib_bindir") (\_ -> return bindir)

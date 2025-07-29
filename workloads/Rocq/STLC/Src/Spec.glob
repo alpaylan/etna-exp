@@ -1,0 +1,98 @@
+DIGEST 4380aa5bb5ef3638e9c584d8c716035c
+FSTLC.Src.Spec
+R32:41 QuickChick.QuickChick <> <> lib
+R51:60 QuickChick.Checker QcNotation <> mod
+R87:90 Coq.Bool.Bool <> <> lib
+R92:97 Coq.ZArith.ZArith <> <> lib
+R99:102 Coq.Lists.List <> <> lib
+R112:124 Coq.Lists.List ListNotations <> mod
+R154:158 ExtLib.Structures.Monad <> <> lib
+R200:210 ExtLib.Data.Monads.OptionMonad <> <> lib
+R220:232 ExtLib.Structures.Monad MonadNotation <> mod
+R261:264 STLC.Src.Impl <> <> lib
+def 279:280 <> mt
+R286:289 STLC.Src.Impl <> Expr ind
+binder 283:283 <> e:1
+R294:299 Coq.Init.Datatypes <> option ind
+R301:303 STLC.Src.Impl <> Typ ind
+R312:317 STLC.Src.Impl <> getTyp def
+R319:321 Coq.Init.Datatypes <> nil constr
+R323:323 STLC.Src.Spec <> e:1 var
+def 339:344 <> isJust
+binder 347:347 <> A:2
+R354:359 Coq.Init.Datatypes <> option ind
+R361:361 STLC.Src.Spec <> A:2 var
+binder 351:351 <> a:3
+R366:369 Coq.Init.Datatypes <> bool ind
+R384:384 STLC.Src.Spec <> a:3 var
+R397:400 Coq.Init.Datatypes <> Some constr
+R407:410 Coq.Init.Datatypes <> true constr
+R418:421 Coq.Init.Datatypes <> None constr
+R426:430 Coq.Init.Datatypes <> false constr
+def 455:464 <> mtypeCheck
+R470:475 Coq.Init.Datatypes <> option ind
+R477:480 STLC.Src.Impl <> Expr ind
+binder 467:467 <> e:5
+R487:489 STLC.Src.Impl <> Typ ind
+binder 484:484 <> t:6
+R494:497 Coq.Init.Datatypes <> bool ind
+R512:512 STLC.Src.Spec <> e:5 var
+R525:528 Coq.Init.Datatypes <> Some constr
+R536:544 STLC.Src.Impl <> typeCheck def
+R546:548 Coq.Init.Datatypes <> nil constr
+R553:553 STLC.Src.Spec <> t:6 var
+R561:564 Coq.Init.Datatypes <> None constr
+R569:572 Coq.Init.Datatypes <> true constr
+def 597:615 <> prop_SinglePreserve
+R621:624 STLC.Src.Impl <> Expr ind
+binder 618:618 <> e:8
+R629:634 Coq.Init.Datatypes <> option ind
+R636:639 Coq.Init.Datatypes <> bool ind
+R659:667 QuickChick.Decidability <> :::x_'-=>'_x not
+R646:651 STLC.Src.Spec <> isJust def
+R654:655 STLC.Src.Spec <> mt def
+R657:657 STLC.Src.Spec <> e:8 var
+R670:674 ExtLib.Structures.Monad MonadNotation ::monad_scope:x_'<-'_x_';;'_x not
+R679:687 ExtLib.Structures.Monad MonadNotation ::monad_scope:x_'<-'_x_';;'_x not
+R675:676 STLC.Src.Spec <> mt def
+R678:678 STLC.Src.Spec <> e:8 var
+binder 668:669 <> t':9
+R688:691 Coq.Init.Datatypes <> Some constr
+R694:703 STLC.Src.Spec <> mtypeCheck def
+R706:710 STLC.Src.Impl <> pstep def
+R712:712 STLC.Src.Spec <> e:8 var
+R715:716 STLC.Src.Spec <> t':9 var
+def 734:751 <> prop_MultiPreserve
+R757:760 STLC.Src.Impl <> Expr ind
+binder 754:754 <> e:10
+R765:770 Coq.Init.Datatypes <> option ind
+R772:775 Coq.Init.Datatypes <> bool ind
+R795:803 QuickChick.Decidability <> :::x_'-=>'_x not
+R782:787 STLC.Src.Spec <> isJust def
+R790:791 STLC.Src.Spec <> mt def
+R793:793 STLC.Src.Spec <> e:10 var
+R806:809 ExtLib.Structures.Monad MonadNotation ::monad_scope:x_'<-'_x_';;'_x not
+R814:821 ExtLib.Structures.Monad MonadNotation ::monad_scope:x_'<-'_x_';;'_x not
+R810:811 STLC.Src.Spec <> mt def
+R813:813 STLC.Src.Spec <> e:10 var
+binder 804:805 <> t':11
+R822:825 Coq.Init.Datatypes <> Some constr
+R828:837 STLC.Src.Spec <> mtypeCheck def
+R840:848 STLC.Src.Impl <> multistep def
+R853:857 STLC.Src.Impl <> pstep def
+R859:859 STLC.Src.Spec <> e:10 var
+R862:863 STLC.Src.Spec <> t':11 var
+def 881:888 <> sizeSTLC
+R894:897 STLC.Src.Impl <> Expr ind
+binder 891:891 <> e:12
+R902:904 Coq.Init.Datatypes <> nat ind
+R919:919 STLC.Src.Spec <> e:12 var
+R933:935 STLC.Src.Impl <> Abs constr
+R946:948 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R949:956 STLC.Src.Spec <> sizeSTLC:13 def
+R958:958 STLC.Src.Spec <> e:12 var
+R967:969 STLC.Src.Impl <> App constr
+R996:998 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R982:984 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R985:992 STLC.Src.Spec <> sizeSTLC:13 def
+R999:1006 STLC.Src.Spec <> sizeSTLC:13 def

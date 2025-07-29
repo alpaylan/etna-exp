@@ -1,0 +1,299 @@
+DIGEST 20439fcf52289ea09b5cb7f89798c81d
+FSTLC.Src.BespokeGeneration
+R32:41 QuickChick.QuickChick <> <> lib
+R51:60 QuickChick.Checker QcNotation <> mod
+R87:90 Coq.Bool.Bool <> <> lib
+R92:97 Coq.ZArith.ZArith <> <> lib
+R99:102 Coq.Lists.List <> <> lib
+R112:124 Coq.Lists.List ListNotations <> mod
+R154:158 ExtLib.Structures.Monad <> <> lib
+R200:210 ExtLib.Data.Monads.OptionMonad <> <> lib
+R220:232 ExtLib.Structures.Monad MonadNotation <> mod
+R261:264 STLC.Src.Impl <> <> lib
+R266:269 STLC.Src.Spec <> <> lib
+ind 341:344 <> bind
+constr 379:385 <> BindNow
+constr 433:441 <> BindLater
+R351:354 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R348:350 STLC.Src.Impl <> Ctx def
+R358:361 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R355:357 Coq.Init.Datatypes <> nat ind
+R365:368 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R362:364 STLC.Src.Impl <> Typ ind
+binder 398:400 <> tau:51
+binder 402:404 <> env:52
+R407:410 STLC.Src.BespokeGeneration <> bind:49 ind
+R427:429 STLC.Src.BespokeGeneration <> tau:51 var
+R416:419 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R413:415 STLC.Src.BespokeGeneration <> tau:51 var
+R420:422 STLC.Src.BespokeGeneration <> env:52 var
+binder 452:454 <> tau:53
+binder 456:459 <> tau':54
+binder 461:461 <> x:55
+binder 463:465 <> env:56
+R486:489 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R472:475 STLC.Src.BespokeGeneration <> bind:49 ind
+R483:485 STLC.Src.BespokeGeneration <> tau:53 var
+R481:481 STLC.Src.BespokeGeneration <> x:55 var
+R477:479 STLC.Src.BespokeGeneration <> env:56 var
+R490:493 STLC.Src.BespokeGeneration <> bind:49 ind
+R515:517 STLC.Src.BespokeGeneration <> tau:53 var
+R510:510 Coq.Init.Datatypes <> S constr
+R512:512 STLC.Src.BespokeGeneration <> x:55 var
+R500:503 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R496:499 STLC.Src.BespokeGeneration <> tau':54 var
+R504:506 STLC.Src.BespokeGeneration <> env:56 var
+scheme 341:344 <> bind_ind
+scheme 341:344 <> bind_sind
+ind 531:536 <> typing
+constr 575:579 <> TyVar
+constr 646:651 <> TyBool
+constr 701:705 <> TyAbs
+constr 801:805 <> TyApp
+R543:545 STLC.Src.Impl <> Ctx def
+binder 539:539 <> G:57
+R554:557 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R550:553 STLC.Src.Impl <> Expr ind
+R561:564 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R558:560 STLC.Src.Impl <> Typ ind
+binder 594:594 <> x:60
+binder 596:596 <> T:61
+R615:624 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R605:608 STLC.Src.BespokeGeneration <> bind ind
+R610:610 STLC.Src.BespokeGeneration <> G:57 var
+R612:612 STLC.Src.BespokeGeneration <> x:60 var
+R614:614 STLC.Src.BespokeGeneration <> T:61 var
+R625:630 STLC.Src.BespokeGeneration <> typing:58 ind
+R642:642 STLC.Src.BespokeGeneration <> T:61 var
+R635:637 STLC.Src.Impl <> Var constr
+R639:639 STLC.Src.BespokeGeneration <> x:60 var
+R632:632 STLC.Src.BespokeGeneration <> G:57 var
+binder 666:666 <> b:62
+R675:680 STLC.Src.BespokeGeneration <> typing:58 ind
+R693:697 STLC.Src.Impl <> TBool constr
+R685:688 STLC.Src.Impl <> Bool constr
+R690:690 STLC.Src.BespokeGeneration <> b:62 var
+R682:682 STLC.Src.BespokeGeneration <> G:57 var
+binder 720:720 <> e:63
+binder 722:723 <> T1:64
+binder 725:726 <> T2:65
+R756:765 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R735:740 STLC.Src.BespokeGeneration <> typing:58 ind
+R754:755 STLC.Src.BespokeGeneration <> T2:65 var
+R752:752 STLC.Src.BespokeGeneration <> e:63 var
+R745:748 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R743:744 STLC.Src.BespokeGeneration <> T1:64 var
+R749:749 STLC.Src.BespokeGeneration <> G:57 var
+R766:771 STLC.Src.BespokeGeneration <> typing:58 ind
+R787:790 STLC.Src.Impl <> TFun constr
+R792:793 STLC.Src.BespokeGeneration <> T1:64 var
+R795:796 STLC.Src.BespokeGeneration <> T2:65 var
+R776:778 STLC.Src.Impl <> Abs constr
+R780:781 STLC.Src.BespokeGeneration <> T1:64 var
+R783:783 STLC.Src.BespokeGeneration <> e:63 var
+R773:773 STLC.Src.BespokeGeneration <> G:57 var
+binder 820:821 <> e1:66
+binder 823:824 <> e2:67
+binder 826:827 <> T1:68
+binder 829:830 <> T2:69
+R863:872 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R839:844 STLC.Src.BespokeGeneration <> typing:58 ind
+R852:855 STLC.Src.Impl <> TFun constr
+R857:858 STLC.Src.BespokeGeneration <> T1:68 var
+R860:861 STLC.Src.BespokeGeneration <> T2:69 var
+R848:849 STLC.Src.BespokeGeneration <> e1:66 var
+R846:846 STLC.Src.BespokeGeneration <> G:57 var
+R887:896 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R873:878 STLC.Src.BespokeGeneration <> typing:58 ind
+R885:886 STLC.Src.BespokeGeneration <> T1:68 var
+R882:883 STLC.Src.BespokeGeneration <> e2:67 var
+R880:880 STLC.Src.BespokeGeneration <> G:57 var
+R897:902 STLC.Src.BespokeGeneration <> typing:58 ind
+R918:919 STLC.Src.BespokeGeneration <> T2:69 var
+R907:909 STLC.Src.Impl <> App constr
+R911:912 STLC.Src.BespokeGeneration <> e1:66 var
+R914:915 STLC.Src.BespokeGeneration <> e2:67 var
+R904:904 STLC.Src.BespokeGeneration <> G:57 var
+scheme 531:536 <> typing_ind
+scheme 531:536 <> typing_sind
+inst 943:950 <> dec_type
+R961:963 STLC.Src.Impl <> Typ ind
+binder 953:954 <> t1:70
+binder 956:957 <> t2:71
+R968:970 QuickChick.Decidability <> Dec class
+R975:977 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R973:974 STLC.Src.BespokeGeneration <> t1:70 var
+R978:979 STLC.Src.BespokeGeneration <> t2:71 var
+def 1043:1049 <> genVar'
+R1057:1059 STLC.Src.Impl <> Ctx def
+binder 1052:1054 <> ctx:88
+R1066:1068 STLC.Src.Impl <> Typ ind
+binder 1063:1063 <> t:89
+R1075:1077 Coq.Init.Datatypes <> nat ind
+binder 1072:1072 <> p:90
+R1084:1087 Coq.Init.Datatypes <> list ind
+R1089:1091 Coq.Init.Datatypes <> nat ind
+binder 1081:1081 <> r:91
+R1096:1099 Coq.Init.Datatypes <> list ind
+R1101:1103 Coq.Init.Datatypes <> nat ind
+R1116:1118 STLC.Src.BespokeGeneration <> ctx:88 var
+R1129:1131 Coq.Init.Datatypes <> nil constr
+R1136:1136 STLC.Src.BespokeGeneration <> r:91 var
+R1144:1145 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1169:1169 QuickChick.Decidability <> :::x_'?' not
+R1164:1166 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1163:1163 STLC.Src.BespokeGeneration <> t:89 var
+R1219:1225 STLC.Src.BespokeGeneration <> genVar':92 def
+R1242:1242 STLC.Src.BespokeGeneration <> r:91 var
+R1236:1238 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R1235:1235 STLC.Src.BespokeGeneration <> p:90 var
+R1232:1232 STLC.Src.BespokeGeneration <> t:89 var
+R1176:1182 STLC.Src.BespokeGeneration <> genVar':92 def
+R1201:1204 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1200:1200 STLC.Src.BespokeGeneration <> p:90 var
+R1205:1205 STLC.Src.BespokeGeneration <> r:91 var
+R1193:1195 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R1192:1192 STLC.Src.BespokeGeneration <> p:90 var
+R1189:1189 STLC.Src.BespokeGeneration <> t:89 var
+def 1261:1267 <> genZero
+binder 1269:1271 <> env:94
+binder 1273:1275 <> tau:95
+R1279:1279 QuickChick.Generators <> G def
+R1282:1287 Coq.Init.Datatypes <> option ind
+R1289:1292 STLC.Src.Impl <> Expr ind
+R1306:1308 STLC.Src.BespokeGeneration <> tau:95 var
+R1319:1323 STLC.Src.Impl <> TBool constr
+R1334:1340 QuickChick.Generators <> bindGen def
+R1375:1378 Coq.Init.Datatypes <> bool ind
+binder 1371:1371 <> b:98
+R1400:1408 QuickChick.Generators <> returnGen def
+R1411:1414 Coq.Init.Datatypes <> Some constr
+R1417:1420 STLC.Src.Impl <> Bool constr
+R1422:1422 STLC.Src.BespokeGeneration <> b:98 var
+R1342:1350 QuickChick.Classes <> arbitrary meth
+R1431:1434 STLC.Src.Impl <> TFun constr
+R1452:1458 QuickChick.Producer <> bindOpt def
+R1510:1513 STLC.Src.Impl <> Expr ind
+binder 1506:1506 <> e:99
+R1529:1537 QuickChick.Generators <> returnGen def
+R1540:1543 Coq.Init.Datatypes <> Some constr
+R1546:1548 STLC.Src.Impl <> Abs constr
+R1553:1553 STLC.Src.BespokeGeneration <> e:99 var
+R1469:1475 STLC.Src.BespokeGeneration <> genZero:96 def
+R1480:1483 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1484:1486 STLC.Src.BespokeGeneration <> env:94 var
+def 1578:1584 <> genExpr
+binder 1586:1588 <> env:100
+binder 1590:1592 <> tau:101
+R1599:1601 Coq.Init.Datatypes <> nat ind
+binder 1595:1596 <> sz:102
+R1606:1606 QuickChick.Generators <> G def
+R1609:1614 Coq.Init.Datatypes <> option ind
+R1616:1619 STLC.Src.Impl <> Expr ind
+R1633:1634 STLC.Src.BespokeGeneration <> sz:102 var
+R1656:1664 QuickChick.Generators <> backtrack def
+R1674:1674 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1762:1771 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1792:1792 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1675:1675 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1677:1678 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1761:1761 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1679:1684 QuickChick.Producer <> oneOf_ def
+R1698:1700 Coq.Lists.List <> map def
+R1739:1745 STLC.Src.BespokeGeneration <> genVar' def
+R1747:1749 STLC.Src.BespokeGeneration <> env:100 var
+R1751:1753 STLC.Src.BespokeGeneration <> tau:101 var
+R1757:1758 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+binder 1707:1707 <> x:105
+R1712:1720 QuickChick.Generators <> returnGen def
+R1723:1726 Coq.Init.Datatypes <> Some constr
+R1729:1731 STLC.Src.Impl <> Var constr
+R1733:1733 STLC.Src.BespokeGeneration <> x:105 var
+R1687:1689 ExtLib.Structures.Monad <> ret meth
+R1691:1694 Coq.Init.Datatypes <> None constr
+R1772:1772 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1774:1775 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1791:1791 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1776:1782 STLC.Src.BespokeGeneration <> genZero def
+R1784:1786 STLC.Src.BespokeGeneration <> env:100 var
+R1788:1790 STLC.Src.BespokeGeneration <> tau:101 var
+R1799:1799 Coq.Init.Datatypes <> S constr
+R1814:1822 QuickChick.Generators <> backtrack def
+R1832:1832 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1920:1939 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2227:2248 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2628:2628 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1833:1833 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1835:1836 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1919:1919 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1837:1842 QuickChick.Producer <> oneOf_ def
+R1856:1858 Coq.Lists.List <> map def
+R1897:1903 STLC.Src.BespokeGeneration <> genVar' def
+R1905:1907 STLC.Src.BespokeGeneration <> env:100 var
+R1909:1911 STLC.Src.BespokeGeneration <> tau:101 var
+R1915:1916 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+binder 1865:1865 <> x:106
+R1870:1878 QuickChick.Generators <> returnGen def
+R1881:1884 Coq.Init.Datatypes <> Some constr
+R1887:1889 STLC.Src.Impl <> Var constr
+R1891:1891 STLC.Src.BespokeGeneration <> x:106 var
+R1845:1847 ExtLib.Structures.Monad <> ret meth
+R1849:1852 Coq.Init.Datatypes <> None constr
+R1940:1940 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1942:1953 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2226:2226 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1954:1960 QuickChick.Generators <> bindGen def
+R2000:2002 STLC.Src.Impl <> Typ ind
+binder 1995:1996 <> T1:107
+R2017:2023 QuickChick.Producer <> bindOpt def
+R2091:2094 STLC.Src.Impl <> Expr ind
+binder 2086:2087 <> e1:108
+R2109:2115 QuickChick.Producer <> bindOpt def
+R2172:2175 STLC.Src.Impl <> Expr ind
+binder 2167:2168 <> e2:109
+R2195:2203 QuickChick.Generators <> returnGen def
+R2206:2209 Coq.Init.Datatypes <> Some constr
+R2212:2214 STLC.Src.Impl <> App constr
+R2216:2217 STLC.Src.BespokeGeneration <> e1:108 var
+R2219:2220 STLC.Src.BespokeGeneration <> e2:109 var
+R2130:2136 STLC.Src.BespokeGeneration <> genExpr:103 def
+R2142:2143 STLC.Src.BespokeGeneration <> T1:107 var
+R2138:2140 STLC.Src.BespokeGeneration <> env:100 var
+R2038:2044 STLC.Src.BespokeGeneration <> genExpr:103 def
+R2051:2054 STLC.Src.Impl <> TFun constr
+R2056:2057 STLC.Src.BespokeGeneration <> T1:107 var
+R2059:2061 STLC.Src.BespokeGeneration <> tau:101 var
+R2046:2048 STLC.Src.BespokeGeneration <> env:100 var
+R1962:1970 QuickChick.Classes <> arbitrary meth
+R2249:2249 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2251:2263 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2627:2627 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2270:2272 STLC.Src.BespokeGeneration <> tau:101 var
+R2292:2296 STLC.Src.Impl <> TBool constr
+R2316:2322 QuickChick.Generators <> bindGen def
+R2366:2369 Coq.Init.Datatypes <> bool ind
+binder 2362:2362 <> b:111
+R2400:2408 QuickChick.Generators <> returnGen def
+R2411:2414 Coq.Init.Datatypes <> Some constr
+R2417:2420 STLC.Src.Impl <> Bool constr
+R2422:2422 STLC.Src.BespokeGeneration <> b:111 var
+R2324:2332 QuickChick.Classes <> arbitrary meth
+R2440:2443 STLC.Src.Impl <> TFun constr
+R2469:2475 QuickChick.Producer <> bindOpt def
+R2552:2555 STLC.Src.Impl <> Expr ind
+binder 2548:2548 <> e:112
+R2581:2589 QuickChick.Generators <> returnGen def
+R2592:2595 Coq.Init.Datatypes <> Some constr
+R2598:2600 STLC.Src.Impl <> Abs constr
+R2605:2605 STLC.Src.BespokeGeneration <> e:112 var
+R2495:2501 STLC.Src.BespokeGeneration <> genExpr:103 def
+R2506:2509 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2510:2512 STLC.Src.BespokeGeneration <> env:100 var
+def 2649:2654 <> gSized
+R2667:2670 ExtLib.Structures.Monad MonadNotation ::monad_scope:x_'<-'_x_';;'_x not
+R2680:2687 ExtLib.Structures.Monad MonadNotation ::monad_scope:x_'<-'_x_';;'_x not
+R2671:2679 QuickChick.Classes <> arbitrary meth
+binder 2664:2666 <> typ:113
+R2688:2694 STLC.Src.BespokeGeneration <> genExpr def
+R2696:2697 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R2699:2701 STLC.Src.BespokeGeneration <> typ:113 var

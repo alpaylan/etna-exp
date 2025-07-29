@@ -1,0 +1,232 @@
+[
+    {
+        "language": "Rust",
+        "workload": "STLC",
+        "mutations": [
+            "shift_var_none"
+        ],
+        "trials": 10,
+        "timeout": 3,
+        "cross": true,
+        "params": {
+            "tests": 10000
+        },
+        "tasks": [
+            {
+                "strategy": "quickcheck",
+                "property": "SinglePreserve"
+            },
+            {
+                "strategy": "quickcheck",
+                "property": "MultiPreserve"
+            }
+        ]
+    },
+    {
+        "language": "Rust",
+        "workload": "STLC",
+        "mutations": [
+            "shift_var_all"
+        ],
+        "trials": 10,
+        "timeout": 3,
+        "cross": true,
+        "params": {
+            "tests": 10000
+        },
+        "tasks": [
+            {
+                "strategy": "quickcheck",
+                "property": "SinglePreserve"
+            },
+            {
+                "strategy": "quickcheck",
+                "property": "MultiPreserve"
+            }
+        ]
+    },
+    {
+        "language": "Rust",
+        "workload": "STLC",
+        "mutations": [
+            "shift_var_leq"
+        ],
+        "trials": 10,
+        "timeout": 3,
+        "cross": true,
+        "params": {
+            "tests": 10000
+        },
+        "tasks": [
+            {
+                "strategy": "quickcheck",
+                "property": "SinglePreserve"
+            },
+            {
+                "strategy": "quickcheck",
+                "property": "MultiPreserve"
+            }
+        ]
+    },
+    {
+        "language": "Rust",
+        "workload": "STLC",
+        "mutations": [
+            "shift_abs_no_incr"
+        ],
+        "trials": 10,
+        "timeout": 3,
+        "cross": true,
+        "params": {
+            "tests": 10000
+        },
+        "tasks": [
+            {
+                "strategy": "quickcheck",
+                "property": "SinglePreserve"
+            },
+            {
+                "strategy": "quickcheck",
+                "property": "MultiPreserve"
+            }
+        ]
+    },
+    {
+        "language": "Rust",
+        "workload": "STLC",
+        "mutations": [
+            "subst_var_all"
+        ],
+        "trials": 10,
+        "timeout": 3,
+        "cross": true,
+        "params": {
+            "tests": 10000
+        },
+        "tasks": [
+            {
+                "strategy": "quickcheck",
+                "property": "SinglePreserve"
+            },
+            {
+                "strategy": "quickcheck",
+                "property": "MultiPreserve"
+            }
+        ]
+    },
+    {
+        "language": "Rust",
+        "workload": "STLC",
+        "mutations": [
+            "subst_var_none"
+        ],
+        "trials": 10,
+        "timeout": 3,
+        "cross": true,
+        "params": {
+            "tests": 10000
+        },
+        "tasks": [
+            {
+                "strategy": "quickcheck",
+                "property": "SinglePreserve"
+            },
+            {
+                "strategy": "quickcheck",
+                "property": "MultiPreserve"
+            }
+        ]
+    },
+    {
+        "language": "Rust",
+        "workload": "STLC",
+        "mutations": [
+            "subst_abs_no_shift"
+        ],
+        "trials": 10,
+        "timeout": 3,
+        "cross": true,
+        "params": {
+            "tests": 10000
+        },
+        "tasks": [
+            {
+                "strategy": "quickcheck",
+                "property": "SinglePreserve"
+            },
+            {
+                "strategy": "quickcheck",
+                "property": "MultiPreserve"
+            }
+        ]
+    },
+    {
+        "language": "Rust",
+        "workload": "STLC",
+        "mutations": [
+            "subst_abs_no_incr"
+        ],
+        "trials": 10,
+        "timeout": 3,
+        "cross": true,
+        "params": {
+            "tests": 10000
+        },
+        "tasks": [
+            {
+                "strategy": "quickcheck",
+                "property": "SinglePreserve"
+            },
+            {
+                "strategy": "quickcheck",
+                "property": "MultiPreserve"
+            }
+        ]
+    },
+    {
+        "language": "Rust",
+        "workload": "STLC",
+        "mutations": [
+            "substTop_no_shift"
+        ],
+        "trials": 10,
+        "timeout": 3,
+        "cross": true,
+        "params": {
+            "tests": 10000
+        },
+        "tasks": [
+            {
+                "strategy": "quickcheck",
+                "property": "SinglePreserve"
+            },
+            {
+                "strategy": "quickcheck",
+                "property": "MultiPreserve"
+            }
+        ]
+    },
+    {
+        "language": "Rust",
+        "workload": "STLC",
+        "mutations": [
+            "substTop_no_shift_back"
+        ],
+        "trials": 10,
+        "timeout": 3,
+        "cross": true,
+        "params": {
+            "tests": 10000
+        },
+        "tasks": [
+            {
+                "strategy": "quickcheck",
+                "property": "SinglePreserve"
+            },
+            {
+                "strategy": "quickcheck",
+                "property": "MultiPreserve"
+            }
+        ]
+    }
+]

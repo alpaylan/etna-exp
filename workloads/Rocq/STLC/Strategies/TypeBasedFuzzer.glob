@@ -1,0 +1,55 @@
+DIGEST c47b42c235cf58a73ca0431e66450e39
+FSTLC.Strategies.TypeBasedFuzzer
+R33:42 QuickChick.QuickChick <> <> lib
+R52:61 QuickChick.Checker QcNotation <> mod
+R88:91 Coq.Bool.Bool <> <> lib
+R93:98 Coq.ZArith.ZArith <> <> lib
+R100:103 Coq.Lists.List <> <> lib
+R113:125 Coq.Lists.List ListNotations <> mod
+R155:159 ExtLib.Structures.Monad <> <> lib
+R201:211 ExtLib.Data.Monads.OptionMonad <> <> lib
+R221:233 ExtLib.Structures.Monad MonadNotation <> mod
+R262:265 STLC.Src.Impl <> <> lib
+R267:270 STLC.Src.Spec <> <> lib
+ax 411:419 <> num_tests
+R423:425 Coq.Init.Datatypes <> nat ind
+def 481:504 <> test_prop_SinglePreserve
+R510:513 STLC.Src.Impl <> Expr ind
+binder 507:507 <> e:107
+R523:541 STLC.Src.Spec <> prop_SinglePreserve def
+R543:543 STLC.Strategies.TypeBasedFuzzer <> e:107 var
+def 558:588 <> test_prop_SinglePreserve_fuzzer
+R606:609 Coq.Init.Datatypes <> unit ind
+binder 602:602 <> u:108
+R615:626 QuickChick.Test <> fuzzLoopWith def
+R727:750 STLC.Strategies.TypeBasedFuzzer <> test_prop_SinglePreserve def
+R722:725 QuickChick.Show <> show meth
+R717:720 QuickChick.Classes <> fuzz meth
+R707:715 QuickChick.Classes <> arbitrary meth
+R629:641 QuickChick.Test <> updMaxDiscard def
+R696:704 STLC.Strategies.TypeBasedFuzzer <> num_tests prfax
+R644:656 QuickChick.Test <> updMaxSuccess def
+R685:693 STLC.Strategies.TypeBasedFuzzer <> num_tests prfax
+R659:669 QuickChick.Test <> updAnalysis def
+R679:682 Coq.Init.Datatypes <> true constr
+R671:677 QuickChick.Test <> stdArgs def
+def 850:872 <> test_prop_MultiPreserve
+R878:881 STLC.Src.Impl <> Expr ind
+binder 875:875 <> e:109
+R891:908 STLC.Src.Spec <> prop_MultiPreserve def
+R910:910 STLC.Strategies.TypeBasedFuzzer <> e:109 var
+def 925:954 <> test_prop_MultiPreserve_fuzzer
+R972:975 Coq.Init.Datatypes <> unit ind
+binder 968:968 <> u:110
+R981:992 QuickChick.Test <> fuzzLoopWith def
+R1093:1115 STLC.Strategies.TypeBasedFuzzer <> test_prop_MultiPreserve def
+R1088:1091 QuickChick.Show <> show meth
+R1083:1086 QuickChick.Classes <> fuzz meth
+R1073:1081 QuickChick.Classes <> arbitrary meth
+R995:1007 QuickChick.Test <> updMaxDiscard def
+R1062:1070 STLC.Strategies.TypeBasedFuzzer <> num_tests prfax
+R1010:1022 QuickChick.Test <> updMaxSuccess def
+R1051:1059 STLC.Strategies.TypeBasedFuzzer <> num_tests prfax
+R1025:1035 QuickChick.Test <> updAnalysis def
+R1045:1048 Coq.Init.Datatypes <> true constr
+R1037:1043 QuickChick.Test <> stdArgs def

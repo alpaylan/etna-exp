@@ -1,0 +1,140 @@
+DIGEST 10c18fe677ca5df7359868d96edf81c6
+FSTLC.Runners.BespokeGenerator_sampler
+R31:40 QuickChick.QuickChick <> <> lib
+R126:129 STLC.Src.Impl <> <> lib
+R131:134 STLC.Src.Spec <> <> lib
+R136:152 STLC.Src.BespokeGeneration <> <> lib
+inst 206:220 <> showTimedResult
+binder 223:223 <> A:1
+R234:237 QuickChick.Show <> Show class
+R239:239 STLC.Runners.BespokeGenerator_sampler <> A:1 var
+binder 234:239 <> H:2
+R244:247 QuickChick.Show <> Show class
+R251:261 QuickChick.Test <> TimedResult ind
+R263:263 STLC.Runners.BespokeGenerator_sampler <> A:1 var
+R274:277 QuickChick.Show <> show meth
+R274:277 QuickChick.Show <> show meth
+R274:277 QuickChick.Show <> show meth
+binder 279:284 <> result:3
+R337:342 STLC.Runners.BespokeGenerator_sampler <> result:3 var
+R300:306 QuickChick.Test <> TResult constr
+R368:371 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R381:384 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R372:375 QuickChick.Show <> show meth
+R404:407 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R419:422 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R408:411 QuickChick.Show <> show meth
+R413:418 STLC.Runners.BespokeGenerator_sampler <> result:3 var
+def 447:465 <> showTimedResultList
+binder 468:468 <> A:5
+R479:482 QuickChick.Show <> Show class
+R484:484 STLC.Runners.BespokeGenerator_sampler <> A:5 var
+binder 479:484 <> H:6
+R498:501 Coq.Init.Datatypes <> list ind
+R505:515 QuickChick.Test <> TimedResult ind
+R517:517 STLC.Runners.BespokeGenerator_sampler <> A:5 var
+binder 488:494 <> results:7
+R523:528 Coq.Strings.String <> string ind
+R538:541 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R597:600 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R542:554 Coq.Strings.String <> concat def
+R562:569 Coq.Lists.List <> map def
+R589:595 STLC.Runners.BespokeGenerator_sampler <> results:7 var
+binder 576:576 <> r:8
+R581:584 QuickChick.Show <> show meth
+R586:586 STLC.Runners.BespokeGenerator_sampler <> r:8 var
+ind 617:621 <> Args1
+constr 648:654 <> Args1Mk
+binder 624:624 <> A:9
+R659:662 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R658:658 STLC.Runners.BespokeGenerator_sampler <> A:9 var
+R663:667 STLC.Runners.BespokeGenerator_sampler <> Args1:10 ind
+scheme 617:621 <> Args1_rect
+scheme 617:621 <> Args1_ind
+scheme 617:621 <> Args1_rec
+scheme 617:621 <> Args1_sind
+inst 689:697 <> ShowArgs1
+binder 700:700 <> A:12
+R705:708 QuickChick.Show <> Show class
+R710:710 STLC.Runners.BespokeGenerator_sampler <> A:12 var
+binder 705:710 <> H:13
+R715:718 QuickChick.Show <> Show class
+R722:726 STLC.Runners.BespokeGenerator_sampler <> Args1 ind
+R728:728 STLC.Runners.BespokeGenerator_sampler <> A:12 var
+R738:741 QuickChick.Show <> show meth
+R752:758 STLC.Runners.BespokeGenerator_sampler <> Args1Mk constr
+binder 760:760 <> a:14
+binder 752:760 <> pat:15
+R766:769 QuickChick.Show <> show meth
+R771:771 STLC.Runners.BespokeGenerator_sampler <> a:14 var
+inst 795:805 <> ShowExprOpt
+R809:812 QuickChick.Show <> Show class
+R815:820 Coq.Init.Datatypes <> option ind
+R822:825 STLC.Src.Impl <> Expr ind
+R835:838 QuickChick.Show <> show meth
+binder 847:847 <> e:16
+R862:862 STLC.Runners.BespokeGenerator_sampler <> e:16 var
+R875:878 Coq.Init.Datatypes <> Some constr
+R886:889 QuickChick.Show <> show meth
+R900:903 Coq.Init.Datatypes <> None constr
+def 936:956 <> sample_SinglePreserve
+R966:972 QuickChick.Generators <> bindGen def
+R990:995 Coq.Init.Datatypes <> option ind
+R997:1000 STLC.Src.Impl <> Expr ind
+binder 987:987 <> e:18
+R1009:1011 ExtLib.Structures.Monad <> ret meth
+R1014:1020 STLC.Runners.BespokeGenerator_sampler <> Args1Mk constr
+R1022:1022 STLC.Runners.BespokeGenerator_sampler <> e:18 var
+R974:979 STLC.Src.BespokeGeneration <> gSized def
+def 1040:1067 <> qctest_sample_SinglePreserve
+R1088:1090 Coq.Init.Datatypes <> nat ind
+binder 1077:1085 <> num_tests:19
+R1095:1120 QuickChick.ExtractionQC <> print_extracted_coq_string prfax
+R1123:1141 STLC.Runners.BespokeGenerator_sampler <> showTimedResultList def
+R1144:1154 QuickChick.Test <> quickSample def
+R1235:1255 STLC.Runners.BespokeGenerator_sampler <> sample_SinglePreserve def
+R1157:1169 QuickChick.Test <> updMaxDiscard def
+R1224:1232 STLC.Runners.BespokeGenerator_sampler <> num_tests:19 var
+R1172:1184 QuickChick.Test <> updMaxSuccess def
+R1213:1221 STLC.Runners.BespokeGenerator_sampler <> num_tests:19 var
+R1187:1197 QuickChick.Test <> updAnalysis def
+R1207:1210 Coq.Init.Datatypes <> true constr
+R1199:1205 QuickChick.Test <> stdArgs def
+def 1274:1293 <> sample_MultiPreserve
+R1305:1311 QuickChick.Generators <> bindGen def
+R1329:1334 Coq.Init.Datatypes <> option ind
+R1336:1339 STLC.Src.Impl <> Expr ind
+binder 1326:1326 <> e:20
+R1350:1352 ExtLib.Structures.Monad <> ret meth
+R1355:1361 STLC.Runners.BespokeGenerator_sampler <> Args1Mk constr
+R1363:1363 STLC.Runners.BespokeGenerator_sampler <> e:20 var
+R1313:1318 STLC.Src.BespokeGeneration <> gSized def
+def 1381:1407 <> qctest_sample_MultiPreserve
+R1428:1430 Coq.Init.Datatypes <> nat ind
+binder 1417:1425 <> num_tests:21
+R1435:1460 QuickChick.ExtractionQC <> print_extracted_coq_string prfax
+R1463:1481 STLC.Runners.BespokeGenerator_sampler <> showTimedResultList def
+R1484:1494 QuickChick.Test <> quickSample def
+R1575:1594 STLC.Runners.BespokeGenerator_sampler <> sample_MultiPreserve def
+R1497:1509 QuickChick.Test <> updMaxDiscard def
+R1564:1572 STLC.Runners.BespokeGenerator_sampler <> num_tests:21 var
+R1512:1524 QuickChick.Test <> updMaxSuccess def
+R1553:1561 STLC.Runners.BespokeGenerator_sampler <> num_tests:21 var
+R1527:1537 QuickChick.Test <> updAnalysis def
+R1547:1550 Coq.Init.Datatypes <> true constr
+R1539:1545 QuickChick.Test <> stdArgs def
+ax 1612:1622 <> OCamlString
+ax 1681:1688 <> test_map
+R1692:1695 Coq.Init.Datatypes <> list ind
+R1709:1712 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1724:1724 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1698:1708 STLC.Runners.BespokeGenerator_sampler <> OCamlString defax
+R1716:1719 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1713:1715 Coq.Init.Datatypes <> nat ind
+R1720:1723 Coq.Init.Datatypes <> unit ind
+ax 1881:1890 <> qctest_map
+R1905:1908 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1894:1904 STLC.Runners.BespokeGenerator_sampler <> OCamlString defax
+R1912:1915 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1909:1911 Coq.Init.Datatypes <> nat ind
+R1916:1919 Coq.Init.Datatypes <> unit ind

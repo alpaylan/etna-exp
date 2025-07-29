@@ -1,26 +1,26 @@
 /Users/akeles/.stack/programs/aarch64-osx/ghc-9.0.2/lib/ghc-9.0.2/lib/aarch64-osx-ghc-9.0.2/rts-1.0.2/include/ghcversion.h:
   hash: 3b6c0f16983344ce12525816947d892da98bc96f17a664531494f515b9356c81
-? /Users/akeles/Programming/projects/PbtBenchmark/etna2/workloads/Haskell/STLC/.stack-work/dist/aarch64-osx/ghc-9.0.2/build/autogen/Paths_etna_stlc.hs
-: hash: 46fa0a0720030f2be88787c5961421c5d3aa97f9966e9662d7dd50550b0e0d85
-? /Users/akeles/Programming/projects/PbtBenchmark/etna2/workloads/Haskell/STLC/.stack-work/dist/aarch64-osx/ghc-9.0.2/build/autogen/cabal_macros.h
+? /Users/akeles/Programming/projects/PbtBenchmark/etna2/exp/workloads/Haskell/STLC/.stack-work/dist/aarch64-osx/ghc-9.0.2/build/autogen/Paths_etna_stlc.hs
+: hash: cde5db65b8d4532bcc73bb2250cf6b3f4ee0f79bc6f06acc5c7519fe494f5fbe
+? /Users/akeles/Programming/projects/PbtBenchmark/etna2/exp/workloads/Haskell/STLC/.stack-work/dist/aarch64-osx/ghc-9.0.2/build/autogen/cabal_macros.h
 : hash: 969b92119b9baeca44ad8a505f0093e98d041e3cd2e141fa8a7e642e3bc2a24e
-/Users/akeles/Programming/projects/PbtBenchmark/etna2/workloads/Haskell/STLC/etna-stlc.cabal:
+/Users/akeles/Programming/projects/PbtBenchmark/etna2/exp/workloads/Haskell/STLC/etna-stlc.cabal:
   hash: d980f7361bdefb9338573b00ed13eb57b10aa853c383521160973047738f295a
-/Users/akeles/Programming/projects/PbtBenchmark/etna2/workloads/Haskell/STLC/package.yaml:
+/Users/akeles/Programming/projects/PbtBenchmark/etna2/exp/workloads/Haskell/STLC/package.yaml:
   hash: 5f95c1f6d3fb0f1aa3f6f0b8dce458e5860588338f64363b01cc5729049eb5ba
-/Users/akeles/Programming/projects/PbtBenchmark/etna2/workloads/Haskell/STLC/src/Impl.hs:
-  hash: cd9d5df337f7bb37a41c92f1cbae59406e5185b61f28ca20bf0ba3587c7a672f
-/Users/akeles/Programming/projects/PbtBenchmark/etna2/workloads/Haskell/STLC/src/Spec.hs:
+/Users/akeles/Programming/projects/PbtBenchmark/etna2/exp/workloads/Haskell/STLC/src/Impl.hs:
+  hash: 852ff22c2a56fc8a722181417df4f4f2d78ffb39a064ee8a7f740915d4dc26a5
+/Users/akeles/Programming/projects/PbtBenchmark/etna2/exp/workloads/Haskell/STLC/src/Spec.hs:
   hash: ce4532150bb50bbc8651bd94b835c5e9c8781a65cd49f55d2dcbcff4b828fe2a
-/Users/akeles/Programming/projects/PbtBenchmark/etna2/workloads/Haskell/STLC/src/Strategy/Correct.hs:
+/Users/akeles/Programming/projects/PbtBenchmark/etna2/exp/workloads/Haskell/STLC/src/Strategy/Correct.hs:
   hash: 476b8e4684e00055825b27879b62e97a3054b0227caf1a43c0863557bed136a4
-/Users/akeles/Programming/projects/PbtBenchmark/etna2/workloads/Haskell/STLC/src/Strategy/Lean.hs:
+/Users/akeles/Programming/projects/PbtBenchmark/etna2/exp/workloads/Haskell/STLC/src/Strategy/Lean.hs:
   hash: cd902f9f70b54cd497e4b9e8f108793cfd623cf167406cf664c31f9cf58640cc
-/Users/akeles/Programming/projects/PbtBenchmark/etna2/workloads/Haskell/STLC/src/Strategy/LeanRev.hs:
+/Users/akeles/Programming/projects/PbtBenchmark/etna2/exp/workloads/Haskell/STLC/src/Strategy/LeanRev.hs:
   hash: f588e474f46a68e2b87eb470587f1066a75b8ffb57d0b0b74904693c35f62a36
-/Users/akeles/Programming/projects/PbtBenchmark/etna2/workloads/Haskell/STLC/src/Strategy/Quick.hs:
+/Users/akeles/Programming/projects/PbtBenchmark/etna2/exp/workloads/Haskell/STLC/src/Strategy/Quick.hs:
   hash: 994cd0c30c10567c0bd4fb46dcf0939c0597f8e6b615015b44c205aeb7fe0089
-/Users/akeles/Programming/projects/PbtBenchmark/etna2/workloads/Haskell/STLC/src/Strategy/Small.hs:
+/Users/akeles/Programming/projects/PbtBenchmark/etna2/exp/workloads/Haskell/STLC/src/Strategy/Small.hs:
   hash: c778119dc94c160f81daa77927d78a2abe040463497cedf2b2e481e7c1b27d55
-/Users/akeles/Programming/projects/PbtBenchmark/etna2/workloads/Haskell/STLC/src/Strategy/SmallRev.hs:
+/Users/akeles/Programming/projects/PbtBenchmark/etna2/exp/workloads/Haskell/STLC/src/Strategy/SmallRev.hs:
   hash: 1ff28e1af3f937ae6611ac1a41f771749dd552b627892b87ab7591032d3bc631

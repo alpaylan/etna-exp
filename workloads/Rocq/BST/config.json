@@ -26,6 +26,14 @@
                     "generator"
                 ]
             }
+        },
+        {
+            "Command": {
+                "command": "$workload_path/build_sampler",
+                "args": [
+                    "!sampler"
+                ]
+            }
         }
     ],
     "run_step": {
@@ -67,7 +75,7 @@
                                     "command": "$workload_path/$strategy_sampler.native",
                                     "args": [
                                         "$property",
-                                        "1000"
+                                        "$tests"
                                     ],
                                     "params": [
                                         "workload_path",
@@ -100,6 +108,9 @@
             "BespokeGenerator",
             "SpecificationBasedGenerator",
             "TypeBasedGenerator"
+        ],
+        "fuzzer": [
+            "TypeBasedFuzzer"
         ],
         "sampler": [
             "BespokeGenerator"

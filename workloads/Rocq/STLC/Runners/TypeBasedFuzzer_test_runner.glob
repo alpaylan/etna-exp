@@ -1,0 +1,31 @@
+DIGEST 9e1a93792eb92c168fa0912ef0e7bab3
+FSTLC.Runners.TypeBasedFuzzer_test_runner
+R31:40 QuickChick.QuickChick <> <> lib
+R126:140 STLC.Strategies.TypeBasedFuzzer <> <> lib
+ax 150:158 <> num_tests
+R162:164 Coq.Init.Datatypes <> nat ind
+def 221:251 <> qctest_test_prop_SinglePreserve
+R265:268 Coq.Init.Datatypes <> unit ind
+R273:298 QuickChick.ExtractionQC <> print_extracted_coq_string prfax
+R306:309 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R374:377 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R310:313 QuickChick.Show <> show meth
+R316:323 QuickChick.Test <> withTime prfax
+binder 330:331 <> tt:3
+R337:367 STLC.Strategies.TypeBasedFuzzer <> test_prop_SinglePreserve_fuzzer def
+R369:370 STLC.Runners.TypeBasedFuzzer_test_runner <> tt:3 var
+def 398:427 <> qctest_test_prop_MultiPreserve
+R441:444 Coq.Init.Datatypes <> unit ind
+R449:474 QuickChick.ExtractionQC <> print_extracted_coq_string prfax
+R482:485 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R549:552 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R486:489 QuickChick.Show <> show meth
+R492:499 QuickChick.Test <> withTime prfax
+binder 506:507 <> tt:4
+R513:542 STLC.Strategies.TypeBasedFuzzer <> test_prop_MultiPreserve_fuzzer def
+R544:545 STLC.Runners.TypeBasedFuzzer_test_runner <> tt:4 var
+ax 573:583 <> OCamlString
+ax 642:651 <> qctest_map
+R666:669 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R655:665 STLC.Runners.TypeBasedFuzzer_test_runner <> OCamlString defax
+R670:673 Coq.Init.Datatypes <> unit ind

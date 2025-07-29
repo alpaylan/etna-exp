@@ -1,0 +1,21 @@
+DIGEST 820ee8374b0865c6b34d4aeb13be5dbb
+FSTLC.Strategies.TypeBasedGenerator
+R32:41 QuickChick.QuickChick <> <> lib
+R51:60 QuickChick.Checker QcNotation <> mod
+R88:91 STLC.Src.Impl <> <> lib
+R93:96 STLC.Src.Spec <> <> lib
+R98:116 STLC.Src.TypeBasedGeneration <> <> lib
+def 131:154 <> test_prop_SinglePreserve
+R161:166 QuickChick.Checker <> forAll def
+R187:190 STLC.Src.Impl <> Expr ind
+binder 184:184 <> e:1
+R200:218 STLC.Src.Spec <> prop_SinglePreserve def
+R220:220 STLC.Strategies.TypeBasedGenerator <> e:1 var
+R168:176 QuickChick.Classes <> arbitrary meth
+def 282:304 <> test_prop_MultiPreserve
+R311:316 QuickChick.Checker <> forAll def
+R337:340 STLC.Src.Impl <> Expr ind
+binder 334:334 <> e:2
+R350:367 STLC.Src.Spec <> prop_MultiPreserve def
+R369:369 STLC.Strategies.TypeBasedGenerator <> e:2 var
+R318:326 QuickChick.Classes <> arbitrary meth

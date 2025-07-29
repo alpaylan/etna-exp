@@ -120,11 +120,11 @@
     (match (list x vx s)
       [(list x vx (E))
        #|! |#
-#|!
        (T (R) (E) x vx (E))
-|#
        #|!! miscolor_insert |#
+       #|!
         (T (B) (E) x vx (E))
+       |#
        #| !|#
        ]
       [(list x vx (T rb a y vy b))

@@ -105,10 +105,8 @@ Definition shift  (d: Z) (ex: Expr) : Expr :=
         match e with 
         | Var n =>
             (*! *)
-(*!
             if n <? Z.to_nat c then Var n
             else Var (Z.to_nat ((Z.of_nat n) + d))
-*)
             (*!! shift_var_none *)
             (*!
             Var n
@@ -118,8 +116,10 @@ Definition shift  (d: Z) (ex: Expr) : Expr :=
             Var (Z.to_nat (Z.of_nat n + d))
             *)
             (*!! shift_var_leq *)
+            (*!
             if (Z.leb (Z.of_nat n) c) then Var n
             else Var (Z.to_nat (Z.of_nat n + d)) 
+            *)
             (* !*)
         | Bool b => 
             Bool b

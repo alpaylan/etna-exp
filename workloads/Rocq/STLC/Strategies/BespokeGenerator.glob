@@ -1,0 +1,21 @@
+DIGEST d18e5da8aca5199af73f3bcd758d1f5c
+FSTLC.Strategies.BespokeGenerator
+R33:42 QuickChick.QuickChick <> <> lib
+R52:61 QuickChick.Checker QcNotation <> mod
+R90:93 STLC.Src.Impl <> <> lib
+R95:98 STLC.Src.Spec <> <> lib
+R100:116 STLC.Src.BespokeGeneration <> <> lib
+def 131:154 <> test_prop_SinglePreserve
+R161:171 QuickChick.Checker <> forAllMaybe def
+R189:192 STLC.Src.Impl <> Expr ind
+binder 186:186 <> e:1
+R202:220 STLC.Src.Spec <> prop_SinglePreserve def
+R222:222 STLC.Strategies.BespokeGenerator <> e:1 var
+R173:178 STLC.Src.BespokeGeneration <> gSized def
+def 285:307 <> test_prop_MultiPreserve
+R314:324 QuickChick.Checker <> forAllMaybe def
+R342:345 STLC.Src.Impl <> Expr ind
+binder 339:339 <> e:2
+R355:372 STLC.Src.Spec <> prop_MultiPreserve def
+R374:374 STLC.Strategies.BespokeGenerator <> e:2 var
+R326:331 STLC.Src.BespokeGeneration <> gSized def

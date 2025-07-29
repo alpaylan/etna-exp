@@ -1,0 +1,21 @@
+DIGEST 7dd2e49056405f83f659232818b37747
+FSTLC.Strategies.SpecificationBasedGenerator
+R31:40 QuickChick.QuickChick <> <> lib
+R50:59 QuickChick.Checker QcNotation <> mod
+R87:90 STLC.Src.Impl <> <> lib
+R92:95 STLC.Src.Spec <> <> lib
+R97:115 STLC.Src.SpecBasedGeneration <> <> lib
+def 130:153 <> test_prop_SinglePreserve
+R160:170 QuickChick.Checker <> forAllMaybe def
+R188:191 STLC.Src.Impl <> Expr ind
+binder 185:185 <> e:1
+R201:219 STLC.Src.Spec <> prop_SinglePreserve def
+R221:221 STLC.Strategies.SpecificationBasedGenerator <> e:1 var
+R172:177 STLC.Src.SpecBasedGeneration <> gSized def
+def 284:306 <> test_prop_MultiPreserve
+R313:323 QuickChick.Checker <> forAllMaybe def
+R341:344 STLC.Src.Impl <> Expr ind
+binder 338:338 <> e:2
+R354:371 STLC.Src.Spec <> prop_MultiPreserve def
+R373:373 STLC.Strategies.SpecificationBasedGenerator <> e:2 var
+R325:330 STLC.Src.SpecBasedGeneration <> gSized def

@@ -1,0 +1,13 @@
+DIGEST aa950ed8aaf564c52a8516b547f38028
+FSTLC.Src.TypeBasedGeneration
+R33:42 QuickChick.QuickChick <> <> lib
+R52:61 QuickChick.Checker QcNotation <> mod
+R88:91 Coq.Bool.Bool <> <> lib
+R93:98 Coq.ZArith.ZArith <> <> lib
+R100:103 Coq.Lists.List <> <> lib
+R113:125 Coq.Lists.List ListNotations <> mod
+R155:159 ExtLib.Structures.Monad <> <> lib
+R201:211 ExtLib.Data.Monads.OptionMonad <> <> lib
+R221:233 ExtLib.Structures.Monad MonadNotation <> mod
+R262:265 STLC.Src.Impl <> <> lib
+R267:270 STLC.Src.Spec <> <> lib

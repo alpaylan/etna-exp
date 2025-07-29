@@ -1,0 +1,45 @@
+DIGEST 12720fc1389ae332a95371a96eeadaba
+FSTLC.Runners.TypeBasedGenerator_test_runner
+R31:40 QuickChick.QuickChick <> <> lib
+R126:143 STLC.Strategies.TypeBasedGenerator <> <> lib
+ax 153:161 <> num_tests
+R165:167 Coq.Init.Datatypes <> nat ind
+def 224:254 <> qctest_test_prop_SinglePreserve
+R268:271 Coq.Init.Datatypes <> unit ind
+R276:301 QuickChick.ExtractionQC <> print_extracted_coq_string prfax
+R309:312 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R460:463 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R313:316 QuickChick.Show <> show meth
+R319:326 QuickChick.Test <> withTime prfax
+binder 332:333 <> tt:3
+R339:352 QuickChick.Test <> quickCheckWith def
+R433:456 STLC.Strategies.TypeBasedGenerator <> test_prop_SinglePreserve def
+R355:367 QuickChick.Test <> updMaxDiscard def
+R422:430 STLC.Runners.TypeBasedGenerator_test_runner <> num_tests prfax
+R370:382 QuickChick.Test <> updMaxSuccess def
+R411:419 STLC.Runners.TypeBasedGenerator_test_runner <> num_tests prfax
+R385:395 QuickChick.Test <> updAnalysis def
+R405:408 Coq.Init.Datatypes <> true constr
+R397:403 QuickChick.Test <> stdArgs def
+def 484:513 <> qctest_test_prop_MultiPreserve
+R527:530 Coq.Init.Datatypes <> unit ind
+R535:560 QuickChick.ExtractionQC <> print_extracted_coq_string prfax
+R568:571 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R718:721 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R572:575 QuickChick.Show <> show meth
+R578:585 QuickChick.Test <> withTime prfax
+binder 591:592 <> tt:4
+R598:611 QuickChick.Test <> quickCheckWith def
+R692:714 STLC.Strategies.TypeBasedGenerator <> test_prop_MultiPreserve def
+R614:626 QuickChick.Test <> updMaxDiscard def
+R681:689 STLC.Runners.TypeBasedGenerator_test_runner <> num_tests prfax
+R629:641 QuickChick.Test <> updMaxSuccess def
+R670:678 STLC.Runners.TypeBasedGenerator_test_runner <> num_tests prfax
+R644:654 QuickChick.Test <> updAnalysis def
+R664:667 Coq.Init.Datatypes <> true constr
+R656:662 QuickChick.Test <> stdArgs def
+ax 742:752 <> OCamlString
+ax 811:820 <> qctest_map
+R835:838 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R824:834 STLC.Runners.TypeBasedGenerator_test_runner <> OCamlString defax
+R839:842 Coq.Init.Datatypes <> unit ind

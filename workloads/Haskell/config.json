@@ -5,7 +5,7 @@
             "Command": {
                 "command": "stack",
                 "args": [
-                    "build",
+                    "install",
                     "--ghc-options=\"-optc-std=c99\"",
                     "--no-system-ghc",
                     "--local-bin-path",

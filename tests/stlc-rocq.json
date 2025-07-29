@@ -10,11 +10,11 @@
         "tasks": [
             {
                 "strategy": "BespokeGenerator",
-                "property": "test_prop_SinglePreserve"
+                "property": "SinglePreserve"
             },
             {
                 "strategy": "BespokeGenerator",
-                "property": "test_prop_MultiPreserve"
+                "property": "MultiPreserve"
             }
         ]
     },
@@ -29,11 +29,11 @@
         "tasks": [
             {
                 "strategy": "BespokeGenerator",
-                "property": "test_prop_SinglePreserve"
+                "property": "SinglePreserve"
             },
             {
                 "strategy": "BespokeGenerator",
-                "property": "test_prop_MultiPreserve"
+                "property": "MultiPreserve"
             }
         ]
     },
@@ -48,11 +48,11 @@
         "tasks": [
             {
                 "strategy": "BespokeGenerator",
-                "property": "test_prop_SinglePreserve"
+                "property": "SinglePreserve"
             },
             {
                 "strategy": "BespokeGenerator",
-                "property": "test_prop_MultiPreserve"
+                "property": "MultiPreserve"
             }
         ]
     },
@@ -67,11 +67,11 @@
         "tasks": [
             {
                 "strategy": "BespokeGenerator",
-                "property": "test_prop_SinglePreserve"
+                "property": "SinglePreserve"
             },
             {
                 "strategy": "BespokeGenerator",
-                "property": "test_prop_MultiPreserve"
+                "property": "MultiPreserve"
             }
         ]
     },
@@ -86,11 +86,11 @@
         "tasks": [
             {
                 "strategy": "BespokeGenerator",
-                "property": "test_prop_SinglePreserve"
+                "property": "SinglePreserve"
             },
             {
                 "strategy": "BespokeGenerator",
-                "property": "test_prop_MultiPreserve"
+                "property": "MultiPreserve"
             }
         ]
     },
@@ -105,11 +105,11 @@
         "tasks": [
             {
                 "strategy": "BespokeGenerator",
-                "property": "test_prop_SinglePreserve"
+                "property": "SinglePreserve"
             },
             {
                 "strategy": "BespokeGenerator",
-                "property": "test_prop_MultiPreserve"
+                "property": "MultiPreserve"
             }
         ]
     },
@@ -124,11 +124,11 @@
         "tasks": [
             {
                 "strategy": "BespokeGenerator",
-                "property": "test_prop_SinglePreserve"
+                "property": "SinglePreserve"
             },
             {
                 "strategy": "BespokeGenerator",
-                "property": "test_prop_MultiPreserve"
+                "property": "MultiPreserve"
             }
         ]
     },
@@ -143,11 +143,11 @@
         "tasks": [
             {
                 "strategy": "BespokeGenerator",
-                "property": "test_prop_SinglePreserve"
+                "property": "SinglePreserve"
             },
             {
                 "strategy": "BespokeGenerator",
-                "property": "test_prop_MultiPreserve"
+                "property": "MultiPreserve"
             }
         ]
     },
@@ -162,11 +162,11 @@
         "tasks": [
             {
                 "strategy": "BespokeGenerator",
-                "property": "test_prop_SinglePreserve"
+                "property": "SinglePreserve"
             },
             {
                 "strategy": "BespokeGenerator",
-                "property": "test_prop_MultiPreserve"
+                "property": "MultiPreserve"
             }
         ]
     },
@@ -181,11 +181,11 @@
         "tasks": [
             {
                 "strategy": "BespokeGenerator",
-                "property": "test_prop_SinglePreserve"
+                "property": "SinglePreserve"
             },
             {
                 "strategy": "BespokeGenerator",
-                "property": "test_prop_MultiPreserve"
+                "property": "MultiPreserve"
             }
         ]
     }
