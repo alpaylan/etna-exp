@@ -57,3 +57,7 @@ language = "Rust"
 [[workloads]]
 name = "BST"
 language = "Racket"
+
+[[workloads]]
+name = "RBT"
+language = "Racket"
