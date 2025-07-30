@@ -31,10 +31,6 @@ name = "STLC"
 language = "Rust"
 
 [[workloads]]
-name = "STLC"
-language = "OCaml"
-
-[[workloads]]
 name = "RBT"
 language = "Haskell"
 
