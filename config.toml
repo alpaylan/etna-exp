@@ -27,10 +27,6 @@ name = "STLC"
 language = "Rocq"
 
 [[workloads]]
-name = "STLC"
-language = "Rust"
-
-[[workloads]]
 name = "RBT"
 language = "Haskell"
 
