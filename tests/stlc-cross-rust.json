@@ -6,10 +6,10 @@
             "shift_var_none"
         ],
         "trials": 10,
-        "timeout": 3,
+        "timeout": 10,
         "cross": true,
         "params": {
-            "tests": 10000
+            "tests": 100000
         },
         "tasks": [
             {
@@ -29,10 +29,10 @@
             "shift_var_all"
         ],
         "trials": 10,
-        "timeout": 3,
+        "timeout": 10,
         "cross": true,
         "params": {
-            "tests": 10000
+            "tests": 100000
         },
         "tasks": [
             {
@@ -52,10 +52,10 @@
             "shift_var_leq"
         ],
         "trials": 10,
-        "timeout": 3,
+        "timeout": 10,
         "cross": true,
         "params": {
-            "tests": 10000
+            "tests": 100000
         },
         "tasks": [
             {
@@ -75,10 +75,10 @@
             "shift_abs_no_incr"
         ],
         "trials": 10,
-        "timeout": 3,
+        "timeout": 10,
         "cross": true,
         "params": {
-            "tests": 10000
+            "tests": 100000
         },
         "tasks": [
             {
@@ -98,10 +98,10 @@
             "subst_var_all"
         ],
         "trials": 10,
-        "timeout": 3,
+        "timeout": 10,
         "cross": true,
         "params": {
-            "tests": 10000
+            "tests": 100000
         },
         "tasks": [
             {
@@ -121,10 +121,10 @@
             "subst_var_none"
         ],
         "trials": 10,
-        "timeout": 3,
+        "timeout": 10,
         "cross": true,
         "params": {
-            "tests": 10000
+            "tests": 100000
         },
         "tasks": [
             {
@@ -144,10 +144,10 @@
             "subst_abs_no_shift"
         ],
         "trials": 10,
-        "timeout": 3,
+        "timeout": 10,
         "cross": true,
         "params": {
-            "tests": 10000
+            "tests": 100000
         },
         "tasks": [
             {
@@ -167,10 +167,10 @@
             "subst_abs_no_incr"
         ],
         "trials": 10,
-        "timeout": 3,
+        "timeout": 10,
         "cross": true,
         "params": {
-            "tests": 10000
+            "tests": 100000
         },
         "tasks": [
             {
@@ -190,10 +190,10 @@
             "substTop_no_shift"
         ],
         "trials": 10,
-        "timeout": 3,
+        "timeout": 10,
         "cross": true,
         "params": {
-            "tests": 10000
+            "tests": 100000
         },
         "tasks": [
             {
@@ -213,10 +213,10 @@
             "substTop_no_shift_back"
         ],
         "trials": 10,
-        "timeout": 3,
+        "timeout": 10,
         "cross": true,
         "params": {
-            "tests": 10000
+            "tests": 100000
         },
         "tasks": [
             {

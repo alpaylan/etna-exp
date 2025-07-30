@@ -118,12 +118,12 @@ let balRight (tl : rbt) (k : key) (v : value) (tr : rbt) : rbt option =
       return (balance B (T (R, a, x, vx, b)) y vy bl)
   | T (R, a, x, vx, T (B, b, y, vy, c)), z, vz, bl ->
       (*! *)
-(*!
       redden a >>= fun a' ->
       return (T (R, balance B a' x vx b, y, vy, T (B, c, z, vz, bl)))
-*)
       (*!! miscolor_balRight *)
+      (*!
           return (T (R, (balance B a x vx b), y, vy, T (B, c, z, vz, bl)))
+      *)
       (* !*)
   | _, _, _, _ -> None
 

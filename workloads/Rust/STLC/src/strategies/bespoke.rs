@@ -7,7 +7,7 @@ use crate::implementation::{Ctx, Expr, Typ};
 impl Arbitrary for Expr {
     fn arbitrary(g: &mut Gen) -> Self {
         let typ = Typ::arbitrary(g);
-        gen_exact_expr(vec![typ.clone()], typ, g, g.size())
+        gen_exact_expr(vec![typ.clone()], typ, g, g.size().min(10))
     }
 
     fn shrink(&self) -> Box<dyn Iterator<Item = Self>> {

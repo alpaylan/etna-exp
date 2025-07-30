@@ -20,7 +20,7 @@
                         "command": "workload_path/main-sampler",
                         "args": [
                             "$property",
-                            "1000"
+                            "$tests"
                         ],
                         "params": [
                             "workload_path",

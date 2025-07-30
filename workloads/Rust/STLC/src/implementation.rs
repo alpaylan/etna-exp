@@ -90,9 +90,7 @@ pub fn shift(d: i32, expr: &Expr) -> Expr {
         match e {
             Var(i) => {
                 /*| */
-/*|
                 if *i < c { Var(*i) } else { Var(*i + d) }
-*/
                 /*|| shift_var_none */
                 /*|
                 Var(*i)
@@ -102,8 +100,10 @@ pub fn shift(d: i32, expr: &Expr) -> Expr {
                 Var(*i + d)
                 */
                 /*|| shift_var_leq */
+                /*|
                 if *i <= c { Var(*i) }
                 else { Var(*i + d) }
+                */
                 /* |*/
             }
             Bool(b) => Bool(*b),

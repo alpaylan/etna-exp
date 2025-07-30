@@ -6,10 +6,10 @@
             "insert_1"
         ],
         "trials": 10,
-        "timeout": 60,
+        "timeout": 5,
         "cross": true,
         "params": {
-            "tests": 1000
+            "tests": 10000
         },
         "tasks": [
             {
@@ -45,10 +45,10 @@
             "insert_2"
         ],
         "trials": 10,
-        "timeout": 60,
+        "timeout": 5,
         "cross": true,
         "params": {
-            "tests": 1000
+            "tests": 10000
         },
         "tasks": [
             {
@@ -88,10 +88,10 @@
             "insert_3"
         ],
         "trials": 10,
-        "timeout": 60,
+        "timeout": 5,
         "cross": true,
         "params": {
-            "tests": 1000
+            "tests": 10000
         },
         "tasks": [
             {
@@ -127,10 +127,10 @@
             "delete_4"
         ],
         "trials": 10,
-        "timeout": 60,
+        "timeout": 5,
         "cross": true,
         "params": {
-            "tests": 1000
+            "tests": 10000
         },
         "tasks": [
             {
@@ -170,10 +170,10 @@
             "delete_5"
         ],
         "trials": 10,
-        "timeout": 60,
+        "timeout": 5,
         "cross": true,
         "params": {
-            "tests": 1000
+            "tests": 10000
         },
         "tasks": [
             {
@@ -209,10 +209,10 @@
             "union_6"
         ],
         "trials": 10,
-        "timeout": 60,
+        "timeout": 5,
         "cross": true,
         "params": {
-            "tests": 1000
+            "tests": 10000
         },
         "tasks": [
             {
@@ -252,10 +252,10 @@
             "union_7"
         ],
         "trials": 10,
-        "timeout": 60,
+        "timeout": 5,
         "cross": true,
         "params": {
-            "tests": 1000
+            "tests": 10000
         },
         "tasks": [
             {
@@ -295,10 +295,10 @@
             "union_8"
         ],
         "trials": 10,
-        "timeout": 60,
+        "timeout": 5,
         "cross": true,
         "params": {
-            "tests": 1000
+            "tests": 10000
         },
         "tasks": [
             {

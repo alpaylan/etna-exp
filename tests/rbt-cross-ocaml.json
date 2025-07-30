@@ -6,7 +6,7 @@
             "insert_1"
         ],
         "trials": 10,
-        "timeout": 0.5,
+        "timeout": 3,
         "cross": true,
         "params": {
             "tests": 10000
@@ -37,7 +37,7 @@
             "insert_2"
         ],
         "trials": 10,
-        "timeout": 0.5,
+        "timeout": 3,
         "cross": true,
         "params": {
             "tests": 10000
@@ -72,7 +72,7 @@
             "insert_3"
         ],
         "trials": 10,
-        "timeout": 0.5,
+        "timeout": 3,
         "cross": true,
         "params": {
             "tests": 10000
@@ -103,7 +103,7 @@
             "delete_4"
         ],
         "trials": 10,
-        "timeout": 0.5,
+        "timeout": 3,
         "cross": true,
         "params": {
             "tests": 10000
@@ -138,7 +138,7 @@
             "delete_5"
         ],
         "trials": 10,
-        "timeout": 0.5,
+        "timeout": 3,
         "cross": true,
         "params": {
             "tests": 10000
@@ -169,7 +169,7 @@
             "miscolor_insert"
         ],
         "trials": 10,
-        "timeout": 0.5,
+        "timeout": 3,
         "cross": true,
         "params": {
             "tests": 10000
@@ -192,7 +192,7 @@
             "miscolor_delete"
         ],
         "trials": 10,
-        "timeout": 0.5,
+        "timeout": 3,
         "cross": true,
         "params": {
             "tests": 10000
@@ -211,7 +211,7 @@
             "miscolor_balLeft"
         ],
         "trials": 10,
-        "timeout": 0.5,
+        "timeout": 3,
         "cross": true,
         "params": {
             "tests": 10000
@@ -234,7 +234,7 @@
             "miscolor_balRight"
         ],
         "trials": 10,
-        "timeout": 0.5,
+        "timeout": 3,
         "cross": true,
         "params": {
             "tests": 10000
@@ -257,7 +257,7 @@
             "miscolor_join_1"
         ],
         "trials": 10,
-        "timeout": 0.5,
+        "timeout": 3,
         "cross": true,
         "params": {
             "tests": 10000
@@ -276,7 +276,7 @@
             "miscolor_join_2"
         ],
         "trials": 10,
-        "timeout": 0.5,
+        "timeout": 3,
         "cross": true,
         "params": {
             "tests": 10000
@@ -299,7 +299,7 @@
             "no_balance_insert_1"
         ],
         "trials": 10,
-        "timeout": 0.5,
+        "timeout": 3,
         "cross": true,
         "params": {
             "tests": 10000
@@ -326,7 +326,7 @@
             "no_balance_insert_2"
         ],
         "trials": 10,
-        "timeout": 0.5,
+        "timeout": 3,
         "cross": true,
         "params": {
             "tests": 10000
