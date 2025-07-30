@@ -1,0 +1,81 @@
+{
+    "check_steps": [
+        {
+            "Command": {
+                "command": "dune",
+                "args": [
+                    "--version"
+                ]
+            }
+        },
+        {
+            "Command": {
+                "command": "opam",
+                "args": [
+                    "--version"
+                ]
+            }
+        }
+    ],
+    "build_steps": [
+        {
+            "Command": {
+                "command": "opam",
+                "args": [
+                    "switch"
+                ]
+            }
+        },
+        {
+            "Command": {
+                "command": "opam",
+                "args": [
+                    "exec",
+                    "--",
+                    "dune",
+                    "build"
+                ]
+            }
+        }
+    ],
+    "run_step": {
+        "Match": {
+            "value": "cross",
+            "options": {
+                "true": {
+                    "Command": {
+                        "run_at": "$workload_path",
+                        "command": "opam",
+                        "args": [
+                            "exec",
+                            "--",
+                            "dune",
+                            "exec",
+                            "stlc-sampler",
+                            "--",
+                            "--property=$property",
+                            "--strategy=$strategy",
+                            "--count=$tests"
+                        ]
+                    }
+                },
+                "false": {
+                    "Command": {
+                        "run_at": "$workload_path",
+                        "command": "opam",
+                        "args": [
+                            "exec",
+                            "--",
+                            "dune",
+                            "exec",
+                            "stlc",
+                            "--",
+                            "--property=$property",
+                            "--strategy=$strategy"
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}
