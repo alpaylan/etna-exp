@@ -23,10 +23,6 @@ name = "RBT"
 language = "Rocq"
 
 [[workloads]]
-name = "RBT"
-language = "OCaml"
-
-[[workloads]]
 name = "STLC"
 language = "Rocq"
 
